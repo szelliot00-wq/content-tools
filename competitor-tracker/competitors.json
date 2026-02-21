@@ -1,11 +1,10 @@
 {
   "competitors": [
     {
-      "id": "acme-corp",
-      "name": "Acme Corp",
+      "id": "anthropic",
+      "name": "Anthropic",
       "urls": [
-        {"url": "https://acme.com/features", "label": "Features page"},
-        {"url": "https://acme.com/pricing", "label": "Pricing page"}
+        {"url": "https://www.anthropic.com/pricing", "label": "Pricing page"}
       ],
       "enabled": true
     }

@@ -1,17 +1,11 @@
 {
   "rss_feeds": [
     {
-      "name": "Example Blog",
-      "url": "https://example.com/rss.xml",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
       "enabled": true,
-      "max_items": 3
+      "max_items": 2
     }
   ],
-  "manual_urls": [
-    {
-      "url": "https://example.com/article",
-      "title": "Article Title",
-      "added": "2026-02-21"
-    }
-  ]
+  "manual_urls": []
 }
