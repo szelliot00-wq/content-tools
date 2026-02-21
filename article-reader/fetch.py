@@ -89,7 +89,8 @@ def fetch_rss_items(feed: dict) -> list[dict]:
 
     url = feed.get("url", "")
     max_items = feed.get("max_items", 3)
-    cutoff = datetime.now(tz=timezone.utc) - timedelta(days=CUTOFF_DAYS)
+    cutoff_days = feed.get("cutoff_days", CUTOFF_DAYS)
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(days=cutoff_days) if cutoff_days else None
 
     print(f"  RSS: {feed.get('name', url)}")
     parsed = feedparser.parse(url)
@@ -101,18 +102,25 @@ def fetch_rss_items(feed: dict) -> list[dict]:
     for entry in parsed.entries[:max_items * 3]:  # fetch extra, filter by date
         if len(items) >= max_items:
             break
-        entry_url = entry.get("link", "")
+        entry_url = entry.get("link") or entry.get("id") or ""
         entry_title = entry.get("title", "Untitled")
 
-        # Date filtering
-        pub = entry.get("published_parsed") or entry.get("updated_parsed")
-        if pub:
-            import calendar
-            pub_dt = datetime.fromtimestamp(calendar.timegm(pub), tz=timezone.utc)
-            if pub_dt < cutoff:
-                continue
+        # Date filtering (skipped if cutoff is None)
+        if cutoff:
+            pub = entry.get("published_parsed") or entry.get("updated_parsed")
+            if pub:
+                import calendar
+                pub_dt = datetime.fromtimestamp(calendar.timegm(pub), tz=timezone.utc)
+                if pub_dt < cutoff:
+                    continue
 
-        text = _extract_text(entry_url)
+        # Use inline summary content if no URL to fetch
+        inline = entry.get("summary") or entry.get("content", [{}])[0].get("value", "")
+        if inline:
+            from bs4 import BeautifulSoup
+            text = BeautifulSoup(inline, "html.parser").get_text(separator="\n", strip=True)
+        else:
+            text = _extract_text(entry_url)
         if not text:
             continue
         items.append({"title": entry_title, "url": entry_url, "text": text})

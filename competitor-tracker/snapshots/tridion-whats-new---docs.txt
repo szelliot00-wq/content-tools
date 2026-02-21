@@ -1,0 +1,205 @@
+Why you should use Tridion Docs 15 – RWS
+Skip to main content
+What’s new in Tridion Docs 15
+Tridion Docs 15 introduces an entire set of all-new features bringing you industry-leading AI-based enhancements and productivity improvements to make the lives of content consumers, content authors, translation coordinators, information architects and admins easier.
+INTRODUCING TRIDION DOCS 15.2
+The best CCMS on the market just got even better
+Building on the success of version 15.1, our latest release – v15.2 – provides major advancements in AI-assisted authoring, guided navigation and trustable chat. Improved headless delivery makes it easier than ever to create rich, multichannel experiences for your customers and staff. Tridion Docs also introduces a new project management area for content authors, along with enhanced usability, productivity, security and performance, as well as powerful content reuse and productivity metrics.
+Highlights of Tridion Docs 15
+Intelligent content discovery
+The Trustable Chat functionality and Hexahops that make up the new Tridion Docs Genius portal provide guided content experiences for your customers and internal teams to reach their goals faster.
+Content reuse metrics
+Content reuse reports can be generated and also exported to Business Intelligence (BI) tools to help content teams measure and improve content production efficiency and justify return on investment on Tridion Docs.
+User-friendly headless content
+Smarter delivery capabilities enable you to create guided experiences for your customers and internal consumers of your content, while offering a more intuitive platform to work with for your front-end developers.
+Generative AI
+As part of Draft Space, the new Draft Companion tool provides authors linguistic and editorial alternatives to their content, speeding up their work while leaving them in full control over how they change the draft.
+Greater usability and productivity
+New UI/UX designs help users focus on their primary goals – finding and creating information and getting an overview of current projects and their statuses.
+Improved security and performance
+Modern authentication options and new granular permission settings help ensure the right level of access to information, related workflows and compliance with industry regulations, while stability and performance improvements make Tridion Docs faster and more secure.
+Main modules of Tridion Docs since version 14
+Tridion Docs 14 SP4
+Tridion Docs 15
+Content experiences
+DITA-OT (Open Toolkit)
+DXA for Dynamic Documentation
+Bespoke output configurations
+Tridion Docs Genius
+DITA-OT (Open Toolkit)
+Dynamic Experience Delivery (DXD)
+Bespoke output configurations
+Content collaboration
+Collective Spaces, comprised of:
+Draft Space
+Review Space
+Document History
+Authoring Bridge and Desktop XML tools
+Collective Spaces, comprised of:
+Draft Space
+Draft Companion
+Review Space
+Document History
+Authoring Bridge and Desktop XML tools
+Content governance
+Content Manager Web Client
+Semantic AI and Taxonomy Space
+Publication Manager
+Organize Space, comprised of:
+Publication Hub
+Metrics
+Semantic AI and Taxonomy Space
+Publication Manager
+Demo videos
+What's new
+Creating content
+Organizing content
+Delivering content
+Solution info.
+Tridion Docs 15 – Collective Spaces
+Tridion Docs 15 takes author and reviewer collaboration to the next level in Collective Spaces with an intuitive new layout. Watch the demo to find out more.
+Learn more
+Solution info.
+Tridion Docs 15 – Organize Space
+Watch the demo to discover Organize Space, the fully revamped Content Manager web client that enables new and experienced users alike to get more done in less time.
+Learn more
+Solution info.
+Tridion Docs Genius
+Revolutionize content delivery by leveraging structured, verifiable and AI-enhanced content with the help of Trustable Chat and Hexahops’ intuitive navigation panes. Watch the demo video to learn more.
+Learn more
+Solution info.
+Tridion Docs - Structured content authoring made easy
+This demo showcases how the Draft Space module of Tridion Docs displays a publication in its entirety, complete with each component’s workflow status.
+Learn more
+Solution info.
+Tridion Docs - Structured content reuse made easy
+Watch demo to see how users of Draft Space can use the outline tab to insert existing components from the central repository into their publication.
+Learn more
+Solution info.
+Tridion Docs - Document History
+A short demo to showcase the feature that is available to both authors and reviewers in Draft Space and Review Space respectively where they can see list of changes made over time.
+Learn more
+Solution info.
+Tridion Docs - Translation Organizer
+This demo shows how localization managers or any content owner can use the web client and translation organizer module to manage and submit content for translation.
+Learn more
+Solution info.
+Tridion Docs - Repository, Version Control and Baseline
+This demo explains how Tridion Docs helps technical authors to manage the document repository where all the publication components are stored.
+Learn more
+Solution info.
+Tridion Docs - Conditions and Automated Publishing
+A short demo to show how Tridion Docs' Publication Manager publishes into multiple formats that can be used across multiple channels.
+Learn more
+Solution info.
+Tridion Docs – DXD for conditional content
+Watch the demo to see how you can use DXD to display the right content variations to the right audience, based on contextual information.
+Learn more
+Content experiences
+Tridion Docs Genius guides the way
+Often people need to find relevant information across different sets of documentation to complete a task. However, traditional documentation is linear and doesn’t really help to connect the dots.
+Tridion Docs Genius is our new, AI-driven knowledge portal that helps people get their answers quickly. It’s an out-of-the-box solution running in the cloud that intuitively guides you to the information you are looking for. In addition to the traditional way of browsing content, Tridion Docs Genius offers Trustable Chat as well as a brand-new navigation paradigm called Hexahops.
+When deployed, it’s easy to configure branding elements and extend the portal through extra buttons and additional services that you may require.
+Expand image
+Close
+Hexahops – with you every step of the way
+Hexahops provide a brand-new visual navigation paradigm that helps you browse complex information trails in an intuitive way. Instead of providing a scrolling manual on the web, the Hexahops experience uses AI to guide you to your goals without requiring authors to predict in advance what specific question a user might have.
+The honeycomb layout of Hexahops shows a center topic surrounded by AI-driven related topics. Users can skim over the tiles and easily navigate to the next step with a single click.
+Expand image
+Close
+Expand image
+Close
+Trustable Chat – just like talking to an expert
+Having a chat UI is the new norm nowadays, but having something that is reliable is a whole different story. Our vision is for the chat to be your trusted expert. That’s why we added Trustable Chat to Tridion Docs Genius.
+The chat gives clear answers to your questions, along with direct links to the source materials, as well as follow-up actions based on the conversation topic.
+All information displayed in the chat is based on the underlying Tridion Docs content and is highly reliable due to the use of Retrieval Augmented Generation (RAG).
+Dynamic Experience Delivery (DXD)
+Headless content delivery has been enhanced for a more fluid customer and developer experience:
+Deliver Tridion Docs content to the web at scale
+Better support for dynamic delivery when there is no client-side cache, while serving cached content even faster
+Boost productivity for developers: retrieve DITA topics using GraphQL and harness low-code multichannel delivery
+Content collaboration
+Collective Spaces
+To make it easy to draft and review text, Tridion Docs Collective Spaces comes with two task-focused user interfaces: Draft Space and Review Space. Based on user credentials, these web-based interfaces make it easy for authors and reviewers to focus on creating relevant, contextual documentation quickly, cohesively and collaboratively.
+Draft Space and Review Space
+Condition Management
+Draft Space and Review Space face-lift
+The Collective Spaces UI has been adapted to make navigation more intuitive and help you find content faster with an improved Table of Contents, where you can see all topic statuses at a glance. Feedback is shown in-context and allows for a richer collaboration experience.
+The Document History timeline now allows you to select the revision dates for changes you want to see, giving you immediate access to all resolved and unresolved changes within that timeframe
+Expand image
+Close
+Easy Condition Management
+Draft Space Condition Management is a new feature that helps writers apply and build both simple and complex conditions in a controlled and usable way with the help of syntax validations.
+Expand image
+Close
+Draft Companion – the GenAI second pair of eyes
+Draft Space has a new feature called Draft Companion. It acts as an extra pair of eyes and hands to help authors create clearer, more concise content more quickly. It can assist with a wide variety of tasks, such as simplifying a complex passage to an accessible reading level, fixing grammar and spelling, and rephrasing or summarizing content.
+There are two ways authors can engage with Draft Companion:
+Use action buttons to give the large language model (LLM) predefined prompts
+Use the chat function to work with the LLM on any kind of linguistic task
+Writers are in full control when using Draft Companion, only accepting the suggestions they like. The AI-generated suggestions are all based on the content you already have stored in Tridion Docs.
+Expand image
+Close
+Notable updates in the latest release, v15.2
+Content variables in Draft Space
+Technical authors and SMEs can now view, select and insert variables directly in Draft Space, without needing to use a third-party XML editor. This way, you can reuse content chunks across publications faster and easier and reduce your dependency on technical writers with XML skills.
+Expand image
+Close
+Content governance
+Organize Space
+Out with the Content Manager Web Client, In with the new Organize Space
+Organize Space is the successor of Content Manager Web Client. It takes all the features you’re familiar with to manage end-to-end publication generation and more, and puts them into a simple, functionally rich and easy-to-use web UI.
+Organize Space is supported in all major browsers and has been optimized for maximum flexibility, so it’s accessible from a desktop, a tablet and other mobile devices.
+Expand image
+Close
+Publication Hub
+As part of Organize Space, the new Publication Hub gives users an overview of all ongoing projects.
+From the Publication Hub, a user – depending on their role – can see the tasks that are assigned to them, manage the progress, view assignments, update the Work Status and launch their favorite authoring tools.
+It also provides an API that allows the integration of work management tools such as Jira or Workfront, to name a few.
+Expand image
+Close
+Expand image
+Close
+Metrics and ROI
+The primary benefit of a CCMS is efficiency and accuracy through content reuse, which translates into better quality and reduced documentation creation time. To help teams quantify these benefits, we added an eagerly awaited reporting feature with several out-of-the-box reports.
+You can now measure content reuse and provide ROI metrics, identify cost savings from structured content and validate team efficiency and productivity by business unit, or build your own custom reports.
+Publication Manager
+With Tridion Docs 15, we also bring productivity and UI/UX updates to Publication Manager. You can now share a Draft Space or Review Space link for a topic directly from the desktop tool.
+In the resource list view you can now sort resources in alphabetical order, not just in chronological order (as before).
+Redesigned Settings menu
+Settings have been centralized in Organize Space and are more intuitive to find and manage.
+The system also allows for more powerful settings to assign permissions for power users, administrators and front-end developers with the end purpose of delegating certain administration tasks.
+Notable updates in the latest release, v15.2
+Enhanced productivity and simplified reviews for translators
+Organize Space ships with a powerful new user interface for translation jobs, giving you a single centralized area to easily manage them all. Each job displays rich metadata, giving you enhanced filtering capabilities.
+Expand image
+Close
+Create new translations jobs using a simple four-step wizard
+Generating a new translation job
+Add the title, description and required date.
+Granular object control
+Select the types of object you want to translate.
+Language groups
+Define the language groups and the workflows you want to use for each group.
+Fewer clicks to configure translation jobs
+Review the job in the confirmation step and either save the job or save and start it.
+New Events section available for all users
+All users can access the Events section in Organize Space and see the progress of publishing, translation or export jobs. The section is split into two areas: Events overview and Event actions, to distinguish between events and their corresponding actions. You can also see the history of events and delete events in bulk.
+Expand image
+Close
+Technology
+Modernized security and governance
+Tridion Docs is now more secure than ever, with modern authentication provided via OpenID Connect. It allows you to connect via your chosen ID provider for added security, while delivering several other benefits. Its lightweight footprint makes it much easier to implement, and it offers widespread support for multiplatform and mobile authentication, including 2FA, if your identity provider supports it.
+Tridion Docs 15 now also allows you to display the full username across Collective Spaces, Organize Space and Client Tools.
+Extended platform support and compatibility
+This latest release extends platform support for key systems such as oXygen 27 (other versions can also be used), XMetaL19, Windows Server 2022, .NET 8, Java 21 and Solr 9.4.1.
+Upgrades are easier now through auto upgrade of XML Settings, and end users can see the correct local time regardless of the server location by converting DateTime to UTC.
+Notable updates in the latest release, v15.2
+Tridion Docs OpenAPI
+With the adoption of the OpenAPI standard, developers benefit from support to extend the system for language-agnostic and platform-independent programming languages, and HATEOAS links and JSON-based models.
+Say Hello to Tridion Docs 15.2
+Product announcements and release notes
+Read more
+Get in touch
+Want to know more about how we can help solve your content management problems?
+Talk to us

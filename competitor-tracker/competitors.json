@@ -16,7 +16,8 @@
       "urls": [
         {"url": "https://www.oxygenxml.com/xml_editor.html", "label": "Product overview"},
         {"url": "https://www.oxygenxml.com/xml_editor/feature_matrix.html", "label": "Feature matrix"},
-        {"url": "https://www.oxygenxml.com/buy.html", "label": "Pricing"}
+        {"url": "https://www.oxygenxml.com/buy.html", "label": "Pricing"},
+        {"url": "https://www.oxygenxml.com/history.html", "label": "Release history"}
       ],
       "enabled": true
     },
@@ -26,7 +27,9 @@
       "urls": [
         {"url": "https://www.rws.com/content-management/tridion/", "label": "Product overview"},
         {"url": "https://www.rws.com/content-management/tridion/docs/", "label": "Tridion Docs"},
-        {"url": "https://www.rws.com/content-management/tridion/sites-editions/", "label": "Sites editions"}
+        {"url": "https://www.rws.com/content-management/tridion/sites-editions/", "label": "Sites editions"},
+        {"url": "https://www.rws.com/content-management/tridion/whats-new-in-tridion-sites/", "label": "What's new - Sites"},
+        {"url": "https://www.rws.com/content-management/tridion/whats-new-in-tridion-docs/", "label": "What's new - Docs"}
       ],
       "enabled": true
     }

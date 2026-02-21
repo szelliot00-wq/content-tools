@@ -1,0 +1,1252 @@
+Release History
+Release History
+Version 8.1
+Oxygen AI Positron 8.1
+delivers a new level of productivity, security,
+        and flexibility for users leveraging AI in their XML authoring workflows. This release
+        introduces support for OpenAI’s latest GPT-5.2 and GPT-5.2 Thinking models and enables more
+        accurate and context-aware agentic tasks. Sensitive data masking is now built-in,
+        automatically protecting personal information in AI requests, with the ability to extend
+        coverage to custom data types. The review experience is streamlined as AI-modified files are
+        now presented directly in the chat for easy acceptance or rejection of changes. Token
+        consumption for AI prompts and tools has been optimized, reducing costs and improving
+        efficiency.
+February 10, 2026
+Version 8.1
+Oxygen AI Positron 8.1 for Desktop
+delivers a new level of
+        productivity, security, and flexibility for users leveraging AI in their XML authoring
+        workflows. This release introduces support for OpenAI’s latest GPT-5.2 and GPT-5.2 Thinking
+        models and enables more accurate and context-aware agentic tasks. Sensitive data masking is
+        now built-in, automatically protecting personal information in AI requests, with the ability
+        to extend coverage to custom data types. The review experience is streamlined as AI-modified
+        files are now presented directly in the chat for easy acceptance or rejection of changes.
+        Token consumption for AI prompts and tools has been optimized, reducing costs and improving
+        efficiency.
+February 10, 2026
+Version 8.1
+February 10, 2026
+Version 8.1
+Version
+8.1
+Oxygen AI Positron Assistant for Content
+          Fusion
+introduces support for the latest OpenAI GPT-5.2 models, ensuring
+        state-of-the-art AI assistance for web-based XML editing. The new Planner chat mode enables
+        users to coordinate large-scale, multi-step changes directly from the web interface.
+February 10, 2026
+Version 8.1
+Version
+8.1
+Oxygen AI Positron Assistant for Web
+          Author
+introduces support for the latest OpenAI GPT-5.2 models, ensuring
+        state-of-the-art AI assistance for web-based XML editing. The new Planner chat mode enables
+        users to coordinate large-scale, multi-step changes directly from the web interface.
+February 10, 2026
+Version 9.0
+Oxygen Content Fusion 9.0
+delivers a major upgrade to collaborative
+        DITA content management, review, and publishing workflows. This release introduces new
+        project management capabilities, such as support
+        for multi-branch
+        publishing and the ability to control whether project files are included
+        as context in
+        review
+        tasks.
+January 28, 2026
+Version 28.0
+Oxygen XML Editor 28
+delivers a major upgrade to its AI capabilities
+        and productivity tools for content authors, developers, and publishers.
+November 26, 2025
+Version 8.0
+Oxygen AI Positron 8.0 for Desktop
+unifies the
+AI Positron
+          Assistant
+and
+AI Positron Assistant Enterprise
+add-ons into a single
+        add-on.
+November 18, 2025
+Version 8.0
+Oxygen AI Positron 8.0
+for the Eclipse distribution adds a dedicated
+        AWS Bedrock connector and new AI model options (OpenAI GPT-5.1, Claude Sonnet 4.5, Claude
+        Haiku 4.5, and xAI Grok 4 Fast) allowing you to choose the right balance between quality and
+        speed for your tasks.
+November 18, 2025
+Version 8.0
+For Content Fusion,
+Oxygen AI Positron 8.0
+adds project‑wide search as
+        AI tool, enabling agentic chats modes to explore the project and thus perform better on
+        complex tasks. You get a cleaner chat input with attachments shown as chips, instant context
+        inspection, quick action invocation, and richer tool‑call information.
+November 18, 2025
+Version 8.0
+For Web Author,
+Oxygen AI Positron 8.0
+adds AI‑powered new file
+        creation to generate starter documents from a prompt and optional attachments (XML,
+        Markdown, images, or PDFs and Office files). Now, you get a cleaner chat input with
+        attachments shown as chips, instant context inspection, quick action invocation, and richer
+        tool‑call information.
+November 18, 2025
+Version 5.3
+Oxygen Feedback Cloud
+version
+5.3
+provides dark theme
+        support for Oxygen Feedback to match the theme used in the host WebHelp Responsive pages,
+        respecting user preferences and accessibility best practices.
+November 5, 2025
+Version 5.3
+Oxygen Feedback Enterprise
+version
+5.3
+provides dark
+        theme support for Oxygen Feedback to match the theme used in the host WebHelp Responsive
+        pages, respecting user preferences and accessibility best practices.
+November 5, 2025
+Version 6.0.1
+The Oxygen AI Positron update introduces support for the latest OpenAI GPT-5, GPT-5-mini, and GPT-5-nano models, along with improvements to the AI Positron Fix feature for better context expansion when resolving issues in documents. This release also includes various bug fixes and stability enhancements.
+August 21, 2025
+Version 6.0
+The Oxygen AI Positron Service brings model updates, subscription management for
+                teams, allowing centralized purchase or renewal, and requires AI Positron add-ons
+                version 4 or newer.
+July 3, 2025
+Version 5.2
+Oxygen Feedback Cloud
+version
+5.2
+introduces several
+        enhancements to improve user interaction and administrative efficiency of the all-in-one
+        solution designed to enhance community engagement and feedback collection while empowering
+        documentation with an integrated, robust search engine for seamless usability, and advanced
+        AI functionality to further streamline user interactions and improve content
+        accessibility.
+April 28, 2025
+Version 5.2
+Oxygen Feedback Enterprise
+version
+5.2
+introduces
+        several enhancements to improve user interaction and administrative efficiency of the
+        all-in-one solution designed to enhance community engagement and feedback collection while
+        empowering documentation with an integrated, robust search engine for seamless usability,
+        and advanced AI functionality to further streamline user interactions and improve content
+        accessibility.
+April 28, 2025
+Version 27.1
+Oxygen XML Editor version 27.1
+is an incremental release of the
+        industry-leading bundle of tools for content authors, developers, collaborators, and
+        publishers.
+March 24, 2025
+Version 27.1.0
+Oxygen XML Web Author version 27.1.0
+is an incremental release of the
+        innovative web-based XML authoring tool.
+March 24, 2025
+Version 8.0
+Oxygen Content Fusion
+version
+8.0
+integrates the
+Oxygen AI Positron Assistant
+, a powerful AI-driven tool designed to boost
+        writer productivity through AI-generated content, as well as introducing significant
+        enhancements to the project functionality.
+March 11, 2025
+Version 4.1
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        users increase their productivity by providing support for using AI-generated content.
+Version 4.1
+introduces some helpful new AI-powered actions to fix
+        validation problems, generate MathML formulas, and generate XML comments for annotating
+        code.
+January 30, 2025
+Version 5.1
+Oxygen Feedback Cloud
+version
+5.1
+continues to bolster
+        the all-in-one solution designed to enhance community engagement and feedback collection
+        while empowering documentation with an integrated, robust search engine for seamless
+        usability. The focus of this release was to implement a variety of additions and
+        enhancements to the AI features.
+December 11, 2024
+Version 5.1
+Oxygen Feedback Enterprise
+version
+5.1
+continues to
+        bolster the all-in-one solution designed to enhance community engagement and feedback
+        collection while empowering documentation with an integrated, robust search engine for
+        seamless usability. The focus of this release was to implement a variety of additions and
+        enhancements to the AI features.
+December 11, 2024
+Version 27.0
+Oxygen XML Editor version 27.0
+is the latest major release of the
+        comprehensive solution for content authors, developers, collaborators, and publishers. This
+        release is packed with innovative new features and improvements for the
+Oxygen AI
+          Positron Assistant
+, the powerful add-on that provides a productivity-enhancing
+        tool to help writers by providing support for using AI-generated content within the various
+        Oxygen tools.
+November 27, 2024
+Version 27.0.0
+Oxygen XML Web Author version 27.0.0
+is the latest major release of the
+      innovative web-based XML authoring tool. This release is packed with innovative new AI
+      features and improvements that have been implemented in recent updates to the
+Oxygen
+        AI Positron Assistant Enterprise for Web Author
+plugin, the powerful
+      productivity-enhancing tool that provides you with the ability to use a specific AI engine
+      (OpenAI, Microsoft Azure OpenAI, or Anthropic Claude) and assist in leveraging AI-generated
+      content. Additionally, this release sees the implementation of new features for the file
+      comparison and merge tool, support to make DITA maps editable in a specialized tree editor,
+      various general editing improvements, and security enhancements.
+November 27, 2024
+Version 4.0
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        users increase their productivity by providing support for using AI-generated content.
+        Version 4.0 enhances AI features by expanding the Retrieval-Augmented Generation (RAG)
+        functionality, adding productivity-boosting interface improvements, implementing new
+        AI-powered actions and functions, and integrating security enhancements.
+November 1, 2024
+Version 7.1
+Version
+7.1
+Oxygen Content Fusion
+builds on the
+projects
+concept introduced in the previous version by enhancing its
+        functionality and offering even more capabilities.
+October 8, 2024
+Version 5.0
+Oxygen Feedback Cloud
+version
+5.0
+aims to take the
+        innovative comment management platform to a whole new level with the possibility of
+        integrating the new
+AI Assistant
+chatbot or
+AI-Enhanced Search
+          Summary
+component within your WebHelp output.
+September 5, 2024
+Version 5.0
+Version 5.0 of
+Oxygen Feedback Enterprise
+aims to take the innovative
+        comment management platform to a whole new level with the possibility of integrating the new
+AI Assistant
+chatbot or
+AI-Enhanced Search Summary
+component within your WebHelp output.
+September 5, 2024
+Version 3.0
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        users increase their productivity by providing support for using AI-generated content.
+        Version 3.0 continues to increase the efficiency of using the tool and the quality of the AI
+        responses through the implementation of a project
+Retrieval-Augmented Generation
+          (RAG)
+process, various interface improvements, and additional AI-powered
+        actions.
+September 5, 2024
+Version 7.0
+Oxygen Content Fusion
+version
+7.0
+enhances the project
+        support by introducing a
+personal authoring workspace
+where you can make
+        changes across multiple files and once you are happy with the results, you can commit them
+        directly to the repository to share them with your team. The dedicated Changes side-view
+        enables you to preview and adjust changes before committing. An XML-aware conflict
+        resolution tool helps you pull changes from the repository, detects conflicts, suggests
+        automated solutions, and also allows merging content manually for more complex scenarios.
+        Along with the powerful editing features for XML documents, the built-in Web Author allows
+        you to edit Markdown files inside the authoring workspace providing syntax preview and
+        toolbar actions to insert common structures.
+July 10, 2024
+Version 2.1
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        users increase their productivity by providing support for using AI-generated content.
+        Version 2.1 expands upon the enhancements of the previous version by adding the advanced
+        multi-modal
+GPT-4o
+to the list of models to choose from, as well as the
+        Microsoft Azure OpenAI Service connector now supporting authentication using Microsoft Entra
+        ID.
+June 12, 2024
+Version 2.0
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        users increase their productivity by providing support for using AI-generated content.
+        Version
+2.0
+adds support for
+Vision
+models, allowing the
+        AI to also read and interpret images and thus supporting more use cases. The new
+Generate Documentation Draft
+action makes it possible for users to
+        provide instructions and images to help the AI engine create a draft DITA topic.
+        Furthermore, this version also introduces an action that enables users to simply update the
+        images from a topic and have the AI analyze the images and propose content updates.
+April 23, 2024
+Version 6.2
+Oxygen Content Fusion
+version
+6.2
+continues to
+        streamline and refine the process of working with review tasks and implements various user
+        requests for additional features and productivity enhancements.
+April 9, 2024
+Version 26.1
+Oxygen XML Editor version 26.1
+is an incremental release of the
+        industry-leading bundle of tools for content authors, developers, collaborators, and
+        publishers. Starting with this release, the Enterprise edition of Oxygen XML
+        Editor/Author/Developer becomes
+AI-ready
+, offering access without the need
+        for an additional subscription to the Oxygen AI Positron Assistant Enterprise add-on which
+        allows direct connection to OpenAI accounts or to the Microsoft Azure OpenAI Service.
+March 25, 2024
+Version 26.1.0
+Oxygen XML Web Author version 26.1.0
+is an incremental release for the
+        innovative web-based XML authoring tool. This release has some interesting new features for
+        DITA users, introducing
+support for DITA-OT project files
+and providing
+        better handling of DITAVAL filters. The DITA Map pane allows users to specify a DITA-OT
+        project file and choose between the contexts defined within it. Users may also easily switch
+        profiling conditions, and there is the option to hide or present as grayed out content that
+        is excluded by the current filter in the document, DITA Maps pane, and in the Outline
+        pane.
+March 25, 2024
+Version 1.1
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        writers increase productivity by providing support for using AI-generated content with the
+Oxygen AI Positron service
+. Version
+1.1
+introduces a
+        separate Enterprise version of the add-on for those who want to configure the service to
+use a company-specific AI service
+(OpenAI or Microsoft Azure OpenAI
+        Service). Moreover, this update brings a selection of new document templates to help you
+create your own custom AI actions
+, and a new action was implemented that
+        allows you to
+translate content into any language
+. The interface was
+        enhanced to provide
+easier access to actions
+, alongside the introduction of
+        various other
+user experience enhancements
+February 7, 2024
+Version 6.1
+Oxygen Content Fusion
+version
+6.1
+continues to
+        streamline and refine the process of working with review tasks and implements various user
+        requests for additional features and security enhancements.
+February 5, 2024
+Version 4.1
+Version 4.1 of
+Oxygen Feedback Cloud
+aims to
+streamline the
+          configuration and installation processes
+by providing information and helping to
+        debug problems related to the Feedback installation on a site, offers a nice overview with
+        relevant information for a site via a new
+Site Dashboard
+page, and updates
+        the notification emails to ensure that the
+information is clear and
+          consistent
+February 1, 2024
+Version 4.1
+Version 4.1 of
+Oxygen Feedback Enterprise
+aims to
+streamline
+          the configuration and installation processes
+by providing information and helping
+        to debug problems related to the Feedback installation on a site, offers a nice overview
+        with relevant information for a site via a new
+Site Dashboard
+page, and
+        updates the notification emails to ensure that the
+information is clear and
+          consistent
+February 1, 2024
+Version 1.0
+The
+Oxygen AI Positron Assistant
+add-on is a powerful tool that helps
+        writers
+increase productivity
+by providing support for using AI-generated
+        content with the
+Oxygen AI Positron service
+. Once installed, writers can
+        utilize AI-generated content to perform repetitive tasks, review grammar, generate structure
+        and text, or propose changes to improve readability. It always
+keeps the writer in
+          control
+, offering a visual diff comparison to help quickly identify proposed
+        changes and understand how the AI-generated content will appear in the content and you have
+        the ability to refine proposals by continuing the chat with the AI.
+November 10, 2023
+Version 6.0
+Oxygen Content Fusion 6.0
+introduces a lot of interesting and
+        substantial improvements for the online collaboration platform designed to improve the DITA
+        documentation review and publishing processes.
+November 1, 2023
+Version 4.0
+Version 4.0
+Oxygen Feedback Cloud
+offers exciting
+        new enhancements for the modern comment management platform that provides a simple and
+        efficient way for your community to interact with and offer feedback about your
+        content.
+November 1, 2023
+Version 4.0
+Version 4.0
+Oxygen Feedback Enterprise
+offers
+        exciting new enhancements for the modern comment management platform that provides a simple
+        and efficient way for your community to interact with and offer feedback about your
+        content.
+November 1, 2023
+Version 26.0
+Oxygen XML Editor version 26
+introduces the exciting new
+Oxygen
+          AI Positron Assistant
+, an add-on that provides a powerful tool to help writers
+increase their productivity
+by performing repetitive tasks, reviewing
+        grammar, generating structure and text, or proposing changes to improve readability. It
+        always
+keeps the writer in control
+, offering a visual diff comparison to
+        help quickly understand what changed and the ability to continue the chat with the AI to
+        refine the proposals.
+October 11, 2023
+Version 26.0.0
+One of the most exciting new features is the preview of the new
+Oxygen AI
+          Positron Assistant
+plugin that provides a powerful tool to help writers use
+AI-generated content
+, available now on the Web Author demo server and
+        soon to be available for Web Author on-premise installations. The plugin contributes a side
+        pane that offers a variety of
+AI-powered actions
+with the goal of
+improving your productivity
+. Actions are available to provide helpful
+        hints for the next writing steps, enhance the readability of existing content, correct
+        grammar errors, generate index terms, translate content, create marketing-related material,
+        or even restructure parts of a document.
+October 11, 2023
+Version 5.1
+Version 5.1
+Oxygen Content Fusion
+is a minor
+        release for the innovative collaboration platform that is designed to improve any
+        documentation review process. The main focus of this release was to integrate the latest
+        changes brought by
+Oxygen XML Web Author
+version 25.1.0 into Content
+        Fusion's visual editor and to enhance the security of the platform.
+April 19, 2023
+Version 25.1
+Oxygen XML Editor version 25.1
+is a minor release of the
+        industry-leading bundle of tools for content authors, developers, collaborators, and
+        publishers. This latest version offers both enhancements to existing functionality as well
+        as some brand new features that were requested by the community.
+March 16, 2023
+Version 25.1.0
+Version 25.1.0
+Oxygen XML Web Author
+is a minor
+        release for the innovative web-based XML authoring tool. This release expands upon the
+        features that were recently added in Version 25.0.0 with further improvements to some of
+        those features, along with several new enhancements.
+March 16, 2023
+Version 3.0
+Version 3.0
+Oxygen Feedback Cloud
+offers exciting
+        new enhancements for the modern comment management platform that provides a simple and
+        efficient way for your community to interact with and offer feedback about your
+        content.
+March 16, 2023
+Version 3.0
+Version 3.0
+Oxygen Feedback Enterprise
+offers
+        exciting new enhancements for the modern comment management platform that provides a simple
+        and efficient way for your community to interact with and offer feedback about your
+        content.
+March 16, 2023
+Version 25.0
+Oxygen XML Editor version 25.0
+provides a platform to work both with
+        XML and XML-related resources by extending its support to other languages such as
+JSON and YAML
+, and being able to treat some file types (Word, Excel,
+        OpenAPI, HTML, Markdown, and others) as
+DITA-compatible resources
+and thus
+        reference and use them from DITA maps, similar to how DITA XML topics are referenced and
+        used.
+October 13, 2022
+Version 25.0.0
+Version 25.0.0
+Oxygen XML Web Author
+continues to
+        bolster the innovative web-based XML authoring tool with more enhancements and additions.
+        This major release offers improvements to the general user interface, new DITA authoring
+        features, more customization possibilities, refinements to concurrent editing sessions,
+        performance tweaks, as well as various bug fixes and component updates.
+October 13, 2022
+Version 5.0
+Version 5.0
+Oxygen Content Fusion
+is the latest
+        release for the innovative collaboration platform that is designed to improve any
+        documentation review process.
+May 25, 2022
+Version 2.1
+Version 2.1
+Oxygen Feedback Cloud
+brings you more
+        exciting features for the modern comment management platform that provides a simple and
+        efficient way for your community to interact and offer feedback.
+April 13, 2022
+Version 2.1
+Version 2.1
+Oxygen Feedback Enterprise
+brings you
+        more exciting features for the modern comment management platform that provides a simple and
+        efficient way for your community to interact and offer feedback.
+April 13, 2022
+Version 24.1
+Oxygen XML Editor version 24.1
+is an incremental release for the
+        industry's most advanced bundle of tools used by technical writers, developers,
+        collaborators, and publishers everywhere. The focus of this release was to expand upon the
+        new features and improvements that were added in version 24.0.
+March 7, 2022
+Version 24.1.0
+Version 24.1.0
+Oxygen XML Web Author
+is the latest
+        release for the innovative web-based XML authoring tool. This release expands upon the
+        features that were recently added in Version 24.0.0 with further improvements to some of
+        those features, along with several new enhancements. A new
+Search side-view
+makes it easier to find and replace content,
+@ mentions
+are now supported,
+        performance was enhanced, new functionality improves customizations and integrations, and
+        various security and component updates were implemented.
+March 7, 2022
+Version 2.0
+Version 2.0
+Oxygen Feedback Cloud
+offers a lot of
+        exciting new enhancements for the modern comment management platform that provides a simple
+        and efficient way for your community to interact and offer feedback.
+Dec. 16, 2021
+Version 2.0
+Version 2.0
+Oxygen Feedback Enterprise
+offers a lot
+        of exciting new enhancements for the modern comment management platform that provides a
+        simple and efficient way for your community to interact and offer feedback.
+Dec 16, 2021
+Version 24.0
+Oxygen XML Editor version 24.0
+is the latest major release of the
+        industry's most advanced bundle of tools used by technical writers, developers, and
+        publishers everywhere. This release offers a lot of exciting new features, updates,
+        productivity enhancements, new customization options, and various performance
+        optimizations.
+October 18, 2021
+Version 24.0.0
+Version 24.0.0
+Oxygen XML Web Author
+is the latest
+        release for the innovative web-based XML authoring tool. This release introduces a visual
+        merge tool for resolving conflicts when committing to a shared Git repository, a re-design
+        of the interface to offer a more modern and visually appealing look, additional protection
+        against XXE vulnerabilities and other security-related improvements, as well as more
+        customization possibilities, performance optimizations, and accessibility
+        enhancements.
+October 18, 2021
+Version 23.1.1
+Version 23.1.1
+Oxygen XML Web Author
+is the latest
+        maintenance release for the industry-leading web-based XML authoring tool. The main focus
+        for this release was to improve the very popular
+Concurrent Editing
+feature
+        that was introduced in the most recent major release and we are very happy to announce that
+        the feature in no longer in the BETA stage. Numerous bug fixes and security improvements
+        were also implemented for this release.
+July 12, 2021
+Version 4.1
+Version 4.1
+Oxygen Content Fusion
+is the latest
+        maintenance release for the innovative collaboration platform that is designed to improve
+        any documentation review process. The main focus for this release was to improve the very
+        popular
+Concurrent Editing
+feature that was introduced in the most recent
+        major release and we are very happy to announce that the feature in no longer in the BETA
+        stage. Numerous bug fixes and security improvements were also implemented for this
+        release.
+July 12, 2021
+Version 23.1.0
+Version 23.1.0
+Oxygen XML Web Author
+expands upon
+        the features that were recently added in Version 23.0.0 with further improvements to some of
+        those features, along with several new enhancements.
+March 4, 2021
+Version 4.0
+Version 4.0
+Oxygen Content Fusion
+is the latest
+        release for the innovative collaboration platform that is designed to improve any
+        documentation review process.
+March 4, 2021
+Version 1.4
+Version 1.4
+Oxygen Feedback Cloud
+brings you more
+        exciting features for the modern comment management platform that provides a simple and
+        efficient way for your community to interact and offer feedback.
+March 4, 2021
+Version 1.4
+Version 1.4
+Oxygen Feedback Enterprise
+brings you
+        more exciting features for the modern comment management platform that provides a simple and
+        efficient way for your community to interact and offer feedback.
+March 4, 2021
+Version 23.1
+Version 23.1
+Oxygen XML Editor
+expands upon the
+        substantial list of features that were recently added in Version 23.0 with further
+        improvements, along with various brand new enhancements, fixes, and updates.
+March 4, 2021
+Version 23.0
+Version 23.0 of
+Oxygen XML Editor
+boasts the most substantial and
+        comprehensive set of new features, productivity enhancements, and customization
+        possibilities in the history of the most powerful XML authoring and development tool
+        available on the market.
+November 19, 2020
+Version 23.0.0
+Version 23 of
+Oxygen XML Web Author
+continues to bolster the innovative
+        web-based authoring tool. This release brings a lot of exciting new features, productivity
+        enhancements, and customization possibilities to the ever-expanding online XML authoring
+        community.
+November 19, 2020
+Version 1.3
+Version 1.3
+of the
+Oxygen Feedback
+commenting platform
+        introduces the Enterprise (self-managed) edition for organizations that prefer to install
+        the software on their own server for better data control.
+October 7, 2020
+Version 1.3
+Version 1.3
+of the
+Oxygen Feedback
+commenting platform
+        introduces the Enterprise (self-managed) edition for organizations that prefer to install
+        the software on their own server for better data control.
+October 7, 2020
+Version 3.0
+Version 3.0
+Oxygen Content Fusion
+is the latest
+        major release for the collaboration platform that is designed to improve any documentation
+        review process.
+July 3, 2020
+Version 22.1
+Version 22.1
+of the
+Oxygen XML Editor
+brings you more
+        productivity improvements for
+DITA authoring
+, customization options and
+        change bars for
+CSS-based DITA to PDF
+publishing, the
+JSON
+and
+HTML
+editing support continued to be enhanced, while some of the most
+        popular add-ons were improved and new ones made available.
+May 19, 2020
+Version 22.1.0
+Version 22.1.0
+of the
+Oxygen XML Web Author
+includes a
+        new
+Outline
+pane that offers a quick way to
+navigate
+through the document, gives you insight about the location of your modifications, shows the
+hierarchical dependencies
+between elements, and makes it easy to
+visualize the XML structure
+May 19, 2020
+Version 1.2
+Version 1.2
+Oxygen Feedback
+includes a new
+Dashboard
+page in the administration interface that aggregates
+        information and statistics for all of your site configurations,
+a single level of
+          replies
+for comments to simplify discussion threads, and an improved workflow
+        allows you to mark threads as resolved.
+May 19, 2020
+Version 22.0
+Version 22
+of the
+Oxygen XML Editor
+provides numerous
+        new features, updates, and improvements that focus on productivity, performance, efficiency,
+        and simplicity for XML authoring, development, publishing, and collaboration.
+February 12, 2020
+Version 22.0.0
+Version 22.0.0
+Oxygen XML Web Author
+is the latest
+        major release for the innovative web-based authoring tool. The major focus of this release
+        was to offer numerous productivity enhancements as well as various security and performance
+        improvements.
+February 12, 2020
+Version 2.0
+Version 2.0
+Oxygen Content Fusion
+is the latest
+        major release for the innovative collaboration tool that is designed to improve any
+        documentation review process.
+February 12, 2020
+Version 21.1.1
+Version 21.1.1
+of the
+Oxygen XML Web Author
+is the
+        latest minor release for the innovative web-based authoring tool. The focus of this release
+        was to make editing even more efficient, enable easier navigation of a DITA project, and to
+        make it possible to compare different versions of a file or different files.
+October 24, 2019
+Version 21.1
+Version 21.1
+of the
+Oxygen XML Editor
+introduces HTML5
+        support (without treating it as XHTML), providing specialized text-based editing and
+        validation support.
+DITA
+support includes a new Resource
+        Hierarchy/Dependencies view, the ability to quickly find similar topics, DITA PDF publishing
+        now provides the possibility of adding a mini-TOC at each chapter as well as
+        internationalization, and many other improvements.
+May 23, 2019
+Version 21.1.0
+The release of
+version 21
+Oxygen XML WebHelp
+is the
+        latest release for the modern web publishing system.
+May 23, 2019
+Version 21.0.0
+The release of
+version 21
+Oxygen XML Web Author
+includes new features to help DITA authors work with
+DITA keys
+, more
+file repository integration plugins
+, such as Perforce Helix and Alfresco,
+        a new
+Markdown
+editor, numerous enhancements for working with
+tables
+, as well as various other new features, new API entry points,
+        performance improvements, and more.
+February 22, 2019
+Version 21.0
+The release of
+version 21
+Oxygen XML Editor
+adds
+        numerous new features, updates, and improvements to the already robust, industry-leading XML
+        editing application. The primary focus for this major release was to evaluate user requests
+        for improvements and additions, implement as many of them as possible, while preserving the
+        reliability, stability, and performance requirements that the XML community has come to
+        expect from the
+Oxygen
+suite of products.
+February 22, 2019
+Version 1.1
+The release of
+Version 1.1
+Oxygen Content Fusion
+adds various new features and improvements to the innovative collaboration tool for any XML
+        documentation review process.
+Oxygen Content Fusion
+has a connector add-on
+        that comes bundled with
+Oxygen XML Author
+and
+Oxygen XML
+          Editor
+. To fully take advantage of all of the benefits and features, your
+        organization will need an Oxygen Content Fusion Enterprise Server. For more information, see
+        the
+Content Fusion website
+February 22, 2019
+Version 20.1.0
+Version 20.1
+of the
+Oxygen XML Web Author
+is the
+        latest release for the innovative web-based authoring tool, it makes it easier for non
+        technical users to work with structured content, for example using user-friendly names for
+        XML elements and presenting documentation tooltips, improves the review support when working
+        with track changes and comments, and allows users to select between various rendering styles
+        for a document.
+June 15, 2018
+Version 20.1
+Version 20.1
+of the
+Oxygen XML Editor
+includes
+        productivity improvements for DITA, XSLT, and new editing features, and validation support
+        for JSON documents. DITA publishing was updated to make the WebHelp output compliant with
+        the
+Section 508 accessibility standard
+, making it accessible for
+        people with disabilities, and publishing DITA maps to PDF using CSS styles can be applied on
+        HTML5 as intermediate format, thus reusing the HTML5 WebHelp publishing CSS styles. As
+        usual, this version also contains numerous new add-ons, API, and component updates.
+June 15, 2018
+Version 20.0.0
+Version 20.0
+of the
+Oxygen XML Web Author
+is the
+        latest release for the innovative web-based authoring tool. Its powerful technology and
+        adaptive interface allows you to
+review, contribute, and edit content from
+          anywhere
+you have access to a browser, on desktop PCs, tablets, or mobile
+        devices. This release includes a variety of new features and improvements to make your
+        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
+        than ever before.
+March 16, 2018
+Version 20.0
+Version 20.0
+of the
+Oxygen XML Editor
+brings you a
+        variety of new features and improvements that focus on productivity, performance,
+        efficiency, and simplicity and covers many aspects of functionality from XML authoring to
+        XML development, from add-ons to built-in functionality, API changes, and component
+        updates.
+March 16, 2018
+Version 19.1.0
+Oxygen XML Web
+        Author version 19.1 is the latest release for the innovative web-based authoring tool. Its
+        powerful technology and adaptive interface allows you to
+review, contribute, and
+          edit content from anywhere
+you have access to a browser, on desktop PCs, tablets,
+        or mobile devices. It includes a variety of new features and improvements to make your
+        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
+        than ever
+        before.
+September 29, 2017
+Version 19.1
+Version 19.1 of the oXygen XML Editor brings you a variety of new features and
+        improvements that focus on productivity, performance, efficiency, and simplicity.
+September 29, 2017
+Version 19.0.0
+Oxygen XML Web
+        Author version 19 is the latest release for the innovative web-based authoring tool. Its
+        powerful technology and adaptive interface allows you to
+review, contribute, and
+          edit content from anywhere
+you have access to a browser, on desktops, tablets, or
+        mobile devices. It includes a variety of new features and improvements to make your
+        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
+        than ever
+        before.
+April 5, 2017
+Version 19.0
+Version 19.0 of the oXygen XML Editor brings you a variety of new features and
+        improvements that focus on productivity, efficiency, and simplicity.
+April 5, 2017
+Version 18.1.0
+Oxygen XML Web
+        Author version 18.1 is a maintenance release for the innovative web-based authoring tool.
+        Its powerful technology and adaptive interface allows you to review, contribute, and edit
+        content from anywhere, on desktops, tablets, or mobile devices. It includes a variety of new
+        features and improvements to make your authoring, collaborating, and reviewing experience
+        more efficient and productive than ever
+        before.
+October 18, 2016
+Version 18.1
+Although
+          Oxygen XML Editor version 18.1 is a maintenance release that focuses on performance
+          and usability improvements, it also adds a variety of powerful new features, making it
+          similar to a major release.
+October 18, 2016
+Version 18.0.1
+Oxygen XML Web
+        Author version 18.0.1 is the latest release for the innovative Oxygen web-based
+        authoring tool. Its powerful technology and adaptive interface allows you to review,
+        contribute, and edit content from anywhere, on desktops, tablets, or mobile devices. It
+        includes a variety of new features and improvements to make your authoring, collaborating,
+        and reviewing experience more efficient and productive than ever before.
+August 9, 2016
+Version 18.0.0
+Oxygen XML Web
+        Author version 18.0.0 is the latest major release for the innovative web-based authoring
+        tool. Its powerful technology and adaptive interface allows you to review, contribute, and
+        edit content from anywhere, on desktops, tablets, or mobile devices. It includes a variety
+        of new features and improvements to make your authoring, collaborating, and reviewing
+        experience more efficient and productive than ever before.
+April 21, 2016
+Version 18.0
+Oxygen XML Editor version 18.0 includes new features and improvements that set the
+        standards for XML authoring and developing even higher than our users are already accustomed
+        to.
+April 21, 2016
+Version 17.1
+Oxygen XML
+        Editor version 17.1 includes updates and improvements to make your XML authoring and
+        developing experience even more productive and effective. The performance of many of the
+        integral components has been optimized and numerous features were enhanced and fine-tuned to
+        make Oxygen XML Editor even more powerful, dynamic, and easy to use. It also features a
+        spectacular new visual design that makes everything look crisp and beautiful.
+October 20, 2015
+Version 17.0
+Oxygen XML Editor
+        version 17 sets the highest standard for XML development and XML authoring. It comes with
+        important functionality updates and focuses on design to make your work not only productive,
+        but also enjoyable.
+May 5, 2015
+Version 16.1
+Version 16.1 of Oxygen XML Editor adds
+        improvements to both the XML development and XML authoring functionality.
+October 7, 2014
+Version 16.0
+XSLT development received a productivity burst in Oxygen XML Developer 16 with the
+        addition of Quick Fixes support and improvements to refactoring actions. If you develop XSLT
+        stylesheets to work with Saxon-CE in the browser, Oxygen will assist you with validation
+        and content completion assistance for the Saxon-CE specific extensions.
+May 20, 2014
+Version 15.2
+Version 15.2 of Oxygen XML Developer improves the support for developing Schematron
+        and XML Schema schemas, adds support for working with modules to the Eclipse plugin and
+        keeps updates many components to their latest versions.
+January 22, 2014
+Version 15.1
+Version 15.1 of Oxygen XML  makes a leap forward in working with XML modules. Using the Master Files
+        support, Oxygen assists you while editing an XML document that belongs to a set of
+        assembled modules, and provides you features such as module validation, in context Content
+        Completion Assistant, ID referencing or module connection overview.
+October 7, 2013
+Version 15.0
+Oxygen XML Developer 15.0 streamlines the development of web services with major
+        improvements to its WSDL editing support that features intelligent search and refactoring
+        actions, hierarchy and dependencies views, context-aware editing assistance and support for
+        generating documentation. There are also improvements in working with XML databases and in
+        the validation support.
+June 7, 2013
+Version 14.2
+Version 14.2 of Oxygen XML Developer completes the set of XML Schema 1.1-related
+        features with full schema editing support and capabilities to generate XML instances and
+        schema documentation in accordance with W3C standards.
+February 13, 2013
+Version 14.1
+Version 14.1 of Oxygen XML Editor makes
+XML authoring available to
+          everybody
+, by allowing attributes to be edited directly in the
+Author
+mode through form-like controls and placing actions directly in
+        the document flow. This expands the range of XML documents that can be edited visually from
+        text-centric to data oriented documents.
+October 19, 2012
+Version 14.0
+Version 14 marks a major step forward in the XML development support as it introduces
+        additional concepts and functionality that change the way you develop XML and XML-related
+        applications.
+June 27, 2012
+Version 13.2
+Version 13.2 introduces a Syntax Highlight mechanism capable of handling mixed content
+        types, improves the JSON editing support and bidirectional documents rendering, extends the
+        XML-native database support with find/replace capabilities and updates many third-party
+        components. Also, there are many improvements in the authoring support, including an updated
+        DITA Maps Metrics Report, experimental support for CGM images and updated API.
+January 12, 2012
+Version 13.1
+Version 13.1 adds support for XHTML 5, improved content completion assistance in XML
+        modules, a TEI ODD framework, support for publishing DITA maps directly from a CMS or other
+        remote resources and a metrics report for DITA maps. Being a maintenance release it has a
+        focus also on fixing many small issues.
+October 26, 2011
+Version 13.0
+Version 13 introduces Oxygen XML Developer as an additional product in the
+        Oxygen products family. This aggregates all the XML development features offering a cost
+        effective tool for people that do not need the visual editing support. Oxygen XML Editor
+        is the union of Oxygen XML Developer and Oxygen XML Author offering both XML
+        development and XML authoring capabilities.
+August 29, 2011
+Version 12.2
+Version 12.2 of Oxygen XML introduces a number of unique development features. It
+        provides support for editing XSLT and XML Schema modules in the context of a main XSLT,
+        respectively main XML Schema file. For XML Schema visual editing it introduces a Palette
+        view that allows to easily create new schema components by dragging them from this Palette
+        view into the diagram. The support for the xml-model processing instruction for schema
+        association that was previewed at XML Prague is available in 12.2 replacing the Oxygen
+        specific processing instruction. The new version includes also one of the most requested
+        features: Ant integration - the support for Ant transformation scenarios allows executing a
+        target from an Ant script. For XSLT 2.0 and XQuery transformations it is possible to specify
+        parameter values as XPath expressions when the engine allows that.
+May 19, 2011
+Version 12.1
+January 12, 2011
+Version 12.0
+September 14, 2010
+Version 11.2
+March 16, 2010
+Version 11.1
+Version 11.1 of Oxygen XML Editor improves the XML authoring capabilities, the
+        support for XML development and also a number of core features. The visual XML authoring
+        uses schema information to provide intelligent editing actions that help keep the document
+        valid and provide a better editing experience. The compact representation of tags and the
+        quick up/down navigation features improve the ergonomics and the usability. Oxygen XML
+        Editor can use any XQJ compliant XQuery processor for XQuery transformations, different
+        error levels and external references can be specified for Schematron messages and the XProc
+        support was improved with better editing and execution. The XML format and indent operation
+        can use DTD/schema information to provide better formatting and the find and replace is XML
+        aware and can accept XPath filtering to delimit the search scope.
+December 17, 2009
+Version 11.0
+Version 11.0 of Oxygen XML Editor includes exciting features covering both XML
+        development and XML authoring, such as XProc support, integrated documentation for XSLT
+        stylesheets, a XQuery debugger (for the Oracle Berkeley DB XML database), MathML rendering
+        and editing support, a smarter
+Author
+mode for an improved visual editing
+        experience, and DITA 1.2 features.
+October 9, 2009
+Version 10.3
+June 29, 2009
+Version 10.2
+Version 10.2 of Oxygen XML Editor adds important features for both
+XML
+          authoring
+and
+XML development
+April 15, 2009
+Version 10.1
+February 25, 2009
+Version 10.0
+October 23, 2008
+Version 9.3
+July 2, 2008
+Version 9.2
+May 9, 2008
+Version 9.1
+December 18, 2007
+Version 9.0
+November 2, 2007
+Version 8.2
+May 7, 2007
+Version 8.1
+January 25, 2007
+Version 8.0
+November 20, 2006
+Version 7.2
+June 6, 2006
+Version 7.1
+March 2, 2006
+Version 7.0
+January 13, 2006
+Version 6.2
+September 19, 2005
+Version 6.1
+July 19, 2005
+Version 6.0
+May 22, 2005
+Version 5.1
+January 18, 2005
+Version 5.0
+October 15, 2004
+Version 4.2
+July 15, 2004
+Version 4.1
+June 10, 2004
+Version 4.0
+April 30, 2004
+Version 3.1
+February 6, 2004
+Version 3.0
+January 14, 2004
+Version 2.0.4
+September 19, 2003
+Version 2.0.3
+August 14, 2003
+Version 2.0.2
+June 9, 2003
+Version 2.0.1
+May 15, 2003
+Version 2.0
+April 2, 2003
+Version 1.2.4
+December 17, 2002
+Version 1.2.3
+November 27, 2002
+Version 1.2.2
+October 22, 2002
+Version 1.2.1
+September 27, 2002
+Version 1.2
+June 27, 2002
+Version 1.1.9
+June 15, 2002
+Version 1.1.8
+June 5, 2002
+Version 1.1.7
+May 27, 2002
+Version 1.1.6
+May 24, 2002
+Version 1.1.5
+May 20, 2002
+Version 1.1
+May 15, 2002
+Version 1.0
+April 15, 2002
+Products
+XML Editor
+XML Developer
+XML Author
+XML Web Author
+Content Fusion
+Publishing Engine
+WebHelp
+PDF Chemistry
+Feedback
+Oxygen Scripting
+Features
+WYSIWYG Editors
+Schema Editor
+WSDL Editor
+XSLT
+                                        Editor
+XQuery
+XSD Documentation
+XML Databases
+SVN Client
+EPUB Editor
+DITA Editor
+JSON Editor
+Shop
+Buy Now
+Sales FAQ
+Resellers
+Resources
+Documentation
+Videos
+Add-ons
+Spell Checking
+Support
+Support
+Forum
+Mailing
+                                        Lists
+Contact Us
+Company
+About Us
+Events Programme
+Partners
+Case Studies
+Quotes
+Press Room
+Careers
+Legal
+Oxygen XML on Facebook
+Follow Oxygen XML on Twitter
+Oxygen XML Web Feed
+Oxygen XML Blog
+Oxygen XML Youtube Channel
+Oxygen XML Reddit
+Oxygen XML Bluesky
+© 2002-2026 SyncRO Soft SRL. All rights reserved.
+Sitemap
+Terms of Use
+Privacy Policy
+This website was created & generated with
+                                        <oXygen/>
+XML Editor
+Our website uses cookies.
+Find out more about cookies.
+I understand. Hide this message.

@@ -1,0 +1,47 @@
+Why you should use Tridion Sites 10.1 - RWS
+Skip to main content
+Introducing Tridion Sites 10.1
+Gain even more precise control over translated content with Tridion Sites 10.1, the web content management system you can trust to create, manage and deliver multilingual content wherever you need it.
+Our latest release brings powerful improvements in BluePrinting that offer more control over inherited content items, as well as contextual previews of content for translators.
+Increase productivity with an improved UI that helps users find items more quickly and streamline operations with enhanced sorting, filtering and editing capabilities.
+Discover the latest updates in detail in our data sheet.
+What’s new in Tridion Sites 10.1
+New features
+Granular BluePrinting
+Granular BluePrinting
+Granular BluePrinting allows you to have more precise control over inheritance by defining which fields a user can or cannot modify in a child item.
+It works for content items as well as regions and is based on two new key features:
+Non-localizable fields:
+Define at the parent level which fields must be excluded from localization, so that their values are propagated automatically without an editor being able to modify them in the child item.
+Non-localizable regions:
+In a similar vein, specify whether a region can be localized or not to prevent editors from making unintended changes in the child item.
+BluePrinting management features
+BluePrinting management features
+In Experience Space, a range of BluePrinting management features and improvements has been added:
+‘Quick create’ for child publications
+‘Add/remove parent’ action for publications
+‘Promote’ (move items and dependencies to a higher publication)
+‘Demote’ (move items and nested items to a lower publication)
+View and update parent publication priority
+A ‘Primary item’ link was added to the Blueprint panel (relevant for Granular BluePrinting)
+The BluePrinting panel now shows item names
+Contextual views for translators
+Contextual views for translators
+Translators can now preview the content they have to translate, which improves translations and speeds up the process. Two options are available:
+Contextual preview links:
+In Tridion Sites, Translation Manager can automatically include "View on Site" URLs in the jobs sent for translation, allowing translators to open a staging server page and view the translated content in the context of the delivered page.
+Attachments:
+In Tridion Sites, users can attach files such as PDFs, PNGs or other relevant documents to the translation job to provide translators with additional context.
+In addition, Translation Manager behavior has been improved by applying translations only to the fields that are translatable, while non-translatable content fields are no longer overwritten with the parent’s values.
+Ready to deliver exceptional digital experiences?
+Talk to us
+Discover more
+Seven reasons to adopt Tridion Sites 10
+Discover the many benefits of upgrading to the latest release of Tridion Sites
+Infographic
+See Tridion Sites in action
+Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences.
+Watch demos
+Content management blog
+Stay up to date on the latest trends and developments in content management.
+Learn more

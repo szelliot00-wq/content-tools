@@ -5,6 +5,25 @@
       "url": "https://hnrss.org/frontpage",
       "enabled": true,
       "max_items": 2
+    },
+    {
+      "name": "oXygen XML — News & Releases",
+      "url": "https://www.oxygenxml.com/rss.xml",
+      "enabled": true,
+      "max_items": 3,
+      "cutoff_days": null
+    },
+    {
+      "name": "Fluidtopics Blog",
+      "url": "https://www.fluidtopics.com/blog/feed/",
+      "enabled": true,
+      "max_items": 3
+    },
+    {
+      "name": "RWS Content Management Blog",
+      "url": "https://www.rws.com/blog/feed/?topic=Content+Management",
+      "enabled": false,
+      "max_items": 3
     }
   ],
   "manual_urls": []
