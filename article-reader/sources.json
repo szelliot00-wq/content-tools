@@ -1,0 +1,17 @@
+{
+  "rss_feeds": [
+    {
+      "name": "Example Blog",
+      "url": "https://example.com/rss.xml",
+      "enabled": true,
+      "max_items": 3
+    }
+  ],
+  "manual_urls": [
+    {
+      "url": "https://example.com/article",
+      "title": "Article Title",
+      "added": "2026-02-21"
+    }
+  ]
+}

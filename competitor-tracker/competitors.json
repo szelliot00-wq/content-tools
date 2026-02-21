@@ -1,0 +1,13 @@
+{
+  "competitors": [
+    {
+      "id": "acme-corp",
+      "name": "Acme Corp",
+      "urls": [
+        {"url": "https://acme.com/features", "label": "Features page"},
+        {"url": "https://acme.com/pricing", "label": "Pricing page"}
+      ],
+      "enabled": true
+    }
+  ]
+}
