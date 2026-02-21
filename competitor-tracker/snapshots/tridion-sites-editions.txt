@@ -1,0 +1,104 @@
+A CMS for all your web needs - Tridion Sites Editions - RWS
+Skip to main content
+Tridion Sites – One CMS for all your web needs
+Global website management made easy.
+Start with a single language and single website and then scale as your business grows - adding more websites and languages as needed.
+Web Content Management reimagined
+Tridion has been designed to uniquely support your business journey from start-up-stage to being a large multinational enterprise.
+Once you start with Tridion, you will never outgrow your CMS.
+Download brochure
+Tridion beyond boundaries
+Manage and deliver superb digital experiences across multiple channels - using traditional or headless publishing.
+Easily and cost-effectively provide customers with content in their own language, choosing from a spectrum of options: machine translation, human-in-the-loop or fully expert translation services.
+Tridion Sites demo
+Streamline your translation processes
+Watch demo
+Customers that have grown with Tridion
+Three easy steps
+Adopt
+Enjoy speedy onboarding and hassle free web operations through our full service offering. We host, manage and maintain your web environment (Tridion Essential Edition) and localization technology (Tridion Team Edition).
+Integrate
+Quickly and easily integrate with your enterprise marketing tools such as CRM and marketing automation to help you craft effective customer journeys and generate more leads.
+Deliver
+Create, reuse, translate, and deliver engaging, accurate and rich personalized content across all your channels – websites , Single Page Applications (SPA), mobile, apps and more.
+Compare Products
+Tridion Sites Essential
+Tridion Sites Team
+Tridion Sites Enterprise
+Expand All
+Tridion Sites
+Essential
+Tridion Sites
+Team
+Tridion Sites
+Enterprise
+Contact
+Contact
+Contact
+Web Content Management
+# Users
+Included = 10
+Max = 25
+Included = 10
+Max = 25
+Included = 25
+Max = Unlimited
+Explore, manage, and publish content
+# Websites
+Unlimited
+Unlimited
+Unlimited
+Single Sign On
+Add and manage page regions
+Instant Site: create new websites instantly
+Personalization and  A/B testing
+On-demand
+Semantic AI - auto-tagging and semantic search
+API based content access
+Max annual GraphQL queries
+Included = 2.4M
+Max = 6M
+Included = 2.4M
+Max = 6M
+Unlimited
+Integrations to external systems
+Included = 0
+Max = 2
+Included = 0
+Max = 3
+Included = 0
+Max = unlimited
+Runs on sustainable energy
+Translation capabilities
+# Website languages supported
+Unlimited
+Unlimited
+Unlimited
+# Machine translated words
+Included = 1.2M
+Max = 3M
+On-demand
+Website - on the go Machine Translation of website
+On-demand
+Authoring - integrated Translation Management & Machine Translation
+On-demand
+In-context Translation Review and Translation Preview
+On-demand
+On-demand
+Administration
+Add / manage / remove users
+Development, Testing, Acceptance and Production (D-T-A-P) environment
+D-P only
+D-P only
+Included = D-T-P
+Max = Acceptance/Unlimited
+High Availability (Content Management / Content Delivery)
+Y (CD)
+Y (CD)
+Y (CM + CD)
+Uptime / SLA
+Included = 99.5 / 99.5%
+Included = 99.5% / 99.5%
+Included = 99.9% DXD / 99.0% CM
+Max 99.9% DXD / 99.9% CM
+Loading...

@@ -1,0 +1,833 @@
+Buy Now
+Toggle navigation
+Shop
+Companies &
+                        Organisations
+Teaching & Research
+Individuals
+Products:
+Oxygen XML Editor
+Oxygen XML Developer
+Oxygen XML Author
+Oxygen JSON Editor
+Oxygen XML Web Author
+Oxygen Content Fusion
+Oxygen Feedback
+Oxygen AI Positron
+Oxygen Publishing Engine
+Oxygen WebHelp
+Oxygen PDF Chemistry
+Oxygen Scripting
+Business License
+Business licenses are available to legal entities, including companies and
+          organizations (both for-profit and non-profit), which require the software for general
+          commercial use.
+New Licenses
+Upgrades
+SMP Renewals
+New Licenses
+Oxygen XML Editor
+This product is designed for both developers and content authors, as it provides the complete XML development features, 
+            along with the visual XML-editing mode. Choose this product if you want the full editing suite, for editing content in a text or visual mode using DITA, 
+            a customized framework, or just plain XML, as well as creating XML Schemas, developing XSLT stylesheets, XQuery, XProc, and more.
+Read the End User License Agreement
+User-based
+Enterprise (AI-ready)
+License & 1-year SMP
+€1,465
+Add to cart
+read more
+License & 2-year SMP
+€1,678
+Add to cart
+read more
+12-month Subscription
+€53/month
+billed annually
+Add to cart
+read more
+professional
+License & 1-year SMP
+€942
+Add to cart
+read more
+License & 2-year SMP
+€1,080
+Add to cart
+read more
+12-month Subscription
+€34/month
+billed annually
+Add to cart
+read more
+Floating
+Enterprise (AI-ready)
+License & 1-year SMP
+€4,397
+Add to cart
+read more
+License & 2-year SMP
+€5,037
+Add to cart
+read more
+professional
+License & 1-year SMP
+€2,827
+Add to cart
+read more
+License & 2-year SMP
+€3,240
+Add to cart
+read more
+Oxygen XML Developer
+This product is designed for developers. Choose this product if you are interested in XML development features, such as creating XML Schemas, developing XSLT stylesheets, XQuery, or XProc but you are not interested in visually editing XML.
+Read the End User License Agreement
+User-based
+Enterprise (AI-ready)
+License & 1-year SMP
+€647
+Add to cart
+read more
+License & 2-year SMP
+€745
+Add to cart
+read more
+12-month Subscription
+€23/month
+billed annually
+Add to cart
+read more
+professional
+License & 1-year SMP
+€458
+Add to cart
+read more
+License & 2-year SMP
+€528
+Add to cart
+read more
+12-month Subscription
+€16/month
+billed annually
+Add to cart
+read more
+Floating
+Enterprise (AI-ready)
+License & 1-year SMP
+€1,940
+Add to cart
+read more
+License & 2-year SMP
+€2,235
+Add to cart
+read more
+professional
+License & 1-year SMP
+€1,371
+Add to cart
+read more
+License & 2-year SMP
+€1,579
+Add to cart
+read more
+Oxygen XML Author
+This product is designed for XML content authors. Choose this product if you want to edit content in a text or visual mode using DITA, 
+            or a customized framework, or just plain XML but you are not interested in XML development tasks, such as modifying stylesheets and schemas.
+Read the End User License Agreement
+User-based
+Enterprise (AI-ready)
+License & 1-year SMP
+€1,144
+Add to cart
+read more
+License & 2-year SMP
+€1,305
+Add to cart
+read more
+12-month Subscription
+€41/month
+billed annually
+Add to cart
+read more
+professional
+License & 1-year SMP
+€775
+Add to cart
+read more
+License & 2-year SMP
+€886
+Add to cart
+read more
+12-month Subscription
+€28/month
+billed annually
+Add to cart
+read more
+Floating
+Enterprise (AI-ready)
+License & 1-year SMP
+€3,433
+Add to cart
+read more
+License & 2-year SMP
+€3,917
+Add to cart
+read more
+professional
+License & 1-year SMP
+€2,321
+Add to cart
+read more
+License & 2-year SMP
+€2,649
+Add to cart
+read more
+Oxygen JSON Editor
+This product is a specialized tool designed for editing JSON documents. 
+            It offers a wide range of features and views, including Text, Grid, and Author editing modes, along with Design mode for JSON Schema.
+Read the End User License Agreement
+User-based
+12-month Subscription
+€7/month
+billed annually
+Add to cart
+read more
+Oxygen XML Web Author
+Read the End User License Agreement
+This product is designed for those who want to interact with XML content in a modern web browser. 
+            Choose this product if you want to collaborate with other members of your team by contributing, modifying, and comparing content from anywhere on desktops, tablets, and mobile devices.
+For more details, go
+here
+Oxygen Content Fusion
+Read the End User License Agreement
+This product represents s a flexible and intuitive documentation platform where content authors can publish 
+            content and collaborate with subject matter experts in their documentation review process. 
+            The license for Oxygen Content Fusion covers a configurable number of user-based licenses with a different pricing structure for each.
+            For more details, visit the
+Oxygen Content Fusion page
+Oxygen Feedback
+This product represents a modern comment management platform that is easy to configure and integrate on any website. It also includes a user-friendly interface and numerous useful features for both Commenters and Administrators.
+Read the End User License Agreement
+Cloud
+This product offers a cloud-based (SaaS) edition of the Oxygen Feedback commenting platform that is hosted, set up, and maintained on Oxygen servers. 
+                    The Cloud edition features a very fast start-up process, no software installation is required, and you always have access to the latest version of the software.
+                    For more details, visit the Oxygen Feedback Cloud
+page
+Enterprise
+Read the End User License Agreement
+This product offers a self-managed edition of the Oxygen Feedback commenting platform that allows you to install the platform software on your own servers for better control over the data. 
+                    The Enterprise edition also provides the ability to connect to an LDAP directory for authentication.
+Starter AI (AI-ready)
+€350/month
+billed annually
+Add to cart
+read more
+Team AI (AI-ready)
+€630/month
+billed annually
+Add to cart
+read more
+Business AI (AI-ready)
+€1,890/month
+billed annually
+Add to cart
+read more
+Corporate AI (AI-ready)
+Ask
+Add to cart
+read more
+Oxygen AI Positron
+Read the End User License Agreement
+Oxygen AI Positron provides an advanced solution that utilizes artificial intelligence to support technical documentation
+                writers throughout their content creation process. By leveraging the power of AI platforms, Oxygen AI Positron streamlines and enhances the writing experience.
+For more details, visit the
+Oxygen AI Positron page
+Oxygen Publishing Engine
+This product is designed for those who need to automate the transformations of DITA documents to WebHelp, PDF, ePub, or plain HTML output, for desktop and mobile devices, outside of Oxygen XML Editor (e.g. from a command line).
+Read the End User License Agreement
+enterprise
+License & 1-year SMP
+2 Core
+€6,159
+Add to cart
+read more
+License & 1-year SMP
+4 Core
+€10,265
+Add to cart
+read more
+License & 1-year SMP
+8 Core
+€15,397
+Add to cart
+read more
+professional
+License & 1-year SMP
+2 Core
+€4,737
+Add to cart
+read more
+License & 1-year SMP
+4 Core
+€7,896
+Add to cart
+read more
+License & 1-year SMP
+8 Core
+€11,844
+Add to cart
+read more
+Oxygen XML WebHelp
+This product is designed for those who need to automate the transformations of DITA documents to WebHelp output for desktop and mobile devices, outside of Oxygen XML Editor (e.g from a command line).
+Read the End User License Agreement
+enterprise
+License & 1-year SMP
+2 Core
+€3,543
+Add to cart
+read more
+License & 1-year SMP
+4 Core
+€5,905
+Add to cart
+read more
+License & 1-year SMP
+8 Core
+€8,857
+Add to cart
+read more
+Oxygen PDF Chemistry
+This product is designed for those who want to obtain PDF output from HTML or XML documents by styling them with CSS. The main purpose of this CSS Paged Media processor is to provide a simple tool that allows you to leverage your CSS knowledge to create printable deliverables.
+Read the End User License Agreement
+enterprise
+License & 1-year SMP
+2 Core
+€2,538
+Add to cart
+read more
+License & 1-year SMP
+4 Core
+€4,230
+Add to cart
+read more
+License & 1-year SMP
+8 Core
+€6,345
+Add to cart
+read more
+Oxygen Scripting
+You're a developer who uses automated scripts. You need to do any of the following things using command line scripts, outside of Oxygen: (1) Automate the production of XML Schema documentation, XSLT Schema Documentation, or WSDL Schema Documentation, (2) Flatten an XML Schema, (3) Generate XML instances from XML Schemas, (4) Perform a validate and check for completeness operation on an entire DITA Map.
+Read the End User License Agreement
+enterprise
+License & 1-year SMP
+2 Core
+€1,353
+Add to cart
+read more
+License & 1-year SMP
+4 Core
+€2,256
+Add to cart
+read more
+License & 1-year SMP
+8 Core
+€3,384
+Add to cart
+read more
+Upgrades
+The upgrade can be purchased to bring up-to-date an
+              older version of the same product type (Developer/Author/Editor), edition
+              (Professional/Enterprise) and license model (user-based/floating).
+        product version is considered to be eligible for upgrade until it has reached the
+        End of Support milestone according to
+End of Life
+                Policy
+and 12 months after. Customers wishing to upgrade from a non
+        eligible version to the latest version will need to purchase a new product license.
+Oxygen XML Editor
+Read the End User License Agreement
+User-based
+professional
+Upgrade License & 1-year SMP
+€543
+Add to cart
+read more
+License & 2-year SMP
+€681
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€844
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€1,057
+Add to cart
+read more
+Floating
+professional
+Upgrade License & 1-year SMP
+€1,630
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€2,043
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€2,536
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€3,175
+Add to cart
+read more
+Oxygen XML Developer
+Read the End User License Agreement
+User-based
+professional
+Upgrade License & 1-year SMP
+€266
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€336
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€375
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€473
+Add to cart
+read more
+Floating
+professional
+Upgrade License & 1-year SMP
+€795
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€1,003
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€1,125
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€1,420
+Add to cart
+read more
+Oxygen XML Author
+Read the End User License Agreement
+User-based
+professional
+Upgrade License & 1-year SMP
+€446
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€557
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€658
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€819
+Add to cart
+read more
+Floating
+professional
+Upgrade License & 1-year SMP
+€1,334
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€1,662
+Add to cart
+read more
+Enterprise (AI-ready)
+Upgrade License & 1-year SMP
+€1,973
+Add to cart
+read more
+Upgrade License & 2-year SMP
+€2,458
+Add to cart
+read more
+Oxygen Publishing Engine
+Read the End User License Agreement
+enterprise
+Upgrade & 1-year SMP
+2 Core
+€3,538
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€5,897
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€8,845
+Add to cart
+read more
+professional
+Upgrade & 1-year SMP
+2 Core
+€2,721
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€4,536
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€6,804
+Add to cart
+read more
+Oxygen XML WebHelp
+Read the End User License Agreement
+enterprise
+Upgrade & 1-year SMP
+2 Core
+€2,035
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€3,392
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€5,088
+Add to cart
+read more
+Oxygen PDF Chemistry
+Read the End User License Agreement
+enterprise
+Upgrade & 1-year SMP
+2 Core
+€1,458
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€2,430
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€3,645
+Add to cart
+read more
+Oxygen Scripting
+Read the End User License Agreement
+enterprise
+Upgrade & 1-year SMP
+2 Core
+€777
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€1,296
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€1,944
+Add to cart
+read more
+Support & Maintenance Pack Renewals
+The SMP Renewal provides unlimited technical support and allows you to benefit of
+              all new versions released during its period of performance, at no additional cost. The
+              SMP Renewal can be bought in up to 14 days after a previous SMP has expired. One SMP
+              Renewal covers one license of Oxygen.
+Read more
+Oxygen XML Editor
+Read the End User License Agreement
+User-based
+professional
+1-year SMP Renewal
+€144
+Add to cart
+read more
+2-year SMP Renewal
+€282
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€224
+Add to cart
+read more
+2-year SMP Renewal
+€437
+Add to cart
+read more
+Floating
+professional
+1-year SMP Renewal
+€433
+Add to cart
+read more
+2-year SMP Renewal
+€846
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€674
+Add to cart
+read more
+2-year SMP Renewal
+€1,314
+Add to cart
+read more
+Oxygen XML Developer
+Read the End User License Agreement
+User-based
+professional
+1-year SMP Renewal
+€74
+Add to cart
+read more
+2-year SMP Renewal
+€144
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€103
+Add to cart
+read more
+2-year SMP Renewal
+€201
+Add to cart
+read more
+Floating
+professional
+1-year SMP Renewal
+€219
+Add to cart
+read more
+2-year SMP Renewal
+€427
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€310
+Add to cart
+read more
+2-year SMP Renewal
+€605
+Add to cart
+read more
+Oxygen XML Author
+Read the End User License Agreement
+User-based
+professional
+1-year SMP Renewal
+€116
+Add to cart
+read more
+2-year SMP Renewal
+€227
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€170
+Add to cart
+read more
+2-year SMP Renewal
+€331
+Add to cart
+read more
+Floating
+professional
+1-year SMP Renewal
+€344
+Add to cart
+read more
+2-year SMP Renewal
+€672
+Add to cart
+read more
+Enterprise (AI-ready)
+1-year SMP Renewal
+€511
+Add to cart
+read more
+2-year SMP Renewal
+€995
+Add to cart
+read more
+Oxygen Publishing Engine
+Read the End User License Agreement
+enterprise
+1-year SMP
+2 Core
+€917
+Add to cart
+read more
+1-year SMP
+4 Core
+€1,529
+Add to cart
+read more
+1-year SMP
+8 Core
+€2,293
+Add to cart
+read more
+professional
+1-year SMP
+2 Core
+€705
+Add to cart
+read more
+1-year SMP
+4 Core
+€1,176
+Add to cart
+read more
+1-year SMP
+8 Core
+€1,764
+Add to cart
+read more
+Oxygen XML WebHelp
+Read the End User License Agreement
+enterprise
+Upgrade & 1-year SMP
+2 Core
+€527
+Add to cart
+read more
+Upgrade & 1-year SMP
+4 Core
+€879
+Add to cart
+read more
+Upgrade & 1-year SMP
+8 Core
+€1,319
+Add to cart
+read more
+Oxygen PDF Chemistry
+Read the End User License Agreement
+enterprise
+1-year SMP
+2 Core
+€378
+Add to cart
+read more
+1-year SMP
+4 Core
+€630
+Add to cart
+read more
+1-year SMP
+8 Core
+€945
+Add to cart
+read more
+Oxygen Scripting
+Read the End User License Agreement
+enterprise
+1-year SMP
+2 Core
+€201
+Add to cart
+read more
+1-year SMP
+4 Core
+€336
+Add to cart
+read more
+1-year SMP
+8 Core
+€504
+Add to cart
+read more
+Products
+XML Editor
+XML Developer
+XML Author
+XML Web Author
+Content Fusion
+Publishing Engine
+WebHelp
+PDF Chemistry
+Feedback
+Oxygen Scripting
+Features
+WYSIWYG Editors
+Schema Editor
+WSDL Editor
+XSLT
+                                        Editor
+XQuery
+XSD Documentation
+XML Databases
+SVN Client
+EPUB Editor
+DITA Editor
+JSON Editor
+Shop
+Buy Now
+Sales FAQ
+Resellers
+Resources
+Documentation
+Videos
+Add-ons
+Spell Checking
+Support
+Support
+Forum
+Mailing
+                                        Lists
+Contact Us
+Company
+About Us
+Events Programme
+Partners
+Case Studies
+Quotes
+Press Room
+Careers
+Legal
+Oxygen XML on Facebook
+Follow Oxygen XML on Twitter
+Oxygen XML Web Feed
+Oxygen XML Blog
+Oxygen XML Youtube Channel
+Oxygen XML Reddit
+Oxygen XML Bluesky
+© 2002-2026 SyncRO Soft SRL. All rights reserved.
+Sitemap
+Terms of Use
+Privacy Policy
+This website was created & generated with
+                                        <oXygen/>
+XML Editor
+Our website uses cookies.
+Find out more about cookies.
+I understand. Hide this message.

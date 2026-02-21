@@ -1,0 +1,89 @@
+Tridion Docs the #1 Enterprise DITA CCMS - RWS
+Skip to main content
+Enterprise CCMS
+Tridion Docs - the #1 intelligent content platform for technical knowledge
+Easily govern and deliver multilingual product and support information, procedures and guidelines with our enterprise DITA CCMS.
+Get in touch
+Intelligent content management
+Swap document chaos for
+content confidence
+Your world moves fast. Staff and customers need real-time access to technical information that’s current, compliant and tailored to their context.
+When your content is trapped in static documents that lack proper governance, information gets out of date and users are confused.
+Managing this chaos is a costly drain on time and resources. But with Tridion Docs, you can manage the complexity with confidence.
+This enterprise DITA Component Content Management System (CCMS) turns your mission-critical information into intelligent content - reducing your risk, boosting your productivity and delivering better content experiences.
+The best CCMS on the market just got even better. Discover our latest release.
+Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more...
+What’s new in Tridion Docs 15
+Key benefits of a XML DITA-based CCMS
+Go to market faster - Reduce duplication, speed up internal and regulatory approvals and streamline workflows
+Work smarter, not harder
+End copy and paste by reusing intelligent content components
+Put everyone on the same page
+Collaborate at the source without endless copies and emails
+Upgrade your governance
+Guarantee your content is always accurate, compliant and traceable
+Create once, publish everywhere (COPE)
+Publish dynamically to multiple channels from a single source
+Transform content experiences
+Slash costs and delight employees and customers with contextual, self-service content
+Go to market faster
+Reduce duplication, speed up internal and regulatory approvals and streamline workflows
+Evaluate your return on investment
+Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line.
+Calculate your savings
+Our customers
+The Tridion Docs advantage
+Outperforms competitors
+Tridion Docs’ performance was scrutinized in 11 categories across business and technology criteria. It outperforms the competition in 8 of the categories, providing the most solid foundation for your current and future content challenges.
+Learn more
+Complete content lifecycle management
+Tridion Docs is an end-to-end structured content solution with a single source of truth that joins up the way your content is created, translated, managed, delivered and consumed.
+Trustworthy translation
+Tridion Docs’ close integration with RWS language technologies streamlines translation and localization processes and assures high-quality content in any language.
+Powered by AI
+Generative AI and semantic AI work in tandem through enriched metadata and knowledge graphs, helping people get to their goals faster and assisting authors to draft content more efficiently.
+Learn more
+Built to handle complexity
+Tridion Docs is unmatched in managing high volumes of concurrent, interdependent content variations across multiple products, geographies, languages and channels.
+Learn more
+Secure. Stable. Scalable.
+Enterprise-grade quality and security certifications, an interoperable architecture, and cloud, hybrid and on-premises options mean you can rely on Tridion Docs every step of the way.
+Tridion Docs modules
+Take your content further
+Tridion Docs is a composable platform, made up of a series of modules to meet your exact needs.
+Content Experiences
+Tridion Docs Genius
+Reach goals faster with intelligent content discovery, using trustable chat, smart recommendations, advanced intent-based search, guided experiences and traditional portal-style information delivery.
+Learn more
+Dynamic Experience Delivery (DXD)
+Dynamically deliver information to any digital touchpoint through our headless publishing capabilities, securely delivering content fluidly over any channel.
+Learn more
+Content Collaboration
+Draft Space
+Write your content in a familiar, online, Word-style interface, supported by Generative AI, while hiding the complexity of the underlying XML. Part of Collective Spaces.
+Learn more
+Review Space
+Involve your subject matter experts in a collaborative, easy-to-manage document review process within a secure online environment. Part of Collective Spaces.
+Learn more
+Content Governance
+Taxonomy Space
+Easily manage your taxonomies and knowledge models using open standards such as SKOS and EuroVoc.
+Learn more
+Organize Space
+Effectively manage your company's documentation and translation processes, configuring users, workflows and permissions through a user-friendly web interface.
+Learn more
+Start your journey
+Talk to us to get started
+Whether you're new to Tridion or an existing customer keen to understand what else we can help you with, our experienced team are here to understand your challenges, answer your questions, and help you achieve your content management goals.
+Contact us
+Related content
+Tridion Docs – Collective Spaces
+Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations.
+Download data sheet
+Tridion Docs localization
+Learn more about how we can make translating your content more accurate, cheaper and faster.
+Download data sheet
+What’s new in Tridion Docs 15
+Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly.
+Download data sheet
+Contact us

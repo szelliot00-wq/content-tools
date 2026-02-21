@@ -1,0 +1,2460 @@
+Oxygen XML Feature Matrix
+Toggle navigation
+XML
+                      Editor
+Overview
+What's New
+Get a Trial
+Features
+Visual XML Editors
+Generic Visual XML Editor
+DITA Editor
+TEI Editor
+XHTML Editor
+XML Editing
+Intelligent XML Editing
+Modular XML Files
+Extensible XML Editor
+XML Grid Editor
+XML Outline View
+XInclude Support
+XML Validation
+XML Format and Indent
+Localization
+XPath Support
+XML Signatures
+Helper Views
+WebHelp
+XSL / XSLT
+XSLT Editor
+XSL / XSLT Debugger
+XSLT Documentation
+XSL:FO Editor
+XML Schema
+XSD Editor
+XSD Diagram
+XML Schema 1.1
+XML Instance Generator
+XSD Documentation
+WSDL
+WSDL Editor
+WSDL Refactoring
+WSDL SOAP Analyzer
+WSDL Documentation
+Ant
+Ant Editor
+Ant Validation
+Ant Main Files
+Specialized Assistance
+Ant Views
+Ant Search and Refactoring
+Relax NG
+Visual Schema Editor
+Content Completion Assistant
+Model View
+Relax NG Search and Refactoring
+Convert Grammar Languages
+XQuery
+XQuery Editor
+XQuery Debugger
+XQuery Builder
+JSON
+JSON Editor
+JSON Validation
+JSON Transformation
+JSON Tools
+JSON Schema
+JSON Schema Editor
+JSON Schema Diagram
+JSON Schema Tools
+YAML
+YAML Editor
+YAML Validation
+YAML Tools
+OpenAPI and AsyncAPI
+HTML
+HTML Editor
+HTML Validation
+HTML Queries
+HTML Minification
+Emmet Plugin
+Markdown
+XProc
+XML Databases
+CMS Integration
+Compare Tools
+SVN Client
+Other Features
+Office Open XML
+Open Document Format
+EPUB
+Image Map Editor
+SVG Editor
+CSS Editor
+XML Refactoring Tool
+Advanced Searches
+Miscellaneous
+Project Support
+Eclipse Plugin
+Feature Matrix
+Downloads
+Download
+Software Archive
+Pricing
+Documentation
+Standalone Distribution
+Eclipse
+                              Distribution
+Documentation Archive
+Videos
+Oxygen XML Editor
+Visual XML Editors
+Generic Visual XML Editor
+Review Tools
+Profiling/Conditional Text
+Constant Validation
+DITA Editor
+TEI Editor
+XHTML Editor
+XML Editing
+Intelligent XML Editing
+Modular XML Files
+Extensible XML Editor
+XML Grid Editor
+XML Outline View
+XInclude Support
+XML Validation
+XML Format and Indent
+Localization
+XPath Support
+XML Signatures
+Helper Views
+WebHelp
+XSL / XSLT
+XSLT Editor
+XSL / XSLT Debugger
+XSLT Documentation
+XSL:FO Editor
+XML Schema
+XSD Editor
+XSD Diagram
+XML Schema 1.1
+XML Instance Generator
+XSD Documentation
+WSDL
+WSDL Editor
+WSDL Refactoring
+WSDL SOAP Analyzer
+WSDL Documentation
+Ant
+Ant Editor
+Ant Validation
+Ant Main Files
+Specialized Assistance
+Ant Views
+Ant Search and Refactoring
+Relax NG
+Visual Schema Editor
+Content Completion Assistant
+Model View
+Relax NG Search and Refactoring
+Convert Grammar Languages
+XQuery
+XQuery Editor
+XQuery Debugger
+XQuery Builder
+JSON
+JSON Editor
+JSON Validation
+JSON Transformation
+JSON Tools
+JSON Schema
+JSON Schema Editor
+JSON Schema Diagram
+JSON Schema Tools
+YAML
+YAML Editor
+YAML Validation
+YAML Tools
+OpenAPI and AsyncAPI
+HTML
+HTML Editor
+HTML Validation
+HTML Queries
+HTML Minification
+Emmet Plugin
+Markdown
+XProc
+XML Databases
+CMS Integration
+Compare Tools
+SVN Client
+Authoring
+Review
+Review from Oxygen XML Editor/Author
+Review from a DITA/Git Project
+Publishing
+Content Contribution
+Other Features
+Office Open XML
+Open Document Format
+EPUB
+Image Map Editor
+SVG Editor
+CSS Editor
+XML Refactoring Tool
+Advanced Searches
+Miscellaneous
+Project Support
+Eclipse Plugin
+Feature Matrix
+Oxygen XML Feature Matrix
+Select Products
+XML Editor
+Minimum two products must be selected.
+XML Developer
+Minimum two products must be selected.
+JSON Editor
+Minimum two products must be selected.
+XML Author
+Minimum two products must be selected.
+Web Author
+Minimum two products must be selected.
+Legend
+Web
+Features are available only in the web browser.
+Standalone
+Features are available in the Standalone distribution only.
+Standalone & Eclipse
+Features are available in the Standalone & Eclipse distributions.
+Hide common features
+XML Editor
+XML Developer
+JSON Editor
+XML Author
+Web Author
+Enterprise
+Professional Academic Personal
+Enterprise
+Professional
+Professional
+Enterprise
+Professional
+Professional
+XML Editing Tools
+Intelligent XML Editing
+Intelligent schema-aware content completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Auto tag completion based on the detected document structure
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Configurable XML syntax coloring for elements and attributes
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Works with any XML Schema processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Works with any XSLT processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Visual XML Authoring
+CSS-driven visual XML editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Select and combine CSS styles to customize the look of the editor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Ready-to-use support for DITA, DocBook, XHTML, and TEI frameworks
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Support for inserting, embedding, and playing multimedia objects
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Predefined framework-specific actions, schemas, stylesheets, and catalogs
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Supports user defined actions and framework bundles
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Support for various types of framework-specific tables
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Define profiling attributes to mark content for multiple output renditions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Use profiling condition sets to filter content for various outputs
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Apply colors and styles to mark profiled content
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Built-in and customized form controls simplify authoring
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Built-in Image Map Editor to create hyperlinks in specific areas of an image
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+DITA Support
+Complete DITA 1.3 and 1.2 support
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+DITA single-source publishing to produce a variety of output types
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Predefined DITA-specific toolbar and centextual menu actions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Special DITA Maps Manager to help you manage DITA maps
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Wizard to create multiple topics at once
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Operations to automatically convert between DITA typic types
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Locate and insert reusable content with DITA Reusable Components view
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Insert or embed multimedia objects for HTML and PDF ouptut
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for DITA specializations and automatic integration
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Collaboration
+Track changes in XML documents
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Add review comments and reply to them
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Review panel that presents track changes, comments, and highlighted text
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Filter review items by the type, author's name, or date
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+AI Tools
+Oxygen AI Positron Assistant Enterprise
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Working with Modular XML Files
+Validate imported tree of modules in Master Files context
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Search and refactoring options for ID and IDREFS
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Display the Hierarchy or Dependencies of an XML Document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML Text Editor
+Simple text editor with familiar layout and actions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Visual syntax highlighting, indentation, and line numbers
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Configure syntax highlighting colors for each type of document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML element annotations presented in tooltips and special views
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Tag folding to simplify document editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Bookmarks allow you to mark locations in a document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Various helper views, continuously synchronized with the main editor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML Grid Editor
+Convenient layout that groups similar elements in tables
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Grid actions such as sort, insert, delete, rename
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Drag and Drop and multiple selection support
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Copy/Paste to and from spreadsheet applications (such as Excel)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Archive Support
+Work with various archive types (OOXML, ODF, EPUB, ZIP, JAR, IDML)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Open files directly from archives for editing purposes
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Validate files opened directly from an archive
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Transform files directly from an archive
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Process archive files with XQuery
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Find/replace content in files located inside archives
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+ANT Scripts
+Edit and validate ANT scripts
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Run ANT transformation scenarios
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XProc Scripts
+XProc transformation scenarios
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XProc script editor includes content completion and automatic validation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML-Aware Spell Checker
+Spelling errors highlighted as you type
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Configurable personal dictionary
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Various change, ignore, and replace actions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Supports multiple language dialects
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Add dictionaries for new languages
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Suggestions for unrecognized words accessible from a pop-up menu
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+AutoCorrect feature to fix misspelled words
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+XML Formatting
+Canonicalize XML files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML-Well Formedness Checker
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Integrated back-mapping for error reporting
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Format and indent (pretty print) XML files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Integrated XML Validation
+Built-in automatic validation as you type
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Predefined manual validation scenarios
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Supports XML Schema, Relax NG, NVDL, DTD, and Schematron validations
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Supports the W3C XInclude recommendation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Trace error messages to source document code
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Link to the exact location in the XML Schema specification
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Integrated support for third-party XML parsers and validators
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+General XML Editing Support
+Various common editing actions (copy/paste, undo/redo, etc.)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Support for many file-encoding formats (UTF-8, UTF-16, etc)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Print XML documents
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Wrap text on documents with long lines
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Easily add or remove XML comments on selected content
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Find / Replace content with enhanced XML capabilities
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Code templates for easy fragment insertion
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Guided Visual Authoring
+Smart Paste Mechanism
+Style and structure is preserved when pasting from other apps
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Pasted content is converted to equivalent XML markup
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Smart Paste determines appropriate insert position
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+XML Quick Fixes
+Quick fix suggestions for validation errors
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Define Schematron Quick Fixes to impose authoring rules
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+XML Markup Assistance
+Breadcrumb indicates path for current element
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Numerous actions for working with XML markup
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Tags Display Mode controls amount of displayed XML markup
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Publishing
+WebHelp Output
+WebHelp Responsive designed to adapt to any device or screen size
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+WebHelp Classic designed for desktop systems
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Interact with users through feedback-enabled variants
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Skin Builder tool for easy output customization
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+PDF and Other Output
+Numerous built-in transformation scenarios for various output types
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+DocBook transformations for various outputs (HTML, PDF, ePub, WebHelp)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+DITA transformations for various outputs (HTML, PDF, ePub, WebHelp)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Special WYSIWYG DITA Map to PDF transformation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Integrated XML Tools
+XML Diff
+Compare differences between two files or XML fragments
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+3-way file comparison to solve conflicts between multiple modifications
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+Compare differences between two directories
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+3-way directory comparison to merge changes between multiple modifications
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Character, Word, and Line level textual comparison modes
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Syntax Aware, XML Accurate, and XML Fast algorithm modes
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Various inline editing actions
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Merge options to help migrate changes from one file to the other
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+XML Refactoring Tools
+Various predefined operations for common XML refactoring tasks
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Create custom XML refactoring operations according to your specific needs
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Markdown Editor
+Edit Markdown with a combination of common and unique syntax rules
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Convert (export) Markdown documents to DITA or XHTML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Preview pane for visualizing DITA and HTML output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Work with Markdown documents directly in the DITA Maps Manager
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+HTML to XML Migration
+Mechanism to import HTML to XML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML Generator
+Generate sample XML files from XML Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Convert DTD to equivalent XML Schema or vice versa
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Convert database structure to XML Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Flatten Schema
+Flatten the entire hierarchy of XML schemas
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Documentation Generator
+Generate XML Schema documentation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Generate XSLT documentation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Generate XQuery documentation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Generate WSDL documentation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML Schema Regular Expression Builder
+Test regular expressions on fragments of text
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Integrated Viewers
+Large File Viewer
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Hex Viewer
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+SVG Viewer
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Synchronized XML Tree Editor
+Tree control for expanding hierarchical XML documents
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+SVN Client Versioning system
+Subversion (SVN) Client
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+General Editing Support
+Security
+Digitally sign XML documents
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Verify signature
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Enterprise License Manager
+Floating License usage reporting
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+System File Explorer
+Open/Create/Rename/Delete/Copy/Move file operations
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Supports drag-and-drop operations
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Project View
+Manage XML project folders
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Virtual folders (logical grouping)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Link to physical file system folders
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Batch operations (well-formedness check, validation)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Find and replace in all project files
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Update references for moved and renamed resources
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+User Interface
+Configurable toolbars and buttons
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+Detachable, dockable, hideable views
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Enhanced context-sensitive, synchronized helper views
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Extended font settings for all views
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Preconfigured and customizable color themes
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Internationalized user interface (English, French, German, Japanese, Dutch)
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+International Support
+Unicode (UTF-8, UTF-16, etc)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+All major character set encodings (ASCII, ISO-8859, etc)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Convert between different character sets and Unicode
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Character map for easily inserting special characters
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+Bidirectional text - type characters from left to right and right to left
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available only in the web browser.
+Connectivity
+Access SFTP server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Access WebDAV server (HTTP and HTTPS)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Supported Operating Systems
+Unix / Linux distributions with a Sun Microsystems Java virtual
+                        machine installed
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Seamless integration within Mac OS X
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Microsoft Windows (tested with Windows NT 4.0, Windows
+                        2000, Windows XP, Windows Vista, Windows Server 2003, Windows Server 2008,
+                        Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Seamless integration within Eclipse platform
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Java WebStart application
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Content Management System Support
+CMS Integration
+Any WebDAV-enabled CMS
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+SharePoint CMS
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Database and SQL Tools
+Native XML Database Resource Management and XQuery Execution
+Berkeley DB XML Database, XML indexing support
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+eXist XML Database
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+MarkLogic
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+IBM DB2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Oracle 10.2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+X-Hive/DB XML Database
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Microsoft SQL Server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Relational Database Browsing and Data Editing
+Browse multiple sources at the same time
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Generic support using JDBC drivers
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+IBM DB2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Oracle 10.2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Microsoft SQL Server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+MySQL / MariaDB (JDBC)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+PostgreSQL
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+SQL Execution on Relational Databases
+Generic support using JDBC drivers
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+IBM DB2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Oracle 10.2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Microsoft SQL Server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+MySQL / MariaDB (JDBC)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+PostgreSQL
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Database Import
+Import database data to XML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XPath Development Tools
+XPath 1.0/2.0/3.0 Evaluator
+Evaluate and test any XPath 1.0/2.0/3.0 expression
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Visualize resulting XPath node-set
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Back-mapping of XPath results to input document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save XPath results
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Intelligent XPath 1.0/2.0/3.0 Editing
+Context-sensitive XPath content completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Execute XPath expressions across multiple files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Compose complex expressions and test them with an XPath Builder view
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Use XPath expressions in Find and Replace operations
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Syntax highlighting for standard XPath functions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Development Tools
+Full Editing Support for XSLT processors
+Includes Saxon 12 (PE, EE)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Includes Saxon 12 HE
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Support for Saxon.NET
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Includes Xalan-J
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Includes Microsoft .NET, MSXML 4.0, System.XML 1.0, System.XML 2.0
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Libxslt (Xsltproc)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Any JAXP processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+URI Resolver
+Deploy data sources to server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Resolve URI to work with Saxon
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Output Validation
+Validate XSLT transformation output against XML Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Configurable validation of XSLT output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSL:FO Editor
+Single-click XSL:FO transformation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for post-processing of XML using Apache FOP
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for Render:X XEP XSL:FO processing component
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for external XSL:FO processors
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Editor
+Single-click XSLT transformation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Integrated XSLT processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Open XSLT architecture (JAXP)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Parameter editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Cascading of multiple XSLT stylesheets
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Full support for XSLT 1.0, XSLT 2.0, and XSLT 3.0
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Edit and validate an XSLT module in the context of a master file
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT template refactoring
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML content model window (displays visual model of input document)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Search references and declarations in project
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Intelligent XSLT Editing
+Syntax highlighting and auto-completion of tag sets
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Context sensitive auto-completion of XPath expressions and functions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Code templates to easily insert XSLT fragments
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Debugger
+XSLT debugging
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Saxon 12
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Saxon 12 for XSLT 2.0 debugging
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Xalan-J
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Set/toggle breakpoints in both XML and XSLT files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Single stepping (Step Into, Step Out, Step Over)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Various XSLT debugging information views
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Back-mapping of XSLT output to XML and XSLT input source
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Profiler
+Generate performance profile of XSLT transformation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save performance analysis as HTML or XML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Click on a line in the Profiler report to highlight source in
+                        input document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XSLT Output view
+Incrementally view XSLT output tree as it is being constructed
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Refresh XSLT output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Render HTML output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save XSLT output to file
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Render SVG output
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Features are available in the Standalone distribution only (not in the Eclipse plugin distribution).
+Schema Development Tools
+Full OASIS Catalog Support Allows Off-Line Development
+Content completion integration (list available Public IDs)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Understands XML-Mode and Text-Mode catalogs
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+Built-in industry standard catalogs (DocBook, DITA, TEI, XHTML)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available only in the web browser.
+XML Schema Editor
+Text editor with syntax highlighting and intelligent
+                        auto-completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Visual XML Schema editor with inline editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Edit an XML Schema module file in the context of a master schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Side by side, synchronized editing of XML Schema diagram and text view
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save XML Schema diagram snapshot
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for imported/included XML Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Show/Hide XML Schema annotations and XML comments
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Edit embedded Schemas inside WSDL files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Relax NG Schema Editor
+Text editor with syntax highlighting and intelligent
+                        auto-completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Visual Relax NG schema editor with inline editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Side by side, synchronized editing of schema diagram and text view
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save Relax NG Schema diagram snapshot
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Show/Hide Relax NG Schema annotations and XML comments
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Schematron Schema Editor
+Text editor with syntax highlighting and intelligent auto-completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Fully integrated support for editing Schematron 1.5 and ISO Schematron
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+DTD Editor
+Text editor with syntax hightlighting and intelligent auto-completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Fully integrated support for DTD-based XML editing and validation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+NVDL Editor
+Text editor with syntax hightlighting and intelligent auto-completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Fully integrated support for NVDL-based XML editing and validation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Visual NVDL schema editor with inline editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Side by side, synchronized editing of schema diagram and text view
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save NVDL schema diagram snapshot
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Show/Hide NVDL schema annotations and XML comments
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Refactoring support for NVDL modes
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Search for references, definitions, or occurrences of NVDL modes
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Java and JavaScript Development Tools
+JSP Editor
+JSP code editing and syntax highlighting
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Java Editor
+Java code editing and syntax highlighting
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+JSON Development Tools
+JSON Text and Visual Editor
+Robust text editor with familiar layout and actions
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+CSS-driven visual JSON editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Code templates for easy fragment insertion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Folding capability to simplify document editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Outline view continuously synchronized with the main editor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Intelligent schema-aware content completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Format and indent (pretty print)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Built-in automatic validation as you type
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Validation against any custom Schematron or JSON schemas
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+JSON Schema Editor
+Intuitive visual Schema Design mode with inline editing
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Palette view to drag and drop components in schema diagram
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Built-in validation engine combined with visual error markers
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Useful operations for common search and refactor tasks
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+JSON Tools
+Generate sample JSON files from JSON Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Generate JSON Schema from JSON instance
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Generate JSON Schema documentation (via add-on)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Convert JSON Schema by enforcing the schema version
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Convert JSON to XML and XML to JSON
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Run multiple XML to JSON conversions (via add-on)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Convert JSON to YAML and YAML to JSON
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Convert XSD to JSON Schema (via add-on)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+OpenAPI Development Tools
+OpenAPI Text and Visual Editor
+Text editor that benefits from all JSON editor capabilities
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Specialized visual editor through JSON framework extension
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+OpenAPI Tools
+Generate OpenAPI Documentation (via add-on)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Test OpenAPI requests and validate responses (via add-on)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+The features are only available in the Standalone distribution; there is no Eclipse plugin distribution for the JSON Editor.
+Web Services Development Tools
+Web Service Call Composer
+Browse UDDI Registry
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Create/send Web Service calls
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Receive/save/preview results
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+WSDL validation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+WSDL SOAP analyzer
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XQuery Development Tools
+XQuery Editor
+Support for W3C XQuery 1.0 Recommendation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for W3C XQuery Update Facility 1.0
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Syntax highlighting for XQuery language constructs
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Intelligent XQuery content completion
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XQuery Profiler
+Generate performance profile of XQuery code
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save performance analysis as HTML or XML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Click on a line in the Profiler report to highlight source in
+                        input document
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XQuery Output View
+Refresh XQuery output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Save XQuery results to file
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Validate XQuery Output
+Validate XQuery output against XML Schema
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Configurable validation of XQuery output
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XQuery URI Resolver
+Allow deployment of XQuery applications to server applications
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Set custom URI resolver and custom collection URI resolver
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XQuery Debugger
+Support for W3C XQuery 1.0 Recommendation
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Set/toggle breakpoints in XQuery files
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Single stepping (Step Into, Step Out, Step Over)
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Various XQuery debugging information views
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Debugging of an XQuery executed on a MarkLogic database server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Support for Third-Party XQuery Processors
+Saxon XQuery Processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+eXist
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Berkeley DB XML
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Mark Logic XQuery processor
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+IBM DB2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Oracle 10.2
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+X-Hive/DB
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+Microsoft SQL Server
+Features are available in the Standalone & Eclipse distributions.
+Features are available in the Standalone & Eclipse distributions.
+XML Editor VPAT
+Oxygen XML Editor
+Feature Matrix -  XML Editor & XML Developer
+Products
+XML Editor
+XML Developer
+XML Author
+XML Web Author
+Content Fusion
+Publishing Engine
+WebHelp
+PDF Chemistry
+Feedback
+Oxygen Scripting
+Features
+WYSIWYG Editors
+Schema Editor
+WSDL Editor
+XSLT
+                                        Editor
+XQuery
+XSD Documentation
+XML Databases
+SVN Client
+EPUB Editor
+DITA Editor
+JSON Editor
+Shop
+Buy Now
+Sales FAQ
+Resellers
+Resources
+Documentation
+Videos
+Add-ons
+Spell Checking
+Support
+Support
+Forum
+Mailing
+                                        Lists
+Contact Us
+Company
+About Us
+Events Programme
+Partners
+Case Studies
+Quotes
+Press Room
+Careers
+Legal
+Oxygen XML on Facebook
+Follow Oxygen XML on Twitter
+Oxygen XML Web Feed
+Oxygen XML Blog
+Oxygen XML Youtube Channel
+Oxygen XML Reddit
+Oxygen XML Bluesky
+© 2002-2026 SyncRO Soft SRL. All rights reserved.
+Sitemap
+Terms of Use
+Privacy Policy
+This website was created & generated with
+                                        <oXygen/>
+XML Editor
+Our website uses cookies.
+Find out more about cookies.
+I understand. Hide this message.

@@ -1,0 +1,94 @@
+AI Search and Discovery | Fluid Topics
+💡Get access the your complimentary report on The 2026 State of KM & AI
+Get Complimentary Report
+Capabilities
+Search
+Search that actually finds!
+Search is only useful when it truly understands both the content and the user. Fluid Topics merges the best of keyword-based accuracy with AI-driven semantic search and natural language processing. It interprets intent, extracts meaning, and delivers personalized, highly relevant results, no matter how complex your product knowledge may be.
+See Fluid Topics in action
+The best of keyword and semantic search
+Precision keyword search
+Fluid Topics is optimized for precise keyword searches, making it the fastest way to find information when you know exactly what you need like a product code, model, or technical term. Using the latest advances in language modeling, our proprietary search overcomes the limits of
+tf-idf
+and
+Lucene
+and offers unique and tunable relevance.
+Natural language search
+If you’re unsure what to type, our semantic search engine allows you to interact naturally in everyday language, understanding intent and context beyond the exact words used, in any language. By leveraging advanced embeddings model combined with fine-tuned vector-based similarity search, it delivers consistently accurate, reliable, and trustworthy results.
+Customization and business rules
+Fluid Topics’ search empowers enterprises to define custom business rules for their documentation. You can apply your own ranking parameters across all content, tailoring results based on any metadata of your choice. This ensures search outcomes are not only highly relevant but also fully aligned with your organization’s products, activities, and unique content.
+Turn your content into discoverable knowledge
+Search all your product content at once
+Fluid Topics unifies all your product information, no matter the format or source, into a single, intelligent searchable knowledge hub. Structured content, PDFs, Word documents, and multimedia content are instantly searchable, eliminating the need to hunt through multiple systems. Real-time indexing ensures updates are immediately available for better results.
+Extend search everywhere your users are
+Fluid Topics lets you embed its search capabilities into any digital touchpoint – your product UI, customer portals, support tools, or AI assistants. Its powerful Search APIs ensure seamless integration and consistent access to accurate information across all platforms. No matter where users look, they’ll find reliable answers from one centralized, authoritative knowledge repository.
+Search that adapts to you
+Personalized answers
+Fluid Topics delivers a truly personalized search experience by leveraging user profiles—such as role, preferences, and location—to surface the most relevant content for each individual. It can recommend tailored content based on both profile information and search input, ensuring users see what matters most, whether that’s the latest updates or specific document types—all within an intuitive interface.
+Search across languages
+Our technology offers full support for your global operations with the same speed, relevance, and cutting-edge NLP capabilities for 33 languages, including those with non-Latin characters from the Middle East and Asia.
+Permission-based search results
+Fluid Topics enforces your company’s access controls, making sure your users only view information they’re authorized to access. The platform supports advanced rule management, allowing you to define conditions based on multiple metadata fields.
+Fluid Topics powers any use case
+AI Chatbot
+Our native chatbot transforms your documentation into a conversational expert. Powered by your own content, it gives accurate, cited answers, eliminating keyword guessing and enabling genuine, natural dialogue.
+More about Chatbots
+In-Product Help
+Deliver instant, contextual help right inside your product to guide users smoothly without interrupting their flow or making them leave the platform.
+More about In-Product Help
+Customer Self-Service
+Provide seamless access to your product information so users can quickly find answers and resolve questions on their own, minimizing the need for direct support.
+More about Self-Service
+Case Deflection
+Surface relevant answers and helpful resources in real-time during ticket submission to resolve issues faster and reduce unnecessary support requests.
+Response to RFP requests
+Quickly find and assemble relevant information from your resources to craft accurate, compelling responses, saving time and improving win rates.
+Employee Onboarding & Training
+Help new hires rapidly locate relevant information, boosting their learning pace, lowering questions, and offering personalized training.
+More ways to search
+Type ahead
+Faceted
+Clustering
+Keyword highlighting
+Spellcheck
+Type ahead
+Our search predicts results as users type, handling fast typing and common spelling mistakes. Automatic corrections ensure smooth, accurate, and hassle-free searching.
+Faceted
+Easily narrow your results using filters such as categories, tags, or any metadata you choose. Filters can be configured in just a few clicks, nothing hardcoded, making it simple to find exactly the content you need in seconds.
+Clustering
+Fluid Topics groups similar results together when the same content appears in multiple document versions. This helps eliminate redundancy and presents cleaner, more organized search results.
+Keyword highlighting
+Keywords are highlighted in the titles, text, and metadata of search results. This makes it easier for users to quickly identify relevant information.
+Spellcheck
+The built-in spellchecker corrects typos automatically, reducing misunderstandings and improving search accuracy even when queries contain spelling errors.
+Type ahead
+Type ahead
+Our search predicts results as users type, handling fast typing and common spelling mistakes. Automatic corrections ensure smooth, accurate, and hassle-free searching.
+Faceted
+Faceted
+Easily narrow your results using filters such as categories, tags, or any metadata you choose. Filters can be configured in just a few clicks, nothing hardcoded, making it simple to find exactly the content you need in seconds.
+Clustering
+Clustering
+Fluid Topics groups similar results together when the same content appears in multiple document versions. This helps eliminate redundancy and presents cleaner, more organized search results.
+Keyword highlighting
+Keyword highlighting
+Keywords are highlighted in the titles, text, and metadata of search results. This makes it easier for users to quickly identify relevant information.
+Spellcheck
+Spellcheck
+The built-in spellchecker corrects typos automatically, reducing misunderstandings and improving search accuracy even when queries contain spelling errors.
+Search Learning Resources
+Product
+3 Must-Have Semantic Search Use Cases
+Read the article
+Content Ops
+How AI is Reshaping Technical Writing: Structure
+Read the article
+Content Ops
+Personalization and Contextualization For Technical Content with Val Swisher
+Read the article
+Ready to move forward?
+Talk to one of our Product Experts
+Get in touch
+Looking for our logo?
+That’s good! We’ve prepared a .zip you can download.
+Download

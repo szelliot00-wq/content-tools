@@ -1,0 +1,71 @@
+Content Delivery Platform ｜For People and AI
+💡Get access the your complimentary report on The 2026 State of KM & AI
+Get Complimentary Report
+Capabilities
+Content Delivery
+Unified knowledge,
+effortless content delivery
+Fluid Topics’ Product Knowledge Platform is built to optimize documentation publishing for both AI and human use, creating a single source of truth that feeds every channel.
+Request a demo
+Focus on writing—we’ve got the rest
+Unify content from any source, any format
+No matter where your content lives, the format and tools you use – a structured CCMS, Git, Wikis, Word, or PDFs – our ready-to-use integrations eliminate the need for manual formatting or rework.
+Simplify your publishing workflow
+No more juggling multiple publishing pipelines, Fluid Topics centralizes your documentation in one central repository, and delivers it instantly to every channel.
+Access governance and security
+Manage access rights centrally for all channels, and ensure users only see relevant content. With granular permissions and seamless authentication, maintain security and compliance with ease.
+Native processing
+for all content types
+Fluid Topics natively ingests structured formats like DITA, DocBook, HTML, Markdown, and YAML, no custom scripts required. It also intelligently restructures unstructured content such as Word documents or Wiki markup, into a unified hub that treats all content as if it were structured from the start.
+Ready-to-use connectors
+Automatic and manual publishing
+Real-time processing
+Logs monitoring
+All your multimedia, fully integrated
+Fluid Topics processes all multimedia formats, from static images and vector files to dynamic animations, interactive SVGs, 3D images, as well as audio and video content. Each is intelligently indexed and optimized for display within documents or as standalone media ready for streaming.
+Upload images
+Download multimedia
+JPG, GIF, PNG, WEBP, SVG
+Enrichment that powers discoverability
+Fluid Topics enriches your content with metadata, taxonomies, and dynamic tagging, using automated classification and contextual linking to boost findability and understanding. It can automatically generate metadata from author-defined properties, while administrators can add explicit metadata based on content and sensitivity.
+Metadata configuration
+Vocabulary management
+Taxonomy
+Search engine friendly URLs
+Omnichannel delivery,
+without duplication
+Fluid Topics delivers content simultaneously across documentation portals, community channels, chatbots, AI agents, and embedded help systems and more. This omnichannel approach ensures that content is consistent, up-to-date, always accessible in the right format and optimized for each touchpoint in the customer journey.
+Native API integration
+Continuous delivery
+Consistent metadata
+Granular security rules
+Built for AI and the future of search
+Going beyond traditional publishing, Fluid Topics prepares your content for AI success by transforming it into clean, structured, and semantically enriched data. It directly powers our AI tools with context-aware, precisely labeled information, ensuring both data integrity and secure access throughout the process.
+Connect any source
+Instantly unify all your knowledge with simple, ready-to-use connectors. We seamlessly connect to your authoring tools, content management systems, and publishing platforms.
+Download Our eBook on Dynamic Content Delivery
+Discover what Dynamic Content Delivery is, how it works, and why it matters for your business.
+Get the white paper
+Frequently Asked Questions
+What is a Content Delivery Platform?
+A Content Delivery Platform is a software solution that collects all your product knowledge from any source and in any format, unifies it into a central knowledge hub and delivers it wherever you need – docs portal, community channels, in-product help, AI/LLM. The Fluid Topics Content Delivery Platform connects to all your authoring tools, content management systems and publishing platforms so you can keep using the tools that work for you.
+Fluid Topics offers intelligent search capabilities enhanced with AI, content engagement, case deflection and analytics features as well as a Page Designer to create your own documentation portal or knowledge base.
+What benefits does Fluid Topics offer for content integration?
+Fluid Topics offers ready-to-use connectors that seamlessly import content from a wide range of authoring tools, CMSs, and publishing platforms. These connectors standardize and normalize content into a unified schema, support both automated and manual uploads, and enforce access control based on user permissions.
+What content formats does Fluid Topics support?
+Fluid Topics natively processes structured formats such as DITA, DocBook, HTML, Markdown, and YAML. It also intelligently restructures unstructured content like Word files or Wiki markup. Multimedia formats—including images, video, audio, animations, and 3D files—are fully integrated and optimized for display or streaming.
+Can Fluid Topics manage security and access rights?
+Yes. Fluid Topics provides granular permissions, central access control, and seamless authentication to ensure users only see relevant content. This approach helps organizations maintain security and compliance across all publishing channels.
+How does Fluid Topics prepare content for AI and advanced search?
+Fluid Topics transforms content into clean, structured, and semantically enriched data. This enables context-aware AI tools to access accurate, labeled information securely, improving AI search results, chatbots, and virtual assistant responses.
+Can’t find an answer ?
+Talk to our solution expert
+Get in Touch With Us
+See how our platform can solve your content delivery challenges. We will show you real-world use cases, and see how the solution fits into your environment — no pressure, just insight.
+Access Demo Library
+The Guide to Dynamic Content Delivery
+Explore the principles and benefits of dynamic delivery, understand the value it brings and learn how to choose a solution.
+Get the whitepaper
+Looking for our logo?
+That’s good! We’ve prepared a .zip you can download.
+Download

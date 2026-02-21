@@ -1,10 +1,32 @@
 {
   "competitors": [
     {
-      "id": "anthropic",
-      "name": "Anthropic",
+      "id": "fluidtopics",
+      "name": "Fluidtopics",
       "urls": [
-        {"url": "https://www.anthropic.com/pricing", "label": "Pricing page"}
+        {"url": "https://www.fluidtopics.com/platform/", "label": "Platform"},
+        {"url": "https://www.fluidtopics.com/capabilities/content-delivery/", "label": "Content delivery"},
+        {"url": "https://www.fluidtopics.com/capabilities/ai-search/", "label": "AI search"}
+      ],
+      "enabled": true
+    },
+    {
+      "id": "oxygen-xml",
+      "name": "oXygen XML Editor",
+      "urls": [
+        {"url": "https://www.oxygenxml.com/xml_editor.html", "label": "Product overview"},
+        {"url": "https://www.oxygenxml.com/xml_editor/feature_matrix.html", "label": "Feature matrix"},
+        {"url": "https://www.oxygenxml.com/buy.html", "label": "Pricing"}
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tridion",
+      "name": "Tridion",
+      "urls": [
+        {"url": "https://www.rws.com/content-management/tridion/", "label": "Product overview"},
+        {"url": "https://www.rws.com/content-management/tridion/docs/", "label": "Tridion Docs"},
+        {"url": "https://www.rws.com/content-management/tridion/sites-editions/", "label": "Sites editions"}
       ],
       "enabled": true
     }
