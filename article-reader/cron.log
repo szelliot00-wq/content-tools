@@ -1,0 +1,27 @@
+From https://github.com/szelliot00-wq/content-tools
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+  RSS: Hacker News
+    2 new items fetched
+    Saved: 2026-02-22-httpsielpworldtradelawnet202601guest-post-president-trump-cannot-legally-impose-.md
+    Saved: 2026-02-22-httpsukiyo-eorg.md
+  RSS: oXygen XML — News & Releases
+    3 new items fetched
+    Skip (already summarized): news-positron-8-1
+    Skip (already summarized): news-webinars-february-4-2026
+    Skip (already summarized): news-content-fusion-9-0
+  RSS: Fluidtopics Blog
+    1 new items fetched
+    Skip (already summarized): httpswwwfluidtopicscomblogitai-use-cases
+
+Sending digest with 2 article(s)...
+Email sent to szelliot00@gmail.com: Article Digest — 2 new article(s) — Feb 22
+[main c411159] Auto: new article summaries 2026-02-22
+ 2 files changed, 26 insertions(+)
+ create mode 100644 summaries/articles/2026-02-22-httpsielpworldtradelawnet202601guest-post-president-trump-cannot-legally-impose-.md
+ create mode 100644 summaries/articles/2026-02-22-httpsukiyo-eorg.md
+From https://github.com/szelliot00-wq/content-tools
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/szelliot00-wq/content-tools.git
+   e667f35..c411159  main -> main

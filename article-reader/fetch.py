@@ -102,7 +102,8 @@ def fetch_rss_items(feed: dict) -> list[dict]:
     for entry in parsed.entries[:max_items * 3]:  # fetch extra, filter by date
         if len(items) >= max_items:
             break
-        entry_url = entry.get("link") or entry.get("id") or ""
+        raw_id = entry.get("link") or entry.get("id") or ""
+        entry_url = raw_id if raw_id.startswith("http") else ""
         entry_title = entry.get("title", "Untitled")
 
         # Date filtering (skipped if cutoff is None)
@@ -161,7 +162,7 @@ def process_item(item: dict) -> dict | None:
     title = item["title"]
     url = item["url"]
     text = item["text"]
-    slug = slugify(url)
+    slug = slugify(url) if url else slugify(title)
 
     if summary_exists(slug):
         print(f"    Skip (already summarized): {slug}")
