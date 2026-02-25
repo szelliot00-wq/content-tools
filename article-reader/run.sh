@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-# Navigate to project root
-cd /Users/steveelliott/Claude-projects/content-tools
+# Navigate to project root (works on any machine regardless of clone location)
+cd "$(dirname "$0")/.."
 
 # Pull latest changes
 git pull origin main
