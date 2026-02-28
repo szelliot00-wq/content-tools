@@ -17,6 +17,21 @@ python youtube-summarizer/summarize.py
 git add youtube-summarizer/summaries/ youtube-summarizer/transcripts/
 if git diff --staged --quiet; then
     echo "No new YouTube summaries to commit."
+
+    # Alert if no summaries have been written for 2+ days
+    LATEST=$(find youtube-summarizer/summaries -name '*.md' -not -path '*/.*' | xargs ls -t 2>/dev/null | head -1)
+    if [ -z "$LATEST" ]; then
+        echo "No summaries found at all — skipping staleness check."
+    else
+        MTIME=$(stat -f %m "$LATEST")   # macOS stat
+        NOW=$(date +%s)
+        AGE_DAYS=$(( (NOW - MTIME) / 86400 ))
+        echo "Most recent summary: $LATEST (${AGE_DAYS} day(s) old)"
+        if [ "$AGE_DAYS" -ge 2 ]; then
+            echo "WARNING: No new YouTube summaries for ${AGE_DAYS} days — sending alert"
+            python3 shared/heartbeat.py "YouTube Summarizer (silent — no new summaries for ${AGE_DAYS} days)"
+        fi
+    fi
 else
     git commit -m "Auto: new YouTube summaries $(date +%Y-%m-%d)
 
