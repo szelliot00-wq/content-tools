@@ -1,0 +1,60 @@
+{
+  "creators": [
+    {
+      "id": "dave-killeen",
+      "name": "Dave Killeen",
+      "channel_url": "https://www.youtube.com/@DaveKilleen",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "hustlebadger",
+      "name": "Hustle Badger",
+      "channel_url": "https://www.youtube.com/@hustlebadger",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "peter-yang",
+      "name": "Peter Yang",
+      "channel_url": "https://www.youtube.com/@PeterYangYT",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "lennys-podcast",
+      "name": "Lenny's Podcast",
+      "channel_url": "https://www.youtube.com/@LennysPodcast",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "grow-product",
+      "name": "Grow Product",
+      "channel_url": "https://www.youtube.com/@growproduct",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "pawel-huryn",
+      "name": "Pawel Huryn",
+      "channel_url": "https://www.youtube.com/@pawelhuryn",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "daniel-dann",
+      "name": "Daniel Dann",
+      "channel_url": "https://www.youtube.com/@Daniel-Dann",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "shreyas-doshi",
+      "name": "Shreyas Doshi",
+      "channel_url": "https://www.youtube.com/@ShreyasDoshiVideos",
+      "enabled": true,
+      "category": "product_management"
+    }
+  ]
+}

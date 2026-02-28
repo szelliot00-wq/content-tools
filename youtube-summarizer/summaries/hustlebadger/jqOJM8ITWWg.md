@@ -1,0 +1,15 @@
+# Building an agent-first organisation with Johnny Quach
+
+Video ID: `jqOJM8ITWWg`
+
+## Summary
+Moto K, a 15-year-old traditional vertical SaaS company, underwent a radical AI-first transformation over 14 months, moving from outdated applications and slow development cycles to an "agent-first" organization. This shift, driven by CPO/CMO Johnny Quach, leveraged AI not just for new features but fundamentally changed how they build software, leading to a 100x acceleration in productivity. They now operate with significantly smaller teams, zero sprints, and a focus on continuous delivery, clearing backlogs and bugs at unprecedented rates.
+
+## Key insights
+- **AI-Driven Productivity Revolution:** Moto K, a traditional SaaS company, fully embraced AI tools like Cursor and models such as Opus 4.6, fundamentally changing its software development. This led to a dramatic acceleration, enabling them to produce more code, release more features, and squash bugs at a compound rate with significantly fewer people.
+- **Leaner Team Structures & New Methodologies:** The increased capacity from AI tools rendered traditional agile methodologies (like sprints) obsolete. Teams are now smaller (e.g., a senior developer, a PM, and half a designer can manage an application), operating on a Kanban-like flow, constantly building and deploying without fixed schedules or long-term roadmaps.
+- **Refactoring for AI Effectiveness:** A major technical blocker was AI's initial struggle with large, messy codebases. Moto K addressed this by refactoring, notably by implementing a company-wide design system. This system allows AI to generate consistent UI components, reducing the need for designers in the early stages of feature development and enabling PMs to build front-end elements.
+- **AI for Every Step of the Development Cycle:** AI is integrated throughout the process, from generating more detailed tickets in Cursor by referencing the codebase, to assisting with code writing and even automated bug-solving using processes like "Ralph" (AI loops fixing bugs against acceptance criteria).
+- **Challenges & Guardrails:** Initial resistance from engineers ("I can do it faster") and a lack of user-friendliness for non-technical staff required a "forcing" approach, training, and clear "blueprints" for AI interaction. Guardrails include standard pull request reviews (still human-centric, though AI tools like Code Rabbit assist) and caution against AI making dramatic database changes.
+- **Strategic Workforce Evolution:** While not a primary goal, the transformation resulted in a smaller workforce through natural attrition. The realization was that fewer, highly senior, "context-rich" individuals are needed for software design, with AI handling much of the execution.
+- **Cost-Effective & Future-Proofing:** Despite heavy AI usage, the cost of tokens is insignificant and decreasing. This rapid adoption positions the company to outpace competitors, with a focus on capturing customer problems and delivering value, as the grunt work of development becomes increasingly automated.

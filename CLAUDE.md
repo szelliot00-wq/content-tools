@@ -39,7 +39,16 @@ content-tools/
 │
 ├── shared/
 │   ├── summarizer.py             ← Gemini API wrapper (gemini-2.5-flash)
-│   └── email.py                  ← SMTP email sender (Gmail)
+│   ├── email.py                  ← SMTP email sender (Gmail)
+│   └── heartbeat.py              ← failure alert email (called by run-all.sh on error)
+│
+├── youtube-summarizer/
+│   ├── summarize.py              ← main script (yt-dlp + youtube-transcript-api + Gemini)
+│   ├── creators.json             ← YouTube channels to monitor
+│   ├── send_digest.py            ← emails digest of newly committed summaries
+│   ├── run.sh                    ← shell wrapper (git pull → run → commit → push → email)
+│   ├── summaries/                ← one .md per video summary (committed)
+│   └── transcripts/              ← one .txt per transcript (committed)
 │
 ├── article-reader/
 │   ├── fetch.py                  ← main script
@@ -56,8 +65,6 @@ content-tools/
     ├── articles/                 ← one .md per summarised article (committed)
     └── competitors/              ← one .md per competitor change event (committed)
 ```
-
-The YouTube summarizer lives in a separate repo at `~/Claude-projects/youtube-summarizer/` on the MacBook Pro but is called by `run-all.sh`.
 
 ---
 
@@ -198,15 +205,12 @@ source .venv/bin/activate
 bash run-all.sh
 
 # Or run individually
+python youtube-summarizer/summarize.py
 python article-reader/fetch.py
 python competitor-tracker/scrape.py
-```
 
-The YouTube summarizer runs from its own repo:
-```bash
-cd ~/Claude-projects/youtube-summarizer
-source .venv/bin/activate
-python summarize.py
+# Single video (for testing)
+python youtube-summarizer/summarize.py --video-url https://www.youtube.com/watch?v=VIDEO_ID
 ```
 
 ---
@@ -220,6 +224,8 @@ trafilatura
 requests
 beautifulsoup4
 google-genai
+youtube-transcript-api>=0.6.0
+yt-dlp>=2024.1.0
 ```
 
 Install: `pip install -r requirements.txt`

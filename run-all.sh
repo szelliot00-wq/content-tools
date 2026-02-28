@@ -39,8 +39,8 @@ run_tool() {
 echo "=== Run started at $(date) ==="
 
 run_tool "YouTube Summarizer" \
-    "$HOME/Claude-projects/youtube-summarizer/run-summarizer.sh" \
-    "$HOME/Claude-projects/youtube-summarizer"
+    "$HOME/Claude-projects/content-tools/youtube-summarizer/run.sh" \
+    "$HOME/Claude-projects/content-tools"
 
 run_tool "Article Reader" \
     "$HOME/Claude-projects/content-tools/article-reader/run.sh" \

@@ -1,0 +1,14 @@
+# Building a world class product organisation - Carlotta Negri di Sanfront (ex giffgaff CPO)
+
+Video ID: `jwkxEKImTNY`
+
+## Summary
+Carlotta Negri di Sanfront, former CPO at Giffgaff, details her five-year journey to transform the telecommunications company into a world-class product organization. The initiative was driven by market saturation, the need for operational efficiency, and internal friction between departments. After an initial trial on a high-stakes product failed to meet expectations, Giffgaff successfully adopted product principles through strong CEO sponsorship, company-wide OKRs, internal talent development, and a re-engineered budgeting process.
+
+## Key insights
+-   **Strategic Necessity:** The transformation was critical due to a saturated telecom market, the need to maintain operational efficiency while growing, and existing friction between product/tech and other business functions.
+-   **Redefining Product-Centricity:** Beyond jargon, it meant building products that truly solve user needs, leveraging products as marketing tools, ensuring seamless analytics flow, embracing iterative development, and crucially, aligning all business functions around the success of specific products.
+-   **Learnings from Initial Failure:** An early attempt with a "superstar" cross-functional team tackling a high-risk product (mobile contracts) faltered due to insufficient engagement with key influencers outside the team, inadequate support for product managers, fragmented data processes, and the vision being too reliant on the CPO and CTO.
+-   **Pivotal Success Factors:** Key elements that ultimately worked included visible CEO sponsorship, company-wide OKRs that unified objectives across all departments (product, marketing, sales, finance), actively engaging and empowering senior influencers, developing product talent internally through cross-departmental movement, and a revolutionary budgeting process that assigned clear P&L accountability to product teams.
+-   **Overarching Principles for Change:** Carlotta highlighted that such profound organizational and cultural change must be driven from the top, requires continuous support for employees, is fundamentally reliant on strong talent in product, engineering, and UX roles, demands a complete overhaul of data governance and processes, and benefits greatly from trials, even if they initially disprove assumptions.
+-   **Protecting Exploration:** To safeguard teams working on new, riskier ventures from being re-resourced to "cash cow" operations, it's essential to foster strong alliances (e.g., CPO-CTO) for resource defense, logically counter arguments for short-term gains, and consistently anchor discussions back to the company's long-term product vision.
