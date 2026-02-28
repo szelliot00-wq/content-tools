@@ -125,7 +125,7 @@ Defines competitors and which pages to monitor. Structure:
 
 ## Environment variables
 
-All secrets live in `.env` (loaded via python-dotenv). The same `.env` file is copied to both repos on the MacBook Pro. See `.env.example`:
+All secrets live in `.env` (loaded via python-dotenv). See `.env.example`:
 
 ```
 GEMINI_API_KEY=
@@ -243,9 +243,26 @@ Virtual environment: `.venv/` at project root, activated in all run scripts.
 
 ---
 
+## Deploying changes to the MacBook Pro
+
+The individual tool scripts (`article-reader/run.sh`, `youtube-summarizer/run.sh`, etc.) each start with `git pull origin main`, so they self-update on every run. **`run-all.sh` does not** — it is the launchd entry point and has no way to update itself before running.
+
+**After any change to `run-all.sh` or a new dependency in `requirements.txt`**, manually run on the MacBook Pro:
+
+```bash
+cd ~/Claude-projects/content-tools
+git pull origin main
+source .venv/bin/activate
+pip install -r requirements.txt   # only needed if requirements.txt changed
+```
+
+Changes to tool scripts, config files (`.json`), and Python scripts are picked up automatically on the next scheduled run.
+
+---
+
 ## What not to break
 
 - The slug-based deduplication in `article-reader/fetch.py` prevents re-summarising the same article. Do not change the slugify logic without also migrating existing summary filenames.
 - Competitor snapshots must stay in sync with live pages. If you delete a snapshot, the next run treats that URL as a first run and creates a new baseline without sending an email.
-- Both run scripts source `.env` implicitly via python-dotenv inside the Python scripts. If adding new shell-level env var checks, explicitly source `.env` in the shell script first.
+- Tool run scripts source `.env` implicitly via python-dotenv inside the Python scripts. If adding new shell-level env var checks, explicitly source `.env` in the shell script first.
 - `run-all.sh` uses `$HOME` for paths — do not hardcode `/Users/steveelliott`.
