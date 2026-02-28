@@ -245,18 +245,19 @@ Virtual environment: `.venv/` at project root, activated in all run scripts.
 
 ## Deploying changes to the MacBook Pro
 
-The individual tool scripts (`article-reader/run.sh`, `youtube-summarizer/run.sh`, etc.) each start with `git pull origin main`, so they self-update on every run. **`run-all.sh` does not** — it is the launchd entry point and has no way to update itself before running.
+`run-all.sh` pulls the latest repo and runs `pip install -r requirements.txt` at the top of every run. This means:
 
-**After any change to `run-all.sh` or a new dependency in `requirements.txt`**, manually run on the MacBook Pro:
+- New tool scripts, Python modules, config files, and dependencies are picked up **automatically** on the next scheduled run — no manual steps needed.
+- Changes to `run-all.sh` itself take effect on the **run after next** (bash cannot reload a script mid-execution, so the pull happens but the new version of the file runs the following day).
+
+**The only time you need to touch the MacBook Pro** is the very first time after a fresh clone or if the venv is missing. In that case:
 
 ```bash
 cd ~/Claude-projects/content-tools
-git pull origin main
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt   # only needed if requirements.txt changed
+pip install -r requirements.txt
 ```
-
-Changes to tool scripts, config files (`.json`), and Python scripts are picked up automatically on the next scheduled run.
 
 ---
 

@@ -11,7 +11,6 @@ FAILED_TOOLS=()
 run_tool() {
     local name="$1"
     local script="$2"
-    local repo="$3"   # path to git repo to pull before retry
     echo ""
     echo "=== $name ==="
 
@@ -21,10 +20,10 @@ run_tool() {
     fi
 
     # First attempt failed — wait then retry once.
-    # Pull the repo first to resolve any git push conflicts.
+    # Pull the repo in case a concurrent push caused a conflict.
     echo "=== $name: failed — waiting 30s then retrying ==="
     sleep 30
-    git -C "$repo" pull --rebase origin main 2>/dev/null || true
+    git -C "$REPO" pull --rebase origin main 2>/dev/null || true
 
     if bash "$script"; then
         echo "=== $name: retry succeeded ==="
@@ -36,19 +35,22 @@ run_tool() {
     FAILED_TOOLS+=("$name")
 }
 
+REPO="$HOME/Claude-projects/content-tools"
+VENV="$REPO/.venv"
+
 echo "=== Run started at $(date) ==="
 
-run_tool "YouTube Summarizer" \
-    "$HOME/Claude-projects/content-tools/youtube-summarizer/run.sh" \
-    "$HOME/Claude-projects/content-tools"
+# Pull latest code and install any new dependencies before doing anything else.
+# This means new modules, tool scripts, and requirements are picked up automatically.
+# Note: changes to run-all.sh itself take effect on the *next* run (bash can't
+# reload itself mid-execution).
+echo "=== Updating repo and dependencies ==="
+git -C "$REPO" pull origin main
+"$VENV/bin/pip" install -q -r "$REPO/requirements.txt"
 
-run_tool "Article Reader" \
-    "$HOME/Claude-projects/content-tools/article-reader/run.sh" \
-    "$HOME/Claude-projects/content-tools"
-
-run_tool "Competitor Tracker" \
-    "$HOME/Claude-projects/content-tools/competitor-tracker/run.sh" \
-    "$HOME/Claude-projects/content-tools"
+run_tool "YouTube Summarizer" "$REPO/youtube-summarizer/run.sh"
+run_tool "Article Reader"    "$REPO/article-reader/run.sh"
+run_tool "Competitor Tracker" "$REPO/competitor-tracker/run.sh"
 
 echo ""
 if [ $ERRORS -gt 0 ]; then
