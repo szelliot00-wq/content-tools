@@ -14,6 +14,8 @@ Personal automation project. Three tools that monitor content sources and email 
 
 All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro. An email is only sent if there is something new to report.
 
+> **Note:** `youtube-summarizer` was previously a standalone repo (`szelliot00-wq/youtube-summarizer`, now archived). It was consolidated into this repo in Feb 2026. All history and summaries live here now.
+
 ---
 
 ## Infrastructure
