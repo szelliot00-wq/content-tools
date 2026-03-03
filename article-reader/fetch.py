@@ -11,6 +11,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -44,6 +45,7 @@ Format your response exactly as:
 """
 
 CUTOFF_DAYS = 7
+FETCH_TIMEOUT = 20  # seconds — applies to all outbound HTTP requests
 
 
 def load_sources() -> dict:
@@ -93,7 +95,12 @@ def fetch_rss_items(feed: dict) -> list[dict]:
     cutoff = datetime.now(tz=timezone.utc) - timedelta(days=cutoff_days) if cutoff_days else None
 
     print(f"  RSS: {feed.get('name', url)}")
-    parsed = feedparser.parse(url)
+    try:
+        resp = requests.get(url, timeout=FETCH_TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
+        parsed = feedparser.parse(resp.content)
+    except Exception as e:
+        print(f"    Feed fetch error: {e}", file=sys.stderr)
+        return []
     if parsed.bozo and not parsed.entries:
         print(f"    Failed to parse feed: {url}", file=sys.stderr)
         return []
@@ -148,12 +155,10 @@ def fetch_manual_urls(manual_urls: list[dict]) -> list[dict]:
 def _extract_text(url: str) -> str | None:
     try:
         import trafilatura
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
-            return None
-        return trafilatura.extract(downloaded)
+        resp = requests.get(url, timeout=FETCH_TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
+        return trafilatura.extract(resp.text)
     except Exception as e:
-        print(f"    trafilatura error for {url}: {e}", file=sys.stderr)
+        print(f"    Fetch error for {url}: {e}", file=sys.stderr)
         return None
 
 
