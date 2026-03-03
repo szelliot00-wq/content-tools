@@ -21,7 +21,7 @@ All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro
 - **Runner machine:** MacBook Pro — `steveelliott@192.168.1.40` (Intel, macOS 13 Ventura)
 - **Scheduler:** macOS launchd — single agent `com.steveelliott.content-tools`
 - **Entry point:** `run-all.sh` — calls all three tools in sequence; a failure in one does not stop the others
-- **Current Mac (Steve's main machine):** MacBook Air at `steveelliott@MacBook-Air-3.local` — used only for editing config and code
+- **MacBook Air (Steve's main machine):** `steveelliott@MacBook-Air-3.local` — used only for editing config and code. **Do not run any tools directly here.** No `.env`, no scheduled jobs, no local test runs — use SSH commands instead.
 - **Note:** launchd fires only when the Mac is awake. If the machine is asleep at 08:00 the job is skipped. Keep it plugged in.
 
 ---
