@@ -26,9 +26,11 @@ All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro
 
 ---
 
-## Remote access (SSH)
+## Debugging — always start on MacBook Pro
 
-Claude can SSH into the MacBook Pro directly to check logs, debug, and deploy fixes.
+**All debugging must be done on the MacBook Pro, not the MacBook Air.** The tools only run there. The MacBook Air has no `.env`, no venv with dependencies, and running scripts here produces misleading results and side effects (wrong git commits, emails sent unexpectedly, etc.).
+
+SSH is configured so Claude can debug remotely from the MacBook Air session without touching the MacBook Air's local environment:
 
 ```bash
 ssh macbookpro   # configured in ~/.ssh/config on the MacBook Air
@@ -36,22 +38,34 @@ ssh macbookpro   # configured in ~/.ssh/config on the MacBook Air
 
 SSH key: `~/.ssh/macbook_pro` (on MacBook Air) → authorised on MacBook Pro at `~/.ssh/authorized_keys`
 
-**Useful remote commands:**
+**First steps when something isn't working:**
 ```bash
-# Watch the log live (run on MacBook Air)
-ssh macbookpro "tail -f ~/Claude-projects/content-tools/cron.log"
+# 1. Check if the job ran at all and look for errors
+ssh macbookpro "tail -100 ~/Claude-projects/content-tools/cron.log"
 
+# 2. Check if the job is currently running (non-zero PID = still in progress)
+ssh macbookpro "launchctl list com.steveelliott.content-tools"
+
+# 3. Check if it's hung (elapsed time)
+ssh macbookpro "ps aux | grep run-all | grep -v grep"
+
+# 4. Kill a hung process
+ssh macbookpro "kill <PID>"
+
+# 5. Trigger a fresh run
+ssh macbookpro "launchctl start com.steveelliott.content-tools"
+
+# 6. Watch it live
+ssh macbookpro "tail -f ~/Claude-projects/content-tools/cron.log"
+```
+
+**Other useful remote commands:**
+```bash
 # Check for errors in recent runs
 ssh macbookpro "grep -i 'error\|fail\|traceback' ~/Claude-projects/content-tools/cron.log | tail -30"
 
-# Run manually to test
-ssh macbookpro "cd ~/Claude-projects/content-tools && source .venv/bin/activate && bash run-all.sh"
-
-# Run a single tool
+# Run a single tool manually
 ssh macbookpro "cd ~/Claude-projects/content-tools && source .venv/bin/activate && bash youtube-summarizer/run.sh"
-
-# Trigger launchd immediately (no need to wait for 08:00)
-ssh macbookpro "launchctl start com.steveelliott.content-tools"
 ```
 
 ---
