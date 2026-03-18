@@ -12,38 +12,6 @@ delivers a new level of productivity, security,
         consumption for AI prompts and tools has been optimized, reducing costs and improving
         efficiency.
 February 10, 2026
-Version 8.1
-Oxygen AI Positron 8.1 for Desktop
-delivers a new level of
-        productivity, security, and flexibility for users leveraging AI in their XML authoring
-        workflows. This release introduces support for OpenAI’s latest GPT-5.2 and GPT-5.2 Thinking
-        models and enables more accurate and context-aware agentic tasks. Sensitive data masking is
-        now built-in, automatically protecting personal information in AI requests, with the ability
-        to extend coverage to custom data types. The review experience is streamlined as AI-modified
-        files are now presented directly in the chat for easy acceptance or rejection of changes.
-        Token consumption for AI prompts and tools has been optimized, reducing costs and improving
-        efficiency.
-February 10, 2026
-Version 8.1
-February 10, 2026
-Version 8.1
-Version
-8.1
-Oxygen AI Positron Assistant for Content
-          Fusion
-introduces support for the latest OpenAI GPT-5.2 models, ensuring
-        state-of-the-art AI assistance for web-based XML editing. The new Planner chat mode enables
-        users to coordinate large-scale, multi-step changes directly from the web interface.
-February 10, 2026
-Version 8.1
-Version
-8.1
-Oxygen AI Positron Assistant for Web
-          Author
-introduces support for the latest OpenAI GPT-5.2 models, ensuring
-        state-of-the-art AI assistance for web-based XML editing. The new Planner chat mode enables
-        users to coordinate large-scale, multi-step changes directly from the web interface.
-February 10, 2026
 Version 9.0
 Oxygen Content Fusion 9.0
 delivers a major upgrade to collaborative
@@ -60,6 +28,15 @@ Oxygen XML Editor 28
 delivers a major upgrade to its AI capabilities
         and productivity tools for content authors, developers, and publishers.
 November 26, 2025
+Version 28.0.0
+The release of
+Oxygen XML Web Author 28
+focuses on delivering
+        AI-assisted authoring, DITA-centric workflows, and enhanced enterprise integration
+        capabilities within the web-based solution for editing and reviewing XML content in any
+        modern web browser. It adds deeper integration with Oxygen AI Positron 8.0, streamlines
+        editing and review tasks, and strengthens security for large organizations.
+November 26, 2025
 Version 8.0
 Oxygen AI Positron 8.0 for Desktop
 unifies the
@@ -69,30 +46,6 @@ and
 AI Positron Assistant Enterprise
 add-ons into a single
         add-on.
-November 18, 2025
-Version 8.0
-Oxygen AI Positron 8.0
-for the Eclipse distribution adds a dedicated
-        AWS Bedrock connector and new AI model options (OpenAI GPT-5.1, Claude Sonnet 4.5, Claude
-        Haiku 4.5, and xAI Grok 4 Fast) allowing you to choose the right balance between quality and
-        speed for your tasks.
-November 18, 2025
-Version 8.0
-For Content Fusion,
-Oxygen AI Positron 8.0
-adds project‑wide search as
-        AI tool, enabling agentic chats modes to explore the project and thus perform better on
-        complex tasks. You get a cleaner chat input with attachments shown as chips, instant context
-        inspection, quick action invocation, and richer tool‑call information.
-November 18, 2025
-Version 8.0
-For Web Author,
-Oxygen AI Positron 8.0
-adds AI‑powered new file
-        creation to generate starter documents from a prompt and optional attachments (XML,
-        Markdown, images, or PDFs and Office files). Now, you get a cleaner chat input with
-        attachments shown as chips, instant context inspection, quick action invocation, and richer
-        tool‑call information.
 November 18, 2025
 Version 5.3
 Oxygen Feedback Cloud
@@ -110,6 +63,31 @@ provides dark
         theme support for Oxygen Feedback to match the theme used in the host WebHelp Responsive
         pages, respecting user preferences and accessibility best practices.
 November 5, 2025
+Version 7.0
+The latest release of the
+Oxygen AI Positron Assistant for desktop
+                    tools
+introduces support for OpenAI's cutting-edge GPT-5 models,
+                enhancing AI capabilities for chat and AI actions. The release includes the ability
+                to invoke tools defined on Model Context Protocol Servers, ensuring seamless
+                integration with external AI-powered tools. AI-powered automatic fixes now ensure
+                XML documents remain valid when an invalid or not well-formed document is generated
+                by the AI model. Additionally, you can now manage attachments using visual chips,
+                paste screenshots directly into the chat for better context, and edit attached
+                resources from prompts that have already been sent to the AI. The introduction of
+                multiple chat modes, the new
+search_in_project
+tool, and improved
+                handling of Word (.docx) attachments further enrich the user experience.
+September 15, 2025
+Version 8.2
+The new
+Personal Workspace
+features enhanced publication
+                structure editing, detailed commit history, and easier branch management. From your
+                Personal Workspace, you can selectively commit files or create targeted review
+                tasks, integrating your changes directly or through a review process.
+August 25, 2025
 Version 6.0.1
 The Oxygen AI Positron update introduces support for the latest OpenAI GPT-5, GPT-5-mini, and GPT-5-nano models, along with improvements to the AI Positron Fix feature for better context expansion when resolving issues in documents. This release also includes various bug fixes and stability enhancements.
 August 21, 2025
@@ -140,6 +118,27 @@ introduces
         and advanced AI functionality to further streamline user interactions and improve content
         accessibility.
 April 28, 2025
+Version 8.1
+Oxygen Content Fusion
+version
+8.1
+introduces
+        significant enhancements to streamline your DITA content management and collaboration. You
+        can now include publications from existing DITA-OT project files and enjoy flexible project
+        creation workflows. This allows you to start projects without immediate Git integration and
+        utilize predefined templates for a faster setup.
+April 24, 2025
+Version 5.0
+The
+Oxygen AI Positron Assistant 5.0
+release focuses on enhancing your
+        AI-driven content authoring workflows. You can now create initial content for files such as
+        XSLT, XSD, Schematron, JSON Schema, and DTD just by providing a quick text description. The
+        AI engine can also create or update files, and you can oversee what happened using the
+        visual file comparison tool. DITA users gain powerful content transformation actions, easily
+        converting to various DITA document types or leveraging AI to detect and restructure content
+        into more appropriate topic structures.
+April 24, 2025
 Version 27.1
 Oxygen XML Editor version 27.1
 is an incremental release of the
