@@ -1,5 +1,28 @@
 Release History
 Release History
+Version 28.1
+March 18, 2026
+Version 28.1.0
+Oxygen XML Web Author 28.1.0
+focuses on introducing significant
+        advancements in
+AI-powered authoring
+through the new
+Planner
+chat mode in Oxygen AI Positron, enhanced editing capabilities
+        including
+DITA improvements
+, expanded
+customization
+          options
+, and improved
+table editing
+across multiple formats.
+        This release also adds the ability to work with
+S1000D
+issue 4.x
+          content
+March 18, 2026
 Version 8.1
 Oxygen AI Positron 8.1
 delivers a new level of productivity, security,
