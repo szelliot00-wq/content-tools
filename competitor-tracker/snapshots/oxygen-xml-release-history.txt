@@ -1,6 +1,26 @@
 Release History
 Release History
 Version 28.1
+Oxygen XML Editor 28.1
+introduces
+      important enhancements in
+AI-powered workflows
+, including the new
+Planner
+chat mode in Oxygen AI Positron and improved
+sensitive data
+        masking
+. This release also adds
+built-in support for S1000D
+issue 4.x
+, improves
+DITA editing and PDF publishing
+, and includes
+      the new
+Oxygen AI Translator
+add-on for AI-powered
+XLIFF translation
+        workflows
 March 18, 2026
 Version 28.1.0
 Oxygen XML Web Author 28.1.0
@@ -1094,10 +1114,20 @@ Version 12.2 of Oxygen XML introduces a number of unique development features. I
         parameter values as XPath expressions when the engine allows that.
 May 19, 2011
 Version 12.1
+Version 12.1 of Oxygen XML adds new features such as a smart paste action that
+      automatically converts content from office applications or from a web browser to DITA, DocBook
+      or TEI. It also improves the XML authoring in areas such as reference management, change
+      tracking, or the CSS rendering support and extends the API to incorporate feedback from
+      partners that integrate Oxygen with CMS or other applications.
 January 12, 2011
 Version 12.0
+Version 12 of Oxygen XML improves the existing functionality, adds new features,
+      and most importantly, enhances the user experience. A lot of effort was invested in minimizing
+      memory usage and improving the general performance.
 September 14, 2010
 Version 11.2
+Version 11.2 of Oxygen XML Editor improves the XML Author, the XML development
+      tools, the support for large documents and the SVN Client.
 March 16, 2010
 Version 11.1
 Version 11.1 of Oxygen XML Editor improves the XML authoring capabilities, the
@@ -1121,6 +1151,14 @@ mode for an improved visual editing
         experience, and DITA 1.2 features.
 October 9, 2009
 Version 10.3
+Version 10.3 of Oxygen XML Editor improves both the XML Authoring and the XML
+      Development capabilities. As a result of user feedback the Oxygen XML Author API was
+      reorganized and extended with additional functionality. There are various improvements to the
+      existing frameworks (DITA, DocBook, TEI, etc.), such as automatic ID generation or DITA-aware
+      search and replace. An important XML development feature is the Component Dependencies View
+      that displays a tree of component dependencies starting with a specified component for XSLT,
+      XML Schema, Relax NG, and NVDL. This version also integrates the Saxon SA XQuery Update
+      functionality and updates a number of components to their latest versions.
 June 29, 2009
 Version 10.2
 Version 10.2 of Oxygen XML Editor adds important features for both
@@ -1130,36 +1168,126 @@ and
 XML development
 April 15, 2009
 Version 10.1
+Version 10.1 adds a redesigned XML Schema diagram that allows visual XML Schema
+      editing, an XML Schema documentation engine supporting multiple output formats, additional
+      features in the
+Author
+visual XML-editing mode, improvements in the Outline
+      view and Content Completion Assistant, and updates the database support.
 February 25, 2009
 Version 10.0
+One of the most important additions in Oxygen XML Editor and Author version 10 is
+      the bundling of the Schema Aware XSLT 2.0 and XQuery processor from Saxonica. Saxon-SA is
+      available in all Oxygen editions at no additional cost. Version 10 includes a large number
+      of improvements including a powerful XML instance generator, a better Content Completion
+      Assistant offering proposals from included or imported XML Schema or XSLT modules, a better
+      integration of the Intel(R) XML Software Suite and updates of most database connectors,
+      document frameworks and XML, XML Schema, XSLT, XPath and FOP processors. The SVN support was
+      also updated to include Apache Subversion
+1.5 features.
 October 23, 2008
 Version 9.3
+Version 9.3 adds as main feature the support for editing and processing resources
+      inside ZIP-based packages including Microsoft
+Office Open (OOXML) and Open
+      Document (ODF) documents. There are various other improvements, a number of component updates
+      and fixes.
 July 2, 2008
 Version 9.2
+Version 9.2 introduces an
+Author
+edition, specially tuned for
+      content authors providing a well designed interface for XML editing by keeping only the
+      relevant authoring features. The major additions in Oxygen 9.2 are related to the WYSIWYG
+      editing support and in particular to the DITA support. The general visual editing improvements
+      include displaying the resolved content in the editor and navigation through links. With DITA
+      features that include a DITA map editor, an action for inserting conref links, and a tight
+      integration with the latest version of the DITA Open Toolkit through Oxygen's normal
+      transformation scenarios mechanism, Oxygen becomes the leading and easiest to use DITA
+      editor. Other improvements include browsing of XML databases using WebDAV connections, better
+      handling of CJK text, support for the Intel
+XML Software Suite, and multiple
+      component updates.
 May 9, 2008
 Version 9.1
+Version 9.1 adds a number of improvements, the main additions being related to the
+      WYSIWYG-like XML editor and to the WebDAV support. It also contains support for SOAP 1.2 and
+      some updated components.
 December 18, 2007
 Version 9.0
+The main feature of version 9.0 is a CSS based visual XML editor allowing
+      WYSIWYG-like editing of XML documents. With an innovative approach to XML authoring Oxygen
+      allows you to work with XML frameworks (DocBook, DITA, TEI, XHTML, etc.) easier than ever
+      before. Version 9 adds a concept called Document Type that allows you to provide ready-to-use
+      support for a framework or an XML language and share it with other users. This version also
+      brings improved error reporting for validation against Relax NG schemas and Schematron,
+      additional side view helpers, some component updates and a number of other
+      features.
 November 2, 2007
 Version 8.2
+The key word for Oxygen XML Editor version 8.2 is
+innovation
+. It
+      brings the first XQuery debugger against a native XML database allowing users of the MarkLogic
+      3.2 database to debug their XQuery code based on the MarkLogic Server 3.2 XQuery debugging
+      API. Oxygen is the first tool announcing ISO Schematron support covering also ISO
+      Schematron embedded in XML Schema or Relax NG, abstract patterns and included Schematron
+      schemas.
 May 7, 2007
 Version 8.1
+Version 8.1 of Oxygen XML Editor improves the support for NVDL scripts and adds a
+      series of enhancements, fixes and component updates.
 January 25, 2007
 Version 8.0
+Version 8.0 of Oxygen XML Editor adds as main features a spreadsheet-like XML
+Grid
+editing mode, management support for both XML and relational
+      databases: Berkeley DB XML Database, eXist, IBM DB2 PureXML, MarkLogic, Microsoft SQLServer
+      2005, Oracle 10g R2, RainingData TigerLogic XDMS, SoftwareAG Tamino and XHive XML Database,
+      options and transformation scenarios that can be stored into the project file and support for
+      NVDL (Namespace-based Validation Dispatching Language) scripts.
 November 20, 2006
 Version 7.2
+Version 7.2 of Oxygen XML Editor adds as main features a complete SVN client,
+      support for flattening XML Schemas, an XML instance generator, integration with the X-Hive/DB,
+      MarkLogic and TigerLogic XML databases, editing actions on the diagram, rename refactoring
+      action and search references/declarations actions in XML Schema and Relax NG schema editors.
 June 6, 2006
 Version 7.1
+Version 7.1 of Oxygen XML Editor adds support for Berkeley and eXist XML
+      Databases, an XSL Templates view for easy navigation through the edited XSL stylesheet, and an
+      XPath Builder view for editing complex XPath expressions. Effort has been made to improve the
+      loading time and to reduce the memory usage, especially for large documents. Multiple
+      modifications were made to improve the general usability of the editor.
 March 2, 2006
 Version 7.0
+Version 7.0 of Oxygen XML Editor added more than 50 important features, such as
+      continuous validation and on-screen marking of the errors, XQuery debugging, XPath content
+      completion assistance and XSLT refactoring actions.
 January 13, 2006
 Version 6.2
+Version 6.2 of Oxygen XML Editor gives a whole new editing experience with the
+      introduction of a dockable framework that allows free configuration of the editor layout.
+      Along with this major change there are also a lot of other additions and
+      improvements.
 September 19, 2005
 Version 6.1
+Version 6.1 of Oxygen XML Editor adds as main features an XSLT Profiler
+      integrated in the debugging perspective, an enhanced XML schema documentation tool that
+      includes diagrams, in place editing in schema diagrams, easy navigation to component
+      definitions in schema editors, support for presenting the Relax NG annotations next to the
+      content completion proposals and an attributes editor.
 July 19, 2005
 Version 6.0
+Version 6.0 of Oxygen XML Editor adds as main features Visual Schema Editors for
+      W3C XML Schema and Relax NG, a complete Diff and Merge solution and the capability of
+      importing data from different data sources including relational databases and text
+      files.
 May 22, 2005
 Version 5.1
+Version 5.1 of Oxygen XML Editor adds as main features folding, code templates,
+      better Relax NG support, Schematron validation and the possibility to use MSXML and XSLTProc
+      as XSLT transformers.
 January 18, 2005
 Version 5.0
 October 15, 2004
