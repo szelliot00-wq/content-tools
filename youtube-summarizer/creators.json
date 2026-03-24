@@ -55,6 +55,27 @@
       "channel_url": "https://www.youtube.com/@ShreyasDoshiVideos",
       "enabled": true,
       "category": "product_management"
+    },
+    {
+      "id": "ibm-technology",
+      "name": "IBM Technology",
+      "channel_url": "https://www.youtube.com/@IBMTechnology",
+      "enabled": true,
+      "category": "technology"
+    },
+    {
+      "id": "matt-j-penny",
+      "name": "Matt J Penny",
+      "channel_url": "https://www.youtube.com/@matt-j-penny",
+      "enabled": true,
+      "category": "product_management"
+    },
+    {
+      "id": "simonscrapes",
+      "name": "Simon Scrapes",
+      "channel_url": "https://www.youtube.com/@simonscrapes",
+      "enabled": true,
+      "category": "product_management"
     }
   ]
 }
