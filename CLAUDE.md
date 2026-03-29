@@ -20,7 +20,7 @@ All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro
 
 ## Infrastructure
 
-- **Runner machine:** MacBook Pro — `steveelliott@192.168.1.40` (Intel, macOS 13 Ventura)
+- **Runner machine:** MacBook Pro — `steveelliott@192.168.71.250` (Intel, macOS 13 Ventura)
 - **Scheduler:** macOS launchd — single agent `com.steveelliott.content-tools`
 - **Entry point:** `run-all.sh` — calls all three tools in sequence; a failure in one does not stop the others
 - **MacBook Air (Steve's main machine):** `steveelliott@MacBook-Air-3.local` — used only for editing config and code. **Do not run any tools directly here.** No `.env`, no scheduled jobs, no local test runs — use SSH commands instead.
