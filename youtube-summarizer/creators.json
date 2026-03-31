@@ -76,6 +76,13 @@
       "channel_url": "https://www.youtube.com/@simonscrapes",
       "enabled": true,
       "category": "product_management"
+    },
+    {
+      "id": "adrianevansvideoblog",
+      "name": "Adrian Evans",
+      "channel_url": "https://www.youtube.com/@adrianevansvideoblog",
+      "enabled": true,
+      "category": "product_management"
     }
   ]
 }
