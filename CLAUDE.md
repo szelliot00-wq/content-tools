@@ -21,7 +21,7 @@ All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro
 ## Infrastructure
 
 - **Runner machine:** MacBook Pro — `steveelliott@192.168.71.250` (Intel, macOS 13 Ventura)
-- **Scheduler:** macOS launchd — single agent `com.steveelliott.content-tools`
+- **Scheduler:** macOS launchd — two agents: `com.steveelliott.content-tools` (main, 08:00) and `com.steveelliott.content-tools-watchdog` (watchdog, 09:15)
 - **Entry point:** `run-all.sh` — calls all three tools in sequence; a failure in one does not stop the others
 - **MacBook Air (Steve's main machine):** `steveelliott@MacBook-Air-3.local` — used only for editing config and code. **Do not run any tools directly here.** No `.env`, no scheduled jobs, no local test runs — use SSH commands instead.
 - **Note:** launchd fires only when the Mac is awake. If the machine is asleep at 08:00 the job is skipped. Keep it plugged in.
@@ -78,7 +78,8 @@ ssh macbookpro "cd ~/Claude-projects/content-tools && source .venv/bin/activate 
 content-tools/
 ├── CLAUDE.md
 ├── requirements.txt
-├── run-all.sh                    ← single entry point, called by launchd
+├── run-all.sh                    ← single entry point, called by launchd at 08:00
+├── watchdog.sh                   ← checks run-all.sh ran today; alerts if not (launchd 09:15)
 ├── cron.log                      ← combined log for all three tools (not committed)
 ├── .env                          ← secrets (not committed)
 ├── .env.example                  ← template
@@ -116,11 +117,12 @@ content-tools/
 
 ## Alerting
 
-Three levels of alerting:
+Four levels of alerting:
 
-1. **Tool crash** — if any tool fails after automatic retry, `heartbeat.py` sends an alert email listing which tools failed
-2. **YouTube silence** — if no new YouTube summaries have been written for 2+ days, `run.sh` sends a heartbeat alert (catches silent failures where the script exits cleanly but produces nothing)
-3. **No alert** — silence on article reader and competitor tracker means no new content; this is expected
+1. **Scheduler dead** — `watchdog.sh` runs at 09:15 via its own launchd agent; if `cron.log` was not modified today it means launchd never fired `run-all.sh`, and a heartbeat alert is sent. This is the only alert that catches a dead scheduler.
+2. **Tool crash** — if any tool fails after automatic retry, `heartbeat.py` sends an alert email listing which tools failed
+3. **YouTube silence** — if no new YouTube summaries have been written for 2+ days, `run.sh` sends a heartbeat alert (catches silent failures where the script exits cleanly but produces nothing)
+4. **No alert** — silence on article reader and competitor tracker means no new content; this is expected
 
 ---
 
@@ -199,21 +201,27 @@ EMAIL_TO=
 
 ## Scheduling (launchd)
 
-One launchd agent on the MacBook Pro at `~/Library/LaunchAgents/com.steveelliott.content-tools.plist`.
+Two launchd agents on the MacBook Pro:
 
-Calls `run-all.sh` at 08:00 daily. Log goes to `cron.log` at the project root.
+| Plist | Script | Time | Purpose |
+|---|---|---|---|
+| `com.steveelliott.content-tools.plist` | `run-all.sh` | 08:00 | Main runner |
+| `com.steveelliott.content-tools-watchdog.plist` | `watchdog.sh` | 09:15 | Alerts if main job didn't run |
+
+Both plists live in `~/Library/LaunchAgents/` and auto-load on user login. Log goes to `cron.log` at the project root.
+
+> **Note:** `launchctl list com.steveelliott.content-tools` does not work over SSH (GUI session limitation). Use the log to verify runs instead.
 
 **launchd commands (run via SSH or directly on MacBook Pro):**
 
 ```bash
-# Reload after editing the plist
-ssh macbookpro "launchctl unload ~/Library/LaunchAgents/com.steveelliott.content-tools.plist && launchctl load ~/Library/LaunchAgents/com.steveelliott.content-tools.plist"
+# Load (or reload) a plist — use -w flag, works over SSH
+ssh macbookpro "launchctl load -w ~/Library/LaunchAgents/com.steveelliott.content-tools.plist"
+ssh macbookpro "launchctl load -w ~/Library/LaunchAgents/com.steveelliott.content-tools-watchdog.plist"
 
 # Run immediately (test without waiting for schedule)
 ssh macbookpro "launchctl start com.steveelliott.content-tools"
-
-# Check it's registered
-ssh macbookpro "launchctl list | grep steveelliott"
+ssh macbookpro "launchctl start com.steveelliott.content-tools-watchdog"
 
 # Watch log live
 ssh macbookpro "tail -f ~/Claude-projects/content-tools/cron.log"
