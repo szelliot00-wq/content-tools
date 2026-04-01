@@ -201,27 +201,30 @@ EMAIL_TO=
 
 ## Scheduling (launchd)
 
-Two launchd agents on the MacBook Pro:
+Two launchd **daemons** on the MacBook Pro (system-level, not user agents):
 
 | Plist | Script | Time | Purpose |
 |---|---|---|---|
-| `com.steveelliott.content-tools.plist` | `run-all.sh` | 08:00 | Main runner |
-| `com.steveelliott.content-tools-watchdog.plist` | `watchdog.sh` | 09:15 | Alerts if main job didn't run |
+| `/Library/LaunchDaemons/com.steveelliott.content-tools.plist` | `run-all.sh` | 08:00 | Main runner |
+| `/Library/LaunchDaemons/com.steveelliott.content-tools-watchdog.plist` | `watchdog.sh` | 09:15 | Alerts if main job didn't run |
 
-Both plists live in `~/Library/LaunchAgents/` and auto-load on user login. Log goes to `cron.log` at the project root.
+Plists live in `/Library/LaunchDaemons/` (system domain, requires sudo). They load at boot — no GUI session or user login required. Both run as `steveelliott` via the `UserName` key. Log goes to `cron.log` at the project root.
 
-> **Note:** `launchctl list com.steveelliott.content-tools` does not work over SSH (GUI session limitation). Use the log to verify runs instead.
+> **Note:** The old `~/Library/LaunchAgents/` plists still exist but are NOT loaded — they were replaced by the system daemons because `launchctl` cannot bootstrap user agents from SSH (macOS Ventura restriction).
 
-**launchd commands (run via SSH or directly on MacBook Pro):**
+**launchd commands (all require sudo, run via SSH):**
 
 ```bash
-# Load (or reload) a plist — use -w flag, works over SSH
-ssh macbookpro "launchctl load -w ~/Library/LaunchAgents/com.steveelliott.content-tools.plist"
-ssh macbookpro "launchctl load -w ~/Library/LaunchAgents/com.steveelliott.content-tools-watchdog.plist"
+# Check both jobs are registered
+ssh macbookpro "sudo launchctl list com.steveelliott.content-tools"
+ssh macbookpro "sudo launchctl list com.steveelliott.content-tools-watchdog"
 
 # Run immediately (test without waiting for schedule)
-ssh macbookpro "launchctl start com.steveelliott.content-tools"
-ssh macbookpro "launchctl start com.steveelliott.content-tools-watchdog"
+ssh macbookpro "sudo launchctl start com.steveelliott.content-tools"
+ssh macbookpro "sudo launchctl start com.steveelliott.content-tools-watchdog"
+
+# Reload after editing a plist
+ssh macbookpro "sudo launchctl bootout system/com.steveelliott.content-tools && sudo launchctl bootstrap system /Library/LaunchDaemons/com.steveelliott.content-tools.plist"
 
 # Watch log live
 ssh macbookpro "tail -f ~/Claude-projects/content-tools/cron.log"
