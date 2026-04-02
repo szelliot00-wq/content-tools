@@ -66,6 +66,9 @@ ssh macbookpro "tail -f ~/Claude-projects/content-tools/cron.log"
 # Check for errors in recent runs
 ssh macbookpro "grep -i 'error\|fail\|traceback' ~/Claude-projects/content-tools/cron.log | tail -30"
 
+# Confirm the daemon is firing on schedule (look for 08:00 timestamps)
+ssh macbookpro "grep 'Run started' ~/Claude-projects/content-tools/cron.log | tail -10"
+
 # Run a single tool manually
 ssh macbookpro "cd ~/Claude-projects/content-tools && source .venv/bin/activate && bash youtube-summarizer/run.sh"
 ```
@@ -335,3 +338,5 @@ Changes to `run-all.sh` itself take effect on the run after next (bash cannot re
 - Tool run scripts source `.env` implicitly via python-dotenv inside the Python scripts. If adding new shell-level env var checks, explicitly source `.env` in the shell script first.
 - `run-all.sh` uses `$HOME` for paths — do not hardcode `/Users/steveelliott`.
 - All git remotes on the MacBook Pro use SSH. Do not switch back to HTTPS — it breaks in launchd sessions.
+- All `git pull` calls must use `--rebase`. Without it, git 2.27+ aborts when branches diverge (the auto-commit runs cause frequent divergence), which fails every tool on every run.
+- `shared/email.py` shadows the stdlib `email` package if `shared/` is in `sys.path`. Never invoke `shared/heartbeat.py` as a direct script from inside the `shared/` directory; always run it from the project root or via `python3 -m shared.heartbeat`.
