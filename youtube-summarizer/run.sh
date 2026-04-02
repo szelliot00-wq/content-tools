@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Pull latest changes (picks up edits to creators.json made on another machine)
-git pull origin main
+git pull --rebase origin main
 
 # Activate the shared content-tools venv
 source .venv/bin/activate
@@ -29,7 +29,7 @@ if git diff --staged --quiet; then
         echo "Most recent summary: $LATEST (${AGE_DAYS} day(s) old)"
         if [ "$AGE_DAYS" -ge 2 ]; then
             echo "WARNING: No new YouTube summaries for ${AGE_DAYS} days — sending alert"
-            python3 shared/heartbeat.py "YouTube Summarizer (silent — no new summaries for ${AGE_DAYS} days)"
+            python3 -m shared.heartbeat "YouTube Summarizer (silent — no new summaries for ${AGE_DAYS} days)"
         fi
     fi
 else

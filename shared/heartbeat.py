@@ -16,7 +16,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+# When invoked as a script, Python adds shared/ to sys.path[0], which causes
+# shared/email.py to shadow the stdlib email package (breaking smtplib).
+# Remove shared/ and insert the project root instead.
+_root = str(Path(__file__).resolve().parent.parent)
+_shared = str(Path(__file__).resolve().parent)
+sys.path = [p for p in sys.path if p != _shared]
+sys.path.insert(0, _root)
 
 from shared.email import send_digest  # noqa: E402
 

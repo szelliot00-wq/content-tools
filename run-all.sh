@@ -45,7 +45,7 @@ echo "=== Run started at $(date) ==="
 # Note: changes to run-all.sh itself take effect on the *next* run (bash can't
 # reload itself mid-execution).
 echo "=== Updating repo and dependencies ==="
-git -C "$REPO" pull origin main
+git -C "$REPO" pull --rebase origin main
 "$VENV/bin/pip" install -q -r "$REPO/requirements.txt"
 
 run_tool "YouTube Summarizer" "$REPO/youtube-summarizer/run.sh"

@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Pull latest changes
-git pull origin main
+git pull --rebase origin main
 
 # Activate virtual environment
 source .venv/bin/activate
