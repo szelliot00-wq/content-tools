@@ -18,15 +18,17 @@ git add youtube-summarizer/summaries/ youtube-summarizer/transcripts/
 if git diff --staged --quiet; then
     echo "No new YouTube summaries to commit."
 
-    # Alert if no summaries have been written for 2+ days
-    LATEST=$(find youtube-summarizer/summaries -name '*.md' -not -path '*/.*' | xargs ls -t 2>/dev/null | head -1)
-    if [ -z "$LATEST" ]; then
-        echo "No summaries found at all — skipping staleness check."
+    # Alert if no summaries have been committed for 2+ days.
+    # Uses git log rather than file mtime — git pull --rebase updates mtimes
+    # on all files, making mtime checks unreliable.
+    LAST_COMMIT_TS=$(git log --format="%ct" -- "youtube-summarizer/summaries/" | head -1)
+    if [ -z "$LAST_COMMIT_TS" ]; then
+        echo "No summary commits found — skipping staleness check."
     else
-        MTIME=$(stat -f %m "$LATEST")   # macOS stat
         NOW=$(date +%s)
-        AGE_DAYS=$(( (NOW - MTIME) / 86400 ))
-        echo "Most recent summary: $LATEST (${AGE_DAYS} day(s) old)"
+        AGE_DAYS=$(( (NOW - LAST_COMMIT_TS) / 86400 ))
+        LAST_COMMIT_DATE=$(date -r "$LAST_COMMIT_TS" +%Y-%m-%d)
+        echo "Most recent summary commit: $LAST_COMMIT_DATE (${AGE_DAYS} day(s) ago)"
         if [ "$AGE_DAYS" -ge 2 ]; then
             echo "WARNING: No new YouTube summaries for ${AGE_DAYS} days — sending alert"
             python3 -m shared.heartbeat "YouTube Summarizer (silent — no new summaries for ${AGE_DAYS} days)"
