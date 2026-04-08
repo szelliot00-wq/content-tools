@@ -214,9 +214,10 @@ def process_video(creator_id: str, video_id: str, title: str, refresh: bool, cat
         return True
     if google_genai and os.environ.get("GEMINI_API_KEY"):
         summary = summarize_with_gemini(transcript, title, category)
+        if not summary:
+            print(f"  Gemini unavailable for {video_id} — skipping, will retry next run")
+            return False
     else:
-        summary = None
-    if not summary:
         summary = write_summary_fallback(transcript, title)
     save_summary(creator_id, video_id, summary, title)
     print(f"  Wrote summary: {video_id} — {title[:50]}...")
