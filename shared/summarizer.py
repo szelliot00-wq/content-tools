@@ -40,7 +40,7 @@ def summarize(content: str, prompt_template: str) -> str | None:
     for attempt in range(2):
         try:
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-2.5-pro",
                 contents=prompt,
             )
             return (response.text or "").strip()
