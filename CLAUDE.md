@@ -256,7 +256,7 @@ from shared import summarizer as gemini
 summary = gemini.summarize(text, prompt_template)
 ```
 
-- Uses `gemini-2.5-flash` via `google-genai`
+- Uses `gemini-2.0-flash` via `google-genai`
 - `{content}` in the prompt template is replaced with the text
 - Truncates input at 120,000 chars
 - Returns `None` if `GEMINI_API_KEY` is not set
