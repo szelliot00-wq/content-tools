@@ -150,6 +150,7 @@ Provide your response in this exact format:
 
 
 def summarize_with_gemini(transcript: str, video_title: str, category: str | None = None) -> str | None:
+    import time
     if not google_genai:
         return None
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -161,15 +162,19 @@ def summarize_with_gemini(transcript: str, video_title: str, category: str | Non
     if len(transcript) > max_chars:
         transcript = transcript[:max_chars] + "\n\n[Transcript truncated...]"
     prompt = _build_prompt(transcript, video_title, category)
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-        )
-        return (response.text or "").strip()
-    except Exception as e:
-        print(f"  Gemini error: {e}", file=sys.stderr)
-        return None
+    for attempt in range(2):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+            )
+            return (response.text or "").strip()
+        except Exception as e:
+            print(f"  Gemini error: {e}", file=sys.stderr)
+            if attempt == 0:
+                print("  Retrying in 30s...", file=sys.stderr)
+                time.sleep(30)
+    return None
 
 
 def write_summary_fallback(transcript: str, video_title: str) -> str:

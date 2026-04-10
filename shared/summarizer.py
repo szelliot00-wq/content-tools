@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import os
 import sys
+import time
 
 from dotenv import load_dotenv
 
@@ -35,13 +36,17 @@ def summarize(content: str, prompt_template: str) -> str | None:
 
     prompt = prompt_template.format(content=content)
 
-    try:
-        client = google_genai.Client(api_key=api_key)
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-        )
-        return (response.text or "").strip()
-    except Exception as e:
-        print(f"Gemini error: {e}", file=sys.stderr)
-        return None
+    client = google_genai.Client(api_key=api_key)
+    for attempt in range(2):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+            )
+            return (response.text or "").strip()
+        except Exception as e:
+            print(f"Gemini error: {e}", file=sys.stderr)
+            if attempt == 0:
+                print("Retrying in 30s...", file=sys.stderr)
+                time.sleep(30)
+    return None
