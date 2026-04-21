@@ -16,11 +16,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Optional: Google Gemini for summaries
+import time
+
+# Optional: Anthropic Claude for summaries
 try:
-    from google import genai as google_genai
+    import anthropic as anthropic_sdk
 except ImportError:
-    google_genai = None
+    anthropic_sdk = None
+
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 try:
     from youtube_transcript_api import YouTubeTranscriptApi
@@ -150,27 +154,27 @@ Provide your response in this exact format:
 
 
 def summarize_with_gemini(transcript: str, video_title: str, category: str | None = None) -> str | None:
-    import time
-    if not google_genai:
+    if not anthropic_sdk:
         return None
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         return None
-    client = google_genai.Client(api_key=api_key)
     # Truncate very long transcripts to stay within context
     max_chars = 120_000
     if len(transcript) > max_chars:
         transcript = transcript[:max_chars] + "\n\n[Transcript truncated...]"
     prompt = _build_prompt(transcript, video_title, category)
+    client = anthropic_sdk.Anthropic(api_key=api_key)
     for attempt in range(2):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
+            response = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=4096,
+                messages=[{"role": "user", "content": prompt}],
             )
-            return (response.text or "").strip()
+            return (response.content[0].text or "").strip()
         except Exception as e:
-            print(f"  Gemini error: {e}", file=sys.stderr)
+            print(f"  Claude error: {e}", file=sys.stderr)
             if attempt == 0:
                 print("  Retrying in 30s...", file=sys.stderr)
                 time.sleep(30)
@@ -181,10 +185,10 @@ def write_summary_fallback(transcript: str, video_title: str) -> str:
     """Fallback when no Gemini key: short extract and note to add API key for full summaries."""
     preview = (transcript[:1500] + "...") if len(transcript) > 1500 else transcript
     return f"""## Summary
-(Set GEMINI_API_KEY and install google-genai for AI-generated summaries.)
+(Set ANTHROPIC_API_KEY and install anthropic for AI-generated summaries.)
 
 ## Key insights
-(Install google-genai and set GEMINI_API_KEY, then re-run to get key insights.)
+(Install anthropic and set ANTHROPIC_API_KEY, then re-run to get key insights.)
 
 ## Transcript preview
 {preview}
@@ -217,10 +221,10 @@ def process_video(creator_id: str, video_id: str, title: str, refresh: bool, cat
     if summary_path.exists() and not refresh:
         print(f"  Skip (have summary): {video_id}")
         return True
-    if google_genai and os.environ.get("GEMINI_API_KEY"):
+    if anthropic_sdk and os.environ.get("ANTHROPIC_API_KEY"):
         summary = summarize_with_gemini(transcript, title, category)
         if not summary:
-            print(f"  Gemini unavailable for {video_id} — skipping, will retry next run")
+            print(f"  Claude unavailable for {video_id} — skipping, will retry next run")
             return False
     else:
         summary = write_summary_fallback(transcript, title)

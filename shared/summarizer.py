@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reusable Gemini API wrapper for content-tools.
+Reusable Anthropic Claude API wrapper for content-tools.
 """
 from __future__ import annotations
 
@@ -13,22 +13,23 @@ from dotenv import load_dotenv
 load_dotenv()
 
 try:
-    from google import genai as google_genai
+    import anthropic as anthropic_sdk
 except ImportError:
-    google_genai = None
+    anthropic_sdk = None
 
 MAX_CHARS = 120_000
+MODEL = "claude-sonnet-4-6"
 
 
 def summarize(content: str, prompt_template: str) -> str | None:
-    """Summarize content using Gemini. Returns None on error or missing config."""
-    if not google_genai:
-        print("google-genai not installed. Run: pip install google-genai", file=sys.stderr)
+    """Summarize content using Claude. Returns None on error or missing config."""
+    if not anthropic_sdk:
+        print("anthropic not installed. Run: pip install anthropic", file=sys.stderr)
         return None
 
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        print("GEMINI_API_KEY not set in environment.", file=sys.stderr)
+        print("ANTHROPIC_API_KEY not set in environment.", file=sys.stderr)
         return None
 
     if len(content) > MAX_CHARS:
@@ -36,16 +37,17 @@ def summarize(content: str, prompt_template: str) -> str | None:
 
     prompt = prompt_template.format(content=content)
 
-    client = google_genai.Client(api_key=api_key)
+    client = anthropic_sdk.Anthropic(api_key=api_key)
     for attempt in range(2):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=4096,
+                messages=[{"role": "user", "content": prompt}],
             )
-            return (response.text or "").strip()
+            return (response.content[0].text or "").strip()
         except Exception as e:
-            print(f"Gemini error: {e}", file=sys.stderr)
+            print(f"Claude error: {e}", file=sys.stderr)
             if attempt == 0:
                 print("Retrying in 30s...", file=sys.stderr)
                 time.sleep(30)
