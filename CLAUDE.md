@@ -8,8 +8,8 @@ Personal automation project. Three tools that monitor content sources and email 
 
 | Tool | What it does |
 |---|---|
-| youtube-summarizer | Fetches transcripts from YouTube channels, summarises with Gemini, emails digest |
-| article-reader | Fetches RSS feeds + manual URLs, summarises with Gemini, emails digest |
+| youtube-summarizer | Fetches transcripts from YouTube channels, summarises with Claude, emails digest |
+| article-reader | Fetches RSS feeds + manual URLs, summarises with Claude, emails digest |
 | competitor-tracker | Scrapes competitor pages, diffs against saved snapshots, summarises changes, emails digest |
 
 All three run daily at 08:00 via a single launchd job on a dedicated MacBook Pro. An email is only sent if there is something new to report.
@@ -88,12 +88,12 @@ content-tools/
 ├── .env.example                  ← template
 │
 ├── shared/
-│   ├── summarizer.py             ← Gemini API wrapper (gemini-2.5-flash)
+│   ├── summarizer.py             ← Claude API wrapper (claude-sonnet-4-6)
 │   ├── email.py                  ← SMTP email sender (Gmail)
 │   └── heartbeat.py              ← failure alert email (called by run-all.sh on error)
 │
 ├── youtube-summarizer/
-│   ├── summarize.py              ← main script (yt-dlp + youtube-transcript-api + Gemini)
+│   ├── summarize.py              ← main script (yt-dlp + youtube-transcript-api + Claude)
 │   ├── creators.json             ← YouTube channels to monitor
 │   ├── send_digest.py            ← emails digest of newly committed summaries
 │   ├── run.sh                    ← shell wrapper (git pull → run → commit → push → email → staleness check)
@@ -189,7 +189,7 @@ Defines competitors and which pages to monitor. Structure:
 All secrets live in `.env` (loaded via python-dotenv). See `.env.example`:
 
 ```
-GEMINI_API_KEY=
+ANTHROPIC_API_KEY=
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=you@gmail.com
@@ -252,14 +252,14 @@ If git push fails with auth errors, check: `ssh macbookpro "ssh -T git@github.co
 ### shared/summarizer.py
 
 ```python
-from shared import summarizer as gemini
-summary = gemini.summarize(text, prompt_template)
+from shared import summarizer
+summary = summarizer.summarize(text, prompt_template)
 ```
 
-- Uses `gemini-2.5-flash` via `google-genai`
+- Uses `claude-sonnet-4-6` via `anthropic`
 - `{content}` in the prompt template is replaced with the text
 - Truncates input at 120,000 chars
-- Returns `None` if `GEMINI_API_KEY` is not set
+- Returns `None` if `ANTHROPIC_API_KEY` is not set
 
 ### shared/email.py
 
@@ -296,7 +296,7 @@ feedparser
 trafilatura
 requests
 beautifulsoup4
-google-genai
+anthropic
 youtube-transcript-api>=0.6.0
 yt-dlp>=2024.1.0
 ```
