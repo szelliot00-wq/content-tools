@@ -3,6 +3,5 @@ feedparser
 trafilatura
 requests
 beautifulsoup4
-anthropic
 youtube-transcript-api>=0.6.0
 yt-dlp>=2024.1.0
