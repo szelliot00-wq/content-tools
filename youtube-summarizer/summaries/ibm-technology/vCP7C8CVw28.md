@@ -1,0 +1,19 @@
+# Apple’s new CEO & how AI understands intent
+
+Video ID: `vCP7C8CVw28`
+
+## Summary
+This episode of *Mixture of Experts* features host Tim Hang and guests Sandia, Bri Copeki, and Kush Varsny discussing four major AI and tech news stories: Tim Cook's retirement and John Ternus's ascension as Apple's new CEO, Amazon's massive additional investment in Anthropic, key takeaways from the Adobe Summit including an IBM IBV research report on customer intent, and the leak of Anthropic's restricted "Mythos" model. The panel explores how hardware-first leadership may shape Apple's AI strategy, the growing symbiotic relationships between cloud providers and AI labs, how AI agents are transforming consumer purchasing behavior, and the tension between AI model secrecy and real-world security vulnerabilities.
+
+## Key insights
+- **Apple's new CEO John Ternus brings a hardware-first mindset**, with a background in iPad, AirPods, iPhone, and Apple Watch — the panel sees this as potentially beneficial for reliability and on-device AI, but questions whether Apple will remain too conservative to compete aggressively in the AI race.
+- **Apple's true AI competitive advantage is its on-device compute infrastructure**, including specialized chips and thermal management technology (e.g., 3D titanium used as heat sinks), which enables private, local AI processing without heavy reliance on the cloud.
+- **Smaller AI models are rapidly catching up to larger ones**, with an 8-billion parameter model expected to match today's 120-billion parameter models within months, making Apple's edge-computing and on-device AI strategy increasingly viable over time.
+- **Amazon's $5B (up to $25B) investment in Anthropic is largely a cloud revenue play**, since Anthropic in turn commits to purchasing over $100B in AWS cloud services — Amazon holds the stronger position in this relationship given Anthropic's infrastructure dependency.
+- **Specialized ASICs (like Amazon's Trainium 2) designed for specific AI models create competitive lock-in**, raising concerns about the long-term health of the open AI ecosystem as hardware becomes tightly coupled to proprietary model architectures.
+- **The AI industry is forming powerful alliance stacks** (e.g., Anthropic + Amazon, OpenAI + Microsoft), resembling geopolitical alliances, with the panel expecting more democratization only after the current consolidation phase settles.
+- **Adobe Summit highlighted agentic AI orchestration as the dominant enterprise theme**, with products like Adobe CX Enterprise and Gen Studio focusing on end-to-end AI-powered marketing workflows, content supply chains, and data governance.
+- **Older generations (Gen X and Boomers) are adopting AI for purchasing decisions faster than younger generations**, driven by low tolerance for hostile digital environments and higher disposable income — with Gen X at ~82% and Boomers at ~92% adoption rates per the IBM IBV study.
+- **Advertising is shifting from targeting humans to targeting AI agents**, requiring brands to optimize for structured metadata, credible mentions across aggregator platforms, and API accessibility rather than traditional visual or emotional campaigns.
+- **The concept of "consumer intent" is being transformed by agents**, which maintain persistent, delegated intent on behalf of users rather than capturing fleeting human attention — forcing brands to rethink how and when to engage in the purchase journey.
+- **The Anthropic "Mythos" model leak reveals a stark irony**: a model deemed too dangerous to release publicly was accessed by a group of users on Discord through what appears to be basic digital security probing, highlighting how messy and vulnerable real-world technology infrastructure can be despite its perceived precision.
