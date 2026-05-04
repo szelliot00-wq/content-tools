@@ -157,6 +157,7 @@ Defines RSS feeds and manual URLs. Structure:
 
 - `cutoff_days: null` disables date filtering (fetches regardless of age)
 - Articles already summarised are skipped by slug match against `summaries/articles/`
+- RSS feed XML is fetched via agent-browser (`open` + `eval "document.documentElement.outerText"`) — not `requests`. This is required because some feeds (e.g. Fluidtopics) are behind Cloudflare and block plain HTTP requests. The eval output is a JSON-encoded string; `json.loads()` is used before passing to feedparser.
 
 ### competitor-tracker/competitors.json
 
