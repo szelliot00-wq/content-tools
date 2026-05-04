@@ -83,13 +83,13 @@ def save_summary(title: str, url: str, content: str, slug: str) -> Path:
     return path
 
 
-def fetch_rss_items(feed: dict) -> list[dict]:
-    """Return list of {title, url, text} from RSS feed (last CUTOFF_DAYS days)."""
+def fetch_rss_items(feed: dict) -> list[dict] | None:
+    """Return list of {title, url, text} from RSS feed, or None on fetch/parse failure."""
     try:
         import feedparser
     except ImportError:
         print("feedparser not installed.", file=sys.stderr)
-        return []
+        return None
 
     url = feed.get("url", "")
     max_items = feed.get("max_items", 3)
@@ -109,10 +109,10 @@ def fetch_rss_items(feed: dict) -> list[dict]:
         parsed = feedparser.parse(json.loads(result.stdout.strip()))
     except Exception as e:
         print(f"    Feed fetch error: {e}", file=sys.stderr)
-        return []
+        return None
     if parsed.bozo and not parsed.entries:
         print(f"    Failed to parse feed: {url}", file=sys.stderr)
-        return []
+        return None
 
     items = []
     for entry in parsed.entries[:max_items * 3]:  # fetch extra, filter by date
@@ -209,12 +209,17 @@ def process_item(item: dict) -> dict | None:
 def run() -> int:
     sources = load_sources()
     digest_items: list[dict] = []
+    feed_errors: list[str] = []
 
     # RSS feeds
     for feed in sources.get("rss_feeds", []):
         if not feed.get("enabled", True):
             continue
-        for item in fetch_rss_items(feed):
+        items = fetch_rss_items(feed)
+        if items is None:
+            feed_errors.append(feed.get("name", feed.get("url", "unknown")))
+            continue
+        for item in items:
             result = process_item(item)
             if result:
                 digest_items.append(result)
@@ -226,6 +231,25 @@ def run() -> int:
             digest_items.append(result)
 
     subprocess.run([AGENT_BROWSER, "close", "--all"], capture_output=True)
+
+    if feed_errors:
+        print(f"\nFeed errors: {feed_errors} — sending alert...")
+        run_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+        mailer.send_digest(
+            subject=f"⚠️ Article Reader: {len(feed_errors)} feed(s) failed — {run_time}",
+            items=[
+                {
+                    "title": f"❌ {name}",
+                    "content": (
+                        "This RSS feed could not be fetched or parsed.\n\n"
+                        "Check the log on the MacBook Pro:\n\n"
+                        "`tail -100 ~/Claude-projects/content-tools/cron.log`"
+                    ),
+                    "url": None,
+                }
+                for name in feed_errors
+            ],
+        )
 
     if not digest_items:
         print("No new articles to digest.")
