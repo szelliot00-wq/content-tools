@@ -1,104 +1,554 @@
-A CMS for all your web needs - Tridion Sites Editions - RWS
-Skip to main content
-Tridion Sites – One CMS for all your web needs
-Global website management made easy.
-Start with a single language and single website and then scale as your business grows - adding more websites and languages as needed.
-Web Content Management reimagined
-Tridion has been designed to uniquely support your business journey from start-up-stage to being a large multinational enterprise.
-Once you start with Tridion, you will never outgrow your CMS.
-Download brochure
-Tridion beyond boundaries
-Manage and deliver superb digital experiences across multiple channels - using traditional or headless publishing.
-Easily and cost-effectively provide customers with content in their own language, choosing from a spectrum of options: machine translation, human-in-the-loop or fully expert translation services.
-Tridion Sites demo
-Streamline your translation processes
-Watch demo
-Customers that have grown with Tridion
-Three easy steps
-Adopt
-Enjoy speedy onboarding and hassle free web operations through our full service offering. We host, manage and maintain your web environment (Tridion Essential Edition) and localization technology (Tridion Team Edition).
-Integrate
-Quickly and easily integrate with your enterprise marketing tools such as CRM and marketing automation to help you craft effective customer journeys and generate more leads.
-Deliver
-Create, reuse, translate, and deliver engaging, accurate and rich personalized content across all your channels – websites , Single Page Applications (SPA), mobile, apps and more.
-Compare Products
-Tridion Sites Essential
-Tridion Sites Team
-Tridion Sites Enterprise
-Expand All
-Tridion Sites
-Essential
-Tridion Sites
-Team
-Tridion Sites
-Enterprise
-Contact
-Contact
-Contact
-Web Content Management
-# Users
-Included = 10
-Max = 25
-Included = 10
-Max = 25
-Included = 25
-Max = Unlimited
-Explore, manage, and publish content
-# Websites
-Unlimited
-Unlimited
-Unlimited
-Single Sign On
-Add and manage page regions
-Instant Site: create new websites instantly
-Personalization and  A/B testing
-On-demand
-Semantic AI - auto-tagging and semantic search
-API based content access
-Max annual GraphQL queries
-Included = 2.4M
-Max = 6M
-Included = 2.4M
-Max = 6M
-Unlimited
-Integrations to external systems
-Included = 0
-Max = 2
-Included = 0
-Max = 3
-Included = 0
-Max = unlimited
-Runs on sustainable energy
-Translation capabilities
-# Website languages supported
-Unlimited
-Unlimited
-Unlimited
-# Machine translated words
-Included = 1.2M
-Max = 3M
-On-demand
-Website - on the go Machine Translation of website
-On-demand
-Authoring - integrated Translation Management & Machine Translation
-On-demand
-In-context Translation Review and Translation Preview
-On-demand
-On-demand
-Administration
-Add / manage / remove users
-Development, Testing, Acceptance and Production (D-T-A-P) environment
-D-P only
-D-P only
-Included = D-T-P
-Max = Acceptance/Unlimited
-High Availability (Content Management / Content Delivery)
-Y (CD)
-Y (CD)
-Y (CM + CD)
-Uptime / SLA
-Included = 99.5 / 99.5%
-Included = 99.5% / 99.5%
-Included = 99.9% DXD / 99.0% CM
-Max 99.9% DXD / 99.9% CM
-Loading...
+- generic
+  - button "Skip to main content, press Enter" [ref=e1]
+    - StaticText "Skip to main content"
+  - generic
+    - sectionheader "main"
+      - alert
+        - generic
+          - strong
+            - StaticText "New report"
+          - StaticText " | Content Unlocked: What enterprise AI doesn’t know it’s missing"
+        - link "Get the report" [ref=e3]
+      - navigation
+        - button [ref=e12]
+          - image
+        - button "Tridion" [ref=e13]
+          - StaticText "Tridion"
+        - list
+          - listitem [level=1, ref=e24] clickable [cursor:pointer]
+            - button "Find a solution" [expanded=false, ref=e65]
+              - StaticText "Find a solution"
+          - listitem [level=1, ref=e25] clickable [cursor:pointer]
+            - button "Resources & Events" [expanded=false, ref=e66]
+              - StaticText "Resources & Events"
+          - listitem [level=1, ref=e26] clickable [cursor:pointer]
+            - button "Case Studies" [expanded=false, ref=e67]
+              - StaticText "Case Studies"
+          - listitem [level=1, ref=e27] clickable [cursor:pointer]
+            - button "Service & Support" [expanded=false, ref=e68]
+              - StaticText "Service & Support"
+        - list
+          - listitem [level=1, ref=e28] clickable [cursor:pointer]
+            - button "Search" [expanded=false, ref=e69]
+          - listitem [level=1, ref=e29] clickable [cursor:pointer]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e70]
+              - StaticText "EN"
+          - listitem [level=1, ref=e30] clickable [cursor:pointer]
+            - link "Get in touch" [ref=e71]
+              - StaticText "Get in touch"
+    - main
+      - generic
+        - heading "Tridion Sites – One CMS for all your web needs" [level=1, ref=e31]
+          - StaticText "Tridion Sites – One CMS for all your web needs"
+        - paragraph
+          - StaticText "Global website management made easy."
+        - paragraph
+          - StaticText "Start with a single language and single website and then scale as your business grows - adding more websites and languages as needed."
+      - generic
+        - heading "Web Content Management reimagined" [level=2, ref=e32]
+          - StaticText "Web Content Management reimagined"
+        - paragraph
+          - StaticText "Tridion has been designed to uniquely support your business journey from start-up-stage to being a large multinational enterprise."
+        - paragraph
+          - StaticText "Once you start with Tridion, you will never outgrow your CMS."
+        - link "Download brochure" [ref=e33]
+          - StaticText "Download brochure"
+        - generic "Video Player"
+          - Video
+          - generic [ref=e72] clickable [cursor:pointer]
+          - button "Play Video" [ref=e73]
+            - StaticText "Play Video"
+      - generic
+        - generic
+        - heading "Tridion beyond boundaries" [level=2, ref=e34]
+          - StaticText "Tridion beyond boundaries"
+        - paragraph
+          - StaticText "Manage and deliver superb digital experiences across multiple channels - using traditional or headless publishing."
+        - paragraph
+          - StaticText "Easily and cost-effectively provide customers with content in their own language, choosing from a spectrum of options: machine translation, human-in-the-loop or fully expert translation services."
+      - generic
+        - paragraph
+          - StaticText "Tridion Sites demo"
+        - paragraph
+          - StaticText "Streamline your translation processes"
+        - link "Watch demo" [ref=e74]
+          - StaticText "Watch demo"
+      - heading "Customers that have grown with Tridion" [level=2, ref=e14]
+        - StaticText "Customers that have grown with Tridion"
+      - image "NH Hotel Group"
+      - image "KONE"
+      - image "Cambridge University Press"
+      - image "Jotun"
+      - image "Radisson Hotels"
+      - image "Starlux Airlines"
+      - image "Yale University"
+      - heading "Three easy steps" [level=2, ref=e15]
+        - StaticText "Three easy steps"
+      - heading "Adopt" [level=3, ref=e16]
+      - StaticText "Enjoy speedy onboarding and hassle free web operations through our full service offering. We host, manage and maintain your web environment (Tridion Essential Edition) and localization technology (Tridion Team Edition)."
+      - heading "Integrate" [level=3, ref=e17]
+      - StaticText "Quickly and easily integrate with your enterprise marketing tools such as CRM and marketing automation to help you craft effective customer journeys and generate more leads."
+      - heading "Deliver" [level=3, ref=e18]
+      - StaticText "Create, reuse, translate, and deliver engaging, accurate and rich personalized content across all your channels – websites , Single Page Applications (SPA), mobile, apps and more."
+      - generic [ref=e4] focusable [tabindex]
+        - heading "Compare Products" [level=2, ref=e19]
+          - StaticText "Compare Products"
+        - StaticText ""
+        - button "Tridion Sites Essential" [ref=e35]
+        - StaticText ""
+        - button "Tridion Sites Team" [ref=e36]
+        - StaticText ""
+        - button "Tridion Sites Enterprise" [ref=e37]
+        - table [ref=e20] focusable [tabindex]
+          - rowgroup
+            - row
+              - cell "Expand All" [ref=e78]
+                - button "Expand All" [expanded=false, ref=e90]
+              - columnheader "Tridion Sites Essential" [ref=e79]
+                - StaticText "Tridion Sites"
+                - StaticText "Essential"
+              - columnheader "Tridion Sites Team" [ref=e80]
+                - StaticText "Tridion Sites"
+                - StaticText "Team"
+              - columnheader "Tridion Sites Enterprise" [ref=e81]
+                - StaticText "Tridion Sites"
+                - StaticText "Enterprise"
+            - row
+              - cell
+              - cell "Contact" [ref=e82]
+                - link "Contact" [ref=e91]
+              - cell "Contact" [ref=e83]
+                - link "Contact" [ref=e92]
+              - cell "Contact" [ref=e84]
+                - link "Contact" [ref=e93]
+          - rowgroup
+            - rowheader "Web Content Management " [ref=e75]
+              - button "Web Content Management " [expanded=true, ref=e85]
+                - cell "Web Content Management" [ref=e94]
+                - StaticText ""
+            - rowgroup
+              - row
+                - rowheader "# Users" [ref=e95]
+                - cell "Included = 10 Max = 25" [ref=e96]
+                - cell "Included = 10 Max = 25" [ref=e97]
+                - cell "Included = 25 Max = Unlimited" [ref=e98]
+              - row
+                - rowheader "Explore, manage, and publish content" [ref=e99]
+                - cell "Yes" [ref=e100]
+                - cell "Yes" [ref=e101]
+                - cell "Yes" [ref=e102]
+              - row
+                - rowheader "# Websites" [ref=e103]
+                - cell "Unlimited" [ref=e104]
+                - cell "Unlimited" [ref=e105]
+                - cell "Unlimited" [ref=e106]
+              - row
+                - rowheader "Single Sign On" [ref=e107]
+                - cell "Yes" [ref=e108]
+                - cell "Yes" [ref=e109]
+                - cell "Yes" [ref=e110]
+              - row
+                - rowheader "Add and manage page regions" [ref=e111]
+                - cell "No" [ref=e112]
+                - cell "No" [ref=e113]
+                - cell "Yes" [ref=e114]
+              - row
+                - rowheader "Instant Site: create new websites instantly" [ref=e115]
+                  - StaticText "Instant Site: create new websites instantly"
+                - cell "No" [ref=e116]
+                - cell "No" [ref=e117]
+                - cell "Yes" [ref=e118]
+              - row
+                - rowheader "Personalization and A/B testing" [ref=e119]
+                - cell "No" [ref=e120]
+                - cell "No" [ref=e121]
+                - cell "On-demand" [ref=e122]
+              - row
+                - rowheader "Semantic AI - auto-tagging and semantic search" [ref=e123]
+                - cell "No" [ref=e124]
+                - cell "No" [ref=e125]
+                - cell "Yes" [ref=e126]
+              - row
+                - rowheader "API based content access" [ref=e127]
+                - cell "Yes" [ref=e128]
+                - cell "Yes" [ref=e129]
+                - cell "Yes" [ref=e130]
+              - row
+                - rowheader "Max annual GraphQL queries" [ref=e131]
+                - cell "Included = 2.4M Max = 6M" [ref=e132]
+                - cell "Included = 2.4M Max = 6M" [ref=e133]
+                - cell "Unlimited" [ref=e134]
+              - row
+                - rowheader "Integrations to external systems" [ref=e135]
+                - cell "Included = 0 Max = 2" [ref=e136]
+                - cell "Included = 0 Max = 3" [ref=e137]
+                - cell "Included = 0 Max = unlimited" [ref=e138]
+              - row
+                - rowheader "Runs on sustainable energy" [ref=e139]
+                - cell "No" [ref=e140]
+                - cell "No" [ref=e141]
+                - cell "Yes" [ref=e142]
+          - rowgroup
+            - rowheader "Translation capabilities " [ref=e76]
+              - button "Translation capabilities " [expanded=false, ref=e86]
+                - cell "Translation capabilities" [ref=e143]
+          - rowgroup
+            - rowheader "Administration " [ref=e77]
+              - button "Administration " [expanded=false, ref=e87]
+                - cell "Administration" [ref=e144]
+      - generic
+        - generic
+          - LabelText
+            - StaticText "First Name*"
+          - textbox "First Name*" [required, ref=e145]
+        - generic
+          - LabelText
+            - StaticText "Last Name*"
+          - textbox "Last Name*" [required, ref=e146]
+        - generic
+          - LabelText
+            - StaticText "Business E-mail*"
+          - textbox "Business E-mail*" [required, ref=e147]
+        - generic
+          - LabelText
+            - StaticText "Company Name*"
+          - textbox "Company Name*" [required, ref=e148]
+        - generic
+          - LabelText
+            - StaticText "Job Title*"
+          - textbox "Job Title*" [required, ref=e149]
+        - generic
+          - LabelText
+            - StaticText "Phone Number"
+          - textbox "Phone Number" [ref=e150]
+        - generic
+          - LabelText
+            - StaticText "Country or Region*"
+          - combobox "Country or Region*" [expanded=false, ref=e152]
+            - MenuListPopup
+              - option "Country or Region*" [disabled, ref=e153]
+              - option "Afghanistan" [ref=e154]
+              - option "Aland Islands" [ref=e155]
+              - option "Albania" [ref=e156]
+              - option "Algeria" [ref=e157]
+              - option "Andorra" [ref=e158]
+              - option "Angola" [ref=e159]
+              - option "Anguilla" [ref=e160]
+              - option "Antarctica" [ref=e161]
+              - option "Antigua and Barbuda" [ref=e162]
+              - option "Argentina" [ref=e163]
+              - option "Armenia" [ref=e164]
+              - option "Aruba" [ref=e165]
+              - option "Australia" [ref=e166]
+              - option "Austria" [ref=e167]
+              - option "Azerbaijan" [ref=e168]
+              - option "Bahamas" [ref=e169]
+              - option "Bahrain" [ref=e170]
+              - option "Bangladesh" [ref=e171]
+              - option "Barbados" [ref=e172]
+              - option "Belarus" [ref=e173]
+              - option "Belgium" [ref=e174]
+              - option "Belize" [ref=e175]
+              - option "Benin" [ref=e176]
+              - option "Bermuda" [ref=e177]
+              - option "Bhutan" [ref=e178]
+              - option "Bolivia" [ref=e179]
+              - option "Bonaire, Sint Eustatius and Saba" [ref=e180]
+              - option "Bosnia and Herzegovina" [ref=e181]
+              - option "Botswana" [ref=e182]
+              - option "Bouvet Island" [ref=e183]
+              - option "Brazil" [ref=e184]
+              - option "British Indian Ocean Territory" [ref=e185]
+              - option "Brunei Darussalam" [ref=e186]
+              - option "Bulgaria" [ref=e187]
+              - option "Burkina Faso" [ref=e188]
+              - option "Burundi" [ref=e189]
+              - option "Cambodia" [ref=e190]
+              - option "Cameroon" [ref=e191]
+              - option "Canada" [ref=e192]
+              - option "Canary Islands" [ref=e193]
+              - option "Cape Verde" [ref=e194]
+              - option "Cayman Islands" [ref=e195]
+              - option "Central African Republic" [ref=e196]
+              - option "Chad" [ref=e197]
+              - option "Chile" [ref=e198]
+              - option "China" [ref=e199]
+              - option "Christmas Island" [ref=e200]
+              - option "Cocos (Keeling) Islands" [ref=e201]
+              - option "Colombia" [ref=e202]
+              - option "Comoros" [ref=e203]
+              - option "Congo, the Democratic Republic of the" [ref=e204]
+              - option "Cook Islands" [ref=e205]
+              - option "Costa Rica" [ref=e206]
+              - option "Cote d'Ivoire" [ref=e207]
+              - option "Croatia" [ref=e208]
+              - option "Cuba" [ref=e209]
+              - option "Curaçao" [ref=e210]
+              - option "Cyprus" [ref=e211]
+              - option "Czech Republic" [ref=e212]
+              - option "Denmark" [ref=e213]
+              - option "Djibouti" [ref=e214]
+              - option "Dominica" [ref=e215]
+              - option "Dominican Republic" [ref=e216]
+              - option "Ecuador" [ref=e217]
+              - option "Egypt" [ref=e218]
+              - option "El Salvador" [ref=e219]
+              - option "Equatorial Guinea" [ref=e220]
+              - option "Eritrea" [ref=e221]
+              - option "Estonia" [ref=e222]
+              - option "Ethiopia" [ref=e223]
+              - option "Falkland Islands (Malvinas)" [ref=e224]
+              - option "Faroe Islands" [ref=e225]
+              - option "Fiji" [ref=e226]
+              - option "Finland" [ref=e227]
+              - option "France" [ref=e228]
+              - option "French Guiana" [ref=e229]
+              - option "French Polynesia" [ref=e230]
+              - option "French Southern Territories" [ref=e231]
+              - option "Gabon" [ref=e232]
+              - option "Gambia" [ref=e233]
+              - option "Georgia" [ref=e234]
+              - option "Germany" [ref=e235]
+              - option "Ghana" [ref=e236]
+              - option "Gibraltar" [ref=e237]
+              - option "Greece" [ref=e238]
+              - option "Greenland" [ref=e239]
+              - option "Grenada" [ref=e240]
+              - option "Guadeloupe" [ref=e241]
+              - option "Guam" [ref=e242]
+              - option "Guatemala" [ref=e243]
+              - option "Guernsey" [ref=e244]
+              - option "Guinea" [ref=e245]
+              - option "Guinea-Bissau" [ref=e246]
+              - option "Guyana" [ref=e247]
+              - option "Haiti" [ref=e248]
+              - option "Heard Island and McDonald Islands" [ref=e249]
+              - option "Holy See (Vatican City State)" [ref=e250]
+              - option "Honduras" [ref=e251]
+              - option "Hong Kong SAR" [ref=e252]
+              - option "Hungary" [ref=e253]
+              - option "Iceland" [ref=e254]
+              - option "India" [ref=e255]
+              - option "Indonesia" [ref=e256]
+              - option "Iran" [ref=e257]
+              - option "Iraq" [ref=e258]
+              - option "Ireland" [ref=e259]
+              - option "Isle of Man" [ref=e260]
+              - option "Israel" [ref=e261]
+              - option "Italy" [ref=e262]
+              - option "Jamaica" [ref=e263]
+              - option "Japan" [ref=e264]
+              - option "Jersey" [ref=e265]
+              - option "Jordan" [ref=e266]
+              - option "Kazakhstan" [ref=e267]
+              - option "Kenya" [ref=e268]
+              - option "Kiribati" [ref=e269]
+              - option "Kosovo" [ref=e270]
+              - option "Kuwait" [ref=e271]
+              - option "Kyrgyzstan" [ref=e272]
+              - option "Lao People's Democratic Republic" [ref=e273]
+              - option "Latvia" [ref=e274]
+              - option "Lebanon" [ref=e275]
+              - option "Lesotho" [ref=e276]
+              - option "Liberia" [ref=e277]
+              - option "Libyan Arab Jamahiriya" [ref=e278]
+              - option "Liechtenstein" [ref=e279]
+              - option "Lithuania" [ref=e280]
+              - option "Luxembourg" [ref=e281]
+              - option "Macao SAR" [ref=e282]
+              - option "Macedonia" [ref=e283]
+              - option "Madagascar" [ref=e284]
+              - option "Malawi" [ref=e285]
+              - option "Malaysia" [ref=e286]
+              - option "Maldives" [ref=e287]
+              - option "Mali" [ref=e288]
+              - option "Malta" [ref=e289]
+              - option "Marshall Islands" [ref=e290]
+              - option "Martinique" [ref=e291]
+              - option "Mauritania" [ref=e292]
+              - option "Mauritius" [ref=e293]
+              - option "Mayotte" [ref=e294]
+              - option "Mexico" [ref=e295]
+              - option "Micronesia" [ref=e296]
+              - option "Moldova" [ref=e297]
+              - option "Monaco" [ref=e298]
+              - option "Mongolia" [ref=e299]
+              - option "Montenegro" [ref=e300]
+              - option "Montserrat" [ref=e301]
+              - option "Morocco" [ref=e302]
+              - option "Mozambique" [ref=e303]
+              - option "Myanmar" [ref=e304]
+              - option "Namibia" [ref=e305]
+              - option "Nauru" [ref=e306]
+              - option "Nepal" [ref=e307]
+              - option "Netherlands" [ref=e308]
+              - option "New Caledonia" [ref=e309]
+              - option "New Zealand" [ref=e310]
+              - option "Nicaragua" [ref=e311]
+              - option "Niger" [ref=e312]
+              - option "Nigeria" [ref=e313]
+              - option "Niue" [ref=e314]
+              - option "Norfolk Island" [ref=e315]
+              - option "North Korea" [ref=e316]
+              - option "Northern Mariana Islands" [ref=e317]
+              - option "Norway" [ref=e318]
+              - option "Oman" [ref=e319]
+              - option "Pakistan" [ref=e320]
+              - option "Palau" [ref=e321]
+              - option "State of Palestine" [ref=e322]
+              - option "Panama" [ref=e323]
+              - option "Papua New Guinea" [ref=e324]
+              - option "Paraguay" [ref=e325]
+              - option "Peru" [ref=e326]
+              - option "Philippines" [ref=e327]
+              - option "Pitcairn" [ref=e328]
+              - option "Poland" [ref=e329]
+              - option "Portugal" [ref=e330]
+              - option "Puerto Rico" [ref=e331]
+              - option "Qatar" [ref=e332]
+              - option "Reunion" [ref=e333]
+              - option "Romania" [ref=e334]
+              - option "Rwanda" [ref=e335]
+              - option "Saint Barthélemy" [ref=e336]
+              - option "Saint Helena, Ascension and Tristan da Cunha" [ref=e337]
+              - option "Saint Kitts and Nevis" [ref=e338]
+              - option "Saint Lucia" [ref=e339]
+              - option "Saint Martin (French part)" [ref=e340]
+              - option "Saint Pierre and Miquelon" [ref=e341]
+              - option "Saint Vincent and the Grenadines" [ref=e342]
+              - option "Samoa" [ref=e343]
+              - option "San Marino" [ref=e344]
+              - option "Sao Tome and Principe" [ref=e345]
+              - option "Saudi Arabia" [ref=e346]
+              - option "Senegal" [ref=e347]
+              - option "Serbia" [ref=e348]
+              - option "Seychelles" [ref=e349]
+              - option "Sierra Leone" [ref=e350]
+              - option "Singapore" [ref=e351]
+              - option "Sint Maarten (Dutch part)" [ref=e352]
+              - option "Slovakia" [ref=e353]
+              - option "Slovenia" [ref=e354]
+              - option "Solomon Islands" [ref=e355]
+              - option "Somalia" [ref=e356]
+              - option "South Africa" [ref=e357]
+              - option "South Georgia and the South Sandwich Islands" [ref=e358]
+              - option "South Korea" [ref=e359]
+              - option "South Sudan" [ref=e360]
+              - option "Spain" [ref=e361]
+              - option "Sri Lanka" [ref=e362]
+              - option "Sudan" [ref=e363]
+              - option "Suriname" [ref=e364]
+              - option "Svalbard and Jan Mayen" [ref=e365]
+              - option "Swaziland" [ref=e366]
+              - option "Sweden" [ref=e367]
+              - option "Switzerland" [ref=e368]
+              - option "Syrian Arab Republic" [ref=e369]
+              - option "Taiwan" [ref=e370]
+              - option "Tajikistan" [ref=e371]
+              - option "Tanzania" [ref=e372]
+              - option "Thailand" [ref=e373]
+              - option "Timor-Leste" [ref=e374]
+              - option "Togo" [ref=e375]
+              - option "Tokelau" [ref=e376]
+              - option "Tonga" [ref=e377]
+              - option "Trinidad and Tobago" [ref=e378]
+              - option "Tunisia" [ref=e379]
+              - option "Turkey" [ref=e380]
+              - option "Turkmenistan" [ref=e381]
+              - option "Turks and Caicos Islands" [ref=e382]
+              - option "Tuvalu" [ref=e383]
+              - option "Uganda" [ref=e384]
+              - option "Ukraine" [ref=e385]
+              - option "United Arab Emirates" [ref=e386]
+              - option "United Kingdom" [ref=e387]
+              - option "United States" [ref=e388]
+              - option "Uruguay" [ref=e389]
+              - option "Uzbekistan" [ref=e390]
+              - option "Vanuatu" [ref=e391]
+              - option "Venezuela" [ref=e392]
+              - option "Viet Nam" [ref=e393]
+              - option "Virgin Islands, British" [ref=e394]
+              - option "Wallis and Futuna" [ref=e395]
+              - option "Western Sahara" [ref=e396]
+              - option "Yemen" [ref=e397]
+              - option "Zambia" [ref=e398]
+              - option "Zimbabwe" [ref=e399]
+        - generic
+          - LabelText
+          - textbox "Additional message" [ref=e151]
+        - paragraph
+          - StaticText "Your personal data will only be used to provide you with related product and services information. We use the services of third parties both in and outside the EU that have signed data processing agreements to process your personal data. By entering your personal data you are affirmatively consenting to our use of your personal data and our "
+          - link "privacy policy" [ref=e88]
+          - StaticText "."
+        - button "Submit" [ref=e89]
+    - sectionfooter
+      - StaticText "Products"
+      - generic
+        - link "Tridion platform" [ref=e38]
+        - link "Tridion Docs" [ref=e39]
+        - link "Tridion Sites" [ref=e40]
+        - link "Semantic AI" [ref=e41]
+        - link "Cloud" [ref=e42]
+        - link "Fonto XML Editor" [ref=e43]
+      - StaticText "Solutions"
+      - generic
+        - link "Technical Communication" [ref=e44]
+        - link "Field Service" [ref=e45]
+        - link "Customer Support" [ref=e46]
+        - link "Digital Experiences" [ref=e47]
+        - link "SMB Website Management" [ref=e48]
+        - link "Resources" [ref=e49]
+      - StaticText "More"
+      - generic
+        - link "About RWS" [ref=e50]
+        - link "Blog" [ref=e51]
+        - link "Tridion Docs - Best CCMS" [ref=e52]
+        - link "Events" [ref=e53]
+        - link "Partner Directory" [ref=e54]
+        - link "Contact Us" [ref=e55]
+      - heading "Tridion Newsletter" [level=2, ref=e5]
+        - StaticText "Tridion Newsletter"
+      - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
+      - button "Sign up" [ref=e6]
+        - StaticText "Sign up"
+      - link "Communication preferences" [ref=e21]
+        - StaticText "Communication preferences"
+        - StaticText ""
+      - link "Twitter" [ref=e7]
+      - link "LinkedIn" [ref=e8]
+      - link "Facebook" [ref=e9]
+      - link "YouTube" [ref=e10]
+      - link "social" [ref=e11]
+      - generic
+        - generic
+          - link "Our Terms of Use" [ref=e56]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Copyright " [ref=e57]
+          - StaticText "|"
+        - generic
+          - link "Privacy" [ref=e58]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Security" [ref=e59]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e60]
+          - StaticText " "
+          - StaticText "|"
+        - link "Cookie Notice" [ref=e61]
+  - generic
+    - generic [ref=e2] focusable [tabindex]
+      - dialog "Cookie Notice"
+        - generic
+          - heading "Cookie Notice" [level=2, ref=e22]
+          - generic
+            - link "More information about your privacy, opens in a new tab" [ref=e62]
+        - generic
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e23]
+          - generic
+            - button "Reject All" [ref=e63]
+            - button "Accept All" [ref=e64]

@@ -1,329 +1,420 @@
-XML Editor
-Toggle navigation
-XML
-                      Editor
-Overview
-What's New
-Get a Trial
-Features
-Visual XML Editors
-Generic Visual XML Editor
-DITA Editor
-TEI Editor
-XHTML Editor
-XML Editing
-Intelligent XML Editing
-Modular XML Files
-Extensible XML Editor
-XML Grid Editor
-XML Outline View
-XInclude Support
-XML Validation
-XML Format and Indent
-Localization
-XPath Support
-XML Signatures
-Helper Views
-WebHelp
-XSL / XSLT
-XSLT Editor
-XSL / XSLT Debugger
-XSLT Documentation
-XSL:FO Editor
-XML Schema
-XSD Editor
-XSD Diagram
-XML Schema 1.1
-XML Instance Generator
-XSD Documentation
-WSDL
-WSDL Editor
-WSDL Refactoring
-WSDL SOAP Analyzer
-WSDL Documentation
-Ant
-Ant Editor
-Ant Validation
-Ant Main Files
-Specialized Assistance
-Ant Views
-Ant Search and Refactoring
-Relax NG
-Visual Schema Editor
-Content Completion Assistant
-Model View
-Relax NG Search and Refactoring
-Convert Grammar Languages
-XQuery
-XQuery Editor
-XQuery Debugger
-XQuery Builder
-JSON
-JSON Editor
-JSON Validation
-JSON Transformation
-JSON Tools
-JSON Schema
-JSON Schema Editor
-JSON Schema Diagram
-JSON Schema Tools
-YAML
-YAML Editor
-YAML Validation
-YAML Tools
-OpenAPI and AsyncAPI
-HTML
-HTML Editor
-HTML Validation
-HTML Queries
-HTML Minification
-Emmet Plugin
-Markdown
-XProc
-XML Databases
-CMS Integration
-Compare Tools
-SVN Client
-Other Features
-Office Open XML
-Open Document Format
-EPUB
-Image Map Editor
-SVG Editor
-CSS Editor
-XML Refactoring Tool
-Advanced Searches
-Miscellaneous
-Project Support
-Eclipse Plugin
-Feature Matrix
-Downloads
-Download
-Software Archive
-Pricing
-Documentation
-Standalone Distribution
-Eclipse
-                              Distribution
-Documentation Archive
-Videos
-Oxygen XML Editor
-Visual XML Editors
-Generic Visual XML Editor
-Review Tools
-Profiling/Conditional Text
-Constant Validation
-DITA Editor
-TEI Editor
-XHTML Editor
-XML Editing
-Intelligent XML Editing
-Modular XML Files
-Extensible XML Editor
-XML Grid Editor
-XML Outline View
-XInclude Support
-XML Validation
-XML Format and Indent
-Localization
-XPath Support
-XML Signatures
-Helper Views
-WebHelp
-XSL / XSLT
-XSLT Editor
-XSL / XSLT Debugger
-XSLT Documentation
-XSL:FO Editor
-XML Schema
-XSD Editor
-XSD Diagram
-XML Schema 1.1
-XML Instance Generator
-XSD Documentation
-WSDL
-WSDL Editor
-WSDL Refactoring
-WSDL SOAP Analyzer
-WSDL Documentation
-Ant
-Ant Editor
-Ant Validation
-Ant Main Files
-Specialized Assistance
-Ant Views
-Ant Search and Refactoring
-Relax NG
-Visual Schema Editor
-Content Completion Assistant
-Model View
-Relax NG Search and Refactoring
-Convert Grammar Languages
-XQuery
-XQuery Editor
-XQuery Debugger
-XQuery Builder
-JSON
-JSON Editor
-JSON Validation
-JSON Transformation
-JSON Tools
-JSON Schema
-JSON Schema Editor
-JSON Schema Diagram
-JSON Schema Tools
-YAML
-YAML Editor
-YAML Validation
-YAML Tools
-OpenAPI and AsyncAPI
-HTML
-HTML Editor
-HTML Validation
-HTML Queries
-HTML Minification
-Emmet Plugin
-Markdown
-XProc
-XML Databases
-CMS Integration
-Compare Tools
-SVN Client
-Authoring
-Review
-Review from Oxygen XML Editor/Author
-Review from a DITA/Git Project
-Publishing
-Content Contribution
-Other Features
-Office Open XML
-Open Document Format
-EPUB
-Image Map Editor
-SVG Editor
-CSS Editor
-XML Refactoring Tool
-Advanced Searches
-Miscellaneous
-Project Support
-Eclipse Plugin
-Feature Matrix
-XML Editor
-Oxygen XML Editor is the premier tool for XML authoring and development. Tailored for all users 
-          (from beginners to experts), it is versatile, cross-platform, and available as both a standalone application 
-          and Eclipse plugin. Boasting robust support for XML technologies, it offers tools for easy content creation, 
-          editing, and publishing. It can be further enhanced by using the Oxygen AI Positron Assistant plugin to add AI 
-          capabilities for creating and rewriting content while keeping the user in full control.
-Single-Source Publishing
-Oxygen XML Editor offers both preset and configurable scenarios for producing
-              various types of output (PDF, ePUB, HTML, and many more) using the same source.
-Structured XML Editing
-A user-friendly interface is combined with a large number of intuitive XML
-              editing features designed to help you to improve productivity and the quality of your
-              work.
-XML Publishing Frameworks
-Complete ready-to-use publishing and editing support is included for many of the
-              most popular and important XML documentation frameworks (such as DITA, DocBook, XHTML,
-              TEI).
-Extensibility
-Take advantage of unmatched extensibility support and enhance the built-in XML
-              publishing frameworks of the XML Editor, or even create your own frameworks.
-Connectivity
-The powerful connectivity support of the XML Editor allows you to interact with
-              the majority of XML databases, content management systems, and WebDAV.
-Collaboration
-Oxygen allows you to collaborate with other authors more efficient than ever
-              using the XML Editor's tracking tools, subversion repository client, and compare and
-              merge solutions.
-Intelligent Content Assistance
-XML editing is more effective than ever with the help of intelligent content
-              assistance features designed to save you time and keystrokes when inserting repetitive
-              or complex structures.
-Validation
-Oxygen's as-you-type validation support and context-sensitive editing
-              capabilities help to make sure your documents (XML, JSON, HTML, etc.) are consistently
-              "well-formed" and valid.
-XML Databases Support
-Perform XQuery and XPath queries against a native XML database. A dedicated
-              collection of database exploring views are grouped together in a database perspective
-              layout.
-All XML Standards Support
-Take advantage of the dedicated editors that Oxygen XML Editor offers,
-              covering all XML standards. The specialized views and operations of each editor offer
-              support for editing all types of XML documents and other types of files, including XML
-              Schemas, CSS, XSLT, WSDL, RelaxNG, Schematron, Ant, XQuery, and many more.
-XSLT & XQuery Debugging
-The XML Editor offers a powerful XSLT and XQuery debugger that provides full
-              control over the debugging process. Two dedicated perspectives are available, one for
-              XSLT and one for XQuery debugging. Both offers specialized views and actions that
-              allow you to troubleshoot and perfect your documents.
-Web Services Support in Oxygen
-The advanced WSDL editor helps you edit WSDL documents offering content
-              completion capabilities, a specialized Outline view, and support for generating
-              documentation. You can easily verify that defined SOAP messages are accepted by the
-              remote Web Services server using the integrated WSDL SOAP Analyzer tool.
-Products
-XML Editor
-XML Developer
-XML Author
-XML Web Author
-Content Fusion
-Publishing Engine
-WebHelp
-PDF Chemistry
-Feedback
-Oxygen Scripting
-Features
-WYSIWYG Editors
-Schema Editor
-WSDL Editor
-XSLT
-                                        Editor
-XQuery
-XSD Documentation
-XML Databases
-SVN Client
-EPUB Editor
-DITA Editor
-JSON Editor
-Shop
-Buy Now
-Sales FAQ
-Resellers
-Resources
-Documentation
-Videos
-Add-ons
-Spell Checking
-Support
-Support
-Forum
-Mailing
-                                        Lists
-Contact Us
-Company
-About Us
-Events Programme
-Partners
-Case Studies
-Quotes
-Press Room
-Careers
-Legal
-Oxygen XML on Facebook
-Follow Oxygen XML on Twitter
-Oxygen XML Web Feed
-Oxygen XML Blog
-Oxygen XML Youtube Channel
-Oxygen XML Reddit
-Oxygen XML Bluesky
-© 2002-2026 SyncRO Soft SRL. All rights reserved.
-Sitemap
-Terms of Use
-Privacy Policy
-This website was created & generated with
-                                        <oXygen/>
-XML Editor
-Our website uses cookies.
-Find out more about cookies.
-I understand. Hide this message.
+- generic
+  - navigation
+    - link "Oxygen XML Editor" [ref=e15]
+      - image "Oxygen"
+      - StaticText "XML Editor"
+    - generic
+      - list
+        - listitem [level=1]
+          - link "Products" [ref=e90]
+        - listitem [level=1]
+          - link "Shop" [ref=e91]
+        - listitem [level=1]
+          - link "Resources" [ref=e92]
+        - listitem [level=1]
+          - link "Support" [ref=e93]
+        - listitem [level=1]
+          - link "Company" [ref=e94]
+        - listitem [level=1]
+          - generic
+            - generic [ref=e129] clickable [cursor:pointer]
+        - listitem [level=1]
+          - link "Login" [ref=e130]
+          - generic [ref=e131] clickable [cursor:pointer]
+            - link "" [ref=e132]
+  - generic
+    - generic
+      - link "XML Editor" [ref=e30]
+      - heading "XML Editor" [level=1, ref=e31]
+    - list
+      - listitem [level=1]
+        - link "Overview" [ref=e95]
+      - listitem [level=1]
+        - link "What's New" [ref=e96]
+      - listitem [level=1]
+        - link "Get a Trial" [ref=e97]
+      - listitem [level=1]
+        - link "Features" [ref=e98]
+      - listitem [level=1]
+        - link "Downloads" [ref=e99]
+      - listitem [level=1]
+        - link "Pricing" [ref=e100]
+      - listitem [level=1]
+        - link "Documentation" [ref=e101]
+      - listitem [level=1]
+        - link "Videos" [ref=e102]
+- list
+  - listitem [level=1]
+    - link "Oxygen XML Editor" [ref=e32]
+      - StaticText "Oxygen XML Editor"
+    - list
+      - listitem [level=2]
+        - link "Visual XML Editors" [ref=e103]
+        - list
+          - listitem [level=3]
+            - link "Generic Visual XML Editor" [ref=e133]
+            - list
+              - listitem [level=4]
+                - link "Review Tools" [ref=e204]
+              - listitem [level=4]
+                - link "Profiling/Conditional Text" [ref=e205]
+              - listitem [level=4]
+                - link "Constant Validation" [ref=e206]
+          - listitem [level=3]
+            - link "DITA Editor" [ref=e134]
+          - listitem [level=3]
+            - link "TEI Editor" [ref=e135]
+          - listitem [level=3]
+            - link "XHTML Editor" [ref=e136]
+      - listitem [level=2]
+        - link "XML Editing" [ref=e104]
+        - list
+          - listitem [level=3]
+            - link "Intelligent XML Editing" [ref=e137]
+          - listitem [level=3]
+            - link "Modular XML Files" [ref=e138]
+          - listitem [level=3]
+            - link "Extensible XML Editor" [ref=e139]
+          - listitem [level=3]
+            - link "XML Grid Editor" [ref=e140]
+          - listitem [level=3]
+            - link "XML Outline View" [ref=e141]
+          - listitem [level=3]
+            - link "XInclude Support" [ref=e142]
+          - listitem [level=3]
+            - link "XML Validation" [ref=e143]
+          - listitem [level=3]
+            - link "XML Format and Indent" [ref=e144]
+          - listitem [level=3]
+            - link "Localization" [ref=e145]
+          - listitem [level=3]
+            - link "XPath Support" [ref=e146]
+          - listitem [level=3]
+            - link "XML Signatures" [ref=e147]
+          - listitem [level=3]
+            - link "Helper Views" [ref=e148]
+      - listitem [level=2]
+        - link "WebHelp" [ref=e105]
+      - listitem [level=2]
+        - link "XSL / XSLT" [ref=e106]
+        - list
+          - listitem [level=3]
+            - link "XSLT Editor" [ref=e149]
+          - listitem [level=3]
+            - link "XSL / XSLT Debugger" [ref=e150]
+          - listitem [level=3]
+            - link "XSLT Documentation" [ref=e151]
+          - listitem [level=3]
+            - link "XSL:FO Editor" [ref=e152]
+      - listitem [level=2]
+        - link "XML Schema" [ref=e107]
+        - list
+          - listitem [level=3]
+            - link "XSD Editor" [ref=e153]
+          - listitem [level=3]
+            - link "XSD Diagram" [ref=e154]
+          - listitem [level=3]
+            - link "XML Schema 1.1" [ref=e155]
+          - listitem [level=3]
+            - link "XML Instance Generator" [ref=e156]
+          - listitem [level=3]
+            - link "XSD Documentation" [ref=e157]
+      - listitem [level=2]
+        - link "WSDL" [ref=e108]
+        - list
+          - listitem [level=3]
+            - link "WSDL Editor" [ref=e158]
+          - listitem [level=3]
+            - link "WSDL Refactoring" [ref=e159]
+          - listitem [level=3]
+            - link "WSDL SOAP Analyzer" [ref=e160]
+          - listitem [level=3]
+            - link "WSDL Documentation" [ref=e161]
+      - listitem [level=2]
+        - link "Ant" [ref=e109]
+        - list
+          - listitem [level=3]
+            - link "Ant Editor" [ref=e162]
+          - listitem [level=3]
+            - link "Ant Validation" [ref=e163]
+          - listitem [level=3]
+            - link "Ant Main Files" [ref=e164]
+          - listitem [level=3]
+            - link "Specialized Assistance" [ref=e165]
+          - listitem [level=3]
+            - link "Ant Views" [ref=e166]
+          - listitem [level=3]
+            - link "Ant Search and Refactoring" [ref=e167]
+      - listitem [level=2]
+        - link "Relax NG" [ref=e110]
+        - list
+          - listitem [level=3]
+            - link "Visual Schema Editor" [ref=e168]
+          - listitem [level=3]
+            - link "Content Completion Assistant" [ref=e169]
+          - listitem [level=3]
+            - link "Model View" [ref=e170]
+          - listitem [level=3]
+            - link "Relax NG Search and Refactoring" [ref=e171]
+          - listitem [level=3]
+            - link "Convert Grammar Languages" [ref=e172]
+      - listitem [level=2]
+        - link "XQuery" [ref=e111]
+        - list
+          - listitem [level=3]
+            - link "XQuery Editor" [ref=e173]
+          - listitem [level=3]
+            - link "XQuery Debugger" [ref=e174]
+          - listitem [level=3]
+            - link "XQuery Builder" [ref=e175]
+      - listitem [level=2]
+        - link "JSON" [ref=e112]
+        - list
+          - listitem [level=3]
+            - link "JSON Editor" [ref=e176]
+          - listitem [level=3]
+            - link "JSON Validation" [ref=e177]
+          - listitem [level=3]
+            - link "JSON Transformation" [ref=e178]
+          - listitem [level=3]
+            - link "JSON Tools" [ref=e179]
+      - listitem [level=2]
+        - link "JSON Schema" [ref=e113]
+        - list
+          - listitem [level=3]
+            - link "JSON Schema Editor" [ref=e180]
+          - listitem [level=3]
+            - link "JSON Schema Diagram" [ref=e181]
+          - listitem [level=3]
+            - link "JSON Schema Tools" [ref=e182]
+      - listitem [level=2]
+        - link "YAML" [ref=e114]
+        - list
+          - listitem [level=3]
+            - link "YAML Editor" [ref=e183]
+          - listitem [level=3]
+            - link "YAML Validation" [ref=e184]
+          - listitem [level=3]
+            - link "YAML Tools" [ref=e185]
+      - listitem [level=2]
+        - link "OpenAPI and AsyncAPI" [ref=e115]
+      - listitem [level=2]
+        - link "HTML" [ref=e116]
+        - list
+          - listitem [level=3]
+            - link "HTML Editor" [ref=e186]
+          - listitem [level=3]
+            - link "HTML Validation" [ref=e187]
+          - listitem [level=3]
+            - link "HTML Queries" [ref=e188]
+          - listitem [level=3]
+            - link "HTML Minification" [ref=e189]
+          - listitem [level=3]
+            - link "Emmet Plugin" [ref=e190]
+      - listitem [level=2]
+        - link "Markdown" [ref=e117]
+      - listitem [level=2]
+        - link "XProc" [ref=e118]
+      - listitem [level=2]
+        - link "XML Databases" [ref=e119]
+      - listitem [level=2]
+        - link "CMS Integration" [ref=e120]
+      - listitem [level=2]
+        - link "Compare Tools" [ref=e121]
+      - listitem [level=2]
+        - link "SVN Client" [ref=e122]
+      - listitem [level=2]
+        - link "Authoring" [ref=e123]
+      - listitem [level=2]
+        - link "Review" [ref=e124]
+        - list
+          - listitem [level=3]
+            - link "Review from Oxygen XML Editor/Author" [ref=e191]
+          - listitem [level=3]
+            - link "Review from a DITA/Git Project" [ref=e192]
+      - listitem [level=2]
+        - link "Publishing" [ref=e125]
+      - listitem [level=2]
+        - link "Content Contribution" [ref=e126]
+      - listitem [level=2]
+        - link "Other Features" [ref=e127]
+        - list
+          - listitem [level=3]
+            - link "Office Open XML" [ref=e193]
+          - listitem [level=3]
+            - link "Open Document Format" [ref=e194]
+          - listitem [level=3]
+            - link "EPUB" [ref=e195]
+          - listitem [level=3]
+            - link "Image Map Editor" [ref=e196]
+          - listitem [level=3]
+            - link "SVG Editor" [ref=e197]
+          - listitem [level=3]
+            - link "CSS Editor" [ref=e198]
+          - listitem [level=3]
+            - link "XML Refactoring Tool" [ref=e199]
+          - listitem [level=3]
+            - link "Advanced Searches" [ref=e200]
+          - listitem [level=3]
+            - link "Miscellaneous" [ref=e201]
+          - listitem [level=3]
+            - link "Project Support" [ref=e202]
+          - listitem [level=3]
+            - link "Eclipse Plugin" [ref=e203]
+      - listitem [level=2]
+        - link "Feature Matrix" [ref=e128]
+- generic
+  - banner
+    - image "Oxygen XML Editor"
+      - link "Single-Source Publishing" [ref=e33]
+      - link "JSON Tools" [ref=e34]
+      - link "Structured XML Editing" [ref=e35]
+      - link "Database and CMS" [ref=e36]
+      - link "XML Tools" [ref=e37]
+    - generic
+      - heading "The Premier All-In-One XML Editing Suite" [level=2, ref=e38]
+      - link "Download" [ref=e39]
+      - link "Buy (from €34/month )" [ref=e40]
+      - link "Videos" [ref=e41]
+  - banner
+    - generic
+      - link " XML EDITOR" [ref=e42]
+    - StaticText "="
+    - generic
+      - link " XML AUTHOR" [ref=e43]
+    - StaticText "+"
+    - generic
+      - link " XML DEVELOPER" [ref=e44]
+  - banner
+    - generic
+      - link "AI Positron" [ref=e45]
+  - heading "XML Editor" [level=1, ref=e1]
+  - heading "Single-Source Publishing" [level=2, ref=e16]
+  - heading "Structured XML Editing" [level=2, ref=e17]
+  - heading "XML Publishing Frameworks" [level=2, ref=e18]
+  - heading "Extensibility" [level=2, ref=e19]
+  - heading "Connectivity" [level=2, ref=e20]
+  - heading "Collaboration" [level=2, ref=e21]
+  - heading "Intelligent Content Assistance" [level=2, ref=e22]
+  - heading "Validation" [level=2, ref=e23]
+  - heading "XML Databases Support" [level=2, ref=e24]
+  - heading "All XML Standards Support" [level=2, ref=e25]
+  - heading "XSLT & XQuery Debugging" [level=2, ref=e26]
+  - heading "Web Services Support in Oxygen" [level=2, ref=e27]
+- generic
+  - heading "PRODUCTS" [level=3, ref=e2]
+  - list
+    - listitem [level=1]
+      - link "XML Editor" [ref=e46]
+    - listitem [level=1]
+      - link "XML Developer" [ref=e47]
+    - listitem [level=1]
+      - link "XML Author" [ref=e48]
+    - listitem [level=1]
+      - link "XML Web Author" [ref=e49]
+    - listitem [level=1]
+      - link "Content Fusion" [ref=e50]
+    - listitem [level=1]
+      - link "Publishing Engine" [ref=e51]
+    - listitem [level=1]
+      - link "WebHelp" [ref=e52]
+    - listitem [level=1]
+      - link "PDF Chemistry" [ref=e53]
+    - listitem [level=1]
+      - link "Feedback" [ref=e54]
+    - listitem [level=1]
+      - link "Oxygen Scripting" [ref=e55]
+- generic
+  - heading "FEATURES" [level=3, ref=e3]
+  - list
+    - listitem [level=1]
+      - link "WYSIWYG Editors" [ref=e56]
+    - listitem [level=1]
+      - link "Schema Editor" [ref=e57]
+    - listitem [level=1]
+      - link "WSDL Editor" [ref=e58]
+    - listitem [level=1]
+      - link "XSLT Editor" [ref=e59]
+    - listitem [level=1]
+      - link "XQuery" [ref=e60]
+    - listitem [level=1]
+      - link "XSD Documentation" [ref=e61]
+    - listitem [level=1]
+      - link "XML Databases" [ref=e62]
+    - listitem [level=1]
+      - link "SVN Client" [ref=e63]
+    - listitem [level=1]
+      - link "EPUB Editor" [ref=e64]
+    - listitem [level=1]
+      - link "DITA Editor" [ref=e65]
+    - listitem [level=1]
+      - link "JSON Editor" [ref=e66]
+- generic
+  - heading "SHOP" [level=3, ref=e4]
+  - list
+    - listitem [level=1]
+      - link "Buy Now" [ref=e67]
+    - listitem [level=1]
+      - link "Sales FAQ" [ref=e68]
+    - listitem [level=1]
+      - link "Resellers" [ref=e69]
+- generic
+  - heading "RESOURCES" [level=3, ref=e5]
+  - list
+    - listitem [level=1]
+      - link "Documentation" [ref=e70]
+    - listitem [level=1]
+      - link "Videos" [ref=e71]
+    - listitem [level=1]
+      - link "Add-ons" [ref=e72]
+    - listitem [level=1]
+      - link "Spell Checking" [ref=e73]
+- generic
+  - heading "SUPPORT" [level=3, ref=e6]
+  - list
+    - listitem [level=1]
+      - link "Support" [ref=e74]
+    - listitem [level=1]
+      - link "Forum" [ref=e75]
+    - listitem [level=1]
+      - link "Mailing Lists" [ref=e76]
+    - listitem [level=1]
+      - link "Contact Us" [ref=e77]
+- generic
+  - heading "COMPANY" [level=3, ref=e7]
+  - list
+    - listitem [level=1]
+      - link "About Us" [ref=e78]
+    - listitem [level=1]
+      - link "Events Programme" [ref=e79]
+    - listitem [level=1]
+      - link "Partners" [ref=e80]
+    - listitem [level=1]
+      - link "Case Studies" [ref=e81]
+    - listitem [level=1]
+      - link "Quotes" [ref=e82]
+    - listitem [level=1]
+      - link "Press Room" [ref=e83]
+    - listitem [level=1]
+      - link "Careers" [ref=e84]
+    - listitem [level=1]
+      - link "Legal" [ref=e85]
+- generic
+  - link "Oxygen XML on Facebook" [ref=e8]
+  - link "Follow Oxygen XML on Twitter" [ref=e9]
+  - link "Oxygen XML Web Feed" [ref=e10]
+  - link "Oxygen XML Blog" [ref=e11]
+  - link "Oxygen XML Youtube Channel" [ref=e12]
+  - link "Oxygen XML Reddit" [ref=e13]
+  - link "Oxygen XML Bluesky" [ref=e14]
+- generic
+  - StaticText "© 2002-2026 Syncro Soft SRL. All rights reserved."
+  - generic
+    - link "Sitemap" [ref=e86]
+    - link "Terms of Use" [ref=e87]
+    - link "Privacy Policy" [ref=e88]
+  - paragraph
+    - link "XML Editor" [ref=e89]
+- generic
+  - link " Find out more about cookies." [ref=e28]
+  - generic [ref=e29] clickable [cursor:pointer]

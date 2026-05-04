@@ -1,1406 +1,1576 @@
-Release History
-Release History
-Version 9.1
-Oxygen Content Fusion Enterprise 9.1
-introduces faster, more targeted collaboration with @mentions, a new dashboard for tracking review tasks, and a more capable visual editor with sticky table headers and built-in S1000D support. This release also expands AI-assisted authoring with the new Planner agent and delivers a range of usability improvements across project management, review workflows, and the user interface.
-April 7, 2026
-Version 28.1
-Oxygen XML Editor 28.1
-introduces
-      important enhancements in
-AI-powered workflows
-, including the new
-Planner
-chat mode in Oxygen AI Positron and improved
-sensitive data
-        masking
-. This release also adds
-built-in support for S1000D
-issue 4.x
-, improves
-DITA editing and PDF publishing
-, and includes
-      the new
-Oxygen AI Translator
-add-on for AI-powered
-XLIFF translation
-        workflows
-March 18, 2026
-Version 28.1.0
-Oxygen XML Web Author 28.1.0
-focuses on introducing significant
-        advancements in
-AI-powered authoring
-through the new
-Planner
-chat mode in Oxygen AI Positron, enhanced editing capabilities
-        including
-DITA improvements
-, expanded
-customization
-          options
-, and improved
-table editing
-across multiple formats.
-        This release also adds the ability to work with
-S1000D
-issue 4.x
-          content
-March 18, 2026
-Version 8.1
-Oxygen AI Positron 8.1
-delivers a new level of productivity, security,
-        and flexibility for users leveraging AI in their XML authoring workflows. This release
-        introduces support for OpenAI’s latest GPT-5.2 and GPT-5.2 Thinking models and enables more
-        accurate and context-aware agentic tasks. Sensitive data masking is now built-in,
-        automatically protecting personal information in AI requests, with the ability to extend
-        coverage to custom data types. The review experience is streamlined as AI-modified files are
-        now presented directly in the chat for easy acceptance or rejection of changes. Token
-        consumption for AI prompts and tools has been optimized, reducing costs and improving
-        efficiency.
-February 10, 2026
-Version 9.0
-Oxygen Content Fusion 9.0
-delivers a major upgrade to collaborative
-        DITA content management, review, and publishing workflows. This release introduces new
-        project management capabilities, such as support
-        for multi-branch
-        publishing and the ability to control whether project files are included
-        as context in
-        review
-        tasks.
-January 28, 2026
-Version 28.0
-Oxygen XML Editor 28
-delivers a major upgrade to its AI capabilities
-        and productivity tools for content authors, developers, and publishers.
-November 26, 2025
-Version 28.0.0
-The release of
-Oxygen XML Web Author 28
-focuses on delivering
-        AI-assisted authoring, DITA-centric workflows, and enhanced enterprise integration
-        capabilities within the web-based solution for editing and reviewing XML content in any
-        modern web browser. It adds deeper integration with Oxygen AI Positron 8.0, streamlines
-        editing and review tasks, and strengthens security for large organizations.
-November 26, 2025
-Version 8.0
-Oxygen AI Positron 8.0 for Desktop
-unifies the
-AI Positron
-          Assistant
-and
-AI Positron Assistant Enterprise
-add-ons into a single
-        add-on.
-November 18, 2025
-Version 5.3
-Oxygen Feedback Cloud
-version
-5.3
-provides dark theme
-        support for Oxygen Feedback to match the theme used in the host WebHelp Responsive pages,
-        respecting user preferences and accessibility best practices.
-November 5, 2025
-Version 5.3
-Oxygen Feedback Enterprise
-version
-5.3
-provides dark
-        theme support for Oxygen Feedback to match the theme used in the host WebHelp Responsive
-        pages, respecting user preferences and accessibility best practices.
-November 5, 2025
-Version 7.0
-The latest release of the
-Oxygen AI Positron Assistant for desktop
-                    tools
-introduces support for OpenAI's cutting-edge GPT-5 models,
-                enhancing AI capabilities for chat and AI actions. The release includes the ability
-                to invoke tools defined on Model Context Protocol Servers, ensuring seamless
-                integration with external AI-powered tools. AI-powered automatic fixes now ensure
-                XML documents remain valid when an invalid or not well-formed document is generated
-                by the AI model. Additionally, you can now manage attachments using visual chips,
-                paste screenshots directly into the chat for better context, and edit attached
-                resources from prompts that have already been sent to the AI. The introduction of
-                multiple chat modes, the new
-search_in_project
-tool, and improved
-                handling of Word (.docx) attachments further enrich the user experience.
-September 15, 2025
-Version 8.2
-The new
-Personal Workspace
-features enhanced publication
-                structure editing, detailed commit history, and easier branch management. From your
-                Personal Workspace, you can selectively commit files or create targeted review
-                tasks, integrating your changes directly or through a review process.
-August 25, 2025
-Version 6.0.1
-The Oxygen AI Positron update introduces support for the latest OpenAI GPT-5, GPT-5-mini, and GPT-5-nano models, along with improvements to the AI Positron Fix feature for better context expansion when resolving issues in documents. This release also includes various bug fixes and stability enhancements.
-August 21, 2025
-Version 6.0
-The Oxygen AI Positron Service brings model updates, subscription management for
-                teams, allowing centralized purchase or renewal, and requires AI Positron add-ons
-                version 4 or newer.
-July 3, 2025
-Version 5.2
-Oxygen Feedback Cloud
-version
-5.2
-introduces several
-        enhancements to improve user interaction and administrative efficiency of the all-in-one
-        solution designed to enhance community engagement and feedback collection while empowering
-        documentation with an integrated, robust search engine for seamless usability, and advanced
-        AI functionality to further streamline user interactions and improve content
-        accessibility.
-April 28, 2025
-Version 5.2
-Oxygen Feedback Enterprise
-version
-5.2
-introduces
-        several enhancements to improve user interaction and administrative efficiency of the
-        all-in-one solution designed to enhance community engagement and feedback collection while
-        empowering documentation with an integrated, robust search engine for seamless usability,
-        and advanced AI functionality to further streamline user interactions and improve content
-        accessibility.
-April 28, 2025
-Version 8.1
-Oxygen Content Fusion
-version
-8.1
-introduces
-        significant enhancements to streamline your DITA content management and collaboration. You
-        can now include publications from existing DITA-OT project files and enjoy flexible project
-        creation workflows. This allows you to start projects without immediate Git integration and
-        utilize predefined templates for a faster setup.
-April 24, 2025
-Version 5.0
-The
-Oxygen AI Positron Assistant 5.0
-release focuses on enhancing your
-        AI-driven content authoring workflows. You can now create initial content for files such as
-        XSLT, XSD, Schematron, JSON Schema, and DTD just by providing a quick text description. The
-        AI engine can also create or update files, and you can oversee what happened using the
-        visual file comparison tool. DITA users gain powerful content transformation actions, easily
-        converting to various DITA document types or leveraging AI to detect and restructure content
-        into more appropriate topic structures.
-April 24, 2025
-Version 27.1
-Oxygen XML Editor version 27.1
-is an incremental release of the
-        industry-leading bundle of tools for content authors, developers, collaborators, and
-        publishers.
-March 24, 2025
-Version 27.1.0
-Oxygen XML Web Author version 27.1.0
-is an incremental release of the
-        innovative web-based XML authoring tool.
-March 24, 2025
-Version 8.0
-Oxygen Content Fusion
-version
-8.0
-integrates the
-Oxygen AI Positron Assistant
-, a powerful AI-driven tool designed to boost
-        writer productivity through AI-generated content, as well as introducing significant
-        enhancements to the project functionality.
-March 11, 2025
-Version 4.1
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        users increase their productivity by providing support for using AI-generated content.
-Version 4.1
-introduces some helpful new AI-powered actions to fix
-        validation problems, generate MathML formulas, and generate XML comments for annotating
-        code.
-January 30, 2025
-Version 5.1
-Oxygen Feedback Cloud
-version
-5.1
-continues to bolster
-        the all-in-one solution designed to enhance community engagement and feedback collection
-        while empowering documentation with an integrated, robust search engine for seamless
-        usability. The focus of this release was to implement a variety of additions and
-        enhancements to the AI features.
-December 11, 2024
-Version 5.1
-Oxygen Feedback Enterprise
-version
-5.1
-continues to
-        bolster the all-in-one solution designed to enhance community engagement and feedback
-        collection while empowering documentation with an integrated, robust search engine for
-        seamless usability. The focus of this release was to implement a variety of additions and
-        enhancements to the AI features.
-December 11, 2024
-Version 27.0
-Oxygen XML Editor version 27.0
-is the latest major release of the
-        comprehensive solution for content authors, developers, collaborators, and publishers. This
-        release is packed with innovative new features and improvements for the
-Oxygen AI
-          Positron Assistant
-, the powerful add-on that provides a productivity-enhancing
-        tool to help writers by providing support for using AI-generated content within the various
-        Oxygen tools.
-November 27, 2024
-Version 27.0.0
-Oxygen XML Web Author version 27.0.0
-is the latest major release of the
-      innovative web-based XML authoring tool. This release is packed with innovative new AI
-      features and improvements that have been implemented in recent updates to the
-Oxygen
-        AI Positron Assistant Enterprise for Web Author
-plugin, the powerful
-      productivity-enhancing tool that provides you with the ability to use a specific AI engine
-      (OpenAI, Microsoft Azure OpenAI, or Anthropic Claude) and assist in leveraging AI-generated
-      content. Additionally, this release sees the implementation of new features for the file
-      comparison and merge tool, support to make DITA maps editable in a specialized tree editor,
-      various general editing improvements, and security enhancements.
-November 27, 2024
-Version 4.0
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        users increase their productivity by providing support for using AI-generated content.
-        Version 4.0 enhances AI features by expanding the Retrieval-Augmented Generation (RAG)
-        functionality, adding productivity-boosting interface improvements, implementing new
-        AI-powered actions and functions, and integrating security enhancements.
-November 1, 2024
-Version 7.1
-Version
-7.1
-Oxygen Content Fusion
-builds on the
-projects
-concept introduced in the previous version by enhancing its
-        functionality and offering even more capabilities.
-October 8, 2024
-Version 5.0
-Oxygen Feedback Cloud
-version
-5.0
-aims to take the
-        innovative comment management platform to a whole new level with the possibility of
-        integrating the new
-AI Assistant
-chatbot or
-AI-Enhanced Search
-          Summary
-component within your WebHelp output.
-September 5, 2024
-Version 5.0
-Version 5.0 of
-Oxygen Feedback Enterprise
-aims to take the innovative
-        comment management platform to a whole new level with the possibility of integrating the new
-AI Assistant
-chatbot or
-AI-Enhanced Search Summary
-component within your WebHelp output.
-September 5, 2024
-Version 3.0
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        users increase their productivity by providing support for using AI-generated content.
-        Version 3.0 continues to increase the efficiency of using the tool and the quality of the AI
-        responses through the implementation of a project
-Retrieval-Augmented Generation
-          (RAG)
-process, various interface improvements, and additional AI-powered
-        actions.
-September 5, 2024
-Version 7.0
-Oxygen Content Fusion
-version
-7.0
-enhances the project
-        support by introducing a
-personal authoring workspace
-where you can make
-        changes across multiple files and once you are happy with the results, you can commit them
-        directly to the repository to share them with your team. The dedicated Changes side-view
-        enables you to preview and adjust changes before committing. An XML-aware conflict
-        resolution tool helps you pull changes from the repository, detects conflicts, suggests
-        automated solutions, and also allows merging content manually for more complex scenarios.
-        Along with the powerful editing features for XML documents, the built-in Web Author allows
-        you to edit Markdown files inside the authoring workspace providing syntax preview and
-        toolbar actions to insert common structures.
-July 10, 2024
-Version 2.1
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        users increase their productivity by providing support for using AI-generated content.
-        Version 2.1 expands upon the enhancements of the previous version by adding the advanced
-        multi-modal
-GPT-4o
-to the list of models to choose from, as well as the
-        Microsoft Azure OpenAI Service connector now supporting authentication using Microsoft Entra
-        ID.
-June 12, 2024
-Version 2.0
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        users increase their productivity by providing support for using AI-generated content.
-        Version
-2.0
-adds support for
-Vision
-models, allowing the
-        AI to also read and interpret images and thus supporting more use cases. The new
-Generate Documentation Draft
-action makes it possible for users to
-        provide instructions and images to help the AI engine create a draft DITA topic.
-        Furthermore, this version also introduces an action that enables users to simply update the
-        images from a topic and have the AI analyze the images and propose content updates.
-April 23, 2024
-Version 6.2
-Oxygen Content Fusion
-version
-6.2
-continues to
-        streamline and refine the process of working with review tasks and implements various user
-        requests for additional features and productivity enhancements.
-April 9, 2024
-Version 26.1
-Oxygen XML Editor version 26.1
-is an incremental release of the
-        industry-leading bundle of tools for content authors, developers, collaborators, and
-        publishers. Starting with this release, the Enterprise edition of Oxygen XML
-        Editor/Author/Developer becomes
-AI-ready
-, offering access without the need
-        for an additional subscription to the Oxygen AI Positron Assistant Enterprise add-on which
-        allows direct connection to OpenAI accounts or to the Microsoft Azure OpenAI Service.
-March 25, 2024
-Version 26.1.0
-Oxygen XML Web Author version 26.1.0
-is an incremental release for the
-        innovative web-based XML authoring tool. This release has some interesting new features for
-        DITA users, introducing
-support for DITA-OT project files
-and providing
-        better handling of DITAVAL filters. The DITA Map pane allows users to specify a DITA-OT
-        project file and choose between the contexts defined within it. Users may also easily switch
-        profiling conditions, and there is the option to hide or present as grayed out content that
-        is excluded by the current filter in the document, DITA Maps pane, and in the Outline
-        pane.
-March 25, 2024
-Version 1.1
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        writers increase productivity by providing support for using AI-generated content with the
-Oxygen AI Positron service
-. Version
-1.1
-introduces a
-        separate Enterprise version of the add-on for those who want to configure the service to
-use a company-specific AI service
-(OpenAI or Microsoft Azure OpenAI
-        Service). Moreover, this update brings a selection of new document templates to help you
-create your own custom AI actions
-, and a new action was implemented that
-        allows you to
-translate content into any language
-. The interface was
-        enhanced to provide
-easier access to actions
-, alongside the introduction of
-        various other
-user experience enhancements
-February 7, 2024
-Version 6.1
-Oxygen Content Fusion
-version
-6.1
-continues to
-        streamline and refine the process of working with review tasks and implements various user
-        requests for additional features and security enhancements.
-February 5, 2024
-Version 4.1
-Version 4.1 of
-Oxygen Feedback Cloud
-aims to
-streamline the
-          configuration and installation processes
-by providing information and helping to
-        debug problems related to the Feedback installation on a site, offers a nice overview with
-        relevant information for a site via a new
-Site Dashboard
-page, and updates
-        the notification emails to ensure that the
-information is clear and
-          consistent
-February 1, 2024
-Version 4.1
-Version 4.1 of
-Oxygen Feedback Enterprise
-aims to
-streamline
-          the configuration and installation processes
-by providing information and helping
-        to debug problems related to the Feedback installation on a site, offers a nice overview
-        with relevant information for a site via a new
-Site Dashboard
-page, and
-        updates the notification emails to ensure that the
-information is clear and
-          consistent
-February 1, 2024
-Version 1.0
-The
-Oxygen AI Positron Assistant
-add-on is a powerful tool that helps
-        writers
-increase productivity
-by providing support for using AI-generated
-        content with the
-Oxygen AI Positron service
-. Once installed, writers can
-        utilize AI-generated content to perform repetitive tasks, review grammar, generate structure
-        and text, or propose changes to improve readability. It always
-keeps the writer in
-          control
-, offering a visual diff comparison to help quickly identify proposed
-        changes and understand how the AI-generated content will appear in the content and you have
-        the ability to refine proposals by continuing the chat with the AI.
-November 10, 2023
-Version 6.0
-Oxygen Content Fusion 6.0
-introduces a lot of interesting and
-        substantial improvements for the online collaboration platform designed to improve the DITA
-        documentation review and publishing processes.
-November 1, 2023
-Version 4.0
-Version 4.0
-Oxygen Feedback Cloud
-offers exciting
-        new enhancements for the modern comment management platform that provides a simple and
-        efficient way for your community to interact with and offer feedback about your
-        content.
-November 1, 2023
-Version 4.0
-Version 4.0
-Oxygen Feedback Enterprise
-offers
-        exciting new enhancements for the modern comment management platform that provides a simple
-        and efficient way for your community to interact with and offer feedback about your
-        content.
-November 1, 2023
-Version 26.0
-Oxygen XML Editor version 26
-introduces the exciting new
-Oxygen
-          AI Positron Assistant
-, an add-on that provides a powerful tool to help writers
-increase their productivity
-by performing repetitive tasks, reviewing
-        grammar, generating structure and text, or proposing changes to improve readability. It
-        always
-keeps the writer in control
-, offering a visual diff comparison to
-        help quickly understand what changed and the ability to continue the chat with the AI to
-        refine the proposals.
-October 11, 2023
-Version 26.0.0
-One of the most exciting new features is the preview of the new
-Oxygen AI
-          Positron Assistant
-plugin that provides a powerful tool to help writers use
-AI-generated content
-, available now on the Web Author demo server and
-        soon to be available for Web Author on-premise installations. The plugin contributes a side
-        pane that offers a variety of
-AI-powered actions
-with the goal of
-improving your productivity
-. Actions are available to provide helpful
-        hints for the next writing steps, enhance the readability of existing content, correct
-        grammar errors, generate index terms, translate content, create marketing-related material,
-        or even restructure parts of a document.
-October 11, 2023
-Version 5.1
-Version 5.1
-Oxygen Content Fusion
-is a minor
-        release for the innovative collaboration platform that is designed to improve any
-        documentation review process. The main focus of this release was to integrate the latest
-        changes brought by
-Oxygen XML Web Author
-version 25.1.0 into Content
-        Fusion's visual editor and to enhance the security of the platform.
-April 19, 2023
-Version 25.1
-Oxygen XML Editor version 25.1
-is a minor release of the
-        industry-leading bundle of tools for content authors, developers, collaborators, and
-        publishers. This latest version offers both enhancements to existing functionality as well
-        as some brand new features that were requested by the community.
-March 16, 2023
-Version 25.1.0
-Version 25.1.0
-Oxygen XML Web Author
-is a minor
-        release for the innovative web-based XML authoring tool. This release expands upon the
-        features that were recently added in Version 25.0.0 with further improvements to some of
-        those features, along with several new enhancements.
-March 16, 2023
-Version 3.0
-Version 3.0
-Oxygen Feedback Cloud
-offers exciting
-        new enhancements for the modern comment management platform that provides a simple and
-        efficient way for your community to interact with and offer feedback about your
-        content.
-March 16, 2023
-Version 3.0
-Version 3.0
-Oxygen Feedback Enterprise
-offers
-        exciting new enhancements for the modern comment management platform that provides a simple
-        and efficient way for your community to interact with and offer feedback about your
-        content.
-March 16, 2023
-Version 25.0
-Oxygen XML Editor version 25.0
-provides a platform to work both with
-        XML and XML-related resources by extending its support to other languages such as
-JSON and YAML
-, and being able to treat some file types (Word, Excel,
-        OpenAPI, HTML, Markdown, and others) as
-DITA-compatible resources
-and thus
-        reference and use them from DITA maps, similar to how DITA XML topics are referenced and
-        used.
-October 13, 2022
-Version 25.0.0
-Version 25.0.0
-Oxygen XML Web Author
-continues to
-        bolster the innovative web-based XML authoring tool with more enhancements and additions.
-        This major release offers improvements to the general user interface, new DITA authoring
-        features, more customization possibilities, refinements to concurrent editing sessions,
-        performance tweaks, as well as various bug fixes and component updates.
-October 13, 2022
-Version 5.0
-Version 5.0
-Oxygen Content Fusion
-is the latest
-        release for the innovative collaboration platform that is designed to improve any
-        documentation review process.
-May 25, 2022
-Version 2.1
-Version 2.1
-Oxygen Feedback Cloud
-brings you more
-        exciting features for the modern comment management platform that provides a simple and
-        efficient way for your community to interact and offer feedback.
-April 13, 2022
-Version 2.1
-Version 2.1
-Oxygen Feedback Enterprise
-brings you
-        more exciting features for the modern comment management platform that provides a simple and
-        efficient way for your community to interact and offer feedback.
-April 13, 2022
-Version 24.1
-Oxygen XML Editor version 24.1
-is an incremental release for the
-        industry's most advanced bundle of tools used by technical writers, developers,
-        collaborators, and publishers everywhere. The focus of this release was to expand upon the
-        new features and improvements that were added in version 24.0.
-March 7, 2022
-Version 24.1.0
-Version 24.1.0
-Oxygen XML Web Author
-is the latest
-        release for the innovative web-based XML authoring tool. This release expands upon the
-        features that were recently added in Version 24.0.0 with further improvements to some of
-        those features, along with several new enhancements. A new
-Search side-view
-makes it easier to find and replace content,
-@ mentions
-are now supported,
-        performance was enhanced, new functionality improves customizations and integrations, and
-        various security and component updates were implemented.
-March 7, 2022
-Version 2.0
-Version 2.0
-Oxygen Feedback Cloud
-offers a lot of
-        exciting new enhancements for the modern comment management platform that provides a simple
-        and efficient way for your community to interact and offer feedback.
-Dec. 16, 2021
-Version 2.0
-Version 2.0
-Oxygen Feedback Enterprise
-offers a lot
-        of exciting new enhancements for the modern comment management platform that provides a
-        simple and efficient way for your community to interact and offer feedback.
-Dec 16, 2021
-Version 24.0
-Oxygen XML Editor version 24.0
-is the latest major release of the
-        industry's most advanced bundle of tools used by technical writers, developers, and
-        publishers everywhere. This release offers a lot of exciting new features, updates,
-        productivity enhancements, new customization options, and various performance
-        optimizations.
-October 18, 2021
-Version 24.0.0
-Version 24.0.0
-Oxygen XML Web Author
-is the latest
-        release for the innovative web-based XML authoring tool. This release introduces a visual
-        merge tool for resolving conflicts when committing to a shared Git repository, a re-design
-        of the interface to offer a more modern and visually appealing look, additional protection
-        against XXE vulnerabilities and other security-related improvements, as well as more
-        customization possibilities, performance optimizations, and accessibility
-        enhancements.
-October 18, 2021
-Version 23.1.1
-Version 23.1.1
-Oxygen XML Web Author
-is the latest
-        maintenance release for the industry-leading web-based XML authoring tool. The main focus
-        for this release was to improve the very popular
-Concurrent Editing
-feature
-        that was introduced in the most recent major release and we are very happy to announce that
-        the feature in no longer in the BETA stage. Numerous bug fixes and security improvements
-        were also implemented for this release.
-July 12, 2021
-Version 4.1
-Version 4.1
-Oxygen Content Fusion
-is the latest
-        maintenance release for the innovative collaboration platform that is designed to improve
-        any documentation review process. The main focus for this release was to improve the very
-        popular
-Concurrent Editing
-feature that was introduced in the most recent
-        major release and we are very happy to announce that the feature in no longer in the BETA
-        stage. Numerous bug fixes and security improvements were also implemented for this
-        release.
-July 12, 2021
-Version 23.1.0
-Version 23.1.0
-Oxygen XML Web Author
-expands upon
-        the features that were recently added in Version 23.0.0 with further improvements to some of
-        those features, along with several new enhancements.
-March 4, 2021
-Version 4.0
-Version 4.0
-Oxygen Content Fusion
-is the latest
-        release for the innovative collaboration platform that is designed to improve any
-        documentation review process.
-March 4, 2021
-Version 1.4
-Version 1.4
-Oxygen Feedback Cloud
-brings you more
-        exciting features for the modern comment management platform that provides a simple and
-        efficient way for your community to interact and offer feedback.
-March 4, 2021
-Version 1.4
-Version 1.4
-Oxygen Feedback Enterprise
-brings you
-        more exciting features for the modern comment management platform that provides a simple and
-        efficient way for your community to interact and offer feedback.
-March 4, 2021
-Version 23.1
-Version 23.1
-Oxygen XML Editor
-expands upon the
-        substantial list of features that were recently added in Version 23.0 with further
-        improvements, along with various brand new enhancements, fixes, and updates.
-March 4, 2021
-Version 23.0
-Version 23.0 of
-Oxygen XML Editor
-boasts the most substantial and
-        comprehensive set of new features, productivity enhancements, and customization
-        possibilities in the history of the most powerful XML authoring and development tool
-        available on the market.
-November 19, 2020
-Version 23.0.0
-Version 23 of
-Oxygen XML Web Author
-continues to bolster the innovative
-        web-based authoring tool. This release brings a lot of exciting new features, productivity
-        enhancements, and customization possibilities to the ever-expanding online XML authoring
-        community.
-November 19, 2020
-Version 1.3
-Version 1.3
-of the
-Oxygen Feedback
-commenting platform
-        introduces the Enterprise (self-managed) edition for organizations that prefer to install
-        the software on their own server for better data control.
-October 7, 2020
-Version 1.3
-Version 1.3
-of the
-Oxygen Feedback
-commenting platform
-        introduces the Enterprise (self-managed) edition for organizations that prefer to install
-        the software on their own server for better data control.
-October 7, 2020
-Version 3.0
-Version 3.0
-Oxygen Content Fusion
-is the latest
-        major release for the collaboration platform that is designed to improve any documentation
-        review process.
-July 3, 2020
-Version 22.1
-Version 22.1
-of the
-Oxygen XML Editor
-brings you more
-        productivity improvements for
-DITA authoring
-, customization options and
-        change bars for
-CSS-based DITA to PDF
-publishing, the
-JSON
-and
-HTML
-editing support continued to be enhanced, while some of the most
-        popular add-ons were improved and new ones made available.
-May 19, 2020
-Version 22.1.0
-Version 22.1.0
-of the
-Oxygen XML Web Author
-includes a
-        new
-Outline
-pane that offers a quick way to
-navigate
-through the document, gives you insight about the location of your modifications, shows the
-hierarchical dependencies
-between elements, and makes it easy to
-visualize the XML structure
-May 19, 2020
-Version 1.2
-Version 1.2
-Oxygen Feedback
-includes a new
-Dashboard
-page in the administration interface that aggregates
-        information and statistics for all of your site configurations,
-a single level of
-          replies
-for comments to simplify discussion threads, and an improved workflow
-        allows you to mark threads as resolved.
-May 19, 2020
-Version 22.0
-Version 22
-of the
-Oxygen XML Editor
-provides numerous
-        new features, updates, and improvements that focus on productivity, performance, efficiency,
-        and simplicity for XML authoring, development, publishing, and collaboration.
-February 12, 2020
-Version 22.0.0
-Version 22.0.0
-Oxygen XML Web Author
-is the latest
-        major release for the innovative web-based authoring tool. The major focus of this release
-        was to offer numerous productivity enhancements as well as various security and performance
-        improvements.
-February 12, 2020
-Version 2.0
-Version 2.0
-Oxygen Content Fusion
-is the latest
-        major release for the innovative collaboration tool that is designed to improve any
-        documentation review process.
-February 12, 2020
-Version 21.1.1
-Version 21.1.1
-of the
-Oxygen XML Web Author
-is the
-        latest minor release for the innovative web-based authoring tool. The focus of this release
-        was to make editing even more efficient, enable easier navigation of a DITA project, and to
-        make it possible to compare different versions of a file or different files.
-October 24, 2019
-Version 21.1
-Version 21.1
-of the
-Oxygen XML Editor
-introduces HTML5
-        support (without treating it as XHTML), providing specialized text-based editing and
-        validation support.
-DITA
-support includes a new Resource
-        Hierarchy/Dependencies view, the ability to quickly find similar topics, DITA PDF publishing
-        now provides the possibility of adding a mini-TOC at each chapter as well as
-        internationalization, and many other improvements.
-May 23, 2019
-Version 21.1.0
-The release of
-version 21
-Oxygen XML WebHelp
-is the
-        latest release for the modern web publishing system.
-May 23, 2019
-Version 21.0.0
-The release of
-version 21
-Oxygen XML Web Author
-includes new features to help DITA authors work with
-DITA keys
-, more
-file repository integration plugins
-, such as Perforce Helix and Alfresco,
-        a new
-Markdown
-editor, numerous enhancements for working with
-tables
-, as well as various other new features, new API entry points,
-        performance improvements, and more.
-February 22, 2019
-Version 21.0
-The release of
-version 21
-Oxygen XML Editor
-adds
-        numerous new features, updates, and improvements to the already robust, industry-leading XML
-        editing application. The primary focus for this major release was to evaluate user requests
-        for improvements and additions, implement as many of them as possible, while preserving the
-        reliability, stability, and performance requirements that the XML community has come to
-        expect from the
-Oxygen
-suite of products.
-February 22, 2019
-Version 1.1
-The release of
-Version 1.1
-Oxygen Content Fusion
-adds various new features and improvements to the innovative collaboration tool for any XML
-        documentation review process.
-Oxygen Content Fusion
-has a connector add-on
-        that comes bundled with
-Oxygen XML Author
-and
-Oxygen XML
-          Editor
-. To fully take advantage of all of the benefits and features, your
-        organization will need an Oxygen Content Fusion Enterprise Server. For more information, see
-        the
-Content Fusion website
-February 22, 2019
-Version 20.1.0
-Version 20.1
-of the
-Oxygen XML Web Author
-is the
-        latest release for the innovative web-based authoring tool, it makes it easier for non
-        technical users to work with structured content, for example using user-friendly names for
-        XML elements and presenting documentation tooltips, improves the review support when working
-        with track changes and comments, and allows users to select between various rendering styles
-        for a document.
-June 15, 2018
-Version 20.1
-Version 20.1
-of the
-Oxygen XML Editor
-includes
-        productivity improvements for DITA, XSLT, and new editing features, and validation support
-        for JSON documents. DITA publishing was updated to make the WebHelp output compliant with
-        the
-Section 508 accessibility standard
-, making it accessible for
-        people with disabilities, and publishing DITA maps to PDF using CSS styles can be applied on
-        HTML5 as intermediate format, thus reusing the HTML5 WebHelp publishing CSS styles. As
-        usual, this version also contains numerous new add-ons, API, and component updates.
-June 15, 2018
-Version 20.0.0
-Version 20.0
-of the
-Oxygen XML Web Author
-is the
-        latest release for the innovative web-based authoring tool. Its powerful technology and
-        adaptive interface allows you to
-review, contribute, and edit content from
-          anywhere
-you have access to a browser, on desktop PCs, tablets, or mobile
-        devices. This release includes a variety of new features and improvements to make your
-        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
-        than ever before.
-March 16, 2018
-Version 20.0
-Version 20.0
-of the
-Oxygen XML Editor
-brings you a
-        variety of new features and improvements that focus on productivity, performance,
-        efficiency, and simplicity and covers many aspects of functionality from XML authoring to
-        XML development, from add-ons to built-in functionality, API changes, and component
-        updates.
-March 16, 2018
-Version 19.1.0
-Oxygen XML Web
-        Author version 19.1 is the latest release for the innovative web-based authoring tool. Its
-        powerful technology and adaptive interface allows you to
-review, contribute, and
-          edit content from anywhere
-you have access to a browser, on desktop PCs, tablets,
-        or mobile devices. It includes a variety of new features and improvements to make your
-        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
-        than ever
-        before.
-September 29, 2017
-Version 19.1
-Version 19.1 of the oXygen XML Editor brings you a variety of new features and
-        improvements that focus on productivity, performance, efficiency, and simplicity.
-September 29, 2017
-Version 19.0.0
-Oxygen XML Web
-        Author version 19 is the latest release for the innovative web-based authoring tool. Its
-        powerful technology and adaptive interface allows you to
-review, contribute, and
-          edit content from anywhere
-you have access to a browser, on desktops, tablets, or
-        mobile devices. It includes a variety of new features and improvements to make your
-        authoring, collaborating, and reviewing experience more efficient, accurate, and productive
-        than ever
-        before.
-April 5, 2017
-Version 19.0
-Version 19.0 of the oXygen XML Editor brings you a variety of new features and
-        improvements that focus on productivity, efficiency, and simplicity.
-April 5, 2017
-Version 18.1.0
-Oxygen XML Web
-        Author version 18.1 is a maintenance release for the innovative web-based authoring tool.
-        Its powerful technology and adaptive interface allows you to review, contribute, and edit
-        content from anywhere, on desktops, tablets, or mobile devices. It includes a variety of new
-        features and improvements to make your authoring, collaborating, and reviewing experience
-        more efficient and productive than ever
-        before.
-October 18, 2016
-Version 18.1
-Although
-          Oxygen XML Editor version 18.1 is a maintenance release that focuses on performance
-          and usability improvements, it also adds a variety of powerful new features, making it
-          similar to a major release.
-October 18, 2016
-Version 18.0.1
-Oxygen XML Web
-        Author version 18.0.1 is the latest release for the innovative Oxygen web-based
-        authoring tool. Its powerful technology and adaptive interface allows you to review,
-        contribute, and edit content from anywhere, on desktops, tablets, or mobile devices. It
-        includes a variety of new features and improvements to make your authoring, collaborating,
-        and reviewing experience more efficient and productive than ever before.
-August 9, 2016
-Version 18.0.0
-Oxygen XML Web
-        Author version 18.0.0 is the latest major release for the innovative web-based authoring
-        tool. Its powerful technology and adaptive interface allows you to review, contribute, and
-        edit content from anywhere, on desktops, tablets, or mobile devices. It includes a variety
-        of new features and improvements to make your authoring, collaborating, and reviewing
-        experience more efficient and productive than ever before.
-April 21, 2016
-Version 18.0
-Oxygen XML Editor version 18.0 includes new features and improvements that set the
-        standards for XML authoring and developing even higher than our users are already accustomed
-        to.
-April 21, 2016
-Version 17.1
-Oxygen XML
-        Editor version 17.1 includes updates and improvements to make your XML authoring and
-        developing experience even more productive and effective. The performance of many of the
-        integral components has been optimized and numerous features were enhanced and fine-tuned to
-        make Oxygen XML Editor even more powerful, dynamic, and easy to use. It also features a
-        spectacular new visual design that makes everything look crisp and beautiful.
-October 20, 2015
-Version 17.0
-Oxygen XML Editor
-        version 17 sets the highest standard for XML development and XML authoring. It comes with
-        important functionality updates and focuses on design to make your work not only productive,
-        but also enjoyable.
-May 5, 2015
-Version 16.1
-Version 16.1 of Oxygen XML Editor adds
-        improvements to both the XML development and XML authoring functionality.
-October 7, 2014
-Version 16.0
-XSLT development received a productivity burst in Oxygen XML Developer 16 with the
-        addition of Quick Fixes support and improvements to refactoring actions. If you develop XSLT
-        stylesheets to work with Saxon-CE in the browser, Oxygen will assist you with validation
-        and content completion assistance for the Saxon-CE specific extensions.
-May 20, 2014
-Version 15.2
-Version 15.2 of Oxygen XML Developer improves the support for developing Schematron
-        and XML Schema schemas, adds support for working with modules to the Eclipse plugin and
-        keeps updates many components to their latest versions.
-January 22, 2014
-Version 15.1
-Version 15.1 of Oxygen XML  makes a leap forward in working with XML modules. Using the Master Files
-        support, Oxygen assists you while editing an XML document that belongs to a set of
-        assembled modules, and provides you features such as module validation, in context Content
-        Completion Assistant, ID referencing or module connection overview.
-October 7, 2013
-Version 15.0
-Oxygen XML Developer 15.0 streamlines the development of web services with major
-        improvements to its WSDL editing support that features intelligent search and refactoring
-        actions, hierarchy and dependencies views, context-aware editing assistance and support for
-        generating documentation. There are also improvements in working with XML databases and in
-        the validation support.
-June 7, 2013
-Version 14.2
-Version 14.2 of Oxygen XML Developer completes the set of XML Schema 1.1-related
-        features with full schema editing support and capabilities to generate XML instances and
-        schema documentation in accordance with W3C standards.
-February 13, 2013
-Version 14.1
-Version 14.1 of Oxygen XML Editor makes
-XML authoring available to
-          everybody
-, by allowing attributes to be edited directly in the
-Author
-mode through form-like controls and placing actions directly in
-        the document flow. This expands the range of XML documents that can be edited visually from
-        text-centric to data oriented documents.
-October 19, 2012
-Version 14.0
-Version 14 marks a major step forward in the XML development support as it introduces
-        additional concepts and functionality that change the way you develop XML and XML-related
-        applications.
-June 27, 2012
-Version 13.2
-Version 13.2 introduces a Syntax Highlight mechanism capable of handling mixed content
-        types, improves the JSON editing support and bidirectional documents rendering, extends the
-        XML-native database support with find/replace capabilities and updates many third-party
-        components. Also, there are many improvements in the authoring support, including an updated
-        DITA Maps Metrics Report, experimental support for CGM images and updated API.
-January 12, 2012
-Version 13.1
-Version 13.1 adds support for XHTML 5, improved content completion assistance in XML
-        modules, a TEI ODD framework, support for publishing DITA maps directly from a CMS or other
-        remote resources and a metrics report for DITA maps. Being a maintenance release it has a
-        focus also on fixing many small issues.
-October 26, 2011
-Version 13.0
-Version 13 introduces Oxygen XML Developer as an additional product in the
-        Oxygen products family. This aggregates all the XML development features offering a cost
-        effective tool for people that do not need the visual editing support. Oxygen XML Editor
-        is the union of Oxygen XML Developer and Oxygen XML Author offering both XML
-        development and XML authoring capabilities.
-August 29, 2011
-Version 12.2
-Version 12.2 of Oxygen XML introduces a number of unique development features. It
-        provides support for editing XSLT and XML Schema modules in the context of a main XSLT,
-        respectively main XML Schema file. For XML Schema visual editing it introduces a Palette
-        view that allows to easily create new schema components by dragging them from this Palette
-        view into the diagram. The support for the xml-model processing instruction for schema
-        association that was previewed at XML Prague is available in 12.2 replacing the Oxygen
-        specific processing instruction. The new version includes also one of the most requested
-        features: Ant integration - the support for Ant transformation scenarios allows executing a
-        target from an Ant script. For XSLT 2.0 and XQuery transformations it is possible to specify
-        parameter values as XPath expressions when the engine allows that.
-May 19, 2011
-Version 12.1
-Version 12.1 of Oxygen XML adds new features such as a smart paste action that
-      automatically converts content from office applications or from a web browser to DITA, DocBook
-      or TEI. It also improves the XML authoring in areas such as reference management, change
-      tracking, or the CSS rendering support and extends the API to incorporate feedback from
-      partners that integrate Oxygen with CMS or other applications.
-January 12, 2011
-Version 12.0
-Version 12 of Oxygen XML improves the existing functionality, adds new features,
-      and most importantly, enhances the user experience. A lot of effort was invested in minimizing
-      memory usage and improving the general performance.
-September 14, 2010
-Version 11.2
-Version 11.2 of Oxygen XML Editor improves the XML Author, the XML development
-      tools, the support for large documents and the SVN Client.
-March 16, 2010
-Version 11.1
-Version 11.1 of Oxygen XML Editor improves the XML authoring capabilities, the
-        support for XML development and also a number of core features. The visual XML authoring
-        uses schema information to provide intelligent editing actions that help keep the document
-        valid and provide a better editing experience. The compact representation of tags and the
-        quick up/down navigation features improve the ergonomics and the usability. Oxygen XML
-        Editor can use any XQJ compliant XQuery processor for XQuery transformations, different
-        error levels and external references can be specified for Schematron messages and the XProc
-        support was improved with better editing and execution. The XML format and indent operation
-        can use DTD/schema information to provide better formatting and the find and replace is XML
-        aware and can accept XPath filtering to delimit the search scope.
-December 17, 2009
-Version 11.0
-Version 11.0 of Oxygen XML Editor includes exciting features covering both XML
-        development and XML authoring, such as XProc support, integrated documentation for XSLT
-        stylesheets, a XQuery debugger (for the Oracle Berkeley DB XML database), MathML rendering
-        and editing support, a smarter
-Author
-mode for an improved visual editing
-        experience, and DITA 1.2 features.
-October 9, 2009
-Version 10.3
-Version 10.3 of Oxygen XML Editor improves both the XML Authoring and the XML
-      Development capabilities. As a result of user feedback the Oxygen XML Author API was
-      reorganized and extended with additional functionality. There are various improvements to the
-      existing frameworks (DITA, DocBook, TEI, etc.), such as automatic ID generation or DITA-aware
-      search and replace. An important XML development feature is the Component Dependencies View
-      that displays a tree of component dependencies starting with a specified component for XSLT,
-      XML Schema, Relax NG, and NVDL. This version also integrates the Saxon SA XQuery Update
-      functionality and updates a number of components to their latest versions.
-June 29, 2009
-Version 10.2
-Version 10.2 of Oxygen XML Editor adds important features for both
-XML
-          authoring
-and
-XML development
-April 15, 2009
-Version 10.1
-Version 10.1 adds a redesigned XML Schema diagram that allows visual XML Schema
-      editing, an XML Schema documentation engine supporting multiple output formats, additional
-      features in the
-Author
-visual XML-editing mode, improvements in the Outline
-      view and Content Completion Assistant, and updates the database support.
-February 25, 2009
-Version 10.0
-One of the most important additions in Oxygen XML Editor and Author version 10 is
-      the bundling of the Schema Aware XSLT 2.0 and XQuery processor from Saxonica. Saxon-SA is
-      available in all Oxygen editions at no additional cost. Version 10 includes a large number
-      of improvements including a powerful XML instance generator, a better Content Completion
-      Assistant offering proposals from included or imported XML Schema or XSLT modules, a better
-      integration of the Intel(R) XML Software Suite and updates of most database connectors,
-      document frameworks and XML, XML Schema, XSLT, XPath and FOP processors. The SVN support was
-      also updated to include Apache Subversion
-1.5 features.
-October 23, 2008
-Version 9.3
-Version 9.3 adds as main feature the support for editing and processing resources
-      inside ZIP-based packages including Microsoft
-Office Open (OOXML) and Open
-      Document (ODF) documents. There are various other improvements, a number of component updates
-      and fixes.
-July 2, 2008
-Version 9.2
-Version 9.2 introduces an
-Author
-edition, specially tuned for
-      content authors providing a well designed interface for XML editing by keeping only the
-      relevant authoring features. The major additions in Oxygen 9.2 are related to the WYSIWYG
-      editing support and in particular to the DITA support. The general visual editing improvements
-      include displaying the resolved content in the editor and navigation through links. With DITA
-      features that include a DITA map editor, an action for inserting conref links, and a tight
-      integration with the latest version of the DITA Open Toolkit through Oxygen's normal
-      transformation scenarios mechanism, Oxygen becomes the leading and easiest to use DITA
-      editor. Other improvements include browsing of XML databases using WebDAV connections, better
-      handling of CJK text, support for the Intel
-XML Software Suite, and multiple
-      component updates.
-May 9, 2008
-Version 9.1
-Version 9.1 adds a number of improvements, the main additions being related to the
-      WYSIWYG-like XML editor and to the WebDAV support. It also contains support for SOAP 1.2 and
-      some updated components.
-December 18, 2007
-Version 9.0
-The main feature of version 9.0 is a CSS based visual XML editor allowing
-      WYSIWYG-like editing of XML documents. With an innovative approach to XML authoring Oxygen
-      allows you to work with XML frameworks (DocBook, DITA, TEI, XHTML, etc.) easier than ever
-      before. Version 9 adds a concept called Document Type that allows you to provide ready-to-use
-      support for a framework or an XML language and share it with other users. This version also
-      brings improved error reporting for validation against Relax NG schemas and Schematron,
-      additional side view helpers, some component updates and a number of other
-      features.
-November 2, 2007
-Version 8.2
-The key word for Oxygen XML Editor version 8.2 is
-innovation
-. It
-      brings the first XQuery debugger against a native XML database allowing users of the MarkLogic
-      3.2 database to debug their XQuery code based on the MarkLogic Server 3.2 XQuery debugging
-      API. Oxygen is the first tool announcing ISO Schematron support covering also ISO
-      Schematron embedded in XML Schema or Relax NG, abstract patterns and included Schematron
-      schemas.
-May 7, 2007
-Version 8.1
-Version 8.1 of Oxygen XML Editor improves the support for NVDL scripts and adds a
-      series of enhancements, fixes and component updates.
-January 25, 2007
-Version 8.0
-Version 8.0 of Oxygen XML Editor adds as main features a spreadsheet-like XML
-Grid
-editing mode, management support for both XML and relational
-      databases: Berkeley DB XML Database, eXist, IBM DB2 PureXML, MarkLogic, Microsoft SQLServer
-      2005, Oracle 10g R2, RainingData TigerLogic XDMS, SoftwareAG Tamino and XHive XML Database,
-      options and transformation scenarios that can be stored into the project file and support for
-      NVDL (Namespace-based Validation Dispatching Language) scripts.
-November 20, 2006
-Version 7.2
-Version 7.2 of Oxygen XML Editor adds as main features a complete SVN client,
-      support for flattening XML Schemas, an XML instance generator, integration with the X-Hive/DB,
-      MarkLogic and TigerLogic XML databases, editing actions on the diagram, rename refactoring
-      action and search references/declarations actions in XML Schema and Relax NG schema editors.
-June 6, 2006
-Version 7.1
-Version 7.1 of Oxygen XML Editor adds support for Berkeley and eXist XML
-      Databases, an XSL Templates view for easy navigation through the edited XSL stylesheet, and an
-      XPath Builder view for editing complex XPath expressions. Effort has been made to improve the
-      loading time and to reduce the memory usage, especially for large documents. Multiple
-      modifications were made to improve the general usability of the editor.
-March 2, 2006
-Version 7.0
-Version 7.0 of Oxygen XML Editor added more than 50 important features, such as
-      continuous validation and on-screen marking of the errors, XQuery debugging, XPath content
-      completion assistance and XSLT refactoring actions.
-January 13, 2006
-Version 6.2
-Version 6.2 of Oxygen XML Editor gives a whole new editing experience with the
-      introduction of a dockable framework that allows free configuration of the editor layout.
-      Along with this major change there are also a lot of other additions and
-      improvements.
-September 19, 2005
-Version 6.1
-Version 6.1 of Oxygen XML Editor adds as main features an XSLT Profiler
-      integrated in the debugging perspective, an enhanced XML schema documentation tool that
-      includes diagrams, in place editing in schema diagrams, easy navigation to component
-      definitions in schema editors, support for presenting the Relax NG annotations next to the
-      content completion proposals and an attributes editor.
-July 19, 2005
-Version 6.0
-Version 6.0 of Oxygen XML Editor adds as main features Visual Schema Editors for
-      W3C XML Schema and Relax NG, a complete Diff and Merge solution and the capability of
-      importing data from different data sources including relational databases and text
-      files.
-May 22, 2005
-Version 5.1
-Version 5.1 of Oxygen XML Editor adds as main features folding, code templates,
-      better Relax NG support, Schematron validation and the possibility to use MSXML and XSLTProc
-      as XSLT transformers.
-January 18, 2005
-Version 5.0
-October 15, 2004
-Version 4.2
-July 15, 2004
-Version 4.1
-June 10, 2004
-Version 4.0
-April 30, 2004
-Version 3.1
-February 6, 2004
-Version 3.0
-January 14, 2004
-Version 2.0.4
-September 19, 2003
-Version 2.0.3
-August 14, 2003
-Version 2.0.2
-June 9, 2003
-Version 2.0.1
-May 15, 2003
-Version 2.0
-April 2, 2003
-Version 1.2.4
-December 17, 2002
-Version 1.2.3
-November 27, 2002
-Version 1.2.2
-October 22, 2002
-Version 1.2.1
-September 27, 2002
-Version 1.2
-June 27, 2002
-Version 1.1.9
-June 15, 2002
-Version 1.1.8
-June 5, 2002
-Version 1.1.7
-May 27, 2002
-Version 1.1.6
-May 24, 2002
-Version 1.1.5
-May 20, 2002
-Version 1.1
-May 15, 2002
-Version 1.0
-April 15, 2002
-Products
-XML Editor
-XML Developer
-XML Author
-XML Web Author
-Content Fusion
-Publishing Engine
-WebHelp
-PDF Chemistry
-Feedback
-Oxygen Scripting
-Features
-WYSIWYG Editors
-Schema Editor
-WSDL Editor
-XSLT
-                                        Editor
-XQuery
-XSD Documentation
-XML Databases
-SVN Client
-EPUB Editor
-DITA Editor
-JSON Editor
-Shop
-Buy Now
-Sales FAQ
-Resellers
-Resources
-Documentation
-Videos
-Add-ons
-Spell Checking
-Support
-Support
-Forum
-Mailing
-                                        Lists
-Contact Us
-Company
-About Us
-Events Programme
-Partners
-Case Studies
-Quotes
-Press Room
-Careers
-Legal
-Oxygen XML on Facebook
-Follow Oxygen XML on Twitter
-Oxygen XML Web Feed
-Oxygen XML Blog
-Oxygen XML Youtube Channel
-Oxygen XML Reddit
-Oxygen XML Bluesky
-© 2002-2026 SyncRO Soft SRL. All rights reserved.
-Sitemap
-Terms of Use
-Privacy Policy
-This website was created & generated with
-                                        <oXygen/>
-XML Editor
-Our website uses cookies.
-Find out more about cookies.
-I understand. Hide this message.
+- navigation
+  - link "Oxygen XML Editor" [ref=e15]
+    - image "Oxygen"
+    - StaticText "XML Editor"
+  - generic
+    - list
+      - listitem [level=1]
+        - link "Products" [ref=e222]
+      - listitem [level=1]
+        - link "Shop" [ref=e223]
+      - listitem [level=1]
+        - link "Resources" [ref=e224]
+      - listitem [level=1]
+        - link "Support" [ref=e225]
+      - listitem [level=1]
+        - link "Company" [ref=e226]
+      - listitem [level=1]
+        - generic
+          - generic [ref=e552] clickable [cursor:pointer]
+      - listitem [level=1]
+        - link "Login" [ref=e553]
+        - generic [ref=e554] clickable [cursor:pointer]
+          - link "" [ref=e555]
+- heading "Release History" [level=1, ref=e1]
+- generic
+  - generic
+    - time
+    - generic
+      - heading "Version 9.1" [level=2, ref=e62]
+      - link "Click to see what is new in Content Fusion 9.1" [ref=e227]
+      - paragraph
+    - time
+      - StaticText "April 7, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 28.1" [level=2, ref=e63]
+      - generic
+        - link "Click to see what is new in Author 28.1" [ref=e228]
+        - link "Click to see what is new in Developer 28.1" [ref=e229]
+        - link "Click to see what is new in Chemistry 28.1" [ref=e230]
+        - link "Click to see what is new in Editor 28.1" [ref=e231]
+        - link "Click to see what is new in Webhelp 28.1" [ref=e232]
+        - link "Click to see what is new in Publishing Engine 28.1" [ref=e233]
+        - link "Click to see what is new in Scripting 28.1" [ref=e234]
+        - link "Click to see what is new in Json Editor 28.1" [ref=e235]
+        - link "Click to see what is new in Sdk 28.1" [ref=e236]
+      - paragraph
+    - time
+      - StaticText "March 18, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 28.1.0" [level=2, ref=e64]
+      - link "Click to see what is new in Web Author 28.1.0" [ref=e237]
+      - paragraph
+    - time
+      - StaticText "March 18, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.1" [level=2, ref=e65]
+      - link "Click to see what is new in Ai Positron 8.1" [ref=e238]
+      - paragraph
+    - time
+      - StaticText "February 10, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 9.0" [level=2, ref=e66]
+      - link "Click to see what is new in Content Fusion 9.0" [ref=e239]
+      - paragraph
+    - time
+      - StaticText "January 28, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 28.0" [level=2, ref=e67]
+      - generic
+        - link "Click to see what is new in Author 28.0" [ref=e240]
+        - link "Click to see what is new in Developer 28.0" [ref=e241]
+        - link "Click to see what is new in Chemistry 28.0" [ref=e242]
+        - link "Click to see what is new in Editor 28.0" [ref=e243]
+        - link "Click to see what is new in Webhelp 28.0" [ref=e244]
+        - link "Click to see what is new in Publishing Engine 28.0" [ref=e245]
+        - link "Click to see what is new in Scripting 28.0" [ref=e246]
+        - link "Click to see what is new in Json Editor 28.0" [ref=e247]
+      - paragraph
+    - time
+      - StaticText "November 26, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 28.0.0" [level=2, ref=e68]
+      - link "Click to see what is new in Web Author 28.0.0" [ref=e248]
+      - paragraph
+    - time
+      - StaticText "November 26, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.0" [level=2, ref=e69]
+      - link "Click to see what is new in Ai Positron 8.0" [ref=e249]
+      - paragraph
+    - time
+      - StaticText "November 18, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.3" [level=2, ref=e70]
+      - link "Click to see what is new in Feedback Cloud 5.3" [ref=e250]
+      - paragraph
+    - time
+      - StaticText "November 5, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.3" [level=2, ref=e71]
+      - link "Click to see what is new in Feedback Enterprise 5.3" [ref=e251]
+      - paragraph
+    - time
+      - StaticText "November 5, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 7.0" [level=2, ref=e72]
+      - link "Click to see what is new in Ai Positron 7.0" [ref=e252]
+      - paragraph
+    - time
+      - StaticText "September 15, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.2" [level=2, ref=e73]
+      - link "Click to see what is new in Content Fusion 8.2" [ref=e253]
+      - paragraph
+    - time
+      - StaticText "August 25, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 6.0.1" [level=2, ref=e74]
+      - link "Click to see what is new in Ai Positron 6.0.1" [ref=e254]
+      - paragraph
+    - time
+      - StaticText "August 21, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 6.0" [level=2, ref=e75]
+      - link "Click to see what is new in Ai Positron 6.0" [ref=e255]
+      - paragraph
+    - time
+      - StaticText "July 3, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.2" [level=2, ref=e76]
+      - link "Click to see what is new in Feedback Cloud 5.2" [ref=e256]
+      - paragraph
+    - time
+      - StaticText "April 28, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.2" [level=2, ref=e77]
+      - link "Click to see what is new in Feedback Enterprise 5.2" [ref=e257]
+      - paragraph
+    - time
+      - StaticText "April 28, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.1" [level=2, ref=e78]
+      - link "Click to see what is new in Content Fusion 8.1" [ref=e258]
+      - paragraph
+    - time
+      - StaticText "April 24, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.0" [level=2, ref=e79]
+      - link "Click to see what is new in Ai Positron 5.0" [ref=e259]
+      - paragraph
+    - time
+      - StaticText "April 24, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 27.1" [level=2, ref=e80]
+      - generic
+        - link "Click to see what is new in Author 27.1" [ref=e260]
+        - link "Click to see what is new in Developer 27.1" [ref=e261]
+        - link "Click to see what is new in Chemistry 27.1" [ref=e262]
+        - link "Click to see what is new in Editor 27.1" [ref=e263]
+        - link "Click to see what is new in Webhelp 27.1" [ref=e264]
+        - link "Click to see what is new in Publishing Engine 27.1" [ref=e265]
+        - link "Click to see what is new in Scripting 27.1" [ref=e266]
+        - link "Click to see what is new in Json Editor 27.1" [ref=e267]
+      - paragraph
+    - time
+      - StaticText "March 24, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 27.1.0" [level=2, ref=e81]
+      - link "Click to see what is new in Web Author 27.1.0" [ref=e268]
+      - paragraph
+    - time
+      - StaticText "March 24, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.0" [level=2, ref=e82]
+      - link "Click to see what is new in Content Fusion 8.0" [ref=e269]
+      - paragraph
+    - time
+      - StaticText "March 11, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.1" [level=2, ref=e83]
+      - link "Click to see what is new in Ai Positron 4.1" [ref=e270]
+      - paragraph
+    - time
+      - StaticText "January 30, 2025"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.1" [level=2, ref=e84]
+      - link "Click to see what is new in Feedback Cloud 5.1" [ref=e271]
+      - paragraph
+    - time
+      - StaticText "December 11, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.1" [level=2, ref=e85]
+      - link "Click to see what is new in Feedback Enterprise 5.1" [ref=e272]
+      - paragraph
+    - time
+      - StaticText "December 11, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 27.0" [level=2, ref=e86]
+      - generic
+        - link "Click to see what is new in Author 27.0" [ref=e273]
+        - link "Click to see what is new in Developer 27.0" [ref=e274]
+        - link "Click to see what is new in Chemistry 27.0" [ref=e275]
+        - link "Click to see what is new in Editor 27.0" [ref=e276]
+        - link "Click to see what is new in Webhelp 27.0" [ref=e277]
+        - link "Click to see what is new in Publishing Engine 27.0" [ref=e278]
+        - link "Click to see what is new in Scripting 27.0" [ref=e279]
+        - link "Click to see what is new in Json Editor 27.0" [ref=e280]
+        - link "Click to see what is new in Sdk 27.0" [ref=e281]
+      - paragraph
+    - time
+      - StaticText "November 27, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 27.0.0" [level=2, ref=e87]
+      - link "Click to see what is new in Web Author 27.0.0" [ref=e282]
+      - paragraph
+    - time
+      - StaticText "November 27, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.0" [level=2, ref=e88]
+      - link "Click to see what is new in Ai Positron 4.0" [ref=e283]
+      - paragraph
+    - time
+      - StaticText "November 1, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 7.1" [level=2, ref=e89]
+      - link "Click to see what is new in Content Fusion 7.1" [ref=e284]
+      - paragraph
+    - time
+      - StaticText "October 8, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.0" [level=2, ref=e90]
+      - link "Click to see what is new in Feedback Cloud 5.0" [ref=e285]
+      - paragraph
+    - time
+      - StaticText "September 5, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.0" [level=2, ref=e91]
+      - link "Click to see what is new in Feedback Enterprise 5.0" [ref=e286]
+      - paragraph
+    - time
+      - StaticText "September 5, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 3.0" [level=2, ref=e92]
+      - link "Click to see what is new in Ai Positron 3.0" [ref=e287]
+      - paragraph
+    - time
+      - StaticText "September 5, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 7.0" [level=2, ref=e93]
+      - link "Click to see what is new in Content Fusion 7.0" [ref=e288]
+      - paragraph
+    - time
+      - StaticText "July 10, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.1" [level=2, ref=e94]
+      - link "Click to see what is new in Ai Positron 2.1" [ref=e289]
+      - paragraph
+    - time
+      - StaticText "June 12, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0" [level=2, ref=e95]
+      - link "Click to see what is new in Ai Positron 2.0" [ref=e290]
+      - paragraph
+    - time
+      - StaticText "April 23, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 6.2" [level=2, ref=e96]
+      - link "Click to see what is new in Content Fusion 6.2" [ref=e291]
+      - paragraph
+    - time
+      - StaticText "April 9, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 26.1" [level=2, ref=e97]
+      - generic
+        - link "Click to see what is new in Author 26.1" [ref=e292]
+        - link "Click to see what is new in Developer 26.1" [ref=e293]
+        - link "Click to see what is new in Chemistry 26.1" [ref=e294]
+        - link "Click to see what is new in Editor 26.1" [ref=e295]
+        - link "Click to see what is new in Webhelp 26.1" [ref=e296]
+        - link "Click to see what is new in Publishing Engine 26.1" [ref=e297]
+        - link "Click to see what is new in Scripting 26.1" [ref=e298]
+        - link "Click to see what is new in Json Editor 26.1" [ref=e299]
+      - paragraph
+    - time
+      - StaticText "March 25, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 26.1.0" [level=2, ref=e98]
+      - link "Click to see what is new in Web Author 26.1.0" [ref=e300]
+      - paragraph
+    - time
+      - StaticText "March 25, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1" [level=2, ref=e99]
+      - link "Click to see what is new in Ai Positron 1.1" [ref=e301]
+      - paragraph
+    - time
+      - StaticText "February 7, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 6.1" [level=2, ref=e100]
+      - link "Click to see what is new in Content Fusion 6.1" [ref=e302]
+      - paragraph
+    - time
+      - StaticText "February 5, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.1" [level=2, ref=e101]
+      - link "Click to see what is new in Feedback Cloud 4.1" [ref=e303]
+      - paragraph
+    - time
+      - StaticText "February 1, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.1" [level=2, ref=e102]
+      - link "Click to see what is new in Feedback Enterprise 4.1" [ref=e304]
+      - paragraph
+    - time
+      - StaticText "February 1, 2024"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.0" [level=2, ref=e103]
+      - link "Click to see what is new in Ai Positron 1.0" [ref=e305]
+      - paragraph
+    - time
+      - StaticText "November 10, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 6.0" [level=2, ref=e104]
+      - link "Click to see what is new in Content Fusion 6.0" [ref=e306]
+      - paragraph
+    - time
+      - StaticText "November 1, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.0" [level=2, ref=e105]
+      - link "Click to see what is new in Feedback Cloud 4.0" [ref=e307]
+      - paragraph
+    - time
+      - StaticText "November 1, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.0" [level=2, ref=e106]
+      - link "Click to see what is new in Feedback Enterprise 4.0" [ref=e308]
+      - paragraph
+    - time
+      - StaticText "November 1, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 26.0" [level=2, ref=e107]
+      - generic
+        - link "Click to see what is new in Author 26.0" [ref=e309]
+        - link "Click to see what is new in Developer 26.0" [ref=e310]
+        - link "Click to see what is new in Chemistry 26.0" [ref=e311]
+        - link "Click to see what is new in Editor 26.0" [ref=e312]
+        - link "Click to see what is new in Webhelp 26.0" [ref=e313]
+        - link "Click to see what is new in Publishing Engine 26.0" [ref=e314]
+        - link "Click to see what is new in Scripting 26.0" [ref=e315]
+      - paragraph
+    - time
+      - StaticText "October 11, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 26.0.0" [level=2, ref=e108]
+      - link "Click to see what is new in Web Author 26.0.0" [ref=e316]
+      - paragraph
+    - time
+      - StaticText "October 11, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.1" [level=2, ref=e109]
+      - link "Click to see what is new in Content Fusion 5.1" [ref=e317]
+      - paragraph
+    - time
+      - StaticText "April 19, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 25.1" [level=2, ref=e110]
+      - generic
+        - link "Click to see what is new in Author 25.1" [ref=e318]
+        - link "Click to see what is new in Developer 25.1" [ref=e319]
+        - link "Click to see what is new in Chemistry 25.1" [ref=e320]
+        - link "Click to see what is new in Editor 25.1" [ref=e321]
+        - link "Click to see what is new in Webhelp 25.1" [ref=e322]
+        - link "Click to see what is new in Publishing Engine 25.1" [ref=e323]
+        - link "Click to see what is new in Scripting 25.1" [ref=e324]
+      - paragraph
+    - time
+      - StaticText "March 16, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 25.1.0" [level=2, ref=e111]
+      - link "Click to see what is new in Web Author 25.1.0" [ref=e325]
+      - paragraph
+    - time
+      - StaticText "March 16, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 3.0" [level=2, ref=e112]
+      - link "Click to see what is new in Feedback Cloud 3.0" [ref=e326]
+      - paragraph
+    - time
+      - StaticText "March 16, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 3.0" [level=2, ref=e113]
+      - link "Click to see what is new in Feedback Enterprise 3.0" [ref=e327]
+      - paragraph
+    - time
+      - StaticText "March 16, 2023"
+  - generic
+    - time
+    - generic
+      - heading "Version 25.0" [level=2, ref=e114]
+      - generic
+        - link "Click to see what is new in Author 25.0" [ref=e328]
+        - link "Click to see what is new in Developer 25.0" [ref=e329]
+        - link "Click to see what is new in Chemistry 25.0" [ref=e330]
+        - link "Click to see what is new in Editor 25.0" [ref=e331]
+        - link "Click to see what is new in Webhelp 25.0" [ref=e332]
+        - link "Click to see what is new in Publishing Engine 25.0" [ref=e333]
+        - link "Click to see what is new in Scripting 25.0" [ref=e334]
+      - paragraph
+    - time
+      - StaticText "October 13, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 25.0.0" [level=2, ref=e115]
+      - link "Click to see what is new in Web Author 25.0.0" [ref=e335]
+      - paragraph
+    - time
+      - StaticText "October 13, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.0" [level=2, ref=e116]
+      - link "Click to see what is new in Content Fusion 5.0" [ref=e336]
+      - paragraph
+    - time
+      - StaticText "May 25, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.1" [level=2, ref=e117]
+      - link "Click to see what is new in Feedback Cloud 2.1" [ref=e337]
+      - paragraph
+    - time
+      - StaticText "April 13, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.1" [level=2, ref=e118]
+      - link "Click to see what is new in Feedback Enterprise 2.1" [ref=e338]
+      - paragraph
+    - time
+      - StaticText "April 13, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 24.1" [level=2, ref=e119]
+      - generic
+        - link "Click to see what is new in Author 24.1" [ref=e339]
+        - link "Click to see what is new in Developer 24.1" [ref=e340]
+        - link "Click to see what is new in Chemistry 24.1" [ref=e341]
+        - link "Click to see what is new in Editor 24.1" [ref=e342]
+        - link "Click to see what is new in Webhelp 24.1" [ref=e343]
+        - link "Click to see what is new in Publishing Engine 24.1" [ref=e344]
+        - link "Click to see what is new in Scripting 24.1" [ref=e345]
+      - paragraph
+    - time
+      - StaticText "March 7, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 24.1.0" [level=2, ref=e120]
+      - link "Click to see what is new in Web Author 24.1.0" [ref=e346]
+      - paragraph
+    - time
+      - StaticText "March 7, 2022"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0" [level=2, ref=e121]
+      - link "Click to see what is new in Feedback Cloud 2.0" [ref=e347]
+      - paragraph
+    - time
+      - StaticText "Dec. 16, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0" [level=2, ref=e122]
+      - link "Click to see what is new in Feedback Enterprise 2.0" [ref=e348]
+      - paragraph
+    - time
+      - StaticText "Dec 16, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 24.0" [level=2, ref=e123]
+      - generic
+        - link "Click to see what is new in Author 24.0" [ref=e349]
+        - link "Click to see what is new in Developer 24.0" [ref=e350]
+        - link "Click to see what is new in Chemistry 24.0" [ref=e351]
+        - link "Click to see what is new in Editor 24.0" [ref=e352]
+        - link "Click to see what is new in Webhelp 24.0" [ref=e353]
+        - link "Click to see what is new in Publishing Engine 24.0" [ref=e354]
+        - link "Click to see what is new in Scripting 24.0" [ref=e355]
+      - paragraph
+    - time
+      - StaticText "October 18, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 24.0.0" [level=2, ref=e124]
+      - link "Click to see what is new in Web Author 24.0.0" [ref=e356]
+      - paragraph
+    - time
+      - StaticText "October 18, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 23.1.1" [level=2, ref=e125]
+      - link "Click to see what is new in Web Author 23.1.1" [ref=e357]
+      - paragraph
+    - time
+      - StaticText "July 12, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.1" [level=2, ref=e126]
+      - link "Click to see what is new in Content Fusion 4.1" [ref=e358]
+      - paragraph
+    - time
+      - StaticText "July 12, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 23.1.0" [level=2, ref=e127]
+      - link "Click to see what is new in Web Author 23.1.0" [ref=e359]
+      - paragraph
+    - time
+      - StaticText "March 4, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 4.0" [level=2, ref=e128]
+      - link "Click to see what is new in Content Fusion 4.0" [ref=e360]
+      - paragraph
+    - time
+      - StaticText "March 4, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.4" [level=2, ref=e129]
+      - link "Click to see what is new in Feedback Cloud 1.4" [ref=e361]
+      - paragraph
+    - time
+      - StaticText "March 4, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.4" [level=2, ref=e130]
+      - link "Click to see what is new in Feedback Enterprise 1.4" [ref=e362]
+      - paragraph
+    - time
+      - StaticText "March 4, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 23.1" [level=2, ref=e131]
+      - generic
+        - link "Click to see what is new in Author 23.1" [ref=e363]
+        - link "Click to see what is new in Developer 23.1" [ref=e364]
+        - link "Click to see what is new in Chemistry 23.1" [ref=e365]
+        - link "Click to see what is new in Editor 23.1" [ref=e366]
+        - link "Click to see what is new in Webhelp 23.1" [ref=e367]
+        - link "Click to see what is new in Publishing Engine 23.1" [ref=e368]
+        - link "Click to see what is new in Scripting 23.1" [ref=e369]
+      - paragraph
+    - time
+      - StaticText "March 4, 2021"
+  - generic
+    - time
+    - generic
+      - heading "Version 23.0" [level=2, ref=e132]
+      - generic
+        - link "Click to see what is new in Author 23.0" [ref=e370]
+        - link "Click to see what is new in Developer 23.0" [ref=e371]
+        - link "Click to see what is new in Chemistry 23.0" [ref=e372]
+        - link "Click to see what is new in Editor 23.0" [ref=e373]
+        - link "Click to see what is new in Webhelp 23.0" [ref=e374]
+        - link "Click to see what is new in Publishing Engine 23.0" [ref=e375]
+      - paragraph
+    - time
+      - StaticText "November 19, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 23.0.0" [level=2, ref=e133]
+      - link "Click to see what is new in Web Author 23.0.0" [ref=e376]
+      - paragraph
+    - time
+      - StaticText "November 19, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.3" [level=2, ref=e134]
+      - link "Click to see what is new in Feedback Enterprise 1.3" [ref=e377]
+      - paragraph
+    - time
+      - StaticText "October 7, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.3" [level=2, ref=e135]
+      - link "Click to see what is new in Feedback Cloud 1.3" [ref=e378]
+      - paragraph
+    - time
+      - StaticText "October 7, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 3.0" [level=2, ref=e136]
+      - link "Click to see what is new in Content Fusion 3.0" [ref=e379]
+      - paragraph
+    - time
+      - StaticText "July 3, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 22.1" [level=2, ref=e137]
+      - generic
+        - link "Click to see what is new in Author 22.1" [ref=e380]
+        - link "Click to see what is new in Developer 22.1" [ref=e381]
+        - link "Click to see what is new in Chemistry 22.1" [ref=e382]
+        - link "Click to see what is new in Editor 22.1" [ref=e383]
+        - link "Click to see what is new in Webhelp 22.1" [ref=e384]
+        - link "Click to see what is new in Publishing Engine 22.1" [ref=e385]
+      - paragraph
+    - time
+      - StaticText "May 19, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 22.1.0" [level=2, ref=e138]
+      - link "Click to see what is new in Web Author 22.1.0" [ref=e386]
+      - paragraph
+    - time
+      - StaticText "May 19, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2" [level=2, ref=e139]
+      - link "Click to see what is new in Feedback Cloud 1.2" [ref=e387]
+      - paragraph
+    - time
+      - StaticText "May 19, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 22.0" [level=2, ref=e140]
+      - generic
+        - link "Click to see what is new in Editor 22.0" [ref=e388]
+        - link "Click to see what is new in Author 22.0" [ref=e389]
+        - link "Click to see what is new in Developer 22.0" [ref=e390]
+        - link "Click to see what is new in Chemistry 22.0" [ref=e391]
+        - link "Click to see what is new in Webhelp 22.0" [ref=e392]
+      - paragraph
+    - time
+      - StaticText "February 12, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 22.0.0" [level=2, ref=e141]
+      - link "Click to see what is new in Web Author 22.0.0" [ref=e393]
+      - paragraph
+    - time
+      - StaticText "February 12, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0" [level=2, ref=e142]
+      - link "Click to see what is new in Content Fusion 2.0" [ref=e394]
+      - paragraph
+    - time
+      - StaticText "February 12, 2020"
+  - generic
+    - time
+    - generic
+      - heading "Version 21.1.1" [level=2, ref=e143]
+      - link "Click to see what is new in Web Author 21.1.1" [ref=e395]
+      - paragraph
+    - time
+      - StaticText "October 24, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 21.1" [level=2, ref=e144]
+      - generic
+        - link "Click to see what is new in Author 21.1" [ref=e396]
+        - link "Click to see what is new in Developer 21.1" [ref=e397]
+        - link "Click to see what is new in Webhelp 21.1" [ref=e398]
+        - link "Click to see what is new in Chemistry 21.1" [ref=e399]
+        - link "Click to see what is new in Editor 21.1" [ref=e400]
+      - paragraph
+    - time
+      - StaticText "May 23, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 21.1.0" [level=2, ref=e145]
+      - link "Click to see what is new in Web Author 21.1.0" [ref=e401]
+      - paragraph
+    - time
+      - StaticText "May 23, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 21.0.0" [level=2, ref=e146]
+      - link "Click to see what is new in Web Author 21.0.0" [ref=e402]
+      - paragraph
+    - time
+      - StaticText "February 22, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 21.0" [level=2, ref=e147]
+      - generic
+        - link "Click to see what is new in Editor 21.0" [ref=e403]
+        - link "Click to see what is new in Author 21.0" [ref=e404]
+        - link "Click to see what is new in Developer 21.0" [ref=e405]
+        - link "Click to see what is new in Webhelp 21.0" [ref=e406]
+        - link "Click to see what is new in Chemistry 21.0" [ref=e407]
+      - paragraph
+    - time
+      - StaticText "February 22, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1" [level=2, ref=e148]
+      - link "Click to see what is new in Content Fusion 1.1" [ref=e408]
+      - paragraph
+        - link "Content Fusion website" [ref=e409]
+    - time
+      - StaticText "February 22, 2019"
+  - generic
+    - time
+    - generic
+      - heading "Version 20.1.0" [level=2, ref=e149]
+      - link "Click to see what is new in Web Author 20.1.0" [ref=e410]
+      - paragraph
+    - time
+      - StaticText "June 15, 2018"
+  - generic
+    - time
+    - generic
+      - heading "Version 20.1" [level=2, ref=e150]
+      - generic
+        - link "Click to see what is new in Editor 20.1" [ref=e411]
+        - link "Click to see what is new in Author 20.1" [ref=e412]
+        - link "Click to see what is new in Developer 20.1" [ref=e413]
+        - link "Click to see what is new in Webhelp 20.1" [ref=e414]
+        - link "Click to see what is new in Chemistry 20.1" [ref=e415]
+      - paragraph
+        - link "Section 508 accessibility standard" [ref=e416]
+    - time
+      - StaticText "June 15, 2018"
+  - generic
+    - time
+    - generic
+      - heading "Version 20.0.0" [level=2, ref=e151]
+      - link "Click to see what is new in Web Author 20.0.0" [ref=e417]
+      - paragraph
+    - time
+      - StaticText "March 16, 2018"
+  - generic
+    - time
+    - generic
+      - heading "Version 20.0" [level=2, ref=e152]
+      - generic
+        - link "Click to see what is new in Author 20.0" [ref=e418]
+        - link "Click to see what is new in Developer 20.0" [ref=e419]
+        - link "Click to see what is new in Webhelp 20.0" [ref=e420]
+        - link "Click to see what is new in Chemistry 20.0" [ref=e421]
+        - link "Click to see what is new in Editor 20.0" [ref=e422]
+      - paragraph
+    - time
+      - StaticText "March 16, 2018"
+  - generic
+    - time
+    - generic
+      - heading "Version 19.1.0" [level=2, ref=e153]
+      - link "Click to see what is new in Web Author 19.1.0" [ref=e423]
+      - paragraph
+    - time
+      - StaticText "September 29, 2017"
+  - generic
+    - time
+    - generic
+      - heading "Version 19.1" [level=2, ref=e154]
+      - generic
+        - link "Click to see what is new in Editor 19.1" [ref=e424]
+        - link "Click to see what is new in Author 19.1" [ref=e425]
+        - link "Click to see what is new in Developer 19.1" [ref=e426]
+        - link "Click to see what is new in Webhelp 19.1" [ref=e427]
+      - paragraph
+    - time
+      - StaticText "September 29, 2017"
+  - generic
+    - time
+    - generic
+      - heading "Version 19.0.0" [level=2, ref=e155]
+      - link "Click to see what is new in Web Author 19.0.0" [ref=e428]
+      - paragraph
+    - time
+      - StaticText "April 5, 2017"
+  - generic
+    - time
+    - generic
+      - heading "Version 19.0" [level=2, ref=e156]
+      - generic
+        - link "Click to see what is new in Editor 19.0" [ref=e429]
+        - link "Click to see what is new in Author 19.0" [ref=e430]
+        - link "Click to see what is new in Developer 19.0" [ref=e431]
+        - link "Click to see what is new in Webhelp 19.0" [ref=e432]
+      - paragraph
+    - time
+      - StaticText "April 5, 2017"
+  - generic
+    - time
+    - generic
+      - heading "Version 18.1.0" [level=2, ref=e157]
+      - link "Click to see what is new in Web Author 18.1.0" [ref=e433]
+      - paragraph
+    - time
+      - StaticText "October 18, 2016"
+  - generic
+    - time
+    - generic
+      - heading "Version 18.1" [level=2, ref=e158]
+      - generic
+        - link "Click to see what is new in Editor 18.1" [ref=e434]
+        - link "Click to see what is new in Author 18.1" [ref=e435]
+        - link "Click to see what is new in Developer 18.1" [ref=e436]
+        - link "Click to see what is new in Webhelp 18.1" [ref=e437]
+      - paragraph
+    - time
+      - StaticText "October 18, 2016"
+  - generic
+    - time
+    - generic
+      - heading "Version 18.0.1" [level=2, ref=e159]
+      - link "Click to see what is new in Web Author 18.0.1" [ref=e438]
+      - paragraph
+    - time
+      - StaticText "August 9, 2016"
+  - generic
+    - time
+    - generic
+      - heading "Version 18.0.0" [level=2, ref=e160]
+      - link "Click to see what is new in Web Author 18.0.0" [ref=e439]
+      - paragraph
+    - time
+      - StaticText "April 21, 2016"
+  - generic
+    - time
+    - generic
+      - heading "Version 18.0" [level=2, ref=e161]
+      - generic
+        - link "Click to see what is new in Editor 18.0" [ref=e440]
+        - link "Click to see what is new in Author 18.0" [ref=e441]
+        - link "Click to see what is new in Developer 18.0" [ref=e442]
+        - link "Click to see what is new in Webhelp 18.0" [ref=e443]
+        - link "Click to see what is new in Web Author 18.0" [ref=e444]
+      - paragraph
+    - time
+      - StaticText "April 21, 2016"
+  - generic
+    - time
+    - generic
+      - heading "Version 17.1" [level=2, ref=e162]
+      - generic
+        - link "Click to see what is new in Editor 17.1" [ref=e445]
+        - link "Click to see what is new in Author 17.1" [ref=e446]
+        - link "Click to see what is new in Developer 17.1" [ref=e447]
+        - link "Click to see what is new in Webhelp 17.1" [ref=e448]
+      - paragraph
+    - time
+      - StaticText "October 20, 2015"
+  - generic
+    - time
+    - generic
+      - heading "Version 17.0" [level=2, ref=e163]
+      - generic
+        - link "Click to see what is new in Editor 17.0" [ref=e449]
+        - link "Click to see what is new in Author 17.0" [ref=e450]
+        - link "Click to see what is new in Developer 17.0" [ref=e451]
+        - link "Click to see what is new in Webhelp 17.0" [ref=e452]
+      - paragraph
+    - time
+      - StaticText "May 5, 2015"
+  - generic
+    - time
+    - generic
+      - heading "Version 16.1" [level=2, ref=e164]
+      - generic
+        - link "Click to see what is new in Editor 16.1" [ref=e453]
+        - link "Click to see what is new in Author 16.1" [ref=e454]
+        - link "Click to see what is new in Developer 16.1" [ref=e455]
+        - link "Click to see what is new in Webhelp 16.1" [ref=e456]
+      - paragraph
+    - time
+      - StaticText "October 7, 2014"
+  - generic
+    - time
+    - generic
+      - heading "Version 16.0" [level=2, ref=e165]
+      - generic
+        - link "Click to see what is new in Editor 16.0" [ref=e457]
+        - link "Click to see what is new in Author 16.0" [ref=e458]
+        - link "Click to see what is new in Developer 16.0" [ref=e459]
+        - link "Click to see what is new in Webhelp 16.0" [ref=e460]
+      - paragraph
+    - time
+      - StaticText "May 20, 2014"
+  - generic
+    - time
+    - generic
+      - heading "Version 15.2" [level=2, ref=e166]
+      - generic
+        - link "Click to see what is new in Editor 15.2" [ref=e461]
+        - link "Click to see what is new in Author 15.2" [ref=e462]
+        - link "Click to see what is new in Developer 15.2" [ref=e463]
+        - link "Click to see what is new in Webhelp 15.2" [ref=e464]
+      - paragraph
+    - time
+      - StaticText "January 22, 2014"
+  - generic
+    - time
+    - generic
+      - heading "Version 15.1" [level=2, ref=e167]
+      - generic
+        - link "Click to see what is new in Editor 15.1" [ref=e465]
+        - link "Click to see what is new in Author 15.1" [ref=e466]
+        - link "Click to see what is new in Developer 15.1" [ref=e467]
+        - link "Click to see what is new in Webhelp 15.1" [ref=e468]
+      - paragraph
+    - time
+      - StaticText "October 7, 2013"
+  - generic
+    - time
+    - generic
+      - heading "Version 15.0" [level=2, ref=e168]
+      - generic
+        - link "Click to see what is new in Editor 15.0" [ref=e469]
+        - link "Click to see what is new in Author 15.0" [ref=e470]
+        - link "Click to see what is new in Developer 15.0" [ref=e471]
+        - link "Click to see what is new in Webhelp 15.0" [ref=e472]
+      - paragraph
+    - time
+      - StaticText "June 7, 2013"
+  - generic
+    - time
+    - generic
+      - heading "Version 14.2" [level=2, ref=e169]
+      - generic
+        - link "Click to see what is new in Editor 14.2" [ref=e473]
+        - link "Click to see what is new in Author 14.2" [ref=e474]
+        - link "Click to see what is new in Developer 14.2" [ref=e475]
+      - paragraph
+    - time
+      - StaticText "February 13, 2013"
+  - generic
+    - time
+    - generic
+      - heading "Version 14.1" [level=2, ref=e170]
+      - generic
+        - link "Click to see what is new in Editor 14.1" [ref=e476]
+        - link "Click to see what is new in Author 14.1" [ref=e477]
+        - link "Click to see what is new in Developer 14.1" [ref=e478]
+      - paragraph
+    - time
+      - StaticText "October 19, 2012"
+  - generic
+    - time
+    - generic
+      - heading "Version 14.0" [level=2, ref=e171]
+      - generic
+        - link "Click to see what is new in Editor 14.0" [ref=e479]
+        - link "Click to see what is new in Author 14.0" [ref=e480]
+        - link "Click to see what is new in Developer 14.0" [ref=e481]
+      - paragraph
+    - time
+      - StaticText "June 27, 2012"
+  - generic
+    - time
+    - generic
+      - heading "Version 13.2" [level=2, ref=e172]
+      - generic
+        - link "Click to see what is new in Editor 13.2" [ref=e482]
+        - link "Click to see what is new in Author 13.2" [ref=e483]
+        - link "Click to see what is new in Developer 13.2" [ref=e484]
+      - paragraph
+    - time
+      - StaticText "January 12, 2012"
+  - generic
+    - time
+    - generic
+      - heading "Version 13.1" [level=2, ref=e173]
+      - generic
+        - link "Click to see what is new in Editor 13.1" [ref=e485]
+        - link "Click to see what is new in Developer 13.1" [ref=e486]
+        - link "Click to see what is new in Author 13.1" [ref=e487]
+      - paragraph
+    - time
+      - StaticText "October 26, 2011"
+  - generic
+    - time
+    - generic
+      - heading "Version 13.0" [level=2, ref=e174]
+      - generic
+        - link "Click to see what is new in Editor 13.0" [ref=e488]
+        - link "Click to see what is new in Developer 13.0" [ref=e489]
+        - link "Click to see what is new in Author 13.0" [ref=e490]
+      - paragraph
+    - time
+      - StaticText "August 29, 2011"
+  - generic
+    - time
+    - generic
+      - heading "Version 12.2" [level=2, ref=e175]
+      - generic
+        - link "Click to see what is new in Editor 12.2" [ref=e491]
+        - link "Click to see what is new in Author 12.2" [ref=e492]
+      - paragraph
+        - StaticText "Version 12.2 of Oxygen XML introduces a number of unique development features. It provides support for editing XSLT and XML Schema modules in the context of a main XSLT, respectively main XML Schema file. For XML Schema visual editing it introduces a Palette view that allows to easily create new schema components by dragging them from this Palette view into the diagram. The support for the xml-model processing instruction for schema association that was previewed at XML Prague is available in 12.2 replacing the Oxygen specific processing instruction. The new version includes also one of the most requested features: Ant integration - the support for Ant transformation scenarios allows executing a target from an Ant script. For XSLT 2.0 and XQuery transformations it is possible to specify parameter values as XPath expressions when the engine allows that."
+    - time
+      - StaticText "May 19, 2011"
+  - generic
+    - time
+    - generic
+      - heading "Version 12.1" [level=2, ref=e176]
+      - generic
+        - link "Click to see what is new in Editor 12.1" [ref=e493]
+        - link "Click to see what is new in Author 12.1" [ref=e494]
+      - paragraph
+    - time
+      - StaticText "January 12, 2011"
+  - generic
+    - time
+    - generic
+      - heading "Version 12.0" [level=2, ref=e177]
+      - generic
+        - link "Click to see what is new in Editor 12.0" [ref=e495]
+        - link "Click to see what is new in Author 12.0" [ref=e496]
+      - paragraph
+    - time
+      - StaticText "September 14, 2010"
+  - generic
+    - time
+    - generic
+      - heading "Version 11.2" [level=2, ref=e178]
+      - generic
+        - link "Click to see what is new in Editor 11.2" [ref=e497]
+        - link "Click to see what is new in Author 11.2" [ref=e498]
+      - paragraph
+    - time
+      - StaticText "March 16, 2010"
+  - generic
+    - time
+    - generic
+      - heading "Version 11.1" [level=2, ref=e179]
+      - generic
+        - link "Click to see what is new in Editor 11.1" [ref=e499]
+        - link "Click to see what is new in Author 11.1" [ref=e500]
+      - paragraph
+    - time
+      - StaticText "December 17, 2009"
+  - generic
+    - time
+    - generic
+      - heading "Version 11.0" [level=2, ref=e180]
+      - generic
+        - link "Click to see what is new in Editor 11.0" [ref=e501]
+        - link "Click to see what is new in Author 11.0" [ref=e502]
+      - paragraph
+    - time
+      - StaticText "October 9, 2009"
+  - generic
+    - time
+    - generic
+      - heading "Version 10.3" [level=2, ref=e181]
+      - generic
+        - link "Click to see what is new in Editor 10.3" [ref=e503]
+        - link "Click to see what is new in Author 10.3" [ref=e504]
+      - paragraph
+    - time
+      - StaticText "June 29, 2009"
+  - generic
+    - time
+    - generic
+      - heading "Version 10.2" [level=2, ref=e182]
+      - generic
+        - link "Click to see what is new in Editor 10.2" [ref=e505]
+        - link "Click to see what is new in Author 10.2" [ref=e506]
+      - paragraph
+    - time
+      - StaticText "April 15, 2009"
+  - generic
+    - time
+    - generic
+      - heading "Version 10.1" [level=2, ref=e183]
+      - generic
+        - link "Click to see what is new in Editor 10.1" [ref=e507]
+        - link "Click to see what is new in Author 10.1" [ref=e508]
+      - paragraph
+    - time
+      - StaticText "February 25, 2009"
+  - generic
+    - time
+    - generic
+      - heading "Version 10.0" [level=2, ref=e184]
+      - generic
+        - link "Click to see what is new in Editor 10.0" [ref=e509]
+        - link "Click to see what is new in Author 10.0" [ref=e510]
+      - paragraph
+    - time
+      - StaticText "October 23, 2008"
+  - generic
+    - time
+    - generic
+      - heading "Version 9.3" [level=2, ref=e185]
+      - generic
+        - link "Click to see what is new in Editor 9.3" [ref=e511]
+        - link "Click to see what is new in Author 9.3" [ref=e512]
+      - paragraph
+    - time
+      - StaticText "July 2, 2008"
+  - generic
+    - time
+    - generic
+      - heading "Version 9.2" [level=2, ref=e186]
+      - generic
+        - link "Click to see what is new in Editor 9.2" [ref=e513]
+        - link "Click to see what is new in Author 9.2" [ref=e514]
+      - paragraph
+    - time
+      - StaticText "May 9, 2008"
+  - generic
+    - time
+    - generic
+      - heading "Version 9.1" [level=2, ref=e187]
+      - generic
+        - link "Click to see what is new in Editor 9.1" [ref=e515]
+        - link "Click to see what is new in Author 9.1" [ref=e516]
+      - paragraph
+    - time
+      - StaticText "December 18, 2007"
+  - generic
+    - time
+    - generic
+      - heading "Version 9.0" [level=2, ref=e188]
+      - generic
+        - link "Click to see what is new in Editor 9.0" [ref=e517]
+        - link "Click to see what is new in Author 9.0" [ref=e518]
+      - paragraph
+    - time
+      - StaticText "November 2, 2007"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.2" [level=2, ref=e189]
+      - link "Click to see what is new in Editor 8.2" [ref=e519]
+      - paragraph
+    - time
+      - StaticText "May 7, 2007"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.1" [level=2, ref=e190]
+      - link "Click to see what is new in Editor 8.1" [ref=e520]
+      - paragraph
+    - time
+      - StaticText "January 25, 2007"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.0" [level=2, ref=e191]
+      - link "Click to see what is new in Editor 8.0" [ref=e521]
+      - paragraph
+        - StaticText "Version 8.0 of Oxygen XML Editor adds as main features a spreadsheet-like XML Grid editing mode, management support for both XML and relational databases: Berkeley DB XML Database, eXist, IBM DB2 PureXML, MarkLogic, Microsoft SQLServer 2005, Oracle 10g R2, RainingData TigerLogic XDMS, SoftwareAG Tamino and XHive XML Database, options and transformation scenarios that can be stored into the project file and support for NVDL (Namespace-based Validation Dispatching Language) scripts."
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 7.2" [level=2, ref=e192]
+      - link "Click to see what is new in Editor 7.2" [ref=e522]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 7.1" [level=2, ref=e193]
+      - link "Click to see what is new in Editor 7.1" [ref=e523]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 7.0" [level=2, ref=e194]
+      - link "Click to see what is new in Editor 7.0" [ref=e524]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 6.2" [level=2, ref=e195]
+      - link "Click to see what is new in Editor 6.2" [ref=e525]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 6.1" [level=2, ref=e196]
+      - link "Click to see what is new in Editor 6.1" [ref=e526]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 6.0" [level=2, ref=e197]
+      - link "Click to see what is new in Editor 6.0" [ref=e527]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 5.1" [level=2, ref=e198]
+      - link "Click to see what is new in Editor 5.1" [ref=e528]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 5.0" [level=2, ref=e199]
+      - link "Click to see what is new in Editor 5.0" [ref=e529]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 4.2" [level=2, ref=e200]
+      - link "Click to see what is new in Editor 4.2" [ref=e530]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 4.1" [level=2, ref=e201]
+      - link "Click to see what is new in Editor 4.1" [ref=e531]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 4.0" [level=2, ref=e202]
+      - link "Click to see what is new in Editor 4.0" [ref=e532]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 3.1" [level=2, ref=e203]
+      - link "Click to see what is new in Editor 3.1" [ref=e533]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 3.0" [level=2, ref=e204]
+      - link "Click to see what is new in Editor 3.0" [ref=e534]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0.4" [level=2, ref=e205]
+      - link "Click to see what is new in Editor 2.0.4" [ref=e535]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0.3" [level=2, ref=e206]
+      - link "Click to see what is new in Editor 2.0.3" [ref=e536]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0.2" [level=2, ref=e207]
+      - link "Click to see what is new in Editor 2.0.2" [ref=e537]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0.1" [level=2, ref=e208]
+      - link "Click to see what is new in Editor 2.0.1" [ref=e538]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 2.0" [level=2, ref=e209]
+      - link "Click to see what is new in Editor 2.0" [ref=e539]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2.4" [level=2, ref=e210]
+      - link "Click to see what is new in Editor 1.2.4" [ref=e540]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2.3" [level=2, ref=e211]
+      - link "Click to see what is new in Editor 1.2.3" [ref=e541]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2.2" [level=2, ref=e212]
+      - link "Click to see what is new in Editor 1.2.2" [ref=e542]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2.1" [level=2, ref=e213]
+      - link "Click to see what is new in Editor 1.2.1" [ref=e543]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.2" [level=2, ref=e214]
+      - link "Click to see what is new in Editor 1.2" [ref=e544]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1.9" [level=2, ref=e215]
+      - link "Click to see what is new in Editor 1.1.9" [ref=e545]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1.8" [level=2, ref=e216]
+      - link "Click to see what is new in Editor 1.1.8" [ref=e546]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1.7" [level=2, ref=e217]
+      - link "Click to see what is new in Editor 1.1.7" [ref=e547]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1.6" [level=2, ref=e218]
+      - link "Click to see what is new in Editor 1.1.6" [ref=e548]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1.5" [level=2, ref=e219]
+      - link "Click to see what is new in Editor 1.1.5" [ref=e549]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.1" [level=2, ref=e220]
+      - link "Click to see what is new in Editor 1.1" [ref=e550]
+    - time
+  - generic
+    - time
+    - generic
+      - heading "Version 1.0" [level=2, ref=e221]
+      - link "Click to see what is new in Editor 1.0" [ref=e551]
+- generic
+  - heading "PRODUCTS" [level=3, ref=e2]
+  - list
+    - listitem [level=1]
+      - link "XML Editor" [ref=e18]
+    - listitem [level=1]
+      - link "XML Developer" [ref=e19]
+    - listitem [level=1]
+      - link "XML Author" [ref=e20]
+    - listitem [level=1]
+      - link "XML Web Author" [ref=e21]
+    - listitem [level=1]
+      - link "Content Fusion" [ref=e22]
+    - listitem [level=1]
+      - link "Publishing Engine" [ref=e23]
+    - listitem [level=1]
+      - link "WebHelp" [ref=e24]
+    - listitem [level=1]
+      - link "PDF Chemistry" [ref=e25]
+    - listitem [level=1]
+      - link "Feedback" [ref=e26]
+    - listitem [level=1]
+      - link "Oxygen Scripting" [ref=e27]
+- generic
+  - heading "FEATURES" [level=3, ref=e3]
+  - list
+    - listitem [level=1]
+      - link "WYSIWYG Editors" [ref=e28]
+    - listitem [level=1]
+      - link "Schema Editor" [ref=e29]
+    - listitem [level=1]
+      - link "WSDL Editor" [ref=e30]
+    - listitem [level=1]
+      - link "XSLT Editor" [ref=e31]
+    - listitem [level=1]
+      - link "XQuery" [ref=e32]
+    - listitem [level=1]
+      - link "XSD Documentation" [ref=e33]
+    - listitem [level=1]
+      - link "XML Databases" [ref=e34]
+    - listitem [level=1]
+      - link "SVN Client" [ref=e35]
+    - listitem [level=1]
+      - link "EPUB Editor" [ref=e36]
+    - listitem [level=1]
+      - link "DITA Editor" [ref=e37]
+    - listitem [level=1]
+      - link "JSON Editor" [ref=e38]
+- generic
+  - heading "SHOP" [level=3, ref=e4]
+  - list
+    - listitem [level=1]
+      - link "Buy Now" [ref=e39]
+    - listitem [level=1]
+      - link "Sales FAQ" [ref=e40]
+    - listitem [level=1]
+      - link "Resellers" [ref=e41]
+- generic
+  - heading "RESOURCES" [level=3, ref=e5]
+  - list
+    - listitem [level=1]
+      - link "Documentation" [ref=e42]
+    - listitem [level=1]
+      - link "Videos" [ref=e43]
+    - listitem [level=1]
+      - link "Add-ons" [ref=e44]
+    - listitem [level=1]
+      - link "Spell Checking" [ref=e45]
+- generic
+  - heading "SUPPORT" [level=3, ref=e6]
+  - list
+    - listitem [level=1]
+      - link "Support" [ref=e46]
+    - listitem [level=1]
+      - link "Forum" [ref=e47]
+    - listitem [level=1]
+      - link "Mailing Lists" [ref=e48]
+    - listitem [level=1]
+      - link "Contact Us" [ref=e49]
+- generic
+  - heading "COMPANY" [level=3, ref=e7]
+  - list
+    - listitem [level=1]
+      - link "About Us" [ref=e50]
+    - listitem [level=1]
+      - link "Events Programme" [ref=e51]
+    - listitem [level=1]
+      - link "Partners" [ref=e52]
+    - listitem [level=1]
+      - link "Case Studies" [ref=e53]
+    - listitem [level=1]
+      - link "Quotes" [ref=e54]
+    - listitem [level=1]
+      - link "Press Room" [ref=e55]
+    - listitem [level=1]
+      - link "Careers" [ref=e56]
+    - listitem [level=1]
+      - link "Legal" [ref=e57]
+- generic
+  - link "Oxygen XML on Facebook" [ref=e8]
+  - link "Follow Oxygen XML on Twitter" [ref=e9]
+  - link "Oxygen XML Web Feed" [ref=e10]
+  - link "Oxygen XML Blog" [ref=e11]
+  - link "Oxygen XML Youtube Channel" [ref=e12]
+  - link "Oxygen XML Reddit" [ref=e13]
+  - link "Oxygen XML Bluesky" [ref=e14]
+- generic
+  - StaticText "© 2002-2026 Syncro Soft SRL. All rights reserved."
+  - generic
+    - link "Sitemap" [ref=e58]
+    - link "Terms of Use" [ref=e59]
+    - link "Privacy Policy" [ref=e60]
+  - paragraph
+    - link "XML Editor" [ref=e61]
+- generic
+  - link " Find out more about cookies." [ref=e16]
+  - generic [ref=e17] clickable [cursor:pointer]

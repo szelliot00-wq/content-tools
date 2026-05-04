@@ -1,47 +1,168 @@
-Why you should use Tridion Sites 10.1 - RWS
-Skip to main content
-Introducing Tridion Sites 10.1
-Gain even more precise control over translated content with Tridion Sites 10.1, the web content management system you can trust to create, manage and deliver multilingual content wherever you need it.
-Our latest release brings powerful improvements in BluePrinting that offer more control over inherited content items, as well as contextual previews of content for translators.
-Increase productivity with an improved UI that helps users find items more quickly and streamline operations with enhanced sorting, filtering and editing capabilities.
-Discover the latest updates in detail in our data sheet.
-What’s new in Tridion Sites 10.1
-New features
-Granular BluePrinting
-Granular BluePrinting
-Granular BluePrinting allows you to have more precise control over inheritance by defining which fields a user can or cannot modify in a child item.
-It works for content items as well as regions and is based on two new key features:
-Non-localizable fields:
-Define at the parent level which fields must be excluded from localization, so that their values are propagated automatically without an editor being able to modify them in the child item.
-Non-localizable regions:
-In a similar vein, specify whether a region can be localized or not to prevent editors from making unintended changes in the child item.
-BluePrinting management features
-BluePrinting management features
-In Experience Space, a range of BluePrinting management features and improvements has been added:
-‘Quick create’ for child publications
-‘Add/remove parent’ action for publications
-‘Promote’ (move items and dependencies to a higher publication)
-‘Demote’ (move items and nested items to a lower publication)
-View and update parent publication priority
-A ‘Primary item’ link was added to the Blueprint panel (relevant for Granular BluePrinting)
-The BluePrinting panel now shows item names
-Contextual views for translators
-Contextual views for translators
-Translators can now preview the content they have to translate, which improves translations and speeds up the process. Two options are available:
-Contextual preview links:
-In Tridion Sites, Translation Manager can automatically include "View on Site" URLs in the jobs sent for translation, allowing translators to open a staging server page and view the translated content in the context of the delivered page.
-Attachments:
-In Tridion Sites, users can attach files such as PDFs, PNGs or other relevant documents to the translation job to provide translators with additional context.
-In addition, Translation Manager behavior has been improved by applying translations only to the fields that are translatable, while non-translatable content fields are no longer overwritten with the parent’s values.
-Ready to deliver exceptional digital experiences?
-Talk to us
-Discover more
-Seven reasons to adopt Tridion Sites 10
-Discover the many benefits of upgrading to the latest release of Tridion Sites
-Infographic
-See Tridion Sites in action
-Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences.
-Watch demos
-Content management blog
-Stay up to date on the latest trends and developments in content management.
-Learn more
+- generic
+  - button "Skip to main content, press Enter" [ref=e1]
+    - StaticText "Skip to main content"
+  - generic
+    - sectionheader "main"
+      - alert
+        - generic
+          - strong
+          - StaticText " | Content Unlocked: What enterprise AI doesn’t know it’s missing"
+        - link "Get the report" [ref=e3]
+      - navigation
+        - button [ref=e12]
+          - image
+        - button "Tridion" [ref=e13]
+          - StaticText "Tridion"
+        - list
+          - listitem [level=1, ref=e21] clickable [cursor:pointer]
+            - button "Find a solution" [expanded=false, ref=e66]
+          - listitem [level=1, ref=e22] clickable [cursor:pointer]
+            - button "Resources & Events" [expanded=false, ref=e67]
+          - listitem [level=1, ref=e23] clickable [cursor:pointer]
+            - button "Case Studies" [expanded=false, ref=e68]
+          - listitem [level=1, ref=e24] clickable [cursor:pointer]
+            - button "Service & Support" [expanded=false, ref=e69]
+        - list
+          - listitem [level=1, ref=e25] clickable [cursor:pointer]
+            - button "Search" [expanded=false, ref=e70]
+          - listitem [level=1, ref=e26] clickable [cursor:pointer]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e71]
+          - listitem [level=1, ref=e27] clickable [cursor:pointer]
+            - link "Get in touch" [ref=e72]
+    - main
+      - generic
+        - heading "Introducing Tridion Sites 10.1" [level=1, ref=e28]
+          - StaticText "Introducing Tridion Sites 10.1"
+        - StaticText "Gain even more precise control over translated content with Tridion Sites 10.1, the web content management system you can trust to create, manage and deliver multilingual content wherever you need it."
+        - StaticText "Our latest release brings powerful improvements in BluePrinting that offer more control over inherited content items, as well as contextual previews of content for translators."
+        - StaticText "Increase productivity with an improved UI that helps users find items more quickly and streamline operations with enhanced sorting, filtering and editing capabilities."
+        - StaticText "Discover the latest updates in detail in our data sheet."
+        - link "What’s new in Tridion Sites 10.1" [ref=e29]
+          - StaticText "What’s new in Tridion Sites 10.1"
+        - generic "Video Player"
+          - Video
+          - generic [ref=e73] clickable [cursor:pointer]
+          - button "Play Video" [ref=e74]
+      - heading "New features" [level=2, ref=e4]
+        - StaticText "New features"
+      - generic
+        - generic
+          - heading "Granular BluePrinting" [level=2, ref=e30] clickable [cursor:pointer]
+          - heading "Granular BluePrinting" [level=2, ref=e31]
+          - StaticText "Granular BluePrinting allows you to have more precise control over inheritance by defining which fields a user can or cannot modify in a child item."
+          - StaticText "It works for content items as well as regions and is based on two new key features:"
+          - generic
+          - strong
+          - generic
+      - generic
+        - generic
+          - heading "BluePrinting management features" [level=2, ref=e32] clickable [cursor:pointer]
+          - heading "BluePrinting management features" [level=2, ref=e33]
+          - StaticText "In Experience Space, a range of BluePrinting management features and improvements has been added:"
+          - list
+      - generic
+        - generic
+          - heading "Contextual views for translators" [level=2, ref=e34] clickable [cursor:pointer]
+          - heading "Contextual views for translators" [level=2, ref=e35]
+          - StaticText "Translators can now preview the content they have to translate, which improves translations and speeds up the process. Two options are available:"
+          - generic
+          - generic
+          - StaticText "In addition, Translation Manager behavior has been improved by applying translations only to the fields that are translatable, while non-translatable content fields are no longer overwritten with the parent’s values."
+      - generic
+        - StaticText "Ready to deliver exceptional digital experiences?"
+        - link "Talk to us" [ref=e75]
+          - StaticText "Talk to us"
+      - heading "Discover more" [level=2, ref=e14]
+        - StaticText "Discover more"
+      - link "Seven reasons to adopt Tridion Sites 10 Discover the many benefits of upgrading to the latest release of Tridion Sites Infographic " [ref=e15]
+        - heading "Seven reasons to adopt Tridion Sites 10" [level=2, ref=e36]
+        - paragraph
+          - StaticText "Discover the many benefits of upgrading to the latest release of Tridion Sites"
+        - button "Infographic " [ref=e76]
+          - StaticText "Infographic "
+          - StaticText ""
+      - link "See Tridion Sites in action Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences. Watch demos " [ref=e16]
+        - heading "See Tridion Sites in action" [level=2, ref=e37]
+        - paragraph
+          - StaticText "Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences."
+        - button "Watch demos " [ref=e77]
+          - StaticText "Watch demos "
+          - StaticText ""
+      - link "Content management blog Stay up to date on the latest trends and developments in content management. Learn more " [ref=e17]
+        - heading "Content management blog" [level=2, ref=e38]
+        - paragraph
+          - StaticText "Stay up to date on the latest trends and developments in content management."
+        - button "Learn more " [ref=e78]
+          - StaticText "Learn more "
+          - StaticText ""
+    - sectionfooter
+      - StaticText "Products"
+      - generic
+        - link "Tridion platform" [ref=e39]
+        - link "Tridion Docs" [ref=e40]
+        - link "Tridion Sites" [ref=e41]
+        - link "Semantic AI" [ref=e42]
+        - link "Cloud" [ref=e43]
+        - link "Fonto XML Editor" [ref=e44]
+      - StaticText "Solutions"
+      - generic
+        - link "Technical Communication" [ref=e45]
+        - link "Field Service" [ref=e46]
+        - link "Customer Support" [ref=e47]
+        - link "Digital Experiences" [ref=e48]
+        - link "SMB Website Management" [ref=e49]
+        - link "Resources" [ref=e50]
+      - StaticText "More"
+      - generic
+        - link "About RWS" [ref=e51]
+        - link "Blog" [ref=e52]
+        - link "Tridion Docs - Best CCMS" [ref=e53]
+        - link "Events" [ref=e54]
+        - link "Partner Directory" [ref=e55]
+        - link "Contact Us" [ref=e56]
+      - heading "Tridion Newsletter" [level=2, ref=e5]
+        - StaticText "Tridion Newsletter"
+      - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
+      - button "Sign up" [ref=e6]
+        - StaticText "Sign up"
+      - link "Communication preferences" [ref=e18]
+        - StaticText "Communication preferences"
+        - StaticText ""
+      - link "Twitter" [ref=e7]
+      - link "LinkedIn" [ref=e8]
+      - link "Facebook" [ref=e9]
+      - link "YouTube" [ref=e10]
+      - link "social" [ref=e11]
+      - generic
+        - generic
+          - link "Our Terms of Use" [ref=e57]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Copyright " [ref=e58]
+          - StaticText "|"
+        - generic
+          - link "Privacy" [ref=e59]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Security" [ref=e60]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e61]
+          - StaticText " "
+          - StaticText "|"
+        - link "Cookie Notice" [ref=e62]
+  - generic
+    - generic [ref=e2] focusable [tabindex]
+      - dialog "Cookie Notice"
+        - generic
+          - heading "Cookie Notice" [level=2, ref=e19]
+          - generic
+            - link "More information about your privacy, opens in a new tab" [ref=e63]
+        - generic
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e20]
+          - generic
+            - button "Reject All" [ref=e64]
+            - button "Accept All" [ref=e65]

@@ -1,89 +1,264 @@
-Tridion Docs the #1 Enterprise DITA CCMS - RWS
-Skip to main content
-Enterprise CCMS
-Tridion Docs - the #1 intelligent content platform for technical knowledge
-Easily govern and deliver multilingual product and support information, procedures and guidelines with our enterprise DITA CCMS.
-Get in touch
-Intelligent content management
-Swap document chaos for
-content confidence
-Your world moves fast. Staff and customers need real-time access to technical information that’s current, compliant and tailored to their context.
-When your content is trapped in static documents that lack proper governance, information gets out of date and users are confused.
-Managing this chaos is a costly drain on time and resources. But with Tridion Docs, you can manage the complexity with confidence.
-This enterprise DITA Component Content Management System (CCMS) turns your mission-critical information into intelligent content - reducing your risk, boosting your productivity and delivering better content experiences.
-The best CCMS on the market just got even better. Discover our latest release.
-Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more...
-What’s new in Tridion Docs 15
-Key benefits of a XML DITA-based CCMS
-Go to market faster - Reduce duplication, speed up internal and regulatory approvals and streamline workflows
-Work smarter, not harder
-End copy and paste by reusing intelligent content components
-Put everyone on the same page
-Collaborate at the source without endless copies and emails
-Upgrade your governance
-Guarantee your content is always accurate, compliant and traceable
-Create once, publish everywhere (COPE)
-Publish dynamically to multiple channels from a single source
-Transform content experiences
-Slash costs and delight employees and customers with contextual, self-service content
-Go to market faster
-Reduce duplication, speed up internal and regulatory approvals and streamline workflows
-Evaluate your return on investment
-Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line.
-Calculate your savings
-Our customers
-The Tridion Docs advantage
-Outperforms competitors
-Tridion Docs’ performance was scrutinized in 11 categories across business and technology criteria. It outperforms the competition in 8 of the categories, providing the most solid foundation for your current and future content challenges.
-Learn more
-Complete content lifecycle management
-Tridion Docs is an end-to-end structured content solution with a single source of truth that joins up the way your content is created, translated, managed, delivered and consumed.
-Trustworthy translation
-Tridion Docs’ close integration with RWS language technologies streamlines translation and localization processes and assures high-quality content in any language.
-Powered by AI
-Generative AI and semantic AI work in tandem through enriched metadata and knowledge graphs, helping people get to their goals faster and assisting authors to draft content more efficiently.
-Learn more
-Built to handle complexity
-Tridion Docs is unmatched in managing high volumes of concurrent, interdependent content variations across multiple products, geographies, languages and channels.
-Learn more
-Secure. Stable. Scalable.
-Enterprise-grade quality and security certifications, an interoperable architecture, and cloud, hybrid and on-premises options mean you can rely on Tridion Docs every step of the way.
-Tridion Docs modules
-Take your content further
-Tridion Docs is a composable platform, made up of a series of modules to meet your exact needs.
-Content Experiences
-Tridion Docs Genius
-Reach goals faster with intelligent content discovery, using trustable chat, smart recommendations, advanced intent-based search, guided experiences and traditional portal-style information delivery.
-Learn more
-Dynamic Experience Delivery (DXD)
-Dynamically deliver information to any digital touchpoint through our headless publishing capabilities, securely delivering content fluidly over any channel.
-Learn more
-Content Collaboration
-Draft Space
-Write your content in a familiar, online, Word-style interface, supported by Generative AI, while hiding the complexity of the underlying XML. Part of Collective Spaces.
-Learn more
-Review Space
-Involve your subject matter experts in a collaborative, easy-to-manage document review process within a secure online environment. Part of Collective Spaces.
-Learn more
-Content Governance
-Taxonomy Space
-Easily manage your taxonomies and knowledge models using open standards such as SKOS and EuroVoc.
-Learn more
-Organize Space
-Effectively manage your company's documentation and translation processes, configuring users, workflows and permissions through a user-friendly web interface.
-Learn more
-Start your journey
-Talk to us to get started
-Whether you're new to Tridion or an existing customer keen to understand what else we can help you with, our experienced team are here to understand your challenges, answer your questions, and help you achieve your content management goals.
-Contact us
-Related content
-Tridion Docs – Collective Spaces
-Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations.
-Download data sheet
-Tridion Docs localization
-Learn more about how we can make translating your content more accurate, cheaper and faster.
-Download data sheet
-What’s new in Tridion Docs 15
-Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly.
-Download data sheet
-Contact us
+- generic
+  - button "Skip to main content, press Enter" [ref=e1]
+    - StaticText "Skip to main content"
+  - generic
+    - sectionheader "main"
+      - alert
+        - generic
+          - strong
+          - StaticText " | Content Unlocked: What enterprise AI doesn’t know it’s missing"
+        - link "Get the report" [ref=e3]
+      - navigation
+        - button [ref=e11]
+          - image
+        - button "Tridion" [ref=e12]
+          - StaticText "Tridion"
+        - list
+          - listitem [level=1, ref=e56] clickable [cursor:pointer]
+            - button "Find a solution" [expanded=false, ref=e106]
+          - listitem [level=1, ref=e57] clickable [cursor:pointer]
+            - button "Resources & Events" [expanded=false, ref=e107]
+          - listitem [level=1, ref=e58] clickable [cursor:pointer]
+            - button "Case Studies" [expanded=false, ref=e108]
+          - listitem [level=1, ref=e59] clickable [cursor:pointer]
+            - button "Service & Support" [expanded=false, ref=e109]
+        - list
+          - listitem [level=1, ref=e60] clickable [cursor:pointer]
+            - button "Search" [expanded=false, ref=e110]
+          - listitem [level=1, ref=e61] clickable [cursor:pointer]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e111]
+          - listitem [level=1, ref=e62] clickable [cursor:pointer]
+            - link "Get in touch" [ref=e112]
+    - main
+      - generic
+        - StaticText "ENTERPRISE CCMS"
+        - heading "Tridion Docs - the #1 intelligent content platform for technical knowledge" [level=1, ref=e63]
+          - StaticText "Tridion Docs - the #1 intelligent content platform for technical knowledge"
+        - StaticText "Easily govern and deliver multilingual product and support information, procedures and guidelines with our enterprise DITA CCMS."
+        - link "Get in touch" [ref=e64]
+          - StaticText "Get in touch"
+      - generic
+        - generic "Video Player"
+          - Video
+          - generic [ref=e113] clickable [cursor:pointer]
+          - button "Play Video" [ref=e114]
+        - StaticText "INTELLIGENT CONTENT MANAGEMENT"
+        - heading "Swap document chaos for
+content confidence" [level=2, ref=e65]
+          - StaticText "Swap document chaos for
+content confidence"
+        - paragraph
+          - StaticText "Your world moves fast. Staff and customers need real-time access to technical information that’s current, compliant and tailored to their context."
+        - paragraph
+          - StaticText "When your content is trapped in static documents that lack proper governance, information gets out of date and users are confused."
+        - paragraph
+          - StaticText "Managing this chaos is a costly drain on time and resources. But with Tridion Docs, you can manage the complexity with confidence."
+        - paragraph
+          - StaticText "This enterprise DITA Component Content Management System (CCMS) turns your mission-critical information into intelligent content- reducing your risk, boosting your productivity and delivering better content experiences."
+      - generic
+        - image "trados"
+        - generic
+          - heading "The best CCMS on the market just got even better. Discover our latest release." [level=2, ref=e66]
+          - StaticText "Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more..."
+          - link "What’s new in Tridion Docs 15" [ref=e115]
+      - heading "Key benefits of a XML DITA-based CCMS" [level=2, ref=e13]
+        - StaticText "Key benefits of a XML DITA-based CCMS"
+      - StaticText "Go to market faster- Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
+      - heading "Work smarter, not harder" [level=3, ref=e14]
+      - StaticText "End copy and paste by reusing intelligent content components"
+      - heading "Put everyone on the same page" [level=3, ref=e15]
+      - StaticText "Collaborate at the source without endless copies and emails"
+      - heading "Upgrade your governance" [level=3, ref=e16]
+      - StaticText "Guarantee your content is always accurate, compliant and traceable"
+      - heading "Create once, publish everywhere (COPE)" [level=3, ref=e17]
+      - StaticText "Publish dynamically to multiple channels from a single source"
+      - heading "Transform content experiences" [level=3, ref=e18]
+      - StaticText "Slash costs and delight employees and customers with contextual, self-service content"
+      - heading "Go to market faster" [level=3, ref=e19]
+      - StaticText "Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
+      - generic
+        - heading "Evaluate your return on investment" [level=2, ref=e67]
+        - StaticText "Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line."
+        - link "Calculate your savings " [ref=e116]
+          - StaticText "Calculate your savings"
+          - StaticText ""
+      - heading "Our customers" [level=2, ref=e20]
+        - StaticText "Our customers"
+      - link "Panasonic" [ref=e21]
+        - image "Panasonic"
+      - link "Philips" [ref=e22]
+        - image "Philips"
+      - link "Dell" [ref=e23]
+        - image "Dell"
+      - link "NETGEAR" [ref=e24]
+        - image "NETGEAR"
+      - link "Hewlett Packard Enterprise" [ref=e25]
+        - image "Hewlett Packard Enterprise"
+      - link "United Imaging" [ref=e26]
+        - image "United Imaging"
+      - link "Horiba Medical devices" [ref=e27]
+        - image "Horiba Medical devices"
+      - link "KONE" [ref=e28]
+        - image "KONE"
+      - link "California Casualty" [ref=e29]
+        - image "California Casualty"
+      - link "Nielsen" [ref=e30]
+        - image "Nielsen"
+      - heading "The Tridion Docs advantage" [level=2, ref=e31]
+        - StaticText "The Tridion Docs advantage"
+      - generic
+        - generic
+          - generic [ref=e68] clickable [cursor:pointer, tabindex]
+            - heading "Outperforms competitors " [level=2, ref=e117]
+            - link "Learn more" [ref=e118]
+          - generic
+          - generic [ref=e69] clickable [cursor:pointer, tabindex]
+            - heading "Complete content lifecycle management " [level=2, ref=e119]
+          - generic [ref=e70] clickable [cursor:pointer, tabindex]
+            - heading "Trustworthy translation " [level=2, ref=e120]
+          - generic [ref=e71] clickable [cursor:pointer, tabindex]
+            - heading "Powered by AI " [level=2, ref=e121]
+          - generic [ref=e72] clickable [cursor:pointer, tabindex]
+            - heading "Built to handle complexity " [level=2, ref=e122]
+          - generic [ref=e73] clickable [cursor:pointer, tabindex]
+            - heading "Secure. Stable. Scalable. " [level=2, ref=e123]
+      - StaticText "TRIDION DOCS MODULES"
+      - heading "Take your content further" [level=2, ref=e32]
+        - StaticText "Take your content further"
+      - StaticText "Tridion Docs is a composable platform, made up of a series of modules to meet your exact needs."
+      - heading "Content Experiences" [level=3, ref=e33]
+      - heading "Tridion Docs Genius" [level=3, ref=e34]
+      - StaticText "Reach goals faster with intelligent content discovery, using trustable chat, smart recommendations, advanced intent-based search, guided experiences and traditional portal-style information delivery."
+      - link "Learn more " [ref=e35]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Dynamic Experience Delivery (DXD)" [level=3, ref=e36]
+      - StaticText "Dynamically deliver information to any digital touchpoint through our headless publishing capabilities, securely delivering content fluidly over any channel."
+      - link "Learn more " [ref=e37]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Content Collaboration" [level=3, ref=e38]
+      - heading "Draft Space" [level=3, ref=e39]
+      - StaticText "Write your content in a familiar, online, Word-style interface, supported by Generative AI, while hiding the complexity of the underlying XML. Part of Collective Spaces."
+      - link "Learn more " [ref=e40]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Review Space" [level=3, ref=e41]
+      - StaticText "Involve your subject matter experts in a collaborative, easy-to-manage document review process within a secure online environment. Part of Collective Spaces."
+      - link "Learn more " [ref=e42]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Content Governance" [level=3, ref=e43]
+      - heading "Taxonomy Space" [level=3, ref=e44]
+      - StaticText "Easily manage your taxonomies and knowledge models using open standards such as SKOS and EuroVoc."
+      - link "Learn more " [ref=e45]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Organize Space" [level=3, ref=e46]
+      - StaticText "Effectively manage your company's documentation and translation processes, configuring users, workflows and permissions through a user-friendly web interface."
+      - link "Learn more " [ref=e47]
+        - StaticText "Learn more "
+        - StaticText ""
+      - generic
+        - StaticText "START YOUR JOURNEY"
+        - heading "Talk to us to get started" [level=2, ref=e74]
+          - StaticText "Talk to us to get started"
+        - StaticText "Whether you're new to Tridion or an existing customer keen to understand what else we can help you with, our experienced team are here to understand your challenges, answer your questions, and help you achieve your content management goals."
+        - link "Contact us" [ref=e75]
+          - StaticText "Contact us"
+      - heading "Related content" [level=2, ref=e48]
+        - StaticText "Related content"
+      - link "Tridion Docs – Collective Spaces Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations. Download data sheet " [ref=e49]
+        - heading "Tridion Docs – Collective Spaces" [level=2, ref=e76]
+        - paragraph
+          - StaticText "Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations."
+        - button "Download data sheet " [ref=e124]
+          - StaticText "Download data sheet "
+          - StaticText ""
+      - link "Tridion Docs localization Learn more about how we can make translating your content more accurate, cheaper and faster. Download data sheet " [ref=e50]
+        - heading "Tridion Docs localization" [level=2, ref=e77]
+        - paragraph
+          - StaticText "Learn more about how we can make translating your content more accurate, cheaper and faster."
+        - button "Download data sheet " [ref=e125]
+          - StaticText "Download data sheet "
+          - StaticText ""
+      - link "What’s new in Tridion Docs 15 Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly. Download data sheet " [ref=e51]
+        - heading "What’s new in Tridion Docs 15" [level=2, ref=e78]
+        - paragraph
+          - StaticText "Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly."
+        - button "Download data sheet " [ref=e126]
+          - StaticText "Download data sheet "
+          - StaticText ""
+      - link "Contact us" [ref=e52]
+        - StaticText "Contact us"
+    - sectionfooter
+      - StaticText "Products"
+      - generic
+        - link "Tridion platform" [ref=e79]
+        - link "Tridion Docs" [ref=e80]
+        - link "Tridion Sites" [ref=e81]
+        - link "Semantic AI" [ref=e82]
+        - link "Cloud" [ref=e83]
+        - link "Fonto XML Editor" [ref=e84]
+      - StaticText "Solutions"
+      - generic
+        - link "Technical Communication" [ref=e85]
+        - link "Field Service" [ref=e86]
+        - link "Customer Support" [ref=e87]
+        - link "Digital Experiences" [ref=e88]
+        - link "SMB Website Management" [ref=e89]
+        - link "Resources" [ref=e90]
+      - StaticText "More"
+      - generic
+        - link "About RWS" [ref=e91]
+        - link "Blog" [ref=e92]
+        - link "Tridion Docs - Best CCMS" [ref=e93]
+        - link "Events" [ref=e94]
+        - link "Partner Directory" [ref=e95]
+        - link "Contact Us" [ref=e96]
+      - heading "Tridion Newsletter" [level=2, ref=e4]
+        - StaticText "Tridion Newsletter"
+      - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
+      - button "Sign up" [ref=e5]
+        - StaticText "Sign up"
+      - link "Communication preferences" [ref=e53]
+        - StaticText "Communication preferences"
+        - StaticText ""
+      - link "Twitter" [ref=e6]
+      - link "LinkedIn" [ref=e7]
+      - link "Facebook" [ref=e8]
+      - link "YouTube" [ref=e9]
+      - link "social" [ref=e10]
+      - generic
+        - generic
+          - link "Our Terms of Use" [ref=e97]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Copyright " [ref=e98]
+          - StaticText "|"
+        - generic
+          - link "Privacy" [ref=e99]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Security" [ref=e100]
+          - StaticText " "
+          - StaticText "|"
+        - generic
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e101]
+          - StaticText " "
+          - StaticText "|"
+        - link "Cookie Notice" [ref=e102]
+  - generic
+    - generic [ref=e2] focusable [tabindex]
+      - dialog "Cookie Notice"
+        - generic
+          - heading "Cookie Notice" [level=2, ref=e54]
+          - generic
+            - link "More information about your privacy, opens in a new tab" [ref=e103]
+        - generic
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e55]
+          - generic
+            - button "Reject All" [ref=e104]
+            - button "Accept All" [ref=e105]
