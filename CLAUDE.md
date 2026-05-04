@@ -125,7 +125,8 @@ Four levels of alerting:
 1. **Scheduler dead** — `watchdog.sh` runs at 09:15 via its own launchd agent; if `cron.log` was not modified today it means launchd never fired `run-all.sh`, and a heartbeat alert is sent. This is the only alert that catches a dead scheduler.
 2. **Tool crash** — if any tool fails after automatic retry, `heartbeat.py` sends an alert email listing which tools failed
 3. **YouTube silence** — if no new YouTube summaries have been written for 2+ days, `run.sh` sends a heartbeat alert (catches silent failures where the script exits cleanly but produces nothing)
-4. **No alert** — silence on article reader and competitor tracker means no new content; this is expected
+4. **RSS feed failure** — if any RSS feed fails to fetch or parse, `article-reader/fetch.py` sends an alert email listing the failed feeds. Distinguishes failure (returns `None`) from no-new-content (returns `[]`).
+5. **No alert** — silence on article reader and competitor tracker means no new content; this is expected
 
 ---
 
@@ -158,6 +159,7 @@ Defines RSS feeds and manual URLs. Structure:
 - `cutoff_days: null` disables date filtering (fetches regardless of age)
 - Articles already summarised are skipped by slug match against `summaries/articles/`
 - RSS feed XML is fetched via agent-browser (`open` + `eval "document.documentElement.outerText"`) — not `requests`. This is required because some feeds (e.g. Fluidtopics) are behind Cloudflare and block plain HTTP requests. The eval output is a JSON-encoded string; `json.loads()` is used before passing to feedparser.
+- `fetch_rss_items` returns `None` on fetch/parse failure (vs `[]` for success with no new items). `run()` collects failed feed names and sends an alert email if any feeds fail — so Cloudflare blocks, broken URLs, or malformed XML are caught immediately rather than silently dropped.
 
 ### competitor-tracker/competitors.json
 
