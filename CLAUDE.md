@@ -106,7 +106,7 @@ content-tools/
 │   └── run.sh                    ← shell wrapper (git pull → run → commit → push)
 │
 ├── competitor-tracker/
-│   ├── scrape.py                 ← main script
+│   ├── scrape.py                 ← main script (agent-browser + Claude)
 │   ├── competitors.json          ← competitors and URLs to monitor
 │   ├── snapshots/                ← one .txt snapshot per competitor URL (committed)
 │   └── run.sh                    ← shell wrapper (git pull → run → commit → push)
@@ -301,6 +301,8 @@ youtube-transcript-api>=0.6.0
 yt-dlp>=2024.1.0
 ```
 
+`requests` and `beautifulsoup4` are used by `article-reader` only. `competitor-tracker/scrape.py` uses **agent-browser** (headless Chrome via CDP) instead — installed at `/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser` on the MacBook Pro. The full path is hardcoded in `scrape.py` because launchd does not load nvm. To upgrade node, update `AGENT_BROWSER` in `scrape.py`.
+
 Install: `pip install -r requirements.txt`
 
 Virtual environment: `.venv/` at project root, activated in all run scripts.
@@ -334,7 +336,7 @@ Changes to `run-all.sh` itself take effect on the run after next (bash cannot re
 ## What not to break
 
 - The slug-based deduplication in `article-reader/fetch.py` prevents re-summarising the same article. Do not change the slugify logic without also migrating existing summary filenames.
-- Competitor snapshots must stay in sync with live pages. If you delete a snapshot, the next run treats that URL as a first run and creates a new baseline without sending an email.
+- Competitor snapshots must stay in sync with live pages. If you delete a snapshot, the next run treats that URL as a first run and creates a new baseline without sending an email. Snapshots are accessibility tree text (from agent-browser), not raw HTML — diffs are stable between runs on unchanged pages.
 - Tool run scripts source `.env` implicitly via python-dotenv inside the Python scripts. If adding new shell-level env var checks, explicitly source `.env` in the shell script first.
 - `run-all.sh` uses `$HOME` for paths — do not hardcode `/Users/steveelliott`.
 - All git remotes on the MacBook Pro use SSH. Do not switch back to HTTPS — it breaks in launchd sessions.
