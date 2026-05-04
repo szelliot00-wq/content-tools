@@ -8,13 +8,15 @@ from __future__ import annotations
 import difflib
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
-import requests
-from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+
+# Full path required — launchd does not load nvm
+AGENT_BROWSER = "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser"
 
 load_dotenv()
 
@@ -74,23 +76,26 @@ def summary_path(competitor_id: str) -> Path:
 
 def fetch_page_text(url: str) -> str | None:
     try:
-        resp = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
-        resp.raise_for_status()
+        subprocess.run(
+            [AGENT_BROWSER, "open", url],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+        result = subprocess.run(
+            [AGENT_BROWSER, "snapshot", "-c"],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"    Timeout fetching {url}", file=sys.stderr)
+        return None
+    except subprocess.CalledProcessError as e:
+        print(f"    agent-browser error for {url}: {e.stderr}", file=sys.stderr)
+        return None
     except Exception as e:
         print(f"    Fetch error for {url}: {e}", file=sys.stderr)
         return None
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-
-    # Remove nav, header, footer, script, style elements
-    for tag in soup(["nav", "header", "footer", "script", "style", "noscript"]):
-        tag.decompose()
-
-    raw = soup.get_text(separator="\n", strip=True)
-
-    # Remove boilerplate: lines under 3 chars or that are just punctuation/whitespace
-    lines = [line for line in raw.splitlines() if len(line.strip()) >= 3]
-    return "\n".join(lines)
+    lines = [line for line in result.stdout.splitlines() if len(line.strip()) >= 3]
+    return "\n".join(lines) or None
 
 
 def compute_diff(old_text: str, new_text: str) -> tuple[str, int]:
@@ -193,6 +198,8 @@ def run() -> int:
             "content": combined_content,
             "url": competitor.get("urls", [{}])[0].get("url"),
         })
+
+    subprocess.run([AGENT_BROWSER, "close", "--all"], capture_output=True)
 
     if not digest_items:
         print("No significant competitor changes detected.")
