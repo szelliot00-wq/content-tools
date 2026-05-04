@@ -12,7 +12,6 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import requests
 from dotenv import load_dotenv
 
 # Full path required — launchd does not load nvm
@@ -49,7 +48,6 @@ Format your response exactly as:
 """
 
 CUTOFF_DAYS = 7
-FETCH_TIMEOUT = 20  # seconds — applies to all outbound HTTP requests
 
 
 def load_sources() -> dict:
@@ -100,8 +98,15 @@ def fetch_rss_items(feed: dict) -> list[dict]:
 
     print(f"  RSS: {feed.get('name', url)}")
     try:
-        resp = requests.get(url, timeout=FETCH_TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
-        parsed = feedparser.parse(resp.content)
+        subprocess.run(
+            [AGENT_BROWSER, "open", url],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+        result = subprocess.run(
+            [AGENT_BROWSER, "eval", "document.documentElement.outerText"],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+        parsed = feedparser.parse(json.loads(result.stdout.strip()))
     except Exception as e:
         print(f"    Feed fetch error: {e}", file=sys.stderr)
         return []
