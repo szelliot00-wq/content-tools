@@ -101,7 +101,7 @@ content-tools/
 │   └── transcripts/              ← one .txt per transcript (committed)
 │
 ├── article-reader/
-│   ├── fetch.py                  ← main script
+│   ├── fetch.py                  ← main script (agent-browser for article pages; requests for RSS XML)
 │   ├── sources.json              ← RSS feeds and manual URLs to monitor
 │   └── run.sh                    ← shell wrapper (git pull → run → commit → push)
 │
@@ -301,7 +301,9 @@ youtube-transcript-api>=0.6.0
 yt-dlp>=2024.1.0
 ```
 
-`requests` and `beautifulsoup4` are used by `article-reader` only. `competitor-tracker/scrape.py` uses **agent-browser** (headless Chrome via CDP) instead — installed at `/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser` on the MacBook Pro. The full path is hardcoded in `scrape.py` because launchd does not load nvm. To upgrade node, update `AGENT_BROWSER` in `scrape.py`.
+Both `article-reader/fetch.py` and `competitor-tracker/scrape.py` use **agent-browser** (headless Chrome via CDP) for fetching HTML pages — installed at `/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser` on the MacBook Pro. The full path is hardcoded in both scripts because launchd does not load nvm. To upgrade node, update `AGENT_BROWSER` in both scripts.
+
+`requests` is still used by `article-reader` to fetch RSS feed XML (feedparser needs the raw XML, not a browser render). `beautifulsoup4` is used to strip HTML from inline RSS entry content. `trafilatura` is no longer used.
 
 Install: `pip install -r requirements.txt`
 

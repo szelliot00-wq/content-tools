@@ -7,12 +7,16 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
+
+# Full path required — launchd does not load nvm
+AGENT_BROWSER = "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser"
 
 load_dotenv()
 
@@ -154,12 +158,26 @@ def fetch_manual_urls(manual_urls: list[dict]) -> list[dict]:
 
 def _extract_text(url: str) -> str | None:
     try:
-        import trafilatura
-        resp = requests.get(url, timeout=FETCH_TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
-        return trafilatura.extract(resp.text)
+        subprocess.run(
+            [AGENT_BROWSER, "open", url],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+        result = subprocess.run(
+            [AGENT_BROWSER, "snapshot", "-c"],
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"    Timeout fetching {url}", file=sys.stderr)
+        return None
+    except subprocess.CalledProcessError as e:
+        print(f"    agent-browser error for {url}: {e.stderr}", file=sys.stderr)
+        return None
     except Exception as e:
         print(f"    Fetch error for {url}: {e}", file=sys.stderr)
         return None
+
+    lines = [line for line in result.stdout.splitlines() if len(line.strip()) >= 3]
+    return "\n".join(lines) or None
 
 
 def process_item(item: dict) -> dict | None:
@@ -201,6 +219,8 @@ def run() -> int:
         result = process_item(item)
         if result:
             digest_items.append(result)
+
+    subprocess.run([AGENT_BROWSER, "close", "--all"], capture_output=True)
 
     if not digest_items:
         print("No new articles to digest.")
