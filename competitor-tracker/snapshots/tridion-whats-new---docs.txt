@@ -6,9 +6,9 @@
       - alert
         - generic
           - strong
-            - StaticText "New report"
-          - StaticText " | Content Unlocked: What enterprise AI doesn’t know it’s missing"
-        - link "Get the report" [ref=e3]
+            - StaticText "RWS Obviously"
+          - StaticText " | Change the way you take care of your brand"
+        - link "Get started" [ref=e3]
       - navigation
         - button [ref=e11]
           - image
