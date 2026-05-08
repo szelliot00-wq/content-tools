@@ -83,6 +83,13 @@
       "channel_url": "https://www.youtube.com/@adrianevansvideoblog",
       "enabled": true,
       "category": "payments"
+    },
+    {
+      "id": "mindtheproducttv",
+      "name": "Mind the Product",
+      "channel_url": "https://www.youtube.com/@mindtheproducttv",
+      "enabled": true,
+      "category": "product_management"
     }
   ]
 }
