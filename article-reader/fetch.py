@@ -12,6 +12,8 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import requests
+
 from dotenv import load_dotenv
 
 # Full path required — launchd does not load nvm
@@ -98,15 +100,30 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
 
     print(f"  RSS: {feed.get('name', url)}")
     try:
-        subprocess.run(
-            [AGENT_BROWSER, "open", url],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-        result = subprocess.run(
-            [AGENT_BROWSER, "eval", "document.documentElement.outerText"],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-        parsed = feedparser.parse(json.loads(result.stdout.strip()))
+        # Try a plain HTTP request first — fast and no Chrome overhead.
+        # If requests returns a parseable feed, use it.  If not (e.g. Cloudflare
+        # blocks the request and returns an HTML challenge page), fall back to
+        # agent-browser which handles Cloudflare via a real browser session.
+        parsed = None
+        try:
+            resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            candidate = feedparser.parse(resp.text)
+            if not candidate.bozo or candidate.entries:
+                parsed = candidate
+        except Exception:
+            pass  # fall through to agent-browser
+
+        if parsed is None:
+            subprocess.run(
+                [AGENT_BROWSER, "open", url],
+                capture_output=True, text=True, timeout=30, check=True,
+            )
+            result = subprocess.run(
+                [AGENT_BROWSER, "eval", "document.documentElement.outerText"],
+                capture_output=True, text=True, timeout=30, check=True,
+            )
+            parsed = feedparser.parse(json.loads(result.stdout.strip()))
     except Exception as e:
         print(f"    Feed fetch error: {e}", file=sys.stderr)
         return None
