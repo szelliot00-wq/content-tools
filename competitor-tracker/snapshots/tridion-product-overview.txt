@@ -46,8 +46,8 @@
             - StaticText "Tridion helps you to create, review, translate, manage and deliver content with complete confidence and efficiency."
           - paragraph
             - StaticText "Take control of your enterprise content lifecycle from start to finish."
-          - link "Contact us" [ref=e75]
-            - StaticText "Contact us"
+          - link "Get started" [ref=e75]
+            - StaticText "Get started"
           - link "What is Tridion?" [ref=e76]
             - StaticText "What is Tridion?"
         - strong
