@@ -148,11 +148,16 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
                 if pub_dt < cutoff:
                     continue
 
-        # Use inline summary content if no URL to fetch
+        # Use inline summary content if available and substantial enough to be
+        # real article text. Some feeds (e.g. HN) put only short metadata in
+        # the summary field; skip_inline forces fetching the linked article.
+        skip_inline = feed.get("skip_inline", False)
         inline = entry.get("summary") or entry.get("content", [{}])[0].get("value", "")
-        if inline:
+        if inline and not skip_inline:
             from bs4 import BeautifulSoup
             text = BeautifulSoup(inline, "html.parser").get_text(separator="\n", strip=True)
+            if len(text) < 300:  # too short — likely just metadata, fetch the article
+                text = _extract_text(entry_url) or text
         else:
             text = _extract_text(entry_url)
         if not text:

@@ -4,7 +4,8 @@
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
       "enabled": true,
-      "max_items": 2
+      "max_items": 2,
+      "skip_inline": true
     },
     {
       "name": "oXygen XML — News & Releases",
