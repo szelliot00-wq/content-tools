@@ -12,17 +12,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
+import signal
 import time
-
-# Optional: Anthropic Claude for summaries
-try:
-    import anthropic as anthropic_sdk
-except ImportError:
-    anthropic_sdk = None
 
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
@@ -153,46 +144,53 @@ Provide your response in this exact format:
 """
 
 
+def _find_claude() -> str:
+    for candidate in ["/opt/homebrew/bin/claude", "/usr/local/bin/claude"]:
+        if os.path.exists(candidate):
+            return candidate
+    return "claude"
+
+
 def summarize_with_gemini(transcript: str, video_title: str, category: str | None = None) -> str | None:
-    if not anthropic_sdk:
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-    # Truncate very long transcripts to stay within context
     max_chars = 120_000
     if len(transcript) > max_chars:
         transcript = transcript[:max_chars] + "\n\n[Transcript truncated...]"
     prompt = _build_prompt(transcript, video_title, category)
-    client = anthropic_sdk.Anthropic(api_key=api_key)
+    claude_bin = _find_claude()
     for attempt in range(2):
+        proc = subprocess.Popen(
+            [claude_bin, "--print", "--model", CLAUDE_MODEL, "--dangerously-skip-permissions"],
+            stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+            text=True, env={**os.environ, "CLAUDECODE": ""}, start_new_session=True,
+        )
         try:
-            response = client.messages.create(
-                model=CLAUDE_MODEL,
-                max_tokens=4096,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return (response.content[0].text or "").strip()
-        except Exception as e:
-            print(f"  Claude error: {e}", file=sys.stderr)
+            stdout, stderr = proc.communicate(input=prompt, timeout=120)
+        except subprocess.TimeoutExpired:
+            try:
+                os.killpg(proc.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            for fd in (proc.stdout, proc.stderr, proc.stdin):
+                try:
+                    if fd: fd.close()
+                except OSError:
+                    pass
+            try:
+                proc.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                pass
+            print("  Claude CLI timed out after 120s", file=sys.stderr)
             if attempt == 0:
                 print("  Retrying in 30s...", file=sys.stderr)
                 time.sleep(30)
+            continue
+        if proc.returncode == 0:
+            return stdout.strip()
+        print(f"  Claude CLI error (rc={proc.returncode}): {stderr[:300]}", file=sys.stderr)
+        if attempt == 0:
+            print("  Retrying in 30s...", file=sys.stderr)
+            time.sleep(30)
     return None
-
-
-def write_summary_fallback(transcript: str, video_title: str) -> str:
-    """Fallback when no API key: short extract and note to re-run with key."""
-    preview = (transcript[:1500] + "...") if len(transcript) > 1500 else transcript
-    return f"""## Summary
-(Set ANTHROPIC_API_KEY and install anthropic for AI-generated summaries.)
-
-## Key insights
-(Install anthropic and set ANTHROPIC_API_KEY, then re-run to get key insights.)
-
-## Transcript preview
-{preview}
-"""
 
 
 def save_summary(creator_id: str, video_id: str, content: str, title: str) -> Path:
@@ -221,13 +219,10 @@ def process_video(creator_id: str, video_id: str, title: str, refresh: bool, cat
     if summary_path.exists() and not refresh:
         print(f"  Skip (have summary): {video_id}")
         return True
-    if anthropic_sdk and os.environ.get("ANTHROPIC_API_KEY"):
-        summary = summarize_with_gemini(transcript, title, category)
-        if not summary:
-            print(f"  Claude unavailable for {video_id} — skipping, will retry next run")
-            return False
-    else:
-        summary = write_summary_fallback(transcript, title)
+    summary = summarize_with_gemini(transcript, title, category)
+    if not summary:
+        print(f"  Claude unavailable for {video_id} — skipping, will retry next run")
+        return False
     save_summary(creator_id, video_id, summary, title)
     print(f"  Wrote summary: {video_id} — {title[:50]}...")
     return True
