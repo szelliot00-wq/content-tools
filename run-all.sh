@@ -23,7 +23,7 @@ run_tool() {
     # Pull the repo in case a concurrent push caused a conflict.
     echo "=== $name: failed — waiting 30s then retrying ==="
     sleep 30
-    git -C "$REPO" pull --rebase origin main 2>/dev/null || true
+    git -C "$REPO" pull --rebase 2>/dev/null || true
 
     if bash "$script"; then
         echo "=== $name: retry succeeded ==="
@@ -45,7 +45,7 @@ echo "=== Run started at $(date) ==="
 # Note: changes to run-all.sh itself take effect on the *next* run (bash can't
 # reload itself mid-execution).
 echo "=== Updating repo and dependencies ==="
-git -C "$REPO" pull --rebase origin main
+git -C "$REPO" pull --rebase
 "$VENV/bin/pip" install -q -r "$REPO/requirements.txt"
 
 run_tool "YouTube Summarizer" "$REPO/youtube-summarizer/run.sh"

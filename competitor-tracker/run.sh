@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Pull latest changes
-git pull --rebase origin main
+git pull --rebase
 
 # Activate virtual environment
 source .venv/bin/activate
@@ -21,6 +21,6 @@ else
   git commit -m "Auto: competitor snapshot update $(date +%Y-%m-%d)
 
 Co-Authored-By: Warp <agent@warp.dev>"
-  git pull --rebase origin main
+  git pull --rebase
   git push origin main
 fi

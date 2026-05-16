@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/.."
 
 # Pull latest changes (picks up edits to creators.json made on another machine)
-git pull --rebase origin main
+git pull --rebase
 
 # Activate the shared content-tools venv
 source .venv/bin/activate
@@ -21,7 +21,7 @@ else
     git commit -m "Auto: new YouTube summaries $(date +%Y-%m-%d)
 
 Co-Authored-By: Warp <agent@warp.dev>"
-    git pull --rebase origin main
+    git pull --rebase
     git push origin main
 
     # Email digest of newly committed summaries
