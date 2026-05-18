@@ -186,7 +186,8 @@ def summarize_with_gemini(transcript: str, video_title: str, category: str | Non
             continue
         if proc.returncode == 0:
             return stdout.strip()
-        print(f"  Claude CLI error (rc={proc.returncode}): {stderr[:300]}", file=sys.stderr)
+        detail = (stderr or stdout).strip()[:300]
+        print(f"  Claude CLI error (rc={proc.returncode}): {detail}", file=sys.stderr)
         if attempt == 0:
             print("  Retrying in 30s...", file=sys.stderr)
             time.sleep(30)
