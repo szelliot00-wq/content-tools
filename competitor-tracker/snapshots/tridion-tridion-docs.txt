@@ -39,8 +39,9 @@
           - StaticText "Get in touch"
       - generic
         - generic "Video Player"
-          - Video "Unable to play media." [disabled]
-          - button "Play Video" [ref=e113]
+          - Video
+          - generic [ref=e113] clickable [cursor:pointer]
+          - button "Play Video" [ref=e114]
         - StaticText "INTELLIGENT CONTENT MANAGEMENT"
         - heading "Swap document chaos for
 content confidence" [level=2, ref=e65]
@@ -59,7 +60,7 @@ content confidence"
         - generic
           - heading "The best CCMS on the market just got even better. Discover our latest release." [level=2, ref=e66]
           - StaticText "Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more..."
-          - link "What’s new in Tridion Docs 15" [ref=e114]
+          - link "What’s new in Tridion Docs 15" [ref=e115]
       - heading "Key benefits of a XML DITA-based CCMS" [level=2, ref=e13]
         - StaticText "Key benefits of a XML DITA-based CCMS"
       - StaticText "Go to market faster- Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
@@ -78,7 +79,7 @@ content confidence"
       - generic
         - heading "Evaluate your return on investment" [level=2, ref=e67]
         - StaticText "Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line."
-        - link "Calculate your savings " [ref=e115]
+        - link "Calculate your savings " [ref=e116]
           - StaticText "Calculate your savings"
           - StaticText ""
       - heading "Our customers" [level=2, ref=e20]
@@ -108,19 +109,19 @@ content confidence"
       - generic
         - generic
           - generic [ref=e68] clickable [cursor:pointer, tabindex]
-            - heading "Outperforms competitors " [level=2, ref=e116]
-            - link "Learn more" [ref=e117]
+            - heading "Outperforms competitors " [level=2, ref=e117]
+            - link "Learn more" [ref=e118]
           - generic
           - generic [ref=e69] clickable [cursor:pointer, tabindex]
-            - heading "Complete content lifecycle management " [level=2, ref=e118]
+            - heading "Complete content lifecycle management " [level=2, ref=e119]
           - generic [ref=e70] clickable [cursor:pointer, tabindex]
-            - heading "Trustworthy translation " [level=2, ref=e119]
+            - heading "Trustworthy translation " [level=2, ref=e120]
           - generic [ref=e71] clickable [cursor:pointer, tabindex]
-            - heading "Powered by AI " [level=2, ref=e120]
+            - heading "Powered by AI " [level=2, ref=e121]
           - generic [ref=e72] clickable [cursor:pointer, tabindex]
-            - heading "Built to handle complexity " [level=2, ref=e121]
+            - heading "Built to handle complexity " [level=2, ref=e122]
           - generic [ref=e73] clickable [cursor:pointer, tabindex]
-            - heading "Secure. Stable. Scalable. " [level=2, ref=e122]
+            - heading "Secure. Stable. Scalable. " [level=2, ref=e123]
       - StaticText "TRIDION DOCS MODULES"
       - heading "Take your content further" [level=2, ref=e32]
         - StaticText "Take your content further"
@@ -171,21 +172,21 @@ content confidence"
         - heading "Tridion Docs – Collective Spaces" [level=2, ref=e76]
         - paragraph
           - StaticText "Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations."
-        - button "Download data sheet " [ref=e123]
+        - button "Download data sheet " [ref=e124]
           - StaticText "Download data sheet "
           - StaticText ""
       - link "Tridion Docs localization Learn more about how we can make translating your content more accurate, cheaper and faster. Download data sheet " [ref=e50]
         - heading "Tridion Docs localization" [level=2, ref=e77]
         - paragraph
           - StaticText "Learn more about how we can make translating your content more accurate, cheaper and faster."
-        - button "Download data sheet " [ref=e124]
+        - button "Download data sheet " [ref=e125]
           - StaticText "Download data sheet "
           - StaticText ""
       - link "What’s new in Tridion Docs 15 Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly. Download data sheet " [ref=e51]
         - heading "What’s new in Tridion Docs 15" [level=2, ref=e78]
         - paragraph
           - StaticText "Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly."
-        - button "Download data sheet " [ref=e125]
+        - button "Download data sheet " [ref=e126]
           - StaticText "Download data sheet "
           - StaticText ""
       - link "Contact us" [ref=e52]
