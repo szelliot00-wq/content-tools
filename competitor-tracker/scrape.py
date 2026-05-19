@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import difflib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -15,8 +16,18 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-# Full path required — launchd does not load nvm
-AGENT_BROWSER = "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser"
+def _find_agent_browser() -> str:
+    import shutil
+    for candidate in [
+        "/opt/homebrew/bin/agent-browser",
+        "/usr/local/bin/agent-browser",
+        "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser",
+    ]:
+        if os.path.exists(candidate):
+            return candidate
+    return shutil.which("agent-browser") or "agent-browser"
+
+AGENT_BROWSER = _find_agent_browser()
 
 load_dotenv()
 
