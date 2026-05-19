@@ -5,6 +5,13 @@
 # Sends a failure alert email only if a tool fails after retry.
 # No email on success — silence means everything ran fine.
 
+LOCKFILE=/tmp/content-tools-run.lock
+exec 200>"$LOCKFILE"
+if ! flock -n 200; then
+    echo "=== Another instance already running — exiting ==="
+    exit 0
+fi
+
 ERRORS=0
 FAILED_TOOLS=()
 
