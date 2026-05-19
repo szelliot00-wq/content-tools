@@ -5,12 +5,16 @@
 # Sends a failure alert email only if a tool fails after retry.
 # No email on success — silence means everything ran fine.
 
-LOCKFILE=/tmp/content-tools-run.lock
-exec 200>"$LOCKFILE"
-if ! flock -n 200; then
-    echo "=== Another instance already running — exiting ==="
-    exit 0
+LOCKFILE=/tmp/content-tools-run.pid
+if [ -f "$LOCKFILE" ]; then
+    OLD_PID=$(cat "$LOCKFILE" 2>/dev/null)
+    if [ -n "$OLD_PID" ] && kill -0 "$OLD_PID" 2>/dev/null; then
+        echo "=== Another instance (PID $OLD_PID) already running — exiting ==="
+        exit 0
+    fi
 fi
+echo $$ > "$LOCKFILE"
+trap 'rm -f "$LOCKFILE"' EXIT
 
 ERRORS=0
 FAILED_TOOLS=()
