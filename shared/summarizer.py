@@ -38,7 +38,7 @@ def summarize(content: str, prompt_template: str) -> str | None:
             stderr=subprocess.PIPE,
             text=True,
             env={**os.environ, "CLAUDECODE": ""},
-            start_new_session=True,
+            preexec_fn=os.setpgrp,
         )
         try:
             stdout, stderr = proc.communicate(input=prompt, timeout=120)

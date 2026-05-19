@@ -161,7 +161,7 @@ def summarize_with_gemini(transcript: str, video_title: str, category: str | Non
         proc = subprocess.Popen(
             [claude_bin, "--print", "--model", CLAUDE_MODEL, "--dangerously-skip-permissions"],
             stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-            text=True, env={**os.environ, "CLAUDECODE": ""}, start_new_session=True,
+            text=True, env={**os.environ, "CLAUDECODE": ""}, preexec_fn=os.setpgrp,
         )
         try:
             stdout, stderr = proc.communicate(input=prompt, timeout=120)
