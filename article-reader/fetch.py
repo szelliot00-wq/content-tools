@@ -221,7 +221,7 @@ def process_item(item: dict) -> dict | None:
     prompt = SUMMARY_PROMPT.format(title=title, content="{content}")
     summary = gemini.summarize(text, prompt)
     if not summary:
-        summary = f"## Summary\n(Gemini unavailable — set GEMINI_API_KEY.)\n\n## Key takeaways\n- See source article."
+        summary = f"## Summary\n(Claude unavailable — skipped.)\n\n## Key takeaways\n- See source article."
 
     path = save_summary(title, url, summary, slug)
     print(f"    Saved: {path.name}")

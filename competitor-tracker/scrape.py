@@ -145,7 +145,7 @@ def process_url(competitor_id: str, competitor_name: str, url_entry: dict) -> di
 
     summary = gemini.summarize(diff_text, SUMMARY_PROMPT)
     if not summary:
-        summary = f"## What Changed\n({changed} characters changed — set GEMINI_API_KEY for AI summary.)\n\n## Notable Updates\n- See diff below.\n\n```\n{diff_text[:2000]}\n```"
+        summary = f"## What Changed\n({changed} characters changed — Claude unavailable, skipped.)\n\n## Notable Updates\n- See diff below.\n\n```\n{diff_text[:2000]}\n```"
 
     # Update snapshot
     snap_path.write_text(new_text, encoding="utf-8")
