@@ -1,387 +1,247 @@
-- generic
-  - region "Cookies" [ref=e1]
-    - paragraph
-      - StaticText "We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept all”, you consent to the use of ALL the cookies."
-      - link "Cookie policy" [ref=e4]
-    - button "Cookie settings" [ref=e2]
-    - button "Accept all" [ref=e3]
+- banner
   - generic
+    - link "Appendix logo" [ref=e13]
+    - link "The Appendix" [ref=e14]
+  - link "Bodies—April 2014—Vol. 2, No. 2" [ref=e15]
+- navigation
+  - list
+    - listitem [level=1]
+      - link "Issues" [ref=e20]
+    - listitem [level=1]
+      - link "Blog" [ref=e21]
+    - listitem [level=1]
+      - link "Contributors" [ref=e22]
+    - listitem [level=1]
+      - link "About" [ref=e23]
+- article
+  - heading "Mug Shots: A Small Town Noir" [level=2, ref=e1]
+  - paragraph
+    - StaticText "By Diarmid Mogg – Published April 3, 2014"
+  - link "None" [ref=e2]
+    - image "None"
+  - StaticText "Floyd M. Armstrong, arrested for loitering (and possibly stealing a roll of pennies and a box of shotgun shells) on a summer night in 1957, in New Castle, PA."
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "Martin Fobes woke up to the sound of officers from the New Castle police department banging on his front door."
+  - paragraph
+    - StaticText "It was early on a January morning, still dark, and he was lying flat on his living room floor, where he had passed out a few hours previously. The police took him downtown and charged him with driving while intoxicated. They sat him in a chair against a white wall and slotted numbered tiles into a board behind him, to record the fact that he was the four thousand eight hundred and eighty-third person to have been processed in that room. They took a picture of his profile, then turned him to take a picture face-on. While he was held for questioning, the negatives were developed and printed on a small piece of photographic paper that had been cut with scissors from a larger sheet. The print was then taken to a room in police headquarters known as the rogues gallery, where it joined the ever-growing archive of twinned portraits of citizens unfortunate enough to have been caught breaking the law in Lawrence County, Pennsylvania."
+  - paragraph
+    - StaticText "Sixty-one years later, the photograph dropped through my letterbox in Edinburgh, Scotland, in an envelope containing half a dozen old mug shots that I’d bought for a few pounds from an eBay seller who specialized in historic ephemera."
+  - link "None" [ref=e3]
+    - image "None"
+  - StaticText "Martin Fobes"
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "I’d become interested in mug shots through a book called "
+    - link "Least Wanted" [ref=e16]
+      - emphasis
+    - StaticText ", by Mark Michaelson, which contains hundreds of these strange and beautiful little portraits, taken as a matter of routine by law enforcement agencies across America but made haunting by the passage of time. I was fascinated by the range of expressions, the haircuts, the clothes. Such faces. Who were they? What had they done? What were their lives like?"
+  - paragraph
+    - StaticText "Almost all of the pictures in "
+    - emphasis
+      - StaticText "Least Wanted"
+    - StaticText " are anonymous, having become separated from their arrest information due to the carelessness of police departments, dealers, and collectors. Part of the reason why I bought the bundle from eBay was that the listing noted that they still had their police file cards attached, and I hoped it might be possible to use that information to find out more about the people in the photographs."
+  - paragraph
+    - StaticText "Each of the six cards listed various pieces of information, including, importantly, the person’s name and age, the crime with which they had been charged and the date and place of their arrest. All six people were from the same town: New Castle, Pennsylvania, a place I’d never heard of. I checked NewspaperArchive.com and saw that its database "
+    - link "contained back issues of the local paper, the New Castle News" [ref=e17]
+      - StaticText "contained back issues of the local paper, the "
+      - emphasis
+    - StaticText ", going back over a hundred years. A promising omen."
+  - link "None" [ref=e4]
+    - image "None"
+  - StaticText "The arrest card of Martin Fobes."
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "Martin’s mug shot was on top of the pile, so I ran a search on him first. His name appeared in the paper about thirty times over fifty years, from the announcement of the birth of his daughter in 1929 to his obituary in 1969. Most of the mentions were in the paper’s local events pages, where he appeared among lists of routine hospital admissions or as a pallbearer at the funerals of friends and relations—commonplace traces of a normal life."
+  - paragraph
+    - StaticText "The articles that came up for the month of his arrest, however, were a different matter: two front-page stories in one week, headlined, “Officers Probe Woman’s Death” and “Cause Of Girl’s Death Is Mystery.” I hope I can be forgiven for feeling a thrill of excitement as I scanned the pieces and saw Martin’s name emerge as part of a far more intriguing story than I’d been expecting. An unconscious eighteen-year-old girl named Anna Grace Robertson had been found lying in the middle of the street, battered and bleeding, in a residential part of town on the morning of 6 January, 1948. The police who woke Martin up from his drunken sleep and took his mug shot told him he had been seen with her that night. Martin said he remembered leaving the Rex Café with her and her sister sometime after midnight, but nothing after that. He had no recollection of how he ended up back home. He had blacked out. He didn’t know what had happened to the girl."
+  - paragraph
+    - StaticText "Anna Grace never regained consciousness. She died three days later, after being admitted to the hospital. A post-mortem found the cause of death to be hemorrhages of the brain. She also had a complete fracture of the left jaw, partial paralysis of the left arm and left leg, and friction burns on her face and right knee."
+  - paragraph
+    - StaticText "At the inquest, Martin said, again, that he had no recollection of what had happened that night. Others filled in some of the blanks."
+  - paragraph
+    - StaticText "Anna Grace’s sister, Eris, said that Martin had taken her and Anna Grace home from the Rex Café, where they had met him. Anna Grace knew Martin, it seemed, but Eris had never seen him before. When they got to the house, instead of coming in with Eris, Anna Grace went off with Martin. They said that they were going to a café called Jim’s Place on the east side, and were then going to the Square Deal café to meet Anna Grace’s mother, who worked there. It was half past midnight."
+  - paragraph
+    - StaticText "The bartender of the Rex Café, William Weidenhof, had gone over to the Square Deal after closing up his place, and saw Martin and Anna Grace there. Martin was drunk, and kept asking Anna Grace to leave with him. Eventually, just before two, Weidenhof saw Martin take Anna Grace’s arm and lead her to his truck."
+  - paragraph
+    - StaticText "About twenty minutes later, a man called Louis Smith found Anna Grace lying in North Mercer street, unconscious, with a bloody nose and a bruise on her forehead. He called the police, and an officer took her to the hospital."
+  - paragraph
+    - StaticText "People who had met Martin in town the next night, back in the Rex Café again, told the inquest that he seemed “pretty well loaded” and had scratches on his face. A friend of Martin’s, Joseph McKee, asked him if he knew what had happened to Anna Grace, but Martin ducked the question, saying only that he had been in a wreck at the harbor at about half past four in the morning, but that everything was “on the up and up.” Later that evening, he passed out in the bar."
+  - paragraph
+    - StaticText "At the end of the inquest, the members declared that they were unable to determine how Anna Grace sustained the injuries that caused her death and recommended further investigation. There was none. Anna Grace had already been buried, the witnesses had said all that they could and Martin Fobes wasn’t saying anything else. The case appears to have been dropped. The paper doesn’t mention it, or Anna Grace, again after that day. Martin was charged only with leaving the scene of a crime."
+  - paragraph
+    - StaticText "No one seems to have been certain what happened in the missing twenty minutes between Martin and Anna Grace leaving the Square Deal and Louis Smith finding her in the street. Anna Grace’s injuries suggest that she jumped from Martin’s speeding truck, but why did she jump? The most likely scenario would seem to be that Martin made a move on her as they drove through town, they struggled (which would be when his face was scratched) and she jumped from the truck to escape. That must have been obvious to anyone involved in the case but, if it occurred to the inquest’s members—all men—they chose not to pursue it. Perhaps it struck them as just a tragic accident, and not the kind of thing over which they should ruin the life of a hard-working family man."
+  - paragraph
+    - StaticText "I realized, of course, that it was impossible to say for sure how culpable Martin was, and also—at this date—quite unnecessary to try. The story itself was enough for me. I wrote it up and posted it online. It was the start of a project that would end up occupying all of my creative energy for years to come, in the form of a website called "
+    - link "Small Town Noir" [ref=e18]
+    - StaticText ", which has evolved into an attempt to chronicle the history of one small American town through the criminal records of its citizens."
+  - paragraph
+    - StaticText "None of the other mug shots in the bundle matched Martin’s for dramatic incident, but I researched the subjects’ lives as fully as I could, with a growing sense that I’d stumbled on something unique and valuable. By the time I was done, I’d uncovered a good few compelling stories and read an awful lot of old copies of the "
+    - emphasis
+      - StaticText "New Castle News"
+    - StaticText "—enough to make me feel that I’d perhaps caught a glimpse of something that might be more interesting than the stories themselves: the town in which they took place."
+  - link "None" [ref=e5]
+    - image "None"
+  - StaticText "Katie Payne, arrested for “felonious cutting.”"
+  - StaticText "Diarmid Mogg"
+  - separator
+  - paragraph
+    - StaticText "Like me, you’ve probably never heard of New Castle. It sits midway between Lake Erie and Pittsburgh, over by the Ohio border. It was founded after the Revolutionary War, in a valley that had been settled by the Lenape people, before they were forced out. Its growth was phenomenal. In the 1890s, its population increased by 144 per cent, faster than any other town in the country. By the turn of the century, it was one of the most industrially productive cities in America, with the biggest tinplate mill in the world and thousands of immigrants from Europe arriving every year to work in its steel factories, ceramics plants, foundries and paper mills."
+  - paragraph
+    - StaticText "All that’s gone now, of course. The Great Depression hit it hard, and the disastrous collapse of industry in the Northeast in the latter half of the century all but finished it off. Its present population is around 23,000, down from a wartime peak of nearly 50,000. You can imagine what the depopulated parts of town look like these days."
+  - paragraph
+    - StaticText "Yet something about New Castle captured my imagination. The place names—Locust Street, Croton Avenue, Shenango, Neshannock—were powerfully evocative of a certain idea of America, although one that, in all honesty, probably exists only in the minds of Europeans like me, whose imaginations have been shaped by a love of B-movies, pulp novels and old crime stories. None of the people in the photographs would have looked out of place working in Robert Mitchum’s garage in "
+    - emphasis
+      - StaticText "Out of the Past"
+    - StaticText " or hiding out in the boarding house where Burt Lancaster is murdered in "
+    - emphasis
+      - StaticText "The Killers"
+    - StaticText ". The more I learned about their world, the more their lives began to feel like the back-stories of minor characters in a richly detailed film noir that Hollywood had somehow neglected to make."
+  - paragraph
+    - StaticText "There were more New Castle mug shots on eBay, all from the decades between 1930 and 1960, and I bought as many as I could. The pictures had ended up all over the world—San Francisco, Tokyo, even a small island off the coast of Scotland. I always asked the seller how they had originally come by the pictures. The usual answer was that they’d bought them from other collectors. No one knew for sure how the photographs had first ended up for sale, but I gradually worked out that, sometime in the 1990s, the police department had cleared out its files and thrown hundreds—maybe thousands—of old photographs in the trash. A few hundred images were surreptitiously saved from destruction by a police officer nearing retirement."
+  - paragraph
+    - StaticText "The ones he picked up happened to come from the middle decades of the century. If he had passed by earlier, he might have come away with a selection from around the First World War. Later, and he might not have found any at all."
+  - separator
+  - paragraph
+    - StaticText "My collection grew over the next few years. Each batch—still carrying the strong smell of the cigarettes smoked by New Castle detectives over the years—brought to light wonderful characters: a quarry worker who was arrested after losing his false teeth at a crime scene; a prohibition agent whose house was dynamited by bootleggers; an upstanding poultry fancier who turned bank robber; immigrant families; civil war veterans; local capitalists; and a lot of drunks. And each research expedition into the archives of the "
+    - emphasis
+      - StaticText "New Castle News"
+    - StaticText " revealed more about the town and its history."
+  - link "None" [ref=e6]
+    - image "None"
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "During the period I was interested in, the "
+    - emphasis
+      - StaticText "New Castle News"
+    - StaticText " was one of those local newspapers that aimed to provide an indispensable daily record of the comings and goings in the communities that they served, along with a couple of pages of national and international news and opinion from the wire agencies."
+  - paragraph
+    - StaticText "Naturally, it reported on local politics and social events to an exhaustive degree. (It regularly included, for example, full descriptions of services in the town’s churches and synagogues.) Mixed in with those stories, however, are small impressions of everyday life that it’s hard to imagine finding in any other source. A few examples:"
+  - blockquote
     - paragraph
-      - strong
-        - StaticText "NEW: The Complete Guide to AI-powered Documentation Portals"
-    - link "Get the guide" [ref=e5]
-      - StaticText "Get the guide"
-      - image
-    - image
-    - banner
-      - navigation
-        - link "Logo Fluid Topics." [ref=e6]
-          - image "Logo Fluid Topics."
-        - navigation
-          - list
-            - menuitem "Platform" [ref=e39]
-              - StaticText "Platform"
-            - menuitem "Product" [expanded=false, ref=e40]
-              - StaticText "Product"
-            - menuitem "Solutions" [expanded=false, ref=e41]
-              - StaticText "Solutions"
-            - menuitem "Customers" [ref=e42]
-              - StaticText "Customers"
-            - menuitem "Resources" [expanded=false, ref=e43]
-              - StaticText "Resources"
-        - link "See Fluid Topics in Action" [ref=e7]
-          - StaticText "See Fluid Topics in Action"
-          - image
-        - button "Icon language switcher" [ref=e27]
-          - image "Icon language switcher"
-    - main
-      - paragraph
-        - StaticText "Platform"
-      - separator
-      - generic
-        - image
-        - heading "The Platform That Helps Your Users Work Smarter" [level=1, ref=e28]
-          - StaticText "The Platform That Helps Your Users"
-          - LineBreak "\n"
-          - StaticText "Work Smarter"
-        - paragraph
-          - StaticText "Fluid Topics is the knowledge layer that instantly connects your product content to users, applications, and AI."
-          - LineBreak "\n"
-          - StaticText "Scale product experiences across every channel, every touchpoint, and every team."
-        - link "See the platform in action" [ref=e29]
-          - StaticText "See the platform in action"
-          - image
-        - generic
-          - image
-          - paragraph
-      - generic
-        - image
-        - paragraph
-          - StaticText "TRUSTED BY CUSTOMERS, PARTNERS & THE AI ECOSYSTEM"
-        - image "Siemens-Logo"
-        - image "Hexagon"
-        - image "logo vaisala"
-        - image "Precisely_wordmark_rgb_purple"
-        - image "Logo swissqprint"
-        - image "Ateme cropped-logo"
-        - image "Genetec-Logo_RGB_Color"
-        - image "Logo Dayforce."
-        - image "Logo Johnson Controls."
-        - image "Teradata_logo_2024"
-        - image "jfrog logo"
-        - image "Logo Darwinbox."
-        - image "Logo Liebherr."
-        - image "kone logo"
-        - image "Hitachi Vantara Logo White"
-        - image "Siemens-Logo"
-        - image "Hexagon"
-        - image "logo vaisala"
-        - image "Precisely_wordmark_rgb_purple"
-        - image "Logo swissqprint"
-        - image "Ateme cropped-logo"
-        - image "Genetec-Logo_RGB_Color"
-        - image "Logo Dayforce."
-        - image "Logo Johnson Controls."
-        - image "Teradata_logo_2024"
-        - image "jfrog logo"
-        - image "Logo Darwinbox."
-        - image "Logo Liebherr."
-        - image "kone logo"
-        - image "Hitachi Vantara Logo White"
-      - heading "Unite Business & Tech in One Platform" [level=2, ref=e8]
-      - image "icon-shared-component"
-      - heading "Bring all your product knowledge in one place" [level=3, ref=e9]
-      - paragraph
-        - StaticText "Fluid Topics gathers and structures all your product information together in a Unified Knowledge Hub, bridging silos and giving you centralized control over access."
-      - image "icon_Fast-deployment"
-      - heading "Create smart experiences at any touchpoint" [level=3, ref=e10]
-      - paragraph
-        - StaticText "The platform helps you offer personalized experiences across documentation portals, AI applications, and support channels, delivering the right knowledge to users at the moment of need."
-      - image "icon_Enterprise-Grade-Security"
-      - heading "Leverage the power of AI safely and efficiently" [level=3, ref=e11]
-      - paragraph
-        - StaticText "AI is magic, only if powered by accurate content. Feed AI applications and autonomous agents with reliable product knowledge while meeting your compliance and governance requirements."
-      - heading "Core Capabilities" [level=2, ref=e12]
-      - generic
-        - tablist [ref=e30] clickable [cursor:pointer]
-          - tab "Content unification" [selected, ref=e44]
-            - StaticText "Content unification"
-          - tab "Headless delivery" [ref=e45]
-            - StaticText "Headless delivery"
-          - tab "AI search" [ref=e46]
-            - StaticText "AI search"
-          - tab "Portal" [ref=e47]
-            - StaticText "Portal"
-          - tab "User experience" [ref=e48]
-            - StaticText "User experience"
-          - tab "Analytics" [ref=e49]
-            - StaticText "Analytics"
-        - tabpanel "Content unification"
-          - heading "Content Unification" [level=3, ref=e50]
-          - list
-            - listitem [level=1]
-              - image "Icon checklist."
-              - paragraph
-            - listitem [level=1]
-              - image "Icon checklist."
-              - paragraph
-            - listitem [level=1]
-              - image "Icon checklist."
-              - paragraph
-            - listitem [level=1]
-              - image "Icon checklist."
-              - paragraph
-          - link "Learn more about Content Unification" [ref=e51]
-            - StaticText "Learn more about Content Unification"
-            - image
-          - image "Helpdesk with search, sections for Developers, Engineers, Support, and Word, PDF, GitHub icons."
-      - heading "Designed for AI, Built for the Future" [level=2, ref=e13]
-      - paragraph
-        - StaticText "Bring generative and agentic AI use cases into full-scale deployment without costly infrastructure overhauls."
-      - generic
-        - image "icon search"
-        - heading "AI Search" [level=3, ref=e31]
-        - paragraph
-          - StaticText "Offer a search experience designed to truly understand your users, delivering intelligent results and solutions that make everyday tasks quicker, easier, and more effective."
-        - link "More about AI Search" [ref=e32]
-          - StaticText "More about AI Search"
-          - image
-      - generic
-        - image "Icon GenAI"
-        - heading "Generative AI" [level=3, ref=e33]
-        - paragraph
-          - StaticText "Leverage Generative AI to elevate the content experience, guiding users seamlessly from consuming content to discovering and achieving the solutions they need."
-        - link "More about Generative AI" [ref=e34]
-          - StaticText "More about Generative AI"
-          - image
-      - generic
-        - image "icon-ai-gradient-agentic"
-        - heading "Agentic AI" [level=3, ref=e35]
-        - paragraph
-          - StaticText "COMING SOON"
-        - paragraph
-          - StaticText "Automate processes that require accurate information by connecting your AI agents to your company’s product knowledge through our MCP server."
-      - generic
-        - image
-        - heading "Connectors & Integrations" [level=2, ref=e36]
-        - paragraph
-          - StaticText "100+ content sources and formats – connected seamlessly"
-        - image "madcap-favicon"
-        - image "heretto-favicon"
-        - image "Adobe logo"
-        - image "paligo-favicon"
-        - image "microsoft-favicon"
-        - image "pdf icon"
-        - image "Zoho Desk icon"
-        - image "youtube icon white"
-        - image "HTML logo white"
-        - image "RWS Logo white"
-        - image "DITA logo white"
-        - image "markdown white"
-        - image "OpenAPI white logo"
-        - image "github logo."
-        - image "jira-logo-black-and-white"
-        - image "Zendesk logo"
-        - image "Sharepoint logo"
-        - image "OpenAI logo white"
-        - image "docufy logo favicon"
-        - image "Salesforce logo"
-        - image "madcap-flare logo"
-        - image "ms-excel logo"
-        - image "Schema ST4 logo"
-        - image "madcap-favicon"
-        - image "heretto-favicon"
-        - image "Adobe logo"
-        - image "paligo-favicon"
-        - image "microsoft-favicon"
-        - image "pdf icon"
-        - image "Zoho Desk icon"
-        - image "youtube icon white"
-        - image "HTML logo white"
-        - image "RWS Logo white"
-        - image "DITA logo white"
-        - image "markdown white"
-        - image "OpenAPI white logo"
-        - image "github logo."
-        - image "jira-logo-black-and-white"
-        - image "Zendesk logo"
-        - image "Sharepoint logo"
-        - image "OpenAI logo white"
-        - image "docufy logo favicon"
-        - image "Salesforce logo"
-        - image "madcap-flare logo"
-        - image "ms-excel logo"
-        - image "Schema ST4 logo"
-        - link "Learn more about our integrations" [ref=e37]
-          - StaticText "Learn more about our integrations"
-          - image
-      - heading "How Fluid Topics Powers Leading Companies" [level=2, ref=e14]
-      - image "Logo Johnson Controls."
-      - link "Read customer story" [ref=e15]
-        - StaticText "Read customer story"
-        - image
-      - paragraph
-        - StaticText "“We managed to build 25 documentation portals that combine over 4000 documents in DITA and 30,000 in other formats.”"
-      - image "Photo Nelson Abbey."
-      - paragraph
-        - StaticText "Nelson Abbey"
-      - paragraph
-        - StaticText "Principal Information Developer at JCI"
-      - heading "Success stories with the Fluid Topics Platform" [level=3, ref=e16]
-      - paragraph
-        - StaticText "We create cutting-edge technical content experiences that provide our customers with the competitive edge they need to succeed."
-      - link "See all customer stories" [ref=e17]
-        - StaticText "See all customer stories"
-        - image
-      - generic
-        - image
-        - heading "Enterprise-level platform for all business sizes" [level=2, ref=e18]
-      - generic
-        - heading "Meet the highest industry standards" [level=2, ref=e38]
-          - StaticText "Meet the highest"
-          - LineBreak "\n"
-          - StaticText "industry standards"
-        - paragraph
-        - paragraph
-        - image "Interface showing Help Center layers, including CodeHub as source for technical documentation"
-      - image "icon-green_Enterprise-Grade-Security"
-      - heading "Security Controls" [level=3, ref=e19]
-      - paragraph
-        - StaticText "Fluid Topics offers enterprise-grade security features, including role-based access control, single sign-on and audit logs, ensuring your content and customer data remain protected."
-      - image "icon-green_Native-Mobile-Experience"
-      - heading "99.9+% uptime SLA" [level=3, ref=e20]
-      - paragraph
-        - StaticText "Fluid Topics’ resilient infrastructure guarantees enterprise-grade reliability with 99.9+% uptime, so your content is always accessible when you need it."
-      - image "icon_server-shield"
-      - heading "Compliance and Governance" [level=3, ref=e21]
-      - paragraph
-        - StaticText "Fluid Topics supports compliance with industry standards and governance best practices, helping organizations meet regulatory requirements and maintain trust."
-      - image "Icon fast deployment rocket"
-      - heading "Scalability" [level=3, ref=e22]
-      - paragraph
-        - StaticText "Fluid Topics is built to scale effortlessly, adapting to your organization’s growing content, users, and performance needs without compromising speed or reliability."
-      - generic
-        - image
-        - link "More about security" [ref=e23]
-          - StaticText "More about security"
-          - image
-      - heading "Take the Next Step with Fluid Topics" [level=2, ref=e24]
-      - link "Get in touch" [ref=e25]
-        - StaticText "Get in touch"
-        - image
-      - image "BG Lines"
-    - contentinfo
-      - image "Logo Fluid Topics."
-      - separator
-      - Iframe "Contact Form" [ref=e26]
-        - generic
-          - paragraph
-            - strong
-          - paragraph
-            - textbox "Enter your email *" [ref=e89]
-          - paragraph
-            - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according to our privacy policy." [checked=false, ref=e90]
-            - LabelText
-              - link "our privacy policy." [ref=e92]
-          - paragraph
-            - button "Subscribe" [ref=e91]
-      - image "Logo ISO 27001."
-      - image "Logo RGPD Ready"
-      - navigation
-        - list
-          - listitem [level=1]
-            - StaticText "Product"
-            - list
-              - listitem [level=2]
-                - link "Product Knowledge Platform" [ref=e58]
-              - listitem [level=2]
-                - link "Fluid Topics AI" [ref=e59]
-              - listitem [level=2]
-                - link "Content Delivery" [ref=e60]
-              - listitem [level=2]
-                - link "Search" [ref=e61]
-              - listitem [level=2]
-                - link "Generative AI" [ref=e62]
-              - listitem [level=2]
-                - link "Portal Designer" [ref=e63]
-              - listitem [level=2]
-                - link "Content Analytics" [ref=e64]
-          - listitem [level=1]
-            - StaticText "Use cases"
-            - list
-              - listitem [level=2]
-                - link "Documentation Portal" [ref=e65]
-              - listitem [level=2]
-                - link "Chatbot AI" [ref=e66]
-              - listitem [level=2]
-                - link "In-Product Help" [ref=e67]
-              - listitem [level=2]
-                - link "Helpdesk" [ref=e68]
-      - navigation
-        - list
-          - listitem [level=1]
-            - StaticText "Top resources"
-            - list
-              - listitem [level=2]
-                - link "Blog" [ref=e69]
-              - listitem [level=2]
-                - link "Product Demo" [ref=e70]
-              - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e71]
-              - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e72]
-              - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e73]
-              - listitem [level=2]
-                - link "Customer stories" [ref=e74]
-              - listitem [level=2]
-                - link "Glossary" [ref=e75]
-              - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e76]
-              - listitem [level=2]
-                - link "ROI Calculator" [ref=e77]
-      - navigation
-        - list
-          - listitem [level=1]
-            - StaticText "Compare"
-            - list
-              - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e78]
-              - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e79]
-          - listitem [level=1]
-            - StaticText "Company"
-            - list
-              - listitem [level=2]
-                - link "About us" [ref=e80]
-              - listitem [level=2]
-                - link "Newsroom" [ref=e81]
-              - listitem [level=2]
-                - link "Careers" [ref=e82]
-              - listitem [level=2]
-                - link "Documentation" [ref=e83]
-              - listitem [level=2]
-                - link "Security & Trust" [ref=e84]
-              - listitem [level=2]
-                - link "Help Center" [ref=e85]
-              - listitem [level=2]
-                - link "Partners" [ref=e86]
-              - listitem [level=2]
-                - link "Release Notes" [ref=e87]
-              - listitem [level=2]
-                - link "Contact us Hi!" [ref=e88]
-      - navigation
-        - list
-          - listitem [level=1]
-            - link "Sitemap" [ref=e54]
-          - listitem [level=1]
-            - link "Cookie policy" [ref=e55]
-          - listitem [level=1]
-            - link "Legal" [ref=e56]
-          - listitem [level=1]
-            - link "About Antidot" [ref=e57]
-      - list
-        - listitem [level=1]
-          - link "Logo Linkedin." [ref=e52]
-        - listitem [level=1]
-          - link "Logo Youtube." [ref=e53]
+      - StaticText "Over the week-end a couple of strange sights were seen on the streets of New Castle. One: a man was noticed mowing his lawn long after darkness had surrounded him. The other was a young girl running in the midst of a heavy downpour of rain with an unopened umbrella under her arm. (May 4, 1936)"
+  - blockquote
+    - paragraph
+      - StaticText "Pa Newc saw a rather odd sight in the seventh ward yesterday. A man was driving a car which had a sign labelled ‘Funeral’ fastened on the wind-shield while fastened on the back end of the car was a trailer which had a large quantity of sheep’s wool loaded on it. (September 24, 1924)"
+  - blockquote
+    - paragraph
+      - StaticText "The mystery of who it was who put the pigeons in one of the court house desks is still unsolved. The act is denied by all. (January 7, 1930)"
+  - paragraph
+    - StaticText "Those details are gold, to me, and I make sure to include as many of them as I can when I write up the stories of the people in the mug shots. The fact that, on the night in 1943 when a man named Frank Heckathorn was arrested for indecent exposure, posses of youths were "
+    - link "searching the town’s cemeteries" [ref=e19]
+    - StaticText " for signs of a supposed half-man, half-beast mutant that they believed had been spotted waddling menacingly in the area strikes me as being just as relevant to the story as the country’s import/export balance for the year or what Patton was doing in North Africa."
+  - paragraph
+    - StaticText "What’s more, including that day-to-day perspective reduces the focus on crime. New Castle wasn’t a particularly crime-ridden place. And, although my point of entry into the townspeople’s lives is always, unavoidably, a criminal act that they’d been charged with, the majority of them couldn’t be described as criminals. They were ordinary people, by and large. Like Charles Cialella."
+  - link "None" [ref=e7]
+    - image "None"
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "Charles played football for New Castle High and worked for his family’s florist business until he joined the Army Air Service, immediately after the attack on Pearl harbor. Two months after the end of the war, he was arrested for playing a numbers game. His mug shot was taken and put on file, but he was released without being charged."
+  - paragraph
+    - StaticText "He went to work with New Castle’s parks department and became supervisor of the Cascade Park swimming pool when it reopened in 1952, offering a pledge that, following a program of improvements, it would now be impossible for bathers to contract skin diseases or sinus trouble through use of the facility."
+  - paragraph
+    - StaticText "In 1968, Charles’s cousin, Carl, became mayor and appointed Charles superintendent of all the city’s parks. By the seventies, the administration had changed and Charles was made foreman of the city’s sewers. In 1976, he was working in a sewer in Winter Avenue when he found a 1942 class ring inscribed with the initials MAS hanging on a broken tree branch. He called New Castle High, whose staff checked their records and told him that it must have belonged to Mary Agnes Schetrom. Charles’s friend, Frank Gagliardo, had been the Schetrom’s paper boy and still knew some friends of the family, who told Charles that Mary Agnes was living on Kenneth street. Two hours after he had found the ring, Charles returned it to Mary Agnes, who told him she had accidentally dropped it down her toilet thirty years earlier and had not expected to see it again."
+  - paragraph
+    - StaticText "Charles was a Republican committeeman and president of the local lodge of the Sons of Italy. He played golf, went bowling and raised funds for charity. His wife bred exotic plants and worked as an Avon representative for fifty years. They raised five children and were both over eighty when they died."
+  - paragraph
+    - StaticText "Ordinary people."
+  - link "None" [ref=e8]
+    - image "None"
+  - StaticText "New Castle today."
+  - StaticText "Diarmid Mogg"
+  - paragraph
+    - StaticText "Since I started researching and publishing the stories behind the mug shots on the Small Town Noir website, I’ve visited New Castle a couple of times, tracked down crime scenes, met relatives of the people I’ve written about—I’ve even attended the 95th birthday party of a man who had his mug shot taken at the age of seventeen, in 1935, when he was charged with stealing a car. (The return of his mug shot was my birthday gift to him.) Over those years, I’ve come to feel something like love for New Castle and the people whose lives I’ve tried to piece together."
+  - paragraph
+    - StaticText "The subjects of the mug shots were, for the most part, largely innocent of wrong-doing, aside from an occasional error of judgment or alcohol-induced indiscretion. They were citizens of a town—perhaps a nation—that was unaware it was experiencing its golden age. They worked in vast production lines. They shopped in crowded streets. They marched with their fraternal organizations to the music of faraway homelands. But they raised a generation of children who would grow up to find out that the place that had given their parents and grandparents everything they had in life was gone."
+  - paragraph
+    - StaticText "The steel mills have closed now, the downtown sidewalks are deserted. The men and women in these pictures saw things that none of us will ever see. All that we can do is look clearly at their faces, listen carefully to their stories and let them tell us what they can about their world, and what life was like in that long-gone town."
+  - paragraph
+    - StaticText "**Diarmid Mogg** is a writer and parliamentary reporter in Edinburgh, Scotland."
+  - heading "Elsewhere in this issue…" [level=2, ref=e9]
+  - heading "Chapter 1: Human Bodies" [level=3, ref=e10]
+  - list
+    - listitem [level=1]
+      - link "1. Letter from the Editors: Bodies" [ref=e24]
+        - StaticText "Letter from the Editors: Bodies"
+    - listitem [level=1]
+      - link "2. Mug Shots: A Small Town Noir" [ref=e25]
+        - StaticText "Mug Shots: A Small Town Noir"
+    - listitem [level=1]
+      - link "3. The Beard That Wasn’t: Abe Lincoln’s Whiskers" [ref=e26]
+        - StaticText "The Beard That Wasn’t: Abe Lincoln’s Whiskers"
+    - listitem [level=1]
+      - link "4. Terrestriality" [ref=e27]
+    - listitem [level=1]
+      - link "5. A Pirate Surgeon in Panama" [ref=e28]
+    - listitem [level=1]
+      - link "6. Interpreting “Physick”: The Familiar and Foreign Eighteenth-Century Body" [ref=e29]
+        - StaticText "Interpreting “Physick”: The Familiar and Foreign Eighteenth-Century Body"
+    - listitem [level=1]
+      - link "7. The Aviator’s Heart" [ref=e30]
+    - listitem [level=1]
+      - link "8. CSI Buenos Aires: The Crime on Prudan Street" [ref=e31]
+        - StaticText "CSI Buenos Aires: The Crime on Prudan Street"
+  - heading "Chapter 2: Bodies on Display" [level=3, ref=e11]
+  - list
+    - listitem [level=1]
+      - link "1. Mozart’s Skull: the Hyrtl Skull Collection at the College of Physicians of Philadelphia" [ref=e32]
+        - StaticText "Mozart’s Skull: the Hyrtl Skull Collection at the College of Physicians of Philadelphia"
+    - listitem [level=1]
+      - link "2. Robot of Jihad? A Guide to Tipu’s Tiger" [ref=e33]
+    - listitem [level=1]
+      - link "3. Flesh Made Wood: The Invention of Artificial Refrigeration" [ref=e34]
+        - StaticText "Flesh Made Wood: The Invention of Artificial Refrigeration"
+    - listitem [level=1]
+      - link "4. Ditsong’s Dioramas: Putting a Body on a Fossil and a Fossil in a Narrative" [ref=e35]
+        - StaticText "Ditsong’s Dioramas: Putting a Body on a Fossil and a Fossil in a Narrative"
+    - listitem [level=1]
+      - link "5. On Looking: Friendship and the New Haven Green" [ref=e36]
+        - StaticText "On Looking: Friendship and the New Haven Green"
+    - listitem [level=1]
+      - link "6. El Ñáñigo: A Spirit Dancer Of Afro-Cuba" [ref=e37]
+        - StaticText "El Ñáñigo: A Spirit Dancer Of Afro-Cuba"
+    - listitem [level=1]
+      - link "7. Elegy and Effigy" [ref=e38]
+    - listitem [level=1]
+      - link "8. Machu Picchu, Revisited" [ref=e39]
+  - heading "Chapter 3: Foreign Bodies" [level=3, ref=e12]
+  - list
+    - listitem [level=1]
+      - link "1. Letters to the Editor: Bodies" [ref=e40]
+        - StaticText "Letters to the Editor: Bodies"
+    - listitem [level=1]
+      - link "2. Where Be Monsters? The Daedalus Sea Serpent and the War for Credibility" [ref=e41]
+    - listitem [level=1]
+      - link "3. Victorian Occultism and the Art of Synesthesia" [ref=e42]
+    - listitem [level=1]
+      - link "4. Hunting Gorillas in the Land of Cannibals: Making Victorian Field Knowledge in Western Equatorial Africa" [ref=e43]
+        - StaticText "Hunting Gorillas in the Land of Cannibals: Making Victorian Field Knowledge in Western Equatorial Africa"
+    - listitem [level=1]
+      - link "5. The History of Mana: How an Austronesian Concept Became a Video Game Mechanic" [ref=e44]
+        - StaticText "The History of Mana: How an Austronesian Concept Became a Video Game Mechanic"
+    - listitem [level=1]
+      - link "6. Hawaii" [ref=e45]
+    - listitem [level=1]
+      - link "7. Angelica’s Baby: Pregnancy Narratives in Twentieth-Century Rio de Janeiro" [ref=e46]
+        - StaticText "Angelica’s Baby: Pregnancy Narratives in Twentieth-Century Rio de Janeiro"
+    - listitem [level=1]
+      - link "8. Fever to Tell: Interactive Storytelling Online and the History of Philadelphia’s Yellow Fever Outbreak, 1793" [ref=e47]
+        - StaticText "Fever to Tell: Interactive Storytelling Online and the History of Philadelphia’s Yellow Fever Outbreak, 1793"
+- contentinfo
+  - list
+    - listitem [level=1]
+      - link "Home" [ref=e48]
+    - listitem [level=1]
+      - link "Issues" [ref=e49]
+    - listitem [level=1]
+      - link "Blog" [ref=e50]
+    - listitem [level=1]
+      - link "Contributors" [ref=e51]
+    - listitem [level=1]
+      - link "Index" [ref=e52]
+    - listitem [level=1]
+      - link "About" [ref=e53]
+  - paragraph
+    - link "CC-BY" [ref=e54]
+    - link "GitHub" [ref=e55]
+    - link "colophon" [ref=e56]
