@@ -6,7 +6,6 @@ Configure sources in sources.json; summaries go to summaries/articles/.
 from __future__ import annotations
 
 import json
-import os
 import re
 import subprocess
 import sys
@@ -14,40 +13,28 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
-
 from dotenv import load_dotenv
-
-def _find_agent_browser() -> str:
-    import shutil
-    for candidate in [
-        "/opt/homebrew/bin/agent-browser",
-        "/usr/local/bin/agent-browser",
-        "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser",
-    ]:
-        if os.path.exists(candidate):
-            return candidate
-    return shutil.which("agent-browser") or "agent-browser"
-
-AGENT_BROWSER = _find_agent_browser()
-
-load_dotenv()
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
 SUMMARIES_DIR = PROJECT_DIR / "summaries" / "articles"
 SOURCES_PATH = SCRIPT_DIR / "sources.json"
 
-# Add project root to path so we can import shared/
 sys.path.insert(0, str(PROJECT_DIR))
-from shared import summarizer as gemini
+from shared import summarizer
 from shared import email as mailer
+from shared.browser import find_agent_browser, fetch_page_text
+
+load_dotenv()
+
+AGENT_BROWSER = find_agent_browser()
 
 SUMMARY_PROMPT = """Summarize this article and extract key takeaways.
 
 Title: {title}
 
 Content:
-{content}
+{{content}}
 
 Format your response exactly as:
 
@@ -72,15 +59,11 @@ def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_]+", "-", text)
-    text = text.strip("-")
-    return text[:80]
+    return text.strip("-")[:80]
 
 
-def summary_exists(slug: str) -> Path | None:
-    """Return path if a summary file with this slug already exists."""
-    for p in SUMMARIES_DIR.glob(f"*-{slug}.md"):
-        return p
-    return None
+def summary_exists(slug: str) -> bool:
+    return any(SUMMARIES_DIR.glob(f"*-{slug}.md"))
 
 
 def summary_path(slug: str) -> Path:
@@ -111,10 +94,6 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
 
     print(f"  RSS: {feed.get('name', url)}")
     try:
-        # Try a plain HTTP request first — fast and no Chrome overhead.
-        # If requests returns a parseable feed, use it.  If not (e.g. Cloudflare
-        # blocks the request and returns an HTML challenge page), fall back to
-        # agent-browser which handles Cloudflare via a real browser session.
         parsed = None
         try:
             resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
@@ -123,7 +102,7 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
             if not candidate.bozo or candidate.entries:
                 parsed = candidate
         except Exception:
-            pass  # fall through to agent-browser
+            pass
 
         if parsed is None:
             subprocess.run(
@@ -138,19 +117,19 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
     except Exception as e:
         print(f"    Feed fetch error: {e}", file=sys.stderr)
         return None
+
     if parsed.bozo and not parsed.entries:
         print(f"    Failed to parse feed: {url}", file=sys.stderr)
         return None
 
     items = []
-    for entry in parsed.entries[:max_items * 3]:  # fetch extra, filter by date
+    for entry in parsed.entries[:max_items * 3]:
         if len(items) >= max_items:
             break
         raw_id = entry.get("link") or entry.get("id") or ""
         entry_url = raw_id if raw_id.startswith("http") else ""
         entry_title = entry.get("title", "Untitled")
 
-        # Date filtering (skipped if cutoff is None)
         if cutoff:
             pub = entry.get("published_parsed") or entry.get("updated_parsed")
             if pub:
@@ -159,18 +138,15 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
                 if pub_dt < cutoff:
                     continue
 
-        # Use inline summary content if available and substantial enough to be
-        # real article text. Some feeds (e.g. HN) put only short metadata in
-        # the summary field; skip_inline forces fetching the linked article.
         skip_inline = feed.get("skip_inline", False)
         inline = entry.get("summary") or entry.get("content", [{}])[0].get("value", "")
         if inline and not skip_inline:
             from bs4 import BeautifulSoup
             text = BeautifulSoup(inline, "html.parser").get_text(separator="\n", strip=True)
-            if len(text) < 300:  # too short — likely just metadata, fetch the article
-                text = _extract_text(entry_url) or text
+            if len(text) < 300:
+                text = fetch_page_text(entry_url) or text
         else:
-            text = _extract_text(entry_url)
+            text = fetch_page_text(entry_url)
         if not text:
             continue
         items.append({"title": entry_title, "url": entry_url, "text": text})
@@ -180,13 +156,12 @@ def fetch_rss_items(feed: dict) -> list[dict] | None:
 
 
 def fetch_manual_urls(manual_urls: list[dict]) -> list[dict]:
-    """Return list of {title, url, text} for manually specified URLs."""
     items = []
     for entry in manual_urls:
         url = entry.get("url", "")
         title = entry.get("title", url)
         print(f"  Manual URL: {url}")
-        text = _extract_text(url)
+        text = fetch_page_text(url)
         if text:
             items.append({"title": title, "url": url, "text": text})
         else:
@@ -194,32 +169,8 @@ def fetch_manual_urls(manual_urls: list[dict]) -> list[dict]:
     return items
 
 
-def _extract_text(url: str) -> str | None:
-    try:
-        subprocess.run(
-            [AGENT_BROWSER, "open", url],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-        result = subprocess.run(
-            [AGENT_BROWSER, "snapshot", "-c"],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-    except subprocess.TimeoutExpired:
-        print(f"    Timeout fetching {url}", file=sys.stderr)
-        return None
-    except subprocess.CalledProcessError as e:
-        print(f"    agent-browser error for {url}: {e.stderr}", file=sys.stderr)
-        return None
-    except Exception as e:
-        print(f"    Fetch error for {url}: {e}", file=sys.stderr)
-        return None
-
-    lines = [line for line in result.stdout.splitlines() if len(line.strip()) >= 3]
-    return "\n".join(lines) or None
-
-
 def process_item(item: dict) -> dict | None:
-    """Summarize one article. Returns digest item dict or None if skipped."""
+    """Summarize one article. Returns digest item dict or None if skipped/unavailable."""
     title = item["title"]
     url = item["url"]
     text = item["text"]
@@ -229,10 +180,11 @@ def process_item(item: dict) -> dict | None:
         print(f"    Skip (already summarized): {slug}")
         return None
 
-    prompt = SUMMARY_PROMPT.format(title=title, content="{content}")
-    summary = gemini.summarize(text, prompt)
+    prompt_template = SUMMARY_PROMPT.format(title=title)
+    summary = summarizer.summarize(text, prompt_template)
     if not summary:
-        summary = f"## Summary\n(Claude unavailable — skipped.)\n\n## Key takeaways\n- See source article."
+        print(f"    Claude unavailable for {slug} — skipping, will retry next run", file=sys.stderr)
+        return None
 
     path = save_summary(title, url, summary, slug)
     print(f"    Saved: {path.name}")
@@ -244,7 +196,6 @@ def run() -> int:
     digest_items: list[dict] = []
     feed_errors: list[str] = []
 
-    # RSS feeds
     for feed in sources.get("rss_feeds", []):
         if not feed.get("enabled", True):
             continue
@@ -257,13 +208,10 @@ def run() -> int:
             if result:
                 digest_items.append(result)
 
-    # Manual URLs
     for item in fetch_manual_urls(sources.get("manual_urls", [])):
         result = process_item(item)
         if result:
             digest_items.append(result)
-
-    subprocess.run([AGENT_BROWSER, "close", "--all"], capture_output=True)
 
     if feed_errors:
         print(f"\nFeed errors: {feed_errors} — sending alert...")
@@ -290,8 +238,7 @@ def run() -> int:
 
     print(f"\nSending digest with {len(digest_items)} article(s)...")
     date_str = datetime.now().strftime("%b %d")
-    subject = f"Article Digest — {len(digest_items)} new article(s) — {date_str}"
-    mailer.send_digest(subject=subject, items=digest_items)
+    mailer.send_digest(subject=f"Article Digest — {len(digest_items)} new article(s) — {date_str}", items=digest_items)
     return 0
 
 

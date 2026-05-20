@@ -7,29 +7,12 @@ from __future__ import annotations
 
 import difflib
 import json
-import os
 import re
-import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
-
-def _find_agent_browser() -> str:
-    import shutil
-    for candidate in [
-        "/opt/homebrew/bin/agent-browser",
-        "/usr/local/bin/agent-browser",
-        "/Users/steveelliott/.nvm/versions/node/v24.14.0/bin/agent-browser",
-    ]:
-        if os.path.exists(candidate):
-            return candidate
-    return shutil.which("agent-browser") or "agent-browser"
-
-AGENT_BROWSER = _find_agent_browser()
-
-load_dotenv()
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
@@ -37,12 +20,14 @@ SNAPSHOTS_DIR = SCRIPT_DIR / "snapshots"
 SUMMARIES_DIR = PROJECT_DIR / "summaries" / "competitors"
 COMPETITORS_PATH = SCRIPT_DIR / "competitors.json"
 
-# Add project root to path so we can import shared/
 sys.path.insert(0, str(PROJECT_DIR))
-from shared import summarizer as gemini
+from shared import summarizer
 from shared import email as mailer
+from shared.browser import fetch_page_text
 
-DIFF_THRESHOLD = 50  # minimum characters changed to trigger summary
+load_dotenv()
+
+DIFF_THRESHOLD = 50
 
 SUMMARY_PROMPT = """A competitor's website changed. Summarize what's new or different.
 Focus on: new features, pricing changes, product updates, new offerings.
@@ -85,38 +70,12 @@ def summary_path(competitor_id: str) -> Path:
     return SUMMARIES_DIR / f"{date_str}-{competitor_id}.md"
 
 
-def fetch_page_text(url: str) -> str | None:
-    try:
-        subprocess.run(
-            [AGENT_BROWSER, "open", url],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-        result = subprocess.run(
-            [AGENT_BROWSER, "snapshot", "-c"],
-            capture_output=True, text=True, timeout=30, check=True,
-        )
-    except subprocess.TimeoutExpired:
-        print(f"    Timeout fetching {url}", file=sys.stderr)
-        return None
-    except subprocess.CalledProcessError as e:
-        print(f"    agent-browser error for {url}: {e.stderr}", file=sys.stderr)
-        return None
-    except Exception as e:
-        print(f"    Fetch error for {url}: {e}", file=sys.stderr)
-        return None
-
-    lines = [line for line in result.stdout.splitlines() if len(line.strip()) >= 3]
-    return "\n".join(lines) or None
-
-
 def compute_diff(old_text: str, new_text: str) -> tuple[str, int]:
     """Return (diff_text, changed_char_count)."""
     old_lines = old_text.splitlines(keepends=True)
     new_lines = new_text.splitlines(keepends=True)
     diff = list(difflib.unified_diff(old_lines, new_lines, lineterm=""))
     diff_text = "".join(diff)
-
-    # Count added/removed chars (lines starting with + or -)
     changed = sum(
         len(line[1:])
         for line in diff
@@ -125,10 +84,8 @@ def compute_diff(old_text: str, new_text: str) -> tuple[str, int]:
     return diff_text, changed
 
 
-def process_url(competitor_id: str, competitor_name: str, url_entry: dict) -> dict | None:
-    """
-    Fetch, diff, summarize one URL. Returns change summary dict or None if no significant change.
-    """
+def process_url(competitor_id: str, url_entry: dict) -> dict | None:
+    """Fetch, diff, summarize one URL. Returns change dict or None if no significant change."""
     url = url_entry["url"]
     label = url_entry.get("label", url)
     snap_path = snapshot_path(competitor_id, label)
@@ -138,7 +95,6 @@ def process_url(competitor_id: str, competitor_name: str, url_entry: dict) -> di
     if not new_text:
         return None
 
-    # First run — no snapshot yet
     if not snap_path.exists():
         SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
         snap_path.write_text(new_text, encoding="utf-8")
@@ -154,20 +110,15 @@ def process_url(competitor_id: str, competitor_name: str, url_entry: dict) -> di
 
     print(f"      Change detected: {changed} chars — summarizing...")
 
-    summary = gemini.summarize(diff_text, SUMMARY_PROMPT)
+    summary = summarizer.summarize(diff_text, SUMMARY_PROMPT)
     if not summary:
-        summary = f"## What Changed\n({changed} characters changed — Claude unavailable, skipped.)\n\n## Notable Updates\n- See diff below.\n\n```\n{diff_text[:2000]}\n```"
+        print(f"      Claude unavailable — snapshot not updated, will retry next run", file=sys.stderr)
+        return None
 
-    # Update snapshot
     snap_path.write_text(new_text, encoding="utf-8")
     print(f"      Snapshot updated: {snap_path.name}")
 
-    return {
-        "label": label,
-        "url": url,
-        "summary": summary,
-        "changed": changed,
-    }
+    return {"label": label, "url": url, "summary": summary, "changed": changed}
 
 
 def run() -> int:
@@ -186,14 +137,13 @@ def run() -> int:
 
         changes: list[dict] = []
         for url_entry in competitor.get("urls", []):
-            result = process_url(cid, name, url_entry)
+            result = process_url(cid, url_entry)
             if result:
                 changes.append(result)
 
         if not changes:
             continue
 
-        # Combine all URL changes for this competitor into one summary file
         combined_content = ""
         for change in changes:
             combined_content += f"### {change['label']}\n\n{change['summary']}\n\n---\n\n"
@@ -203,14 +153,11 @@ def run() -> int:
         path.write_text(header + combined_content, encoding="utf-8")
         print(f"  Saved summary: {path.name}")
 
-        # One digest item per changed competitor
         digest_items.append({
             "title": f"{name} — website changes detected",
             "content": combined_content,
             "url": competitor.get("urls", [{}])[0].get("url"),
         })
-
-    subprocess.run([AGENT_BROWSER, "close", "--all"], capture_output=True)
 
     if not digest_items:
         print("No significant competitor changes detected.")
@@ -218,8 +165,7 @@ def run() -> int:
 
     print(f"\nSending digest with {len(digest_items)} competitor change(s)...")
     date_str = datetime.now().strftime("%b %d")
-    subject = f"Competitor Updates — {len(digest_items)} change(s) — {date_str}"
-    mailer.send_digest(subject=subject, items=digest_items)
+    mailer.send_digest(subject=f"Competitor Updates — {len(digest_items)} change(s) — {date_str}", items=digest_items)
     return 0
 
 
