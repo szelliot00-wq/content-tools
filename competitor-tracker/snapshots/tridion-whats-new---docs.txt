@@ -37,89 +37,88 @@
         - StaticText "Tridion Docs 15 introduces an entire set of all-new features bringing you industry-leading AI-based enhancements and productivity improvements to make the lives of content consumers, content authors, translation coordinators, information architects and admins easier."
       - generic
         - generic "Video Player"
-          - Video
-          - generic [ref=e93] clickable [cursor:pointer]
-          - button "Play Video" [ref=e94]
+          - Video "Unable to play media." [disabled]
+          - button "Play Video" [ref=e93]
             - StaticText "Play Video"
         - StaticText "INTRODUCING TRIDION DOCS 15.2"
         - heading "The best CCMS on the market just got even better" [level=2, ref=e41]
           - StaticText "The best CCMS on the market just got even better"
         - StaticText "Building on the success of version 15.1, our latest release – v15.2 – provides major advancements in AI-assisted authoring, guided navigation and trustable chat. Improved headless delivery makes it easier than ever to create rich, multichannel experiences for your customers and staff. Tridion Docs also introduces a new project management area for content authors, along with enhanced usability, productivity, security and performance, as well as powerful content reuse and productivity metrics."
-      - heading "Highlights of Tridion Docs 15" [level=2, ref=e106]
+      - heading "Highlights of Tridion Docs 15" [level=2, ref=e105]
       - generic
         - generic
-          - heading "Intelligent content discovery" [level=3, ref=e134]
+          - heading "Intelligent content discovery" [level=3, ref=e133]
           - paragraph
             - StaticText "The Trustable Chat functionality and Hexahops that make up the new Tridion Docs Genius portal provide guided content experiences for your customers and internal teams to reach their goals faster."
       - generic
         - generic
-          - heading "Content reuse metrics" [level=3, ref=e135]
+          - heading "Content reuse metrics" [level=3, ref=e134]
           - StaticText "Content reuse reports can be generated and also exported to Business Intelligence (BI) tools to help content teams measure and improve content production efficiency and justify return on investment on Tridion Docs."
       - generic
         - generic
-          - heading "User-friendly headless content" [level=3, ref=e136]
+          - heading "User-friendly headless content" [level=3, ref=e135]
           - StaticText "Smarter delivery capabilities enable you to create guided experiences for your customers and internal consumers of your content, while offering a more intuitive platform to work with for your front-end developers."
       - generic
         - generic
-          - heading "Generative AI" [level=3, ref=e137]
+          - heading "Generative AI" [level=3, ref=e136]
           - StaticText "As part of Draft Space, the new Draft Companion tool provides authors linguistic and editorial alternatives to their content, speeding up their work while leaving them in full control over how they change the draft."
       - generic
         - generic
-          - heading "Greater usability and productivity" [level=3, ref=e138]
+          - heading "Greater usability and productivity" [level=3, ref=e137]
           - StaticText "New UI/UX designs help users focus on their primary goals – finding and creating information and getting an overview of current projects and their statuses."
       - generic
         - generic
-          - heading "Improved security and performance" [level=3, ref=e139]
+          - heading "Improved security and performance" [level=3, ref=e138]
           - StaticText "Modern authentication options and new granular permission settings help ensure the right level of access to information, related workflows and compliance with industry regulations, while stability and performance improvements make Tridion Docs faster and more secure."
       - heading "Main modules of Tridion Docs since version 14" [level=2, ref=e13]
       - table
         - row
           - cell
-          - cell "Tridion Docs 14 SP4" [ref=e95]
-          - cell "Tridion Docs 15" [ref=e96]
+          - cell "Tridion Docs 14 SP4" [ref=e94]
+          - cell "Tridion Docs 15" [ref=e95]
         - row
-          - cell "Content experiences" [ref=e97]
-          - cell "DITA-OT (Open Toolkit) DXA for Dynamic Documentation Bespoke output configurations" [ref=e98]
+          - cell "Content experiences" [ref=e96]
+          - cell "DITA-OT (Open Toolkit) DXA for Dynamic Documentation Bespoke output configurations" [ref=e97]
             - list
-          - cell "Tridion Docs Genius DITA-OT (Open Toolkit) Dynamic Experience Delivery (DXD) Bespoke output configurations" [ref=e99]
-            - list
-        - row
-          - cell "Content collaboration" [ref=e100]
-          - cell "Collective Spaces, comprised of: Draft Space Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e101]
-            - list
-          - cell "Collective Spaces, comprised of: Draft Space Draft Companion Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e102]
+          - cell "Tridion Docs Genius DITA-OT (Open Toolkit) Dynamic Experience Delivery (DXD) Bespoke output configurations" [ref=e98]
             - list
         - row
-          - cell "Content governance" [ref=e103]
-          - cell "Content Manager Web Client Semantic AI and Taxonomy Space Publication Manager" [ref=e104]
+          - cell "Content collaboration" [ref=e99]
+          - cell "Collective Spaces, comprised of: Draft Space Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e100]
             - list
-          - cell "Organize Space, comprised of: Publication Hub Metrics Semantic AI and Taxonomy Space Publication Manager" [ref=e105]
+          - cell "Collective Spaces, comprised of: Draft Space Draft Companion Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e101]
+            - list
+        - row
+          - cell "Content governance" [ref=e102]
+          - cell "Content Manager Web Client Semantic AI and Taxonomy Space Publication Manager" [ref=e103]
+            - list
+          - cell "Organize Space, comprised of: Publication Hub Metrics Semantic AI and Taxonomy Space Publication Manager" [ref=e104]
             - list
       - heading "Demo videos" [level=2, ref=e14]
         - StaticText "Demo videos"
       - generic
         - tablist
-          - tab "What's new" [selected, ref=e107]
-          - tab "Creating content" [ref=e108]
-          - tab "Organizing content" [ref=e109]
-          - tab "Delivering content" [ref=e110]
+          - tab "What's new" [selected, ref=e106]
+          - tab "Creating content" [ref=e107]
+          - tab "Organizing content" [ref=e108]
+          - tab "Delivering content" [ref=e109]
         - tabpanel "What's new" [ref=e15] focusable [tabindex]
-          - link "Solution info. Tridion Docs 15 – Collective Spaces Tridion Docs 15 takes author and reviewer collaboration to the next level in Collective Spaces with an intuitive new layout. Watch the demo to find out more. Learn more " [ref=e111]
+          - link "Solution info. Tridion Docs 15 – Collective Spaces Tridion Docs 15 takes author and reviewer collaboration to the next level in Collective Spaces with an intuitive new layout. Watch the demo to find out more. Learn more " [ref=e110]
             - generic
-            - heading "Tridion Docs 15 – Collective Spaces" [level=2, ref=e120]
+            - heading "Tridion Docs 15 – Collective Spaces" [level=2, ref=e119]
+            - paragraph
+            - button "Learn more " [ref=e139]
+          - link "Solution info. Tridion Docs 15 – Organize Space Watch the demo to discover Organize Space, the fully revamped Content Manager web client that enables new and experienced users alike to get more done in less time. Learn more " [ref=e111]
+            - generic
+            - heading "Tridion Docs 15 – Organize Space" [level=2, ref=e120]
             - paragraph
             - button "Learn more " [ref=e140]
-          - link "Solution info. Tridion Docs 15 – Organize Space Watch the demo to discover Organize Space, the fully revamped Content Manager web client that enables new and experienced users alike to get more done in less time. Learn more " [ref=e112]
+          - link "Solution info. Tridion Docs Genius Revolutionize content delivery by leveraging structured, verifiable and AI-enhanced content with the help of Trustable Chat and Hexahops’ intuitive navigation panes. Watch the demo video to learn more. Learn more " [ref=e112]
             - generic
-            - heading "Tridion Docs 15 – Organize Space" [level=2, ref=e121]
+            - heading "Tridion Docs Genius" [level=2, ref=e121]
             - paragraph
             - button "Learn more " [ref=e141]
-          - link "Solution info. Tridion Docs Genius Revolutionize content delivery by leveraging structured, verifiable and AI-enhanced content with the help of Trustable Chat and Hexahops’ intuitive navigation panes. Watch the demo video to learn more. Learn more " [ref=e113]
-            - generic
-            - heading "Tridion Docs Genius" [level=2, ref=e122]
-            - paragraph
-            - button "Learn more " [ref=e142]
-      - heading "Content experiences" [level=2, ref=e114]
+      - heading "Content experiences" [level=2, ref=e113]
         - StaticText "Content experiences"
       - generic
         - heading "Tridion Docs Genius guides the way" [level=2, ref=e42]
@@ -131,7 +130,7 @@
         - paragraph
           - StaticText "When deployed, it’s easy to configure branding elements and extend the portal through extra buttons and additional services that you may require."
         - generic
-          - button "Expand image" [ref=e123]
+          - button "Expand image" [ref=e122]
             - StaticText ""
             - StaticText "Expand image"
       - generic
@@ -142,12 +141,12 @@
         - paragraph
           - StaticText "The honeycomb layout of Hexahops shows a center topic surrounded by AI-driven related topics. Users can skim over the tiles and easily navigate to the next step with a single click."
         - generic
-          - button "Expand image" [ref=e124]
+          - button "Expand image" [ref=e123]
             - StaticText ""
             - StaticText "Expand image"
       - generic
         - generic
-          - button "Expand image" [ref=e125]
+          - button "Expand image" [ref=e124]
             - StaticText ""
             - StaticText "Expand image"
         - heading "Trustable Chat – just like talking to an expert" [level=2, ref=e44]
@@ -173,7 +172,7 @@
           - listitem [level=1]
             - ListMarker "• "
             - StaticText "Boost productivity for developers: retrieve DITA topics using GraphQL and harness low-code multichannel delivery"
-      - heading "Content collaboration" [level=2, ref=e115]
+      - heading "Content collaboration" [level=2, ref=e114]
         - StaticText "Content collaboration"
       - generic
         - heading "Collective Spaces" [level=2, ref=e46]
@@ -181,15 +180,15 @@
           - StaticText "To make it easy to draft and review text, Tridion Docs Collective Spaces comes with two task-focused user interfaces: Draft Space and Review Space. Based on user credentials, these web-based interfaces make it easy for authors and reviewers to focus on creating relevant, contextual documentation quickly, cohesively and collaboratively."
       - generic
         - tablist
-          - tab "Draft Space and Review Space" [selected, ref=e116]
-          - tab "Condition Management" [ref=e117]
+          - tab "Draft Space and Review Space" [selected, ref=e115]
+          - tab "Condition Management" [ref=e116]
         - tabpanel "Draft Space and Review Space" [ref=e16] focusable [tabindex]
           - generic
-            - heading "Draft Space and Review Space face-lift" [level=2, ref=e126]
+            - heading "Draft Space and Review Space face-lift" [level=2, ref=e125]
             - paragraph
             - paragraph
             - generic
-              - button "Expand image" [ref=e143]
+              - button "Expand image" [ref=e142]
       - heading "Draft Companion – the GenAI second pair of eyes" [level=2, ref=e17]
         - StaticText "Draft Companion – the GenAI second pair of eyes"
       - generic
@@ -203,7 +202,7 @@
           - StaticText "Writers are in full control when using Draft Companion, only accepting the suggestions they like. The AI-generated suggestions are all based on the content you already have stored in Tridion Docs."
       - generic
         - generic
-          - button "Expand image" [ref=e127]
+          - button "Expand image" [ref=e126]
       - generic
         - heading "Notable updates in the latest release, v15.2" [level=2, ref=e47]
       - generic
@@ -211,8 +210,8 @@
         - paragraph
           - StaticText "Technical authors and SMEs can now view, select and insert variables directly in Draft Space, without needing to use a third-party XML editor. This way, you can reuse content chunks across publications faster and easier and reduce your dependency on technical writers with XML skills."
         - generic
-          - button "Expand image" [ref=e128]
-      - heading "Content governance" [level=2, ref=e118]
+          - button "Expand image" [ref=e127]
+      - heading "Content governance" [level=2, ref=e117]
         - StaticText "Content governance"
       - heading "Organize Space" [level=2, ref=e18]
         - StaticText "Organize Space"
@@ -224,7 +223,7 @@
         - paragraph
           - StaticText "Organize Space is supported in all major browsers and has been optimized for maximum flexibility, so it’s accessible from a desktop, a tablet and other mobile devices."
         - generic
-          - button "Expand image" [ref=e129]
+          - button "Expand image" [ref=e128]
       - generic
         - heading "Publication Hub" [level=2, ref=e50]
           - StaticText "Publication Hub"
@@ -235,10 +234,10 @@
         - paragraph
           - StaticText "It also provides an API that allows the integration of work management tools such as Jira or Workfront, to name a few."
         - generic
-          - button "Expand image" [ref=e130]
+          - button "Expand image" [ref=e129]
       - generic
         - generic
-          - button "Expand image" [ref=e131]
+          - button "Expand image" [ref=e130]
         - heading "Metrics and ROI" [level=2, ref=e51]
           - StaticText "Metrics and ROI"
         - paragraph
@@ -263,7 +262,7 @@
         - paragraph
           - StaticText "Organize Space ships with a powerful new user interface for translation jobs, giving you a single centralized area to easily manage them all. Each job displays rich metadata, giving you enhanced filtering capabilities."
         - generic
-          - button "Expand image" [ref=e132]
+          - button "Expand image" [ref=e131]
       - heading "Create new translations jobs using a simple four-step wizard" [level=2, ref=e21]
       - generic
         - heading "Generating a new translation job" [level=3, ref=e22]
@@ -283,8 +282,8 @@
         - paragraph
           - StaticText "All users can access the Events section in Organize Space and see the progress of publishing, translation or export jobs. The section is split into two areas: Events overview and Event actions, to distinguish between events and their corresponding actions. You can also see the history of events and delete events in bulk."
         - generic
-          - button "Expand image" [ref=e133]
-      - heading "Technology" [level=2, ref=e119]
+          - button "Expand image" [ref=e132]
+      - heading "Technology" [level=2, ref=e118]
         - StaticText "Technology"
       - generic
         - heading "Modernized security and governance" [level=2, ref=e55]
