@@ -149,14 +149,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e71]
+          - textbox [required, ref=e70]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e73]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e72]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e74]
+          - link "our privacy policy." [ref=e73]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e72]
+          - button "Subscribe" [ref=e71]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -167,83 +167,81 @@
               - listitem [level=2]
                 - link "Product Knowledge Platform" [ref=e39]
               - listitem [level=2]
-                - link "Fluid Topics AI" [ref=e40]
+                - link "Content Delivery" [ref=e40]
               - listitem [level=2]
-                - link "Content Delivery" [ref=e41]
+                - link "Search" [ref=e41]
               - listitem [level=2]
-                - link "Search" [ref=e42]
+                - link "Generative AI" [ref=e42]
               - listitem [level=2]
-                - link "Generative AI" [ref=e43]
+                - link "Agentic AI NEW" [ref=e43]
               - listitem [level=2]
-                - link "Agentic AI NEW" [ref=e44]
+                - link "Portal Designer" [ref=e44]
               - listitem [level=2]
-                - link "Portal Designer" [ref=e45]
-              - listitem [level=2]
-                - link "Content Analytics" [ref=e46]
+                - link "Content Analytics" [ref=e45]
           - listitem [level=1]
             - StaticText "Use cases"
             - list
               - listitem [level=2]
-                - link "Documentation Portal" [ref=e47]
+                - link "Documentation Portal" [ref=e46]
               - listitem [level=2]
-                - link "Chatbot AI" [ref=e48]
+                - link "Chatbot AI" [ref=e47]
               - listitem [level=2]
-                - link "In-Product Help" [ref=e49]
+                - link "In-Product Help" [ref=e48]
               - listitem [level=2]
-                - link "Helpdesk" [ref=e50]
+                - link "Helpdesk" [ref=e49]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Top resources"
             - list
               - listitem [level=2]
-                - link "Blog" [ref=e51]
+                - link "Blog" [ref=e50]
               - listitem [level=2]
-                - link "Product Demo" [ref=e52]
+                - link "Product Demo" [ref=e51]
               - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e53]
+                - link "CIO Playbook for AI in 2026 NEW" [ref=e52]
               - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e54]
+                - link "Guide to Documentation Portals" [ref=e53]
               - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e55]
+                - link "Keyword vs Semantic Search" [ref=e54]
               - listitem [level=2]
-                - link "Customer stories" [ref=e56]
+                - link "Customer stories" [ref=e55]
               - listitem [level=2]
-                - link "Glossary" [ref=e57]
+                - link "Glossary" [ref=e56]
               - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e58]
+                - link "AI Readiness assessment" [ref=e57]
               - listitem [level=2]
-                - link "ROI Calculator" [ref=e59]
+                - link "ROI Calculator" [ref=e58]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e60]
+                - link "CCMS vs Fluid Topics" [ref=e59]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e61]
+                - link "CMS vs CCMS vs CDP" [ref=e60]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e62]
+                - link "About us" [ref=e61]
               - listitem [level=2]
-                - link "Newsroom" [ref=e63]
+                - link "Newsroom" [ref=e62]
               - listitem [level=2]
-                - link "Careers" [ref=e64]
+                - link "Careers" [ref=e63]
               - listitem [level=2]
-                - link "Documentation" [ref=e65]
+                - link "Documentation" [ref=e64]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e66]
+                - link "Security & Trust" [ref=e65]
               - listitem [level=2]
-                - link "Help Center" [ref=e67]
+                - link "Help Center" [ref=e66]
               - listitem [level=2]
-                - link "Partners" [ref=e68]
+                - link "Partners" [ref=e67]
               - listitem [level=2]
-                - link "Release Notes" [ref=e69]
+                - link "Release Notes" [ref=e68]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e70]
+                - link "Contact us Hi!" [ref=e69]
       - navigation
         - list
           - listitem [level=1]
