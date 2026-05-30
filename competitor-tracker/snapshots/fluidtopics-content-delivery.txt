@@ -1,270 +1,263 @@
 - generic
-  - region "Cookies" [ref=e1]
-    - paragraph
-      - StaticText "We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept all”, you consent to the use of ALL the cookies."
-      - link "Cookie policy" [ref=e4]
-    - button "Cookie settings" [ref=e2]
-    - button "Accept all" [ref=e3]
-  - generic
-    - paragraph
-      - strong
-        - StaticText "NEW: The Complete Guide to AI-powered Documentation Portals"
-    - link "Get the guide" [ref=e5]
-      - StaticText "Get the guide"
-      - image
+  - paragraph
+    - strong
+      - StaticText "NEW: The Complete Guide to AI-powered Documentation Portals"
+  - link "Get the guide" [ref=e1]
+    - StaticText "Get the guide"
     - image
-    - banner
-      - navigation
-        - link "Logo Fluid Topics." [ref=e6]
-          - image "Logo Fluid Topics."
-        - navigation
-          - list
-            - menuitem "Platform" [ref=e26]
-              - StaticText "Platform"
-            - menuitem "Product" [expanded=false, ref=e27]
-              - StaticText "Product"
-            - menuitem "Solutions" [expanded=false, ref=e28]
-              - StaticText "Solutions"
-            - menuitem "Customers" [ref=e29]
-              - StaticText "Customers"
-            - menuitem "Resources" [expanded=false, ref=e30]
-              - StaticText "Resources"
-        - link "See Fluid Topics in Action" [ref=e7]
-          - StaticText "See Fluid Topics in Action"
-          - image
-        - button "Icon language switcher" [ref=e22]
-          - image "Icon language switcher"
-    - main
-      - paragraph
-        - link "Capabilities" [ref=e8]
-        - StaticText " > "
-        - StaticText "Content Delivery"
-      - separator
-      - heading "Unified knowledge, effortless content delivery" [level=1, ref=e9]
-        - StaticText "Unified knowledge,"
-        - LineBreak "\n"
-        - StaticText "effortless content delivery"
-      - paragraph
-        - StaticText "Fluid Topics’ Product Knowledge Platform is built to optimize documentation publishing for both AI and human use, creating a single source of truth that feeds every channel."
-      - link "Request a demo" [ref=e10]
-        - StaticText "Request a demo"
-        - image
-      - image "\"Fluid Topics logo on purple background with gradient lines showing motion and content flow."
-      - heading "Focus on writing—we’ve got the rest" [level=2, ref=e11]
-      - button "Unify content from any source, any format" [expanded=true, ref=e12]
-        - heading "Unify content from any source, any format" [level=3, ref=e23]
-      - region "Unify content from any source, any format" [ref=e13]
-        - paragraph
-          - StaticText "No matter where your content lives, the format and tools you use – a structured CCMS, Git, Wikis, Word, or PDFs – our ready-to-use integrations eliminate the need for manual formatting or rework."
-      - button "Simplify your publishing workflow" [expanded=false, ref=e14]
-        - heading "Simplify your publishing workflow" [level=3, ref=e24]
-      - button "Access governance and security" [expanded=false, ref=e15]
-        - heading "Access governance and security" [level=3, ref=e25]
-      - image "Fluid Topics logo linking to YouTube, PDF, Word, GitHub, HTML, and XML icons on purple."
-      - heading "Native processing for all content types" [level=2, ref=e16]
-        - StaticText "Native processing"
-        - LineBreak "\n"
-        - StaticText "for all content types"
-      - paragraph
-        - StaticText "Fluid Topics natively ingests structured formats like DITA, DocBook, HTML, Markdown, and YAML, no custom scripts required. It also intelligently restructures unstructured content such as Word documents or Wiki markup, into a unified hub that treats all content as if it were structured from the start."
-      - generic
-        - image "Icon shared component."
-        - paragraph
-          - StaticText "Ready-to-use connectors"
-      - generic
-        - image "Icon fast deployment."
-        - paragraph
-          - StaticText "Automatic and manual publishing"
-      - generic
-        - image "Icon real time clock."
-        - paragraph
-          - StaticText "Real-time processing"
-      - generic
-        - image "Icon log monitor."
-        - paragraph
-          - StaticText "Logs monitoring"
-      - image "Flow diagram of HTML, YAML, DocBook, Markdown, PDF, Word icons linking to Fluid Topics logo."
-      - heading "All your multimedia, fully integrated" [level=2, ref=e17]
-      - paragraph
-        - StaticText "Fluid Topics processes all multimedia formats, from static images and vector files to dynamic animations, interactive SVGs, 3D images, as well as audio and video content. Each is intelligently indexed and optimized for display within documents or as standalone media ready for streaming."
-      - generic
-        - image "Icon upload."
-        - paragraph
-          - StaticText "Upload images"
-      - generic
-        - image "Icon download."
-        - paragraph
-          - StaticText "Download multimedia"
-      - generic
-        - image "Icon picture."
-        - paragraph
-          - StaticText "JPG, GIF, PNG, WEBP, SVG"
-      - image "Icons for PNG, JPG, SVG, WAV, MP3, MP4, and 3D files on blurred purple-pink gradient background."
-      - heading "Enrichment that powers discoverability" [level=2, ref=e18]
-      - paragraph
-        - StaticText "Fluid Topics enriches your content with metadata, taxonomies, and dynamic tagging, using automated classification and contextual linking to boost findability and understanding. It can automatically generate metadata from author-defined properties, while administrators can add explicit metadata based on content and sensitivity."
-      - generic
-        - image "Icon metadata config."
-        - paragraph
-          - StaticText "Metadata configuration"
-      - generic
-        - image "Icon vocabulary management."
-        - paragraph
-          - StaticText "Vocabulary management"
-      - generic
-        - image "Icon taxonomy."
-        - paragraph
-          - StaticText "Taxonomy"
-      - generic
-        - image "Icon url search."
-        - paragraph
-          - StaticText "Search engine friendly URLs"
-      - image "Maintenance document for Drone ZW#23 showing metadata: Type: Guide, Risk: Medium"
-      - heading "Omnichannel delivery, without duplication" [level=2, ref=e19]
-        - StaticText "Omnichannel delivery,"
-        - LineBreak "\n"
-        - StaticText "without duplication"
-      - paragraph
-        - StaticText "Fluid Topics delivers content simultaneously across documentation portals, community channels, chatbots, AI agents, and embedded help systems and more. This omnichannel approach ensures that content is consistent, up-to-date, always accessible in the right format and optimized for each touchpoint in the customer journey."
-      - generic
-        - image "Icon api coding."
-        - paragraph
-          - StaticText "Native API integration"
-      - generic
-        - image "Icon continues delivery."
-        - paragraph
-          - StaticText "Continuous delivery"
-      - generic
-        - image "Icon consistent metadata."
-        - paragraph
-          - StaticText "Consistent metadata"
-      - generic
-        - image "Icon shield enterprise grade security."
-        - paragraph
-          - StaticText "Granular security rules"
-      - image "Central logo linking to laptops: Your Website, Doc Portal, In-Product Help, and Chatbots on purple."
-      - heading "Built for AI and the future of search" [level=2, ref=e20]
-      - paragraph
-        - StaticText "Going beyond traditional publishing, Fluid Topics prepares your content for AI success by transforming it into clean, structured, and semantically enriched data. It directly powers our AI tools with context-aware, precisely labeled information, ensuring both data integrity and secure access throughout the process."
-      - image "CodeHub logo with data flow arrows and chatbot responding to tutorial request on purple background."
-      - heading "Frequently Asked Questions" [level=2, ref=e21]
-    - contentinfo
-      - image "Logo Fluid Topics."
-      - separator
-      - form "HubSpot Form"
-        - generic
-          - paragraph
-            - strong
-              - StaticText "Don’t miss our last updates"
-        - generic
-          - LabelText
-          - textbox [required, ref=e69]
-        - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e71]
-          - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e72]
-          - StaticText "*"
-        - generic
-          - button "Subscribe" [ref=e70]
-      - image "Logo ISO 27001."
-      - image "Logo RGPD Ready"
+  - image
+  - banner
+    - navigation
+      - link "Logo Fluid Topics." [ref=e2]
+        - image "Logo Fluid Topics."
       - navigation
         - list
-          - listitem [level=1]
+          - menuitem "Platform" [ref=e22]
+            - StaticText "Platform"
+          - menuitem "Product" [expanded=false, ref=e23]
             - StaticText "Product"
-            - list
-              - listitem [level=2]
-                - link "Product Knowledge Platform" [ref=e38]
-              - listitem [level=2]
-                - link "Content Delivery" [ref=e39]
-              - listitem [level=2]
-                - link "Search" [ref=e40]
-              - listitem [level=2]
-                - link "Generative AI" [ref=e41]
-              - listitem [level=2]
-                - link "Agentic AI NEW" [ref=e42]
-              - listitem [level=2]
-                - link "Portal Designer" [ref=e43]
-              - listitem [level=2]
-                - link "Content Analytics" [ref=e44]
-          - listitem [level=1]
-            - StaticText "Use cases"
-            - list
-              - listitem [level=2]
-                - link "Documentation Portal" [ref=e45]
-              - listitem [level=2]
-                - link "Chatbot AI" [ref=e46]
-              - listitem [level=2]
-                - link "In-Product Help" [ref=e47]
-              - listitem [level=2]
-                - link "Helpdesk" [ref=e48]
-      - navigation
-        - list
-          - listitem [level=1]
-            - StaticText "Top resources"
-            - list
-              - listitem [level=2]
-                - link "Blog" [ref=e49]
-              - listitem [level=2]
-                - link "Product Demo" [ref=e50]
-              - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e51]
-              - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e52]
-              - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e53]
-              - listitem [level=2]
-                - link "Customer stories" [ref=e54]
-              - listitem [level=2]
-                - link "Glossary" [ref=e55]
-              - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e56]
-              - listitem [level=2]
-                - link "ROI Calculator" [ref=e57]
-      - navigation
-        - list
-          - listitem [level=1]
-            - StaticText "Compare"
-            - list
-              - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e58]
-              - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e59]
-          - listitem [level=1]
-            - StaticText "Company"
-            - list
-              - listitem [level=2]
-                - link "About us" [ref=e60]
-              - listitem [level=2]
-                - link "Newsroom" [ref=e61]
-              - listitem [level=2]
-                - link "Careers" [ref=e62]
-              - listitem [level=2]
-                - link "Documentation" [ref=e63]
-              - listitem [level=2]
-                - link "Security & Trust" [ref=e64]
-              - listitem [level=2]
-                - link "Help Center" [ref=e65]
-              - listitem [level=2]
-                - link "Partners" [ref=e66]
-              - listitem [level=2]
-                - link "Release Notes" [ref=e67]
-              - listitem [level=2]
-                - link "Contact us Hi!" [ref=e68]
-      - navigation
-        - list
-          - listitem [level=1]
-            - link "Sitemap" [ref=e33]
-          - listitem [level=1]
-            - link "Cookie policy" [ref=e34]
-          - listitem [level=1]
-            - link "Legal" [ref=e35]
-          - listitem [level=1]
-            - link "Vulnerability Disclosure Policy" [ref=e36]
-          - listitem [level=1]
-            - link "About Antidot" [ref=e37]
+          - menuitem "Solutions" [expanded=false, ref=e24]
+            - StaticText "Solutions"
+          - menuitem "Customers" [ref=e25]
+            - StaticText "Customers"
+          - menuitem "Resources" [expanded=false, ref=e26]
+            - StaticText "Resources"
+      - link "See Fluid Topics in Action" [ref=e3]
+        - StaticText "See Fluid Topics in Action"
+        - image
+      - button "Icon language switcher" [ref=e18]
+        - image "Icon language switcher"
+  - main
+    - paragraph
+      - link "Capabilities" [ref=e4]
+      - StaticText " > "
+      - StaticText "Content Delivery"
+    - separator
+    - heading "Unified knowledge, effortless content delivery" [level=1, ref=e5]
+      - StaticText "Unified knowledge,"
+      - LineBreak "\n"
+      - StaticText "effortless content delivery"
+    - paragraph
+      - StaticText "Fluid Topics’ Product Knowledge Platform is built to optimize documentation publishing for both AI and human use, creating a single source of truth that feeds every channel."
+    - link "Request a demo" [ref=e6]
+      - StaticText "Request a demo"
+      - image
+    - image "\"Fluid Topics logo on purple background with gradient lines showing motion and content flow."
+    - heading "Focus on writing—we’ve got the rest" [level=2, ref=e7]
+    - button "Unify content from any source, any format" [expanded=true, ref=e8]
+      - heading "Unify content from any source, any format" [level=3, ref=e19]
+    - region "Unify content from any source, any format" [ref=e9]
+      - paragraph
+        - StaticText "No matter where your content lives, the format and tools you use – a structured CCMS, Git, Wikis, Word, or PDFs – our ready-to-use integrations eliminate the need for manual formatting or rework."
+    - button "Simplify your publishing workflow" [expanded=false, ref=e10]
+      - heading "Simplify your publishing workflow" [level=3, ref=e20]
+    - button "Access governance and security" [expanded=false, ref=e11]
+      - heading "Access governance and security" [level=3, ref=e21]
+    - image "Fluid Topics logo linking to YouTube, PDF, Word, GitHub, HTML, and XML icons on purple."
+    - heading "Native processing for all content types" [level=2, ref=e12]
+      - StaticText "Native processing"
+      - LineBreak "\n"
+      - StaticText "for all content types"
+    - paragraph
+      - StaticText "Fluid Topics natively ingests structured formats like DITA, DocBook, HTML, Markdown, and YAML, no custom scripts required. It also intelligently restructures unstructured content such as Word documents or Wiki markup, into a unified hub that treats all content as if it were structured from the start."
+    - generic
+      - image "Icon shared component."
+      - paragraph
+        - StaticText "Ready-to-use connectors"
+    - generic
+      - image "Icon fast deployment."
+      - paragraph
+        - StaticText "Automatic and manual publishing"
+    - generic
+      - image "Icon real time clock."
+      - paragraph
+        - StaticText "Real-time processing"
+    - generic
+      - image "Icon log monitor."
+      - paragraph
+        - StaticText "Logs monitoring"
+    - image "Flow diagram of HTML, YAML, DocBook, Markdown, PDF, Word icons linking to Fluid Topics logo."
+    - heading "All your multimedia, fully integrated" [level=2, ref=e13]
+    - paragraph
+      - StaticText "Fluid Topics processes all multimedia formats, from static images and vector files to dynamic animations, interactive SVGs, 3D images, as well as audio and video content. Each is intelligently indexed and optimized for display within documents or as standalone media ready for streaming."
+    - generic
+      - image "Icon upload."
+      - paragraph
+        - StaticText "Upload images"
+    - generic
+      - image "Icon download."
+      - paragraph
+        - StaticText "Download multimedia"
+    - generic
+      - image "Icon picture."
+      - paragraph
+        - StaticText "JPG, GIF, PNG, WEBP, SVG"
+    - image "Icons for PNG, JPG, SVG, WAV, MP3, MP4, and 3D files on blurred purple-pink gradient background."
+    - heading "Enrichment that powers discoverability" [level=2, ref=e14]
+    - paragraph
+      - StaticText "Fluid Topics enriches your content with metadata, taxonomies, and dynamic tagging, using automated classification and contextual linking to boost findability and understanding. It can automatically generate metadata from author-defined properties, while administrators can add explicit metadata based on content and sensitivity."
+    - generic
+      - image "Icon metadata config."
+      - paragraph
+        - StaticText "Metadata configuration"
+    - generic
+      - image "Icon vocabulary management."
+      - paragraph
+        - StaticText "Vocabulary management"
+    - generic
+      - image "Icon taxonomy."
+      - paragraph
+        - StaticText "Taxonomy"
+    - generic
+      - image "Icon url search."
+      - paragraph
+        - StaticText "Search engine friendly URLs"
+    - image "Maintenance document for Drone ZW#23 showing metadata: Type: Guide, Risk: Medium"
+    - heading "Omnichannel delivery, without duplication" [level=2, ref=e15]
+      - StaticText "Omnichannel delivery,"
+      - LineBreak "\n"
+      - StaticText "without duplication"
+    - paragraph
+      - StaticText "Fluid Topics delivers content simultaneously across documentation portals, community channels, chatbots, AI agents, and embedded help systems and more. This omnichannel approach ensures that content is consistent, up-to-date, always accessible in the right format and optimized for each touchpoint in the customer journey."
+    - generic
+      - image "Icon api coding."
+      - paragraph
+        - StaticText "Native API integration"
+    - generic
+      - image "Icon continues delivery."
+      - paragraph
+        - StaticText "Continuous delivery"
+    - generic
+      - image "Icon consistent metadata."
+      - paragraph
+        - StaticText "Consistent metadata"
+    - generic
+      - image "Icon shield enterprise grade security."
+      - paragraph
+        - StaticText "Granular security rules"
+    - image "Central logo linking to laptops: Your Website, Doc Portal, In-Product Help, and Chatbots on purple."
+    - heading "Built for AI and the future of search" [level=2, ref=e16]
+    - paragraph
+      - StaticText "Going beyond traditional publishing, Fluid Topics prepares your content for AI success by transforming it into clean, structured, and semantically enriched data. It directly powers our AI tools with context-aware, precisely labeled information, ensuring both data integrity and secure access throughout the process."
+    - image "CodeHub logo with data flow arrows and chatbot responding to tutorial request on purple background."
+    - heading "Frequently Asked Questions" [level=2, ref=e17]
+  - contentinfo
+    - image "Logo Fluid Topics."
+    - separator
+    - form "HubSpot Form"
+      - generic
+        - paragraph
+          - strong
+            - StaticText "Don’t miss our last updates"
+      - generic
+        - LabelText
+        - textbox [required, ref=e65]
+      - LabelText
+        - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e67]
+        - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
+        - link "our privacy policy." [ref=e68]
+        - StaticText "*"
+      - generic
+        - button "Subscribe" [ref=e66]
+    - image "Logo ISO 27001."
+    - image "Logo RGPD Ready"
+    - navigation
       - list
         - listitem [level=1]
-          - link "Logo Linkedin." [ref=e31]
+          - StaticText "Product"
+          - list
+            - listitem [level=2]
+              - link "Product Knowledge Platform" [ref=e34]
+            - listitem [level=2]
+              - link "Content Delivery" [ref=e35]
+            - listitem [level=2]
+              - link "Search" [ref=e36]
+            - listitem [level=2]
+              - link "Generative AI" [ref=e37]
+            - listitem [level=2]
+              - link "Agentic AI NEW" [ref=e38]
+            - listitem [level=2]
+              - link "Portal Designer" [ref=e39]
+            - listitem [level=2]
+              - link "Content Analytics" [ref=e40]
         - listitem [level=1]
-          - link "Logo Youtube." [ref=e32]
+          - StaticText "Use cases"
+          - list
+            - listitem [level=2]
+              - link "Documentation Portal" [ref=e41]
+            - listitem [level=2]
+              - link "Chatbot AI" [ref=e42]
+            - listitem [level=2]
+              - link "In-Product Help" [ref=e43]
+            - listitem [level=2]
+              - link "Helpdesk" [ref=e44]
+    - navigation
+      - list
+        - listitem [level=1]
+          - StaticText "Top resources"
+          - list
+            - listitem [level=2]
+              - link "Blog" [ref=e45]
+            - listitem [level=2]
+              - link "Product Demo" [ref=e46]
+            - listitem [level=2]
+              - link "CIO Playbook for AI in 2026 NEW" [ref=e47]
+            - listitem [level=2]
+              - link "Guide to Documentation Portals" [ref=e48]
+            - listitem [level=2]
+              - link "Keyword vs Semantic Search" [ref=e49]
+            - listitem [level=2]
+              - link "Customer stories" [ref=e50]
+            - listitem [level=2]
+              - link "Glossary" [ref=e51]
+            - listitem [level=2]
+              - link "AI Readiness assessment" [ref=e52]
+            - listitem [level=2]
+              - link "ROI Calculator" [ref=e53]
+    - navigation
+      - list
+        - listitem [level=1]
+          - StaticText "Compare"
+          - list
+            - listitem [level=2]
+              - link "CCMS vs Fluid Topics" [ref=e54]
+            - listitem [level=2]
+              - link "CMS vs CCMS vs CDP" [ref=e55]
+        - listitem [level=1]
+          - StaticText "Company"
+          - list
+            - listitem [level=2]
+              - link "About us" [ref=e56]
+            - listitem [level=2]
+              - link "Newsroom" [ref=e57]
+            - listitem [level=2]
+              - link "Careers" [ref=e58]
+            - listitem [level=2]
+              - link "Documentation" [ref=e59]
+            - listitem [level=2]
+              - link "Security & Trust" [ref=e60]
+            - listitem [level=2]
+              - link "Help Center" [ref=e61]
+            - listitem [level=2]
+              - link "Partners" [ref=e62]
+            - listitem [level=2]
+              - link "Release Notes" [ref=e63]
+            - listitem [level=2]
+              - link "Contact us Hi!" [ref=e64]
+    - navigation
+      - list
+        - listitem [level=1]
+          - link "Sitemap" [ref=e29]
+        - listitem [level=1]
+          - link "Cookie policy" [ref=e30]
+        - listitem [level=1]
+          - link "Legal" [ref=e31]
+        - listitem [level=1]
+          - link "Vulnerability Disclosure Policy" [ref=e32]
+        - listitem [level=1]
+          - link "About Antidot" [ref=e33]
+    - list
+      - listitem [level=1]
+        - link "Logo Linkedin." [ref=e27]
+      - listitem [level=1]
+        - link "Logo Youtube." [ref=e28]
