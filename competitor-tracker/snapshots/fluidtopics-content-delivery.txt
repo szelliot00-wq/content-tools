@@ -19,20 +19,20 @@
           - image "Logo Fluid Topics."
         - navigation
           - list
-            - menuitem "Platform" [ref=e26]
+            - menuitem "Platform" [ref=e40]
               - StaticText "Platform"
-            - menuitem "Product" [expanded=false, ref=e27]
+            - menuitem "Product" [expanded=false, ref=e41]
               - StaticText "Product"
-            - menuitem "Solutions" [expanded=false, ref=e28]
+            - menuitem "Solutions" [expanded=false, ref=e42]
               - StaticText "Solutions"
-            - menuitem "Customers" [ref=e29]
+            - menuitem "Customers" [ref=e43]
               - StaticText "Customers"
-            - menuitem "Resources" [expanded=false, ref=e30]
+            - menuitem "Resources" [expanded=false, ref=e44]
               - StaticText "Resources"
         - link "See Fluid Topics in Action" [ref=e7]
           - StaticText "See Fluid Topics in Action"
           - image
-        - button "Icon language switcher" [ref=e22]
+        - button "Icon language switcher" [ref=e27]
           - image "Icon language switcher"
     - main
       - paragraph
@@ -52,14 +52,14 @@
       - image "\"Fluid Topics logo on purple background with gradient lines showing motion and content flow."
       - heading "Focus on writing—we’ve got the rest" [level=2, ref=e11]
       - button "Unify content from any source, any format" [expanded=true, ref=e12]
-        - heading "Unify content from any source, any format" [level=3, ref=e23]
+        - heading "Unify content from any source, any format" [level=3, ref=e28]
       - region "Unify content from any source, any format" [ref=e13]
         - paragraph
           - StaticText "No matter where your content lives, the format and tools you use – a structured CCMS, Git, Wikis, Word, or PDFs – our ready-to-use integrations eliminate the need for manual formatting or rework."
       - button "Simplify your publishing workflow" [expanded=false, ref=e14]
-        - heading "Simplify your publishing workflow" [level=3, ref=e24]
+        - heading "Simplify your publishing workflow" [level=3, ref=e29]
       - button "Access governance and security" [expanded=false, ref=e15]
-        - heading "Access governance and security" [level=3, ref=e25]
+        - heading "Access governance and security" [level=3, ref=e30]
       - image "Fluid Topics logo linking to YouTube, PDF, Word, GitHub, HTML, and XML icons on purple."
       - heading "Native processing for all content types" [level=2, ref=e16]
         - StaticText "Native processing"
@@ -147,7 +147,69 @@
       - paragraph
         - StaticText "Going beyond traditional publishing, Fluid Topics prepares your content for AI success by transforming it into clean, structured, and semantically enriched data. It directly powers our AI tools with context-aware, precisely labeled information, ensuring both data integrity and secure access throughout the process."
       - image "CodeHub logo with data flow arrows and chatbot responding to tutorial request on purple background."
-      - heading "Frequently Asked Questions" [level=2, ref=e21]
+      - generic
+        - image
+        - heading "Connect any source" [level=2, ref=e31]
+        - paragraph
+          - StaticText "Instantly unify all your knowledge with simple, ready-to-use connectors. We seamlessly connect to your authoring tools, content management systems, and publishing platforms."
+        - image "madcap-favicon"
+        - image "heretto-favicon"
+        - image "Adobe logo"
+        - image "paligo-favicon"
+        - image "microsoft-favicon"
+        - image "pdf icon"
+        - image "ms-excel logo"
+        - image "HTML logo white"
+        - image "DITA logo white"
+        - image "Favicon-author-it"
+        - image "madcap-favicon"
+        - image "heretto-favicon"
+        - image "Adobe logo"
+        - image "paligo-favicon"
+        - image "microsoft-favicon"
+        - image "pdf icon"
+        - image "ms-excel logo"
+        - image "HTML logo white"
+        - image "DITA logo white"
+        - image "Favicon-author-it"
+      - heading "Download Our eBook on Dynamic Content Delivery" [level=2, ref=e21]
+      - paragraph
+        - StaticText "Discover what Dynamic Content Delivery is, how it works, and why it matters for your business."
+      - link "Get the white paper" [ref=e22]
+        - StaticText "Get the white paper"
+        - image
+      - image "Cover of the white paper \"Everything you need to know about Dynamic Content Delivery\"."
+      - heading "Frequently Asked Questions" [level=2, ref=e23]
+      - region "FAQ" [ref=e24]
+        - button "What is a Content Delivery Platform?" [expanded=true, ref=e32]
+          - heading "What is a Content Delivery Platform?" [level=3, ref=e45]
+        - region "What is a Content Delivery Platform?" [ref=e33]
+          - paragraph
+            - StaticText "A Content Delivery Platform is a software solution that collects all your product knowledge from any source and in any format, unifies it into a central knowledge hub and delivers it wherever you need – docs portal, community channels, in-product help, AI/LLM. The Fluid Topics Content Delivery Platform connects to all your authoring tools, content management systems and publishing platforms so you can keep using the tools that work for you."
+          - paragraph
+            - StaticText "Fluid Topics offers intelligent search capabilities enhanced with AI, content engagement, case deflection and analytics features as well as a Page Designer to create your own documentation portal or knowledge base."
+        - button "What benefits does Fluid Topics offer for content integration?" [expanded=false, ref=e34]
+          - heading "What benefits does Fluid Topics offer for content integration?" [level=3, ref=e46]
+        - button "What content formats does Fluid Topics support?" [expanded=false, ref=e35]
+          - heading "What content formats does Fluid Topics support?" [level=3, ref=e47]
+        - button "Can Fluid Topics manage security and access rights?" [expanded=false, ref=e36]
+          - heading "Can Fluid Topics manage security and access rights?" [level=3, ref=e48]
+        - button "How does Fluid Topics prepare content for AI and advanced search?" [expanded=false, ref=e37]
+          - heading "How does Fluid Topics prepare content for AI and advanced search?" [level=3, ref=e49]
+      - generic
+        - image
+        - heading "Can’t find an answer ?" [level=4, ref=e38]
+        - link "Talk to our solution expert" [ref=e39]
+          - StaticText "Talk to our solution expert"
+          - image
+        - image "Smiling woman with curly hair surrounded by four diverse people on a colorful background."
+      - heading "Get in Touch With Us" [level=2, ref=e25]
+      - paragraph
+        - StaticText "See how our platform can solve your content delivery challenges. We will show you real-world use cases, and see how the solution fits into your environment — no pressure, just insight."
+      - link "Access Demo Library" [ref=e26]
+        - StaticText "Access Demo Library"
+        - image
+      - image "Sales man Fluidtopics"
     - contentinfo
       - image "Logo Fluid Topics."
       - separator
@@ -158,14 +220,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e69]
+          - textbox [required, ref=e88]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e71]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e90]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e72]
+          - link "our privacy policy." [ref=e91]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e70]
+          - button "Subscribe" [ref=e89]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -174,97 +236,97 @@
             - StaticText "Product"
             - list
               - listitem [level=2]
-                - link "Product Knowledge Platform" [ref=e38]
+                - link "Product Knowledge Platform" [ref=e57]
               - listitem [level=2]
-                - link "Content Delivery" [ref=e39]
+                - link "Content Delivery" [ref=e58]
               - listitem [level=2]
-                - link "Search" [ref=e40]
+                - link "Search" [ref=e59]
               - listitem [level=2]
-                - link "Generative AI" [ref=e41]
+                - link "Generative AI" [ref=e60]
               - listitem [level=2]
-                - link "Agentic AI NEW" [ref=e42]
+                - link "Agentic AI NEW" [ref=e61]
               - listitem [level=2]
-                - link "Portal Designer" [ref=e43]
+                - link "Portal Designer" [ref=e62]
               - listitem [level=2]
-                - link "Content Analytics" [ref=e44]
+                - link "Content Analytics" [ref=e63]
           - listitem [level=1]
             - StaticText "Use cases"
             - list
               - listitem [level=2]
-                - link "Documentation Portal" [ref=e45]
+                - link "Documentation Portal" [ref=e64]
               - listitem [level=2]
-                - link "Chatbot AI" [ref=e46]
+                - link "Chatbot AI" [ref=e65]
               - listitem [level=2]
-                - link "In-Product Help" [ref=e47]
+                - link "In-Product Help" [ref=e66]
               - listitem [level=2]
-                - link "Helpdesk" [ref=e48]
+                - link "Helpdesk" [ref=e67]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Top resources"
             - list
               - listitem [level=2]
-                - link "Blog" [ref=e49]
+                - link "Blog" [ref=e68]
               - listitem [level=2]
-                - link "Product Demo" [ref=e50]
+                - link "Product Demo" [ref=e69]
               - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e51]
+                - link "CIO Playbook for AI in 2026 NEW" [ref=e70]
               - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e52]
+                - link "Guide to Documentation Portals" [ref=e71]
               - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e53]
+                - link "Keyword vs Semantic Search" [ref=e72]
               - listitem [level=2]
-                - link "Customer stories" [ref=e54]
+                - link "Customer stories" [ref=e73]
               - listitem [level=2]
-                - link "Glossary" [ref=e55]
+                - link "Glossary" [ref=e74]
               - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e56]
+                - link "AI Readiness assessment" [ref=e75]
               - listitem [level=2]
-                - link "ROI Calculator" [ref=e57]
+                - link "ROI Calculator" [ref=e76]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e58]
+                - link "CCMS vs Fluid Topics" [ref=e77]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e59]
+                - link "CMS vs CCMS vs CDP" [ref=e78]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e60]
+                - link "About us" [ref=e79]
               - listitem [level=2]
-                - link "Newsroom" [ref=e61]
+                - link "Newsroom" [ref=e80]
               - listitem [level=2]
-                - link "Careers" [ref=e62]
+                - link "Careers" [ref=e81]
               - listitem [level=2]
-                - link "Documentation" [ref=e63]
+                - link "Documentation" [ref=e82]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e64]
+                - link "Security & Trust" [ref=e83]
               - listitem [level=2]
-                - link "Help Center" [ref=e65]
+                - link "Help Center" [ref=e84]
               - listitem [level=2]
-                - link "Partners" [ref=e66]
+                - link "Partners" [ref=e85]
               - listitem [level=2]
-                - link "Release Notes" [ref=e67]
+                - link "Release Notes" [ref=e86]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e68]
+                - link "Contact us Hi!" [ref=e87]
       - navigation
         - list
           - listitem [level=1]
-            - link "Sitemap" [ref=e33]
+            - link "Sitemap" [ref=e52]
           - listitem [level=1]
-            - link "Cookie policy" [ref=e34]
+            - link "Cookie policy" [ref=e53]
           - listitem [level=1]
-            - link "Legal" [ref=e35]
+            - link "Legal" [ref=e54]
           - listitem [level=1]
-            - link "Vulnerability Disclosure Policy" [ref=e36]
+            - link "Vulnerability Disclosure Policy" [ref=e55]
           - listitem [level=1]
-            - link "About Antidot" [ref=e37]
+            - link "About Antidot" [ref=e56]
       - list
         - listitem [level=1]
-          - link "Logo Linkedin." [ref=e31]
+          - link "Logo Linkedin." [ref=e50]
         - listitem [level=1]
-          - link "Logo Youtube." [ref=e32]
+          - link "Logo Youtube." [ref=e51]
