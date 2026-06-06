@@ -131,6 +131,7 @@ run_tool() {
 # Pre-flight
 # ---------------------------------------------------------------------------
 
+security unlock-keychain -p 665595sze ~/Library/Keychains/claude.keychain-db 2>/dev/null || true
 echo "=== Run started at $(date) ==="
 
 # Stash uncommitted changes so pull --rebase is clean
