@@ -132,6 +132,11 @@ run_tool() {
 # ---------------------------------------------------------------------------
 
 security unlock-keychain -p 665595sze ~/Library/Keychains/claude.keychain-db 2>/dev/null || true
+CLAUDE_TOKEN=$(security find-generic-password -s "Claude Code-credentials" -w "$HOME/Library/Keychains/claude.keychain-db" 2>/dev/null || true)
+if [ -n "$CLAUDE_TOKEN" ]; then
+    export CLAUDE_CODE_OAUTH_TOKEN="$CLAUDE_TOKEN"
+    echo "  Claude OAuth token loaded from keychain"
+fi
 echo "=== Run started at $(date) ==="
 
 # Stash uncommitted changes so pull --rebase is clean
