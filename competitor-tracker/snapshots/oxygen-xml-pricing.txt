@@ -1,1 +1,585 @@
-(empty page)
+- generic
+  - navigation
+    - link "Oxygen XML Editor" [ref=e15]
+      - image "Oxygen"
+      - StaticText "XML Editor"
+    - generic
+      - list
+        - listitem [level=1]
+          - link "Products" [ref=e78]
+        - listitem [level=1]
+          - link "Shop" [ref=e79]
+        - listitem [level=1]
+          - link "Resources" [ref=e80]
+        - listitem [level=1]
+          - link "Support" [ref=e81]
+        - listitem [level=1]
+          - link "Company" [ref=e82]
+        - listitem [level=1]
+          - generic
+            - generic [ref=e212] clickable [cursor:pointer]
+        - listitem [level=1]
+          - link "Login" [ref=e213]
+          - generic [ref=e214] clickable [cursor:pointer]
+            - link "" [ref=e215]
+  - generic
+    - heading "Shop" [level=1, ref=e22]
+    - list
+      - listitem [level=1]
+        - link "Companies & Organisations" [ref=e83]
+      - listitem [level=1]
+        - link "Teaching & Research" [ref=e84]
+      - listitem [level=1]
+        - link "Individuals" [ref=e85]
+- generic
+  - generic
+    - heading "Products:" [level=3, ref=e16]
+    - list
+      - listitem [level=1]
+        - StaticText "Oxygen XML Editor"
+      - listitem [level=1]
+        - StaticText "Oxygen XML Developer"
+      - listitem [level=1]
+        - StaticText "Oxygen XML Author"
+      - listitem [level=1]
+        - StaticText "Oxygen JSON Editor"
+      - listitem [level=1]
+        - StaticText "Oxygen XML Web Author"
+      - listitem [level=1]
+        - StaticText "Oxygen Content Fusion"
+      - listitem [level=1]
+        - StaticText "Oxygen Feedback"
+      - listitem [level=1]
+        - StaticText "Oxygen AI Positron"
+      - listitem [level=1]
+        - StaticText "Oxygen Publishing Engine"
+      - listitem [level=1]
+        - StaticText "Oxygen WebHelp"
+      - listitem [level=1]
+        - StaticText "Oxygen PDF Chemistry"
+      - listitem [level=1]
+        - StaticText "Oxygen Scripting"
+  - button "☰" [ref=e1]
+  - StaticText "Business License"
+  - paragraph
+    - StaticText "Business licenses are available to legal entities, including companies and organizations (both for-profit and non-profit), which require the software for general commercial use."
+  - generic
+    - link "New Licenses" [ref=e17]
+      - StaticText "New Licenses"
+    - link "Upgrades" [ref=e18]
+      - StaticText "Upgrades"
+    - link "SMP Renewals" [ref=e19]
+      - StaticText "SMP Renewals"
+  - generic
+    - StaticText "New Licenses"
+    - generic
+      - generic
+        - link "Oxygen XML Editor" [ref=e86]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e87]
+      - generic
+        - StaticText "User-based"
+        - link "" [ref=e67]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€1,465"
+      - generic [ref=e88] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e89]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€1,678"
+      - generic [ref=e90] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e91]
+      - StaticText "12-month Subscription"
+      - StaticText "€53/month"
+      - StaticText "billed annually"
+      - generic [ref=e92] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e93]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€942"
+      - generic [ref=e94] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e95]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€1,080"
+      - generic [ref=e96] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e97]
+      - StaticText "12-month Subscription"
+      - StaticText "€34/month"
+      - StaticText "billed annually"
+      - generic [ref=e98] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e99]
+      - generic
+        - StaticText "Floating"
+        - link "" [ref=e68]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€4,397"
+      - generic [ref=e100] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e101]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€5,037"
+      - generic [ref=e102] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e103]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€2,827"
+      - generic [ref=e104] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e105]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€3,240"
+      - generic [ref=e106] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e107]
+      - generic
+        - link "Oxygen XML Developer" [ref=e108]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e109]
+      - generic
+        - StaticText "User-based"
+        - link "" [ref=e69]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€647"
+      - generic [ref=e110] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e111]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€745"
+      - generic [ref=e112] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e113]
+      - StaticText "12-month Subscription"
+      - StaticText "€23/month"
+      - StaticText "billed annually"
+      - generic [ref=e114] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e115]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€458"
+      - generic [ref=e116] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e117]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€528"
+      - generic [ref=e118] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e119]
+      - StaticText "12-month Subscription"
+      - StaticText "€16/month"
+      - StaticText "billed annually"
+      - generic [ref=e120] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e121]
+      - generic
+        - StaticText "Floating"
+        - link "" [ref=e70]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€1,940"
+      - generic [ref=e122] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e123]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€2,235"
+      - generic [ref=e124] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e125]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€1,371"
+      - generic [ref=e126] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e127]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€1,579"
+      - generic [ref=e128] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e129]
+      - generic
+        - link "Oxygen XML Author" [ref=e130]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e131]
+      - generic
+        - StaticText "User-based"
+        - link "" [ref=e71]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€1,144"
+      - generic [ref=e132] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e133]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€1,305"
+      - generic [ref=e134] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e135]
+      - StaticText "12-month Subscription"
+      - StaticText "€41/month"
+      - StaticText "billed annually"
+      - generic [ref=e136] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e137]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€775"
+      - generic [ref=e138] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e139]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€886"
+      - generic [ref=e140] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e141]
+      - StaticText "12-month Subscription"
+      - StaticText "€28/month"
+      - StaticText "billed annually"
+      - generic [ref=e142] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e143]
+      - generic
+        - StaticText "Floating"
+        - link "" [ref=e72]
+      - paragraph
+        - StaticText "Enterprise (AI-Ready)"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€3,433"
+      - generic [ref=e144] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e145]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€3,917"
+      - generic [ref=e146] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e147]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "€2,321"
+      - generic [ref=e148] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e149]
+      - StaticText "License & 2-year SMP"
+      - StaticText "€2,649"
+      - generic [ref=e150] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e151]
+      - generic
+        - link "Oxygen JSON Editor" [ref=e152]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e153]
+      - generic
+        - StaticText "User-based"
+        - link "" [ref=e73]
+      - StaticText "12-month Subscription"
+      - StaticText "€7/month"
+      - StaticText "billed annually"
+      - generic [ref=e154] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e155]
+      - generic
+        - link "Oxygen XML Web Author" [ref=e156]
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e157]
+        - paragraph
+          - link "here" [ref=e158]
+      - generic
+        - link "Oxygen Content Fusion" [ref=e159]
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e160]
+        - paragraph
+          - link "Oxygen Content Fusion page" [ref=e161]
+      - generic
+        - link "Oxygen Feedback" [ref=e162]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e163]
+      - generic
+        - image "Feedback Cloud"
+        - StaticText " "
+        - link "Cloud" [ref=e74]
+      - paragraph
+        - StaticText "This product offers a cloud-based (SaaS) edition of the Oxygen Feedback commenting platform that is hosted, set up, and maintained on Oxygen servers. The Cloud edition features a very fast start-up process, no software installation is required, and you always have access to the latest version of the software. For more details, visit the Oxygen Feedback Cloud "
+        - link "page" [ref=e75]
+      - generic
+        - image "Feedback Enterprise"
+        - link "Enterprise" [ref=e76]
+      - paragraph
+        - link "Read the End User License Agreement" [ref=e77]
+      - paragraph
+        - StaticText "This product offers a self-managed edition of the Oxygen Feedback commenting platform that allows you to install the platform software on your own servers for better control over the data. The Enterprise edition also provides the ability to connect to an LDAP directory for authentication."
+      - StaticText "Starter AI (AI-ready)"
+      - StaticText "€350/month"
+      - StaticText "billed annually"
+      - generic [ref=e164] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e165]
+      - StaticText "Team AI (AI-ready)"
+      - StaticText "€630/month"
+      - StaticText "billed annually"
+      - generic [ref=e166] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e167]
+      - StaticText "Business AI (AI-ready)"
+      - StaticText "€1,890/month"
+      - StaticText "billed annually"
+      - generic [ref=e168] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e169]
+      - StaticText "Corporate AI (AI-ready)"
+      - StaticText "Ask"
+      - StaticText "Add to cart"
+      - link "read more" [ref=e170]
+      - generic
+        - link "Oxygen AI Positron" [ref=e171]
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e172]
+        - paragraph
+          - link "Oxygen AI Positron page" [ref=e173]
+      - generic
+        - link "Oxygen Publishing Engine" [ref=e174]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e175]
+      - paragraph
+        - StaticText "Enterprise"
+      - StaticText "License & 1-year SMP"
+      - StaticText "2 Core"
+      - StaticText "€6,159"
+      - generic [ref=e176] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e177]
+      - StaticText "License & 1-year SMP"
+      - StaticText "4 Core"
+      - StaticText "€10,265"
+      - generic [ref=e178] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e179]
+      - StaticText "License & 1-year SMP"
+      - StaticText "8 Core"
+      - StaticText "€15,397"
+      - generic [ref=e180] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e181]
+      - paragraph
+        - StaticText "Professional"
+      - StaticText "License & 1-year SMP"
+      - StaticText "2 Core"
+      - StaticText "€4,737"
+      - generic [ref=e182] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e183]
+      - StaticText "License & 1-year SMP"
+      - StaticText "4 Core"
+      - StaticText "€7,896"
+      - generic [ref=e184] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e185]
+      - StaticText "License & 1-year SMP"
+      - StaticText "8 Core"
+      - StaticText "€11,844"
+      - generic [ref=e186] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e187]
+      - generic
+        - link "Oxygen XML WebHelp" [ref=e188]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e189]
+      - paragraph
+        - StaticText "Enterprise"
+      - StaticText "License & 1-year SMP"
+      - StaticText "2 Core"
+      - StaticText "€3,543"
+      - generic [ref=e190] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e191]
+      - StaticText "License & 1-year SMP"
+      - StaticText "4 Core"
+      - StaticText "€5,905"
+      - generic [ref=e192] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e193]
+      - StaticText "License & 1-year SMP"
+      - StaticText "8 Core"
+      - StaticText "€8,857"
+      - generic [ref=e194] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e195]
+      - generic
+        - link "Oxygen PDF Chemistry" [ref=e196]
+        - paragraph
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e197]
+      - paragraph
+        - StaticText "Enterprise"
+      - StaticText "License & 1-year SMP"
+      - StaticText "2 Core"
+      - StaticText "€2,538"
+      - generic [ref=e198] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e199]
+      - StaticText "License & 1-year SMP"
+      - StaticText "4 Core"
+      - StaticText "€4,230"
+      - generic [ref=e200] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e201]
+      - StaticText "License & 1-year SMP"
+      - StaticText "8 Core"
+      - StaticText "€6,345"
+      - generic [ref=e202] clickable [cursor:pointer]
+        - StaticText "Add to cart"
+      - link "read more" [ref=e203]
+      - generic
+        - link "Oxygen Scripting" [ref=e204]
+        - paragraph
+          - StaticText "You're a developer who uses automated scripts. You need to do any of the following things using command line scripts, outside of Oxygen: (1) Automate the production of XML Schema documentation, XSLT Schema Documentation, or WSDL Schema Documentation, (2) Flatten an XML Schema, (3) Generate XML instances from XML Schemas, (4) Perform a validate and check for completeness operation on an entire DITA Map."
+        - paragraph
+          - link "Read the End User License Agreement" [ref=e205]
+      - generic [ref=e206] clickable [cursor:pointer]
+      - link "read more" [ref=e207]
+      - generic [ref=e208] clickable [cursor:pointer]
+      - link "read more" [ref=e209]
+      - generic [ref=e210] clickable [cursor:pointer]
+      - link "read more" [ref=e211]
+- generic
+  - heading "PRODUCTS" [level=3, ref=e2]
+  - list
+    - listitem [level=1]
+      - link "XML Editor" [ref=e23]
+    - listitem [level=1]
+      - link "XML Developer" [ref=e24]
+    - listitem [level=1]
+      - link "XML Author" [ref=e25]
+    - listitem [level=1]
+      - link "XML Web Author" [ref=e26]
+    - listitem [level=1]
+      - link "Content Fusion" [ref=e27]
+    - listitem [level=1]
+      - link "Publishing Engine" [ref=e28]
+    - listitem [level=1]
+      - link "WebHelp" [ref=e29]
+    - listitem [level=1]
+      - link "PDF Chemistry" [ref=e30]
+    - listitem [level=1]
+      - link "Feedback" [ref=e31]
+    - listitem [level=1]
+      - link "Oxygen Scripting" [ref=e32]
+- generic
+  - heading "FEATURES" [level=3, ref=e3]
+  - list
+    - listitem [level=1]
+      - link "WYSIWYG Editors" [ref=e33]
+    - listitem [level=1]
+      - link "Schema Editor" [ref=e34]
+    - listitem [level=1]
+      - link "WSDL Editor" [ref=e35]
+    - listitem [level=1]
+      - link "XSLT Editor" [ref=e36]
+    - listitem [level=1]
+      - link "XQuery" [ref=e37]
+    - listitem [level=1]
+      - link "XSD Documentation" [ref=e38]
+    - listitem [level=1]
+      - link "XML Databases" [ref=e39]
+    - listitem [level=1]
+      - link "SVN Client" [ref=e40]
+    - listitem [level=1]
+      - link "EPUB Editor" [ref=e41]
+    - listitem [level=1]
+      - link "DITA Editor" [ref=e42]
+    - listitem [level=1]
+      - link "JSON Editor" [ref=e43]
+- generic
+  - heading "SHOP" [level=3, ref=e4]
+  - list
+    - listitem [level=1]
+      - link "Buy Now" [ref=e44]
+    - listitem [level=1]
+      - link "Sales FAQ" [ref=e45]
+    - listitem [level=1]
+      - link "Resellers" [ref=e46]
+- generic
+  - heading "RESOURCES" [level=3, ref=e5]
+  - list
+    - listitem [level=1]
+      - link "Documentation" [ref=e47]
+    - listitem [level=1]
+      - link "Videos" [ref=e48]
+    - listitem [level=1]
+      - link "Add-ons" [ref=e49]
+    - listitem [level=1]
+      - link "Spell Checking" [ref=e50]
+- generic
+  - heading "SUPPORT" [level=3, ref=e6]
+  - list
+    - listitem [level=1]
+      - link "Support" [ref=e51]
+    - listitem [level=1]
+      - link "Forum" [ref=e52]
+    - listitem [level=1]
+      - link "Mailing Lists" [ref=e53]
+    - listitem [level=1]
+      - link "Contact Us" [ref=e54]
+- generic
+  - heading "COMPANY" [level=3, ref=e7]
+  - list
+    - listitem [level=1]
+      - link "About Us" [ref=e55]
+    - listitem [level=1]
+      - link "Events Programme" [ref=e56]
+    - listitem [level=1]
+      - link "Partners" [ref=e57]
+    - listitem [level=1]
+      - link "Case Studies" [ref=e58]
+    - listitem [level=1]
+      - link "Quotes" [ref=e59]
+    - listitem [level=1]
+      - link "Press Room" [ref=e60]
+    - listitem [level=1]
+      - link "Careers" [ref=e61]
+    - listitem [level=1]
+      - link "Legal" [ref=e62]
+- generic
+  - link "Oxygen XML on Facebook" [ref=e8]
+  - link "Follow Oxygen XML on Twitter" [ref=e9]
+  - link "Oxygen XML Web Feed" [ref=e10]
+  - link "Oxygen XML Blog" [ref=e11]
+  - link "Oxygen XML Youtube Channel" [ref=e12]
+  - link "Oxygen XML Reddit" [ref=e13]
+  - link "Oxygen XML Bluesky" [ref=e14]
+- generic
+  - StaticText "© 2002-2026 Syncro Soft SRL. All rights reserved."
+  - generic
+    - link "Sitemap" [ref=e63]
+    - link "Terms of Use" [ref=e64]
+    - link "Privacy Policy" [ref=e65]
+  - paragraph
+    - link "XML Editor" [ref=e66]
+- generic
+  - link " Find out more about cookies." [ref=e20]
+  - generic [ref=e21] clickable [cursor:pointer]
