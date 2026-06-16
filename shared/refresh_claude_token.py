@@ -8,10 +8,18 @@ All log/error output goes to stderr so it doesn't pollute the token value.
 """
 from __future__ import annotations
 
-import json
 import os
-import subprocess
 import sys
+
+# shared/email.py shadows stdlib email (used by urllib.request) when this script
+# is invoked directly from inside the shared/ directory. Remove shared/ from
+# sys.path before any other imports so stdlib modules resolve correctly.
+_here = os.path.dirname(os.path.abspath(__file__))
+if _here in sys.path:
+    sys.path.remove(_here)
+
+import json
+import subprocess
 import time
 import urllib.error
 import urllib.request
