@@ -132,10 +132,12 @@ run_tool() {
 # ---------------------------------------------------------------------------
 
 security unlock-keychain -p 665595sze ~/Library/Keychains/claude.keychain-db 2>/dev/null || true
-CLAUDE_TOKEN=$(security find-generic-password -s "Claude Code-credentials" -w "$HOME/Library/Keychains/claude.keychain-db" 2>/dev/null || true)
+# Refresh the OAuth token if it expires within 30 min, then inject it.
+# Access tokens live 8 hours; this keeps the daemon from ever seeing a stale one.
+CLAUDE_TOKEN=$("$PYTHON" "$REPO/shared/refresh_claude_token.py" 2>/dev/null || true)
 if [ -n "$CLAUDE_TOKEN" ]; then
     export CLAUDE_CODE_OAUTH_TOKEN="$CLAUDE_TOKEN"
-    echo "  Claude OAuth token loaded from keychain"
+    echo "  Claude OAuth token loaded (refreshed if needed)"
 fi
 echo "=== Run started at $(date) ==="
 
