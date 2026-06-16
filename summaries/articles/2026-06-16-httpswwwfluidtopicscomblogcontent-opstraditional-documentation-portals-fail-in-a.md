@@ -2,13 +2,9 @@
 
 Source: https://www.fluidtopics.com/blog/content-ops/traditional-documentation-portals-fail-in-ai-era/
 
-## Summary
-Traditional documentation portals are struggling to meet user needs despite significant investment from technical writers in creating and maintaining content. The article, published by Fluid Topics, argues that user expectations have shifted in the AI era, creating a gap between how documentation is produced and how users want to consume it. It positions technical writers as key players in bridging this divide.
+The content you've shared is only a short teaser excerpt, not the full article — it contains just a few promotional sentences without the actual argument, evidence, or recommendations from the piece.
 
-## Key takeaways
-- High effort in documentation creation does not guarantee users can find what they need.
-- User expectations around information retrieval have fundamentally changed with the rise of AI.
-- Traditional portal structures are no longer aligned with how users search for and interact with content.
-- Technical writers need to adapt their strategies and tooling to remain effective in an AI-driven landscape.
+To give you an accurate summary and real key takeaways, I'd need the full article text. You could:
 
-**Note:** The content provided is a short excerpt/teaser, not the full article. These takeaways are inferred from the preview text. For a more detailed summary, the full article would be needed.
+1. **Paste the full article body** directly into the chat.
+2. **Share the URL** if it's publicly accessible and you'd like me to fetch it.
