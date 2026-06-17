@@ -10,545 +10,378 @@
           - StaticText " | Change the way you take care of your brand"
         - link "Get started" [ref=e3]
       - navigation
-        - button [ref=e12]
+        - button [ref=e11]
           - image
-        - button "Tridion" [ref=e13]
+        - button "Tridion" [ref=e12]
           - StaticText "Tridion"
         - list
-          - listitem [level=1, ref=e24] clickable [cursor:pointer]
-            - button "Find a solution" [expanded=false, ref=e65]
-              - StaticText "Find a solution"
-          - listitem [level=1, ref=e25] clickable [cursor:pointer]
-            - button "Resources & Events" [expanded=false, ref=e66]
-              - StaticText "Resources & Events"
-          - listitem [level=1, ref=e26] clickable [cursor:pointer]
-            - button "Case Studies" [expanded=false, ref=e67]
-              - StaticText "Case Studies"
-          - listitem [level=1, ref=e27] clickable [cursor:pointer]
-            - button "Service & Support" [expanded=false, ref=e68]
-              - StaticText "Service & Support"
+          - listitem [level=1, ref=e33] clickable [cursor:pointer]
+            - button "Find a solution" [expanded=false, ref=e86]
+          - listitem [level=1, ref=e34] clickable [cursor:pointer]
+            - button "Resources & Events" [expanded=false, ref=e87]
+          - listitem [level=1, ref=e35] clickable [cursor:pointer]
+            - button "Case Studies" [expanded=false, ref=e88]
+          - listitem [level=1, ref=e36] clickable [cursor:pointer]
+            - button "Service & Support" [expanded=false, ref=e89]
         - list
-          - listitem [level=1, ref=e28] clickable [cursor:pointer]
-            - button "Search" [expanded=false, ref=e69]
-          - listitem [level=1, ref=e29] clickable [cursor:pointer]
-            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e70]
-              - StaticText "EN"
-          - listitem [level=1, ref=e30] clickable [cursor:pointer]
-            - link "Get in touch" [ref=e71]
-              - StaticText "Get in touch"
+          - listitem [level=1, ref=e37] clickable [cursor:pointer]
+            - button "Search" [expanded=false, ref=e90]
+          - listitem [level=1, ref=e38] clickable [cursor:pointer]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e91]
+          - listitem [level=1, ref=e39] clickable [cursor:pointer]
+            - link "Get in touch" [ref=e92]
     - main
       - generic
-        - heading "Tridion Sites – One CMS for all your web needs" [level=1, ref=e31]
-          - StaticText "Tridion Sites – One CMS for all your web needs"
-        - paragraph
-          - StaticText "Global website management made easy."
-        - paragraph
-          - StaticText "Start with a single language and single website and then scale as your business grows - adding more websites and languages as needed."
+        - heading "What’s new in Tridion Docs 15" [level=1, ref=e40]
+          - StaticText "What’s new in Tridion Docs 15"
+        - StaticText "Tridion Docs 15 introduces an entire set of all-new features bringing you industry-leading AI-based enhancements and productivity improvements to make the lives of content consumers, content authors, translation coordinators, information architects and admins easier."
       - generic
-        - heading "Web Content Management reimagined" [level=2, ref=e32]
-          - StaticText "Web Content Management reimagined"
-        - paragraph
-          - StaticText "Tridion has been designed to uniquely support your business journey from start-up-stage to being a large multinational enterprise."
-        - paragraph
-          - StaticText "Once you start with Tridion, you will never outgrow your CMS."
-        - link "Download brochure" [ref=e33]
-          - StaticText "Download brochure"
         - generic "Video Player"
           - Video
-          - generic [ref=e72] clickable [cursor:pointer]
-          - button "Play Video" [ref=e73]
+          - generic [ref=e93] clickable [cursor:pointer]
+          - button "Play Video" [ref=e94]
             - StaticText "Play Video"
+        - StaticText "INTRODUCING TRIDION DOCS 15.2"
+        - heading "The best CCMS on the market just got even better" [level=2, ref=e41]
+          - StaticText "The best CCMS on the market just got even better"
+        - StaticText "Building on the success of version 15.1, our latest release – v15.2 – provides major advancements in AI-assisted authoring, guided navigation and trustable chat. Improved headless delivery makes it easier than ever to create rich, multichannel experiences for your customers and staff. Tridion Docs also introduces a new project management area for content authors, along with enhanced usability, productivity, security and performance, as well as powerful content reuse and productivity metrics."
+      - heading "Highlights of Tridion Docs 15" [level=2, ref=e106]
       - generic
         - generic
-        - heading "Tridion beyond boundaries" [level=2, ref=e34]
-          - StaticText "Tridion beyond boundaries"
-        - paragraph
-          - StaticText "Manage and deliver superb digital experiences across multiple channels - using traditional or headless publishing."
-        - paragraph
-          - StaticText "Easily and cost-effectively provide customers with content in their own language, choosing from a spectrum of options: machine translation, human-in-the-loop or fully expert translation services."
-      - generic
-        - paragraph
-          - StaticText "Tridion Sites demo"
-        - paragraph
-          - StaticText "Streamline your translation processes"
-        - link "Watch demo" [ref=e74]
-          - StaticText "Watch demo"
-      - heading "Customers that have grown with Tridion" [level=2, ref=e14]
-        - StaticText "Customers that have grown with Tridion"
-      - image "NH Hotel Group"
-      - image "KONE"
-      - image "Cambridge University Press"
-      - image "Jotun"
-      - image "Radisson Hotels"
-      - image "Starlux Airlines"
-      - image "Yale University"
-      - heading "Three easy steps" [level=2, ref=e15]
-        - StaticText "Three easy steps"
-      - heading "Adopt" [level=3, ref=e16]
-      - StaticText "Enjoy speedy onboarding and hassle free web operations through our full service offering. We host, manage and maintain your web environment (Tridion Essential Edition) and localization technology (Tridion Team Edition)."
-      - heading "Integrate" [level=3, ref=e17]
-      - StaticText "Quickly and easily integrate with your enterprise marketing tools such as CRM and marketing automation to help you craft effective customer journeys and generate more leads."
-      - heading "Deliver" [level=3, ref=e18]
-      - StaticText "Create, reuse, translate, and deliver engaging, accurate and rich personalized content across all your channels – websites , Single Page Applications (SPA), mobile, apps and more."
-      - generic [ref=e4] focusable [tabindex]
-        - heading "Compare Products" [level=2, ref=e19]
-          - StaticText "Compare Products"
-        - StaticText ""
-        - button "Tridion Sites Essential" [ref=e35]
-        - StaticText ""
-        - button "Tridion Sites Team" [ref=e36]
-        - StaticText ""
-        - button "Tridion Sites Enterprise" [ref=e37]
-        - table [ref=e20] focusable [tabindex]
-          - rowgroup
-            - row
-              - cell "Expand All" [ref=e78]
-                - button "Expand All" [expanded=false, ref=e90]
-              - columnheader "Tridion Sites Essential" [ref=e79]
-                - StaticText "Tridion Sites"
-                - StaticText "Essential"
-              - columnheader "Tridion Sites Team" [ref=e80]
-                - StaticText "Tridion Sites"
-                - StaticText "Team"
-              - columnheader "Tridion Sites Enterprise" [ref=e81]
-                - StaticText "Tridion Sites"
-                - StaticText "Enterprise"
-            - row
-              - cell
-              - cell "Contact" [ref=e82]
-                - link "Contact" [ref=e91]
-              - cell "Contact" [ref=e83]
-                - link "Contact" [ref=e92]
-              - cell "Contact" [ref=e84]
-                - link "Contact" [ref=e93]
-          - rowgroup
-            - rowheader "Web Content Management " [ref=e75]
-              - button "Web Content Management " [expanded=true, ref=e85]
-                - cell "Web Content Management" [ref=e94]
-                - StaticText ""
-            - rowgroup
-              - row
-                - rowheader "# Users" [ref=e95]
-                - cell "Included = 10 Max = 25" [ref=e96]
-                - cell "Included = 10 Max = 25" [ref=e97]
-                - cell "Included = 25 Max = Unlimited" [ref=e98]
-              - row
-                - rowheader "Explore, manage, and publish content" [ref=e99]
-                - cell "Yes" [ref=e100]
-                - cell "Yes" [ref=e101]
-                - cell "Yes" [ref=e102]
-              - row
-                - rowheader "# Websites" [ref=e103]
-                - cell "Unlimited" [ref=e104]
-                - cell "Unlimited" [ref=e105]
-                - cell "Unlimited" [ref=e106]
-              - row
-                - rowheader "Single Sign On" [ref=e107]
-                - cell "Yes" [ref=e108]
-                - cell "Yes" [ref=e109]
-                - cell "Yes" [ref=e110]
-              - row
-                - rowheader "Add and manage page regions" [ref=e111]
-                - cell "No" [ref=e112]
-                - cell "No" [ref=e113]
-                - cell "Yes" [ref=e114]
-              - row
-                - rowheader "Instant Site: create new websites instantly" [ref=e115]
-                  - StaticText "Instant Site: create new websites instantly"
-                - cell "No" [ref=e116]
-                - cell "No" [ref=e117]
-                - cell "Yes" [ref=e118]
-              - row
-                - rowheader "Personalization and A/B testing" [ref=e119]
-                - cell "No" [ref=e120]
-                - cell "No" [ref=e121]
-                - cell "On-demand" [ref=e122]
-              - row
-                - rowheader "Semantic AI - auto-tagging and semantic search" [ref=e123]
-                - cell "No" [ref=e124]
-                - cell "No" [ref=e125]
-                - cell "Yes" [ref=e126]
-              - row
-                - rowheader "API based content access" [ref=e127]
-                - cell "Yes" [ref=e128]
-                - cell "Yes" [ref=e129]
-                - cell "Yes" [ref=e130]
-              - row
-                - rowheader "Max annual GraphQL queries" [ref=e131]
-                - cell "Included = 2.4M Max = 6M" [ref=e132]
-                - cell "Included = 2.4M Max = 6M" [ref=e133]
-                - cell "Unlimited" [ref=e134]
-              - row
-                - rowheader "Integrations to external systems" [ref=e135]
-                - cell "Included = 0 Max = 2" [ref=e136]
-                - cell "Included = 0 Max = 3" [ref=e137]
-                - cell "Included = 0 Max = unlimited" [ref=e138]
-              - row
-                - rowheader "Runs on sustainable energy" [ref=e139]
-                - cell "No" [ref=e140]
-                - cell "No" [ref=e141]
-                - cell "Yes" [ref=e142]
-          - rowgroup
-            - rowheader "Translation capabilities " [ref=e76]
-              - button "Translation capabilities " [expanded=false, ref=e86]
-                - cell "Translation capabilities" [ref=e143]
-          - rowgroup
-            - rowheader "Administration " [ref=e77]
-              - button "Administration " [expanded=false, ref=e87]
-                - cell "Administration" [ref=e144]
+          - heading "Intelligent content discovery" [level=3, ref=e134]
+          - paragraph
+            - StaticText "The Trustable Chat functionality and Hexahops that make up the new Tridion Docs Genius portal provide guided content experiences for your customers and internal teams to reach their goals faster."
       - generic
         - generic
-          - LabelText
-            - StaticText "First Name*"
-          - textbox "First Name*" [required, ref=e145]
+          - heading "Content reuse metrics" [level=3, ref=e135]
+          - StaticText "Content reuse reports can be generated and also exported to Business Intelligence (BI) tools to help content teams measure and improve content production efficiency and justify return on investment on Tridion Docs."
+      - generic
         - generic
-          - LabelText
-            - StaticText "Last Name*"
-          - textbox "Last Name*" [required, ref=e146]
+          - heading "User-friendly headless content" [level=3, ref=e136]
+          - StaticText "Smarter delivery capabilities enable you to create guided experiences for your customers and internal consumers of your content, while offering a more intuitive platform to work with for your front-end developers."
+      - generic
         - generic
-          - LabelText
-            - StaticText "Business E-mail*"
-          - textbox "Business E-mail*" [required, ref=e147]
+          - heading "Generative AI" [level=3, ref=e137]
+          - StaticText "As part of Draft Space, the new Draft Companion tool provides authors linguistic and editorial alternatives to their content, speeding up their work while leaving them in full control over how they change the draft."
+      - generic
         - generic
-          - LabelText
-            - StaticText "Company Name*"
-          - textbox "Company Name*" [required, ref=e148]
+          - heading "Greater usability and productivity" [level=3, ref=e138]
+          - StaticText "New UI/UX designs help users focus on their primary goals – finding and creating information and getting an overview of current projects and their statuses."
+      - generic
         - generic
-          - LabelText
-            - StaticText "Job Title*"
-          - textbox "Job Title*" [required, ref=e149]
-        - generic
-          - LabelText
-            - StaticText "Phone Number"
-          - textbox "Phone Number" [ref=e150]
-        - generic
-          - LabelText
-            - StaticText "Country or Region*"
-          - combobox "Country or Region*" [expanded=false, ref=e152]
-            - MenuListPopup
-              - option "Country or Region*" [disabled, ref=e153]
-              - option "Afghanistan" [ref=e154]
-              - option "Aland Islands" [ref=e155]
-              - option "Albania" [ref=e156]
-              - option "Algeria" [ref=e157]
-              - option "Andorra" [ref=e158]
-              - option "Angola" [ref=e159]
-              - option "Anguilla" [ref=e160]
-              - option "Antarctica" [ref=e161]
-              - option "Antigua and Barbuda" [ref=e162]
-              - option "Argentina" [ref=e163]
-              - option "Armenia" [ref=e164]
-              - option "Aruba" [ref=e165]
-              - option "Australia" [ref=e166]
-              - option "Austria" [ref=e167]
-              - option "Azerbaijan" [ref=e168]
-              - option "Bahamas" [ref=e169]
-              - option "Bahrain" [ref=e170]
-              - option "Bangladesh" [ref=e171]
-              - option "Barbados" [ref=e172]
-              - option "Belarus" [ref=e173]
-              - option "Belgium" [ref=e174]
-              - option "Belize" [ref=e175]
-              - option "Benin" [ref=e176]
-              - option "Bermuda" [ref=e177]
-              - option "Bhutan" [ref=e178]
-              - option "Bolivia" [ref=e179]
-              - option "Bonaire, Sint Eustatius and Saba" [ref=e180]
-              - option "Bosnia and Herzegovina" [ref=e181]
-              - option "Botswana" [ref=e182]
-              - option "Bouvet Island" [ref=e183]
-              - option "Brazil" [ref=e184]
-              - option "British Indian Ocean Territory" [ref=e185]
-              - option "Brunei Darussalam" [ref=e186]
-              - option "Bulgaria" [ref=e187]
-              - option "Burkina Faso" [ref=e188]
-              - option "Burundi" [ref=e189]
-              - option "Cambodia" [ref=e190]
-              - option "Cameroon" [ref=e191]
-              - option "Canada" [ref=e192]
-              - option "Canary Islands" [ref=e193]
-              - option "Cape Verde" [ref=e194]
-              - option "Cayman Islands" [ref=e195]
-              - option "Central African Republic" [ref=e196]
-              - option "Chad" [ref=e197]
-              - option "Chile" [ref=e198]
-              - option "China" [ref=e199]
-              - option "Christmas Island" [ref=e200]
-              - option "Cocos (Keeling) Islands" [ref=e201]
-              - option "Colombia" [ref=e202]
-              - option "Comoros" [ref=e203]
-              - option "Congo, the Democratic Republic of the" [ref=e204]
-              - option "Cook Islands" [ref=e205]
-              - option "Costa Rica" [ref=e206]
-              - option "Cote d'Ivoire" [ref=e207]
-              - option "Croatia" [ref=e208]
-              - option "Cuba" [ref=e209]
-              - option "Curaçao" [ref=e210]
-              - option "Cyprus" [ref=e211]
-              - option "Czech Republic" [ref=e212]
-              - option "Denmark" [ref=e213]
-              - option "Djibouti" [ref=e214]
-              - option "Dominica" [ref=e215]
-              - option "Dominican Republic" [ref=e216]
-              - option "Ecuador" [ref=e217]
-              - option "Egypt" [ref=e218]
-              - option "El Salvador" [ref=e219]
-              - option "Equatorial Guinea" [ref=e220]
-              - option "Eritrea" [ref=e221]
-              - option "Estonia" [ref=e222]
-              - option "Ethiopia" [ref=e223]
-              - option "Falkland Islands (Malvinas)" [ref=e224]
-              - option "Faroe Islands" [ref=e225]
-              - option "Fiji" [ref=e226]
-              - option "Finland" [ref=e227]
-              - option "France" [ref=e228]
-              - option "French Guiana" [ref=e229]
-              - option "French Polynesia" [ref=e230]
-              - option "French Southern Territories" [ref=e231]
-              - option "Gabon" [ref=e232]
-              - option "Gambia" [ref=e233]
-              - option "Georgia" [ref=e234]
-              - option "Germany" [ref=e235]
-              - option "Ghana" [ref=e236]
-              - option "Gibraltar" [ref=e237]
-              - option "Greece" [ref=e238]
-              - option "Greenland" [ref=e239]
-              - option "Grenada" [ref=e240]
-              - option "Guadeloupe" [ref=e241]
-              - option "Guam" [ref=e242]
-              - option "Guatemala" [ref=e243]
-              - option "Guernsey" [ref=e244]
-              - option "Guinea" [ref=e245]
-              - option "Guinea-Bissau" [ref=e246]
-              - option "Guyana" [ref=e247]
-              - option "Haiti" [ref=e248]
-              - option "Heard Island and McDonald Islands" [ref=e249]
-              - option "Holy See (Vatican City State)" [ref=e250]
-              - option "Honduras" [ref=e251]
-              - option "Hong Kong SAR" [ref=e252]
-              - option "Hungary" [ref=e253]
-              - option "Iceland" [ref=e254]
-              - option "India" [ref=e255]
-              - option "Indonesia" [ref=e256]
-              - option "Iran" [ref=e257]
-              - option "Iraq" [ref=e258]
-              - option "Ireland" [ref=e259]
-              - option "Isle of Man" [ref=e260]
-              - option "Israel" [ref=e261]
-              - option "Italy" [ref=e262]
-              - option "Jamaica" [ref=e263]
-              - option "Japan" [ref=e264]
-              - option "Jersey" [ref=e265]
-              - option "Jordan" [ref=e266]
-              - option "Kazakhstan" [ref=e267]
-              - option "Kenya" [ref=e268]
-              - option "Kiribati" [ref=e269]
-              - option "Kosovo" [ref=e270]
-              - option "Kuwait" [ref=e271]
-              - option "Kyrgyzstan" [ref=e272]
-              - option "Lao People's Democratic Republic" [ref=e273]
-              - option "Latvia" [ref=e274]
-              - option "Lebanon" [ref=e275]
-              - option "Lesotho" [ref=e276]
-              - option "Liberia" [ref=e277]
-              - option "Libyan Arab Jamahiriya" [ref=e278]
-              - option "Liechtenstein" [ref=e279]
-              - option "Lithuania" [ref=e280]
-              - option "Luxembourg" [ref=e281]
-              - option "Macao SAR" [ref=e282]
-              - option "Macedonia" [ref=e283]
-              - option "Madagascar" [ref=e284]
-              - option "Malawi" [ref=e285]
-              - option "Malaysia" [ref=e286]
-              - option "Maldives" [ref=e287]
-              - option "Mali" [ref=e288]
-              - option "Malta" [ref=e289]
-              - option "Marshall Islands" [ref=e290]
-              - option "Martinique" [ref=e291]
-              - option "Mauritania" [ref=e292]
-              - option "Mauritius" [ref=e293]
-              - option "Mayotte" [ref=e294]
-              - option "Mexico" [ref=e295]
-              - option "Micronesia" [ref=e296]
-              - option "Moldova" [ref=e297]
-              - option "Monaco" [ref=e298]
-              - option "Mongolia" [ref=e299]
-              - option "Montenegro" [ref=e300]
-              - option "Montserrat" [ref=e301]
-              - option "Morocco" [ref=e302]
-              - option "Mozambique" [ref=e303]
-              - option "Myanmar" [ref=e304]
-              - option "Namibia" [ref=e305]
-              - option "Nauru" [ref=e306]
-              - option "Nepal" [ref=e307]
-              - option "Netherlands" [ref=e308]
-              - option "New Caledonia" [ref=e309]
-              - option "New Zealand" [ref=e310]
-              - option "Nicaragua" [ref=e311]
-              - option "Niger" [ref=e312]
-              - option "Nigeria" [ref=e313]
-              - option "Niue" [ref=e314]
-              - option "Norfolk Island" [ref=e315]
-              - option "North Korea" [ref=e316]
-              - option "Northern Mariana Islands" [ref=e317]
-              - option "Norway" [ref=e318]
-              - option "Oman" [ref=e319]
-              - option "Pakistan" [ref=e320]
-              - option "Palau" [ref=e321]
-              - option "State of Palestine" [ref=e322]
-              - option "Panama" [ref=e323]
-              - option "Papua New Guinea" [ref=e324]
-              - option "Paraguay" [ref=e325]
-              - option "Peru" [ref=e326]
-              - option "Philippines" [ref=e327]
-              - option "Pitcairn" [ref=e328]
-              - option "Poland" [ref=e329]
-              - option "Portugal" [ref=e330]
-              - option "Puerto Rico" [ref=e331]
-              - option "Qatar" [ref=e332]
-              - option "Reunion" [ref=e333]
-              - option "Romania" [ref=e334]
-              - option "Rwanda" [ref=e335]
-              - option "Saint Barthélemy" [ref=e336]
-              - option "Saint Helena, Ascension and Tristan da Cunha" [ref=e337]
-              - option "Saint Kitts and Nevis" [ref=e338]
-              - option "Saint Lucia" [ref=e339]
-              - option "Saint Martin (French part)" [ref=e340]
-              - option "Saint Pierre and Miquelon" [ref=e341]
-              - option "Saint Vincent and the Grenadines" [ref=e342]
-              - option "Samoa" [ref=e343]
-              - option "San Marino" [ref=e344]
-              - option "Sao Tome and Principe" [ref=e345]
-              - option "Saudi Arabia" [ref=e346]
-              - option "Senegal" [ref=e347]
-              - option "Serbia" [ref=e348]
-              - option "Seychelles" [ref=e349]
-              - option "Sierra Leone" [ref=e350]
-              - option "Singapore" [ref=e351]
-              - option "Sint Maarten (Dutch part)" [ref=e352]
-              - option "Slovakia" [ref=e353]
-              - option "Slovenia" [ref=e354]
-              - option "Solomon Islands" [ref=e355]
-              - option "Somalia" [ref=e356]
-              - option "South Africa" [ref=e357]
-              - option "South Georgia and the South Sandwich Islands" [ref=e358]
-              - option "South Korea" [ref=e359]
-              - option "South Sudan" [ref=e360]
-              - option "Spain" [ref=e361]
-              - option "Sri Lanka" [ref=e362]
-              - option "Sudan" [ref=e363]
-              - option "Suriname" [ref=e364]
-              - option "Svalbard and Jan Mayen" [ref=e365]
-              - option "Swaziland" [ref=e366]
-              - option "Sweden" [ref=e367]
-              - option "Switzerland" [ref=e368]
-              - option "Syrian Arab Republic" [ref=e369]
-              - option "Taiwan" [ref=e370]
-              - option "Tajikistan" [ref=e371]
-              - option "Tanzania" [ref=e372]
-              - option "Thailand" [ref=e373]
-              - option "Timor-Leste" [ref=e374]
-              - option "Togo" [ref=e375]
-              - option "Tokelau" [ref=e376]
-              - option "Tonga" [ref=e377]
-              - option "Trinidad and Tobago" [ref=e378]
-              - option "Tunisia" [ref=e379]
-              - option "Turkey" [ref=e380]
-              - option "Turkmenistan" [ref=e381]
-              - option "Turks and Caicos Islands" [ref=e382]
-              - option "Tuvalu" [ref=e383]
-              - option "Uganda" [ref=e384]
-              - option "Ukraine" [ref=e385]
-              - option "United Arab Emirates" [ref=e386]
-              - option "United Kingdom" [ref=e387]
-              - option "United States" [ref=e388]
-              - option "Uruguay" [ref=e389]
-              - option "Uzbekistan" [ref=e390]
-              - option "Vanuatu" [ref=e391]
-              - option "Venezuela" [ref=e392]
-              - option "Viet Nam" [ref=e393]
-              - option "Virgin Islands, British" [ref=e394]
-              - option "Wallis and Futuna" [ref=e395]
-              - option "Western Sahara" [ref=e396]
-              - option "Yemen" [ref=e397]
-              - option "Zambia" [ref=e398]
-              - option "Zimbabwe" [ref=e399]
-        - generic
-          - LabelText
-          - textbox "Additional message" [ref=e151]
+          - heading "Improved security and performance" [level=3, ref=e139]
+          - StaticText "Modern authentication options and new granular permission settings help ensure the right level of access to information, related workflows and compliance with industry regulations, while stability and performance improvements make Tridion Docs faster and more secure."
+      - heading "Main modules of Tridion Docs since version 14" [level=2, ref=e13]
+      - table
+        - row
+          - cell
+          - cell "Tridion Docs 14 SP4" [ref=e95]
+          - cell "Tridion Docs 15" [ref=e96]
+        - row
+          - cell "Content experiences" [ref=e97]
+          - cell "DITA-OT (Open Toolkit) DXA for Dynamic Documentation Bespoke output configurations" [ref=e98]
+            - list
+          - cell "Tridion Docs Genius DITA-OT (Open Toolkit) Dynamic Experience Delivery (DXD) Bespoke output configurations" [ref=e99]
+            - list
+        - row
+          - cell "Content collaboration" [ref=e100]
+          - cell "Collective Spaces, comprised of: Draft Space Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e101]
+            - list
+          - cell "Collective Spaces, comprised of: Draft Space Draft Companion Review Space Document History Authoring Bridge and Desktop XML tools" [ref=e102]
+            - list
+        - row
+          - cell "Content governance" [ref=e103]
+          - cell "Content Manager Web Client Semantic AI and Taxonomy Space Publication Manager" [ref=e104]
+            - list
+          - cell "Organize Space, comprised of: Publication Hub Metrics Semantic AI and Taxonomy Space Publication Manager" [ref=e105]
+            - list
+      - heading "Demo videos" [level=2, ref=e14]
+        - StaticText "Demo videos"
+      - generic
+        - tablist
+          - tab "What's new" [selected, ref=e107]
+          - tab "Creating content" [ref=e108]
+          - tab "Organizing content" [ref=e109]
+          - tab "Delivering content" [ref=e110]
+        - tabpanel "What's new" [ref=e15] focusable [tabindex]
+          - link "Solution info. Tridion Docs 15 – Collective Spaces Tridion Docs 15 takes author and reviewer collaboration to the next level in Collective Spaces with an intuitive new layout. Watch the demo to find out more. Learn more " [ref=e111]
+            - generic
+            - heading "Tridion Docs 15 – Collective Spaces" [level=2, ref=e120]
+            - paragraph
+            - button "Learn more " [ref=e140]
+          - link "Solution info. Tridion Docs 15 – Organize Space Watch the demo to discover Organize Space, the fully revamped Content Manager web client that enables new and experienced users alike to get more done in less time. Learn more " [ref=e112]
+            - generic
+            - heading "Tridion Docs 15 – Organize Space" [level=2, ref=e121]
+            - paragraph
+            - button "Learn more " [ref=e141]
+          - link "Solution info. Tridion Docs Genius Revolutionize content delivery by leveraging structured, verifiable and AI-enhanced content with the help of Trustable Chat and Hexahops’ intuitive navigation panes. Watch the demo video to learn more. Learn more " [ref=e113]
+            - generic
+            - heading "Tridion Docs Genius" [level=2, ref=e122]
+            - paragraph
+            - button "Learn more " [ref=e142]
+      - heading "Content experiences" [level=2, ref=e114]
+        - StaticText "Content experiences"
+      - generic
+        - heading "Tridion Docs Genius guides the way" [level=2, ref=e42]
+          - StaticText "Tridion Docs Genius guides the way"
         - paragraph
-          - StaticText "Your personal data will only be used to provide you with related product and services information. We use the services of third parties both in and outside the EU that have signed data processing agreements to process your personal data. By entering your personal data you are affirmatively consenting to our use of your personal data and our "
-          - link "privacy policy" [ref=e88]
-          - StaticText "."
-        - button "Submit" [ref=e89]
+          - StaticText "Often people need to find relevant information across different sets of documentation to complete a task. However, traditional documentation is linear and doesn’t really help to connect the dots."
+        - paragraph
+          - StaticText "Tridion Docs Genius is our new, AI-driven knowledge portal that helps people get their answers quickly. It’s an out-of-the-box solution running in the cloud that intuitively guides you to the information you are looking for. In addition to the traditional way of browsing content, Tridion Docs Genius offers Trustable Chat as well as a brand-new navigation paradigm called Hexahops."
+        - paragraph
+          - StaticText "When deployed, it’s easy to configure branding elements and extend the portal through extra buttons and additional services that you may require."
+        - generic
+          - button "Expand image" [ref=e123]
+            - StaticText ""
+            - StaticText "Expand image"
+      - generic
+        - heading "Hexahops – with you every step of the way" [level=2, ref=e43]
+          - StaticText "Hexahops – with you every step of the way"
+        - paragraph
+          - StaticText "Hexahops provide a brand-new visual navigation paradigm that helps you browse complex information trails in an intuitive way. Instead of providing a scrolling manual on the web, the Hexahops experience uses AI to guide you to your goals without requiring authors to predict in advance what specific question a user might have."
+        - paragraph
+          - StaticText "The honeycomb layout of Hexahops shows a center topic surrounded by AI-driven related topics. Users can skim over the tiles and easily navigate to the next step with a single click."
+        - generic
+          - button "Expand image" [ref=e124]
+            - StaticText ""
+            - StaticText "Expand image"
+      - generic
+        - generic
+          - button "Expand image" [ref=e125]
+            - StaticText ""
+            - StaticText "Expand image"
+        - heading "Trustable Chat – just like talking to an expert" [level=2, ref=e44]
+          - StaticText "Trustable Chat – just like talking to an expert"
+        - paragraph
+          - StaticText "Having a chat UI is the new norm nowadays, but having something that is reliable is a whole different story. Our vision is for the chat to be your trusted expert. That’s why we added Trustable Chat to Tridion Docs Genius."
+        - paragraph
+          - StaticText "The chat gives clear answers to your questions, along with direct links to the source materials, as well as follow-up actions based on the conversation topic."
+        - paragraph
+          - StaticText "All information displayed in the chat is based on the underlying Tridion Docs content and is highly reliable due to the use of Retrieval Augmented Generation (RAG)."
+      - generic
+        - heading "Dynamic Experience Delivery (DXD)" [level=2, ref=e45]
+          - StaticText "Dynamic Experience Delivery (DXD)"
+        - paragraph
+          - StaticText "Headless content delivery has been enhanced for a more fluid customer and developer experience:"
+        - list
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "Deliver Tridion Docs content to the web at scale"
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "Better support for dynamic delivery when there is no client-side cache, while serving cached content even faster"
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "Boost productivity for developers: retrieve DITA topics using GraphQL and harness low-code multichannel delivery"
+      - heading "Content collaboration" [level=2, ref=e115]
+        - StaticText "Content collaboration"
+      - generic
+        - heading "Collective Spaces" [level=2, ref=e46]
+        - paragraph
+          - StaticText "To make it easy to draft and review text, Tridion Docs Collective Spaces comes with two task-focused user interfaces: Draft Space and Review Space. Based on user credentials, these web-based interfaces make it easy for authors and reviewers to focus on creating relevant, contextual documentation quickly, cohesively and collaboratively."
+      - generic
+        - tablist
+          - tab "Draft Space and Review Space" [selected, ref=e116]
+          - tab "Condition Management" [ref=e117]
+        - tabpanel "Draft Space and Review Space" [ref=e16] focusable [tabindex]
+          - generic
+            - heading "Draft Space and Review Space face-lift" [level=2, ref=e126]
+            - paragraph
+            - paragraph
+            - generic
+              - button "Expand image" [ref=e143]
+      - heading "Draft Companion – the GenAI second pair of eyes" [level=2, ref=e17]
+        - StaticText "Draft Companion – the GenAI second pair of eyes"
+      - generic
+        - StaticText "Draft Space has a new feature called Draft Companion. It acts as an extra pair of eyes and hands to help authors create clearer, more concise content more quickly. It can assist with a wide variety of tasks, such as simplifying a complex passage to an accessible reading level, fixing grammar and spelling, and rephrasing or summarizing content."
+        - paragraph
+          - StaticText "There are two ways authors can engage with Draft Companion:"
+        - list
+          - listitem [level=1]
+          - listitem [level=1]
+        - paragraph
+          - StaticText "Writers are in full control when using Draft Companion, only accepting the suggestions they like. The AI-generated suggestions are all based on the content you already have stored in Tridion Docs."
+      - generic
+        - generic
+          - button "Expand image" [ref=e127]
+      - generic
+        - heading "Notable updates in the latest release, v15.2" [level=2, ref=e47]
+      - generic
+        - heading "Content variables in Draft Space" [level=2, ref=e48]
+        - paragraph
+          - StaticText "Technical authors and SMEs can now view, select and insert variables directly in Draft Space, without needing to use a third-party XML editor. This way, you can reuse content chunks across publications faster and easier and reduce your dependency on technical writers with XML skills."
+        - generic
+          - button "Expand image" [ref=e128]
+      - heading "Content governance" [level=2, ref=e118]
+        - StaticText "Content governance"
+      - heading "Organize Space" [level=2, ref=e18]
+        - StaticText "Organize Space"
+      - generic
+        - heading "Out with the Content Manager Web Client, In with the new Organize Space" [level=2, ref=e49]
+          - StaticText "Out with the Content Manager Web Client, In with the new Organize Space"
+        - paragraph
+          - StaticText "Organize Space is the successor of Content Manager Web Client. It takes all the features you’re familiar with to manage end-to-end publication generation and more, and puts them into a simple, functionally rich and easy-to-use web UI."
+        - paragraph
+          - StaticText "Organize Space is supported in all major browsers and has been optimized for maximum flexibility, so it’s accessible from a desktop, a tablet and other mobile devices."
+        - generic
+          - button "Expand image" [ref=e129]
+      - generic
+        - heading "Publication Hub" [level=2, ref=e50]
+          - StaticText "Publication Hub"
+        - paragraph
+          - StaticText "As part of Organize Space, the new Publication Hub gives users an overview of all ongoing projects."
+        - paragraph
+          - StaticText "From the Publication Hub, a user – depending on their role – can see the tasks that are assigned to them, manage the progress, view assignments, update the Work Status and launch their favorite authoring tools."
+        - paragraph
+          - StaticText "It also provides an API that allows the integration of work management tools such as Jira or Workfront, to name a few."
+        - generic
+          - button "Expand image" [ref=e130]
+      - generic
+        - generic
+          - button "Expand image" [ref=e131]
+        - heading "Metrics and ROI" [level=2, ref=e51]
+          - StaticText "Metrics and ROI"
+        - paragraph
+          - StaticText "The primary benefit of a CCMS is efficiency and accuracy through content reuse, which translates into better quality and reduced documentation creation time. To help teams quantify these benefits, we added an eagerly awaited reporting feature with several out-of-the-box reports."
+        - paragraph
+          - StaticText "You can now measure content reuse and provide ROI metrics, identify cost savings from structured content and validate team efficiency and productivity by business unit, or build your own custom reports."
+      - generic
+        - heading "Publication Manager" [level=2, ref=e19]
+        - paragraph
+          - StaticText "With Tridion Docs 15, we also bring productivity and UI/UX updates to Publication Manager. You can now share a Draft Space or Review Space link for a topic directly from the desktop tool."
+        - paragraph
+          - StaticText "In the resource list view you can now sort resources in alphabetical order, not just in chronological order (as before)."
+        - heading "Redesigned Settings menu" [level=2, ref=e20]
+        - paragraph
+          - StaticText "Settings have been centralized in Organize Space and are more intuitive to find and manage."
+        - paragraph
+          - StaticText "The system also allows for more powerful settings to assign permissions for power users, administrators and front-end developers with the end purpose of delegating certain administration tasks."
+      - generic
+        - heading "Notable updates in the latest release, v15.2" [level=2, ref=e52]
+      - generic
+        - heading "Enhanced productivity and simplified reviews for translators" [level=2, ref=e53]
+        - paragraph
+          - StaticText "Organize Space ships with a powerful new user interface for translation jobs, giving you a single centralized area to easily manage them all. Each job displays rich metadata, giving you enhanced filtering capabilities."
+        - generic
+          - button "Expand image" [ref=e132]
+      - heading "Create new translations jobs using a simple four-step wizard" [level=2, ref=e21]
+      - generic
+        - heading "Generating a new translation job" [level=3, ref=e22]
+        - paragraph
+          - StaticText "Add the title, description and required date."
+        - heading "Granular object control" [level=3, ref=e23]
+        - paragraph
+          - StaticText "Select the types of object you want to translate."
+        - heading "Language groups" [level=3, ref=e24]
+        - paragraph
+          - StaticText "Define the language groups and the workflows you want to use for each group."
+        - heading "Fewer clicks to configure translation jobs" [level=3, ref=e25]
+        - paragraph
+          - StaticText "Review the job in the confirmation step and either save the job or save and start it."
+      - generic
+        - heading "New Events section available for all users" [level=2, ref=e54]
+        - paragraph
+          - StaticText "All users can access the Events section in Organize Space and see the progress of publishing, translation or export jobs. The section is split into two areas: Events overview and Event actions, to distinguish between events and their corresponding actions. You can also see the history of events and delete events in bulk."
+        - generic
+          - button "Expand image" [ref=e133]
+      - heading "Technology" [level=2, ref=e119]
+        - StaticText "Technology"
+      - generic
+        - heading "Modernized security and governance" [level=2, ref=e55]
+          - StaticText "Modernized security and governance"
+        - paragraph
+          - StaticText "Tridion Docs is now more secure than ever, with modern authentication provided via OpenID Connect. It allows you to connect via your chosen ID provider for added security, while delivering several other benefits. Its lightweight footprint makes it much easier to implement, and it offers widespread support for multiplatform and mobile authentication, including 2FA, if your identity provider supports it."
+        - paragraph
+          - StaticText "Tridion Docs 15 now also allows you to display the full username across Collective Spaces, Organize Space and Client Tools."
+      - generic
+        - heading "Extended platform support and compatibility" [level=2, ref=e56]
+          - StaticText "Extended platform support and compatibility"
+        - paragraph
+          - StaticText "This latest release extends platform support for key systems such as oXygen 27 (other versions can also be used), XMetaL19, Windows Server 2022, .NET 8, Java 21 and Solr 9.4.1."
+        - paragraph
+          - StaticText "Upgrades are easier now through auto upgrade of XML Settings, and end users can see the correct local time regardless of the server location by converting DateTime to UTC."
+      - generic
+        - heading "Notable updates in the latest release, v15.2" [level=2, ref=e57]
+      - generic
+        - heading "Tridion Docs OpenAPI" [level=2, ref=e58]
+          - StaticText "Tridion Docs OpenAPI"
+        - StaticText "With the adoption of the OpenAPI standard, developers benefit from support to extend the system for language-agnostic and platform-independent programming languages, and HATEOAS links and JSON-based models."
+      - heading "Say Hello to Tridion Docs 15.2" [level=2, ref=e26]
+      - StaticText "Product announcements and release notes"
+      - link "Read more" [ref=e27]
+        - StaticText "Read more"
+      - heading "Get in touch" [level=2, ref=e28]
+      - StaticText "Want to know more about how we can help solve your content management problems?"
+      - link "Talk to us" [ref=e29]
+        - StaticText "Talk to us"
     - sectionfooter
       - StaticText "Products"
       - generic
-        - link "Tridion platform" [ref=e38]
-        - link "Tridion Docs" [ref=e39]
-        - link "Tridion Sites" [ref=e40]
-        - link "Semantic AI" [ref=e41]
-        - link "Cloud" [ref=e42]
-        - link "Fonto XML Editor" [ref=e43]
+        - link "Tridion platform" [ref=e59]
+        - link "Tridion Docs" [ref=e60]
+        - link "Tridion Sites" [ref=e61]
+        - link "Semantic AI" [ref=e62]
+        - link "Cloud" [ref=e63]
+        - link "Fonto XML Editor" [ref=e64]
       - StaticText "Solutions"
       - generic
-        - link "Technical Communication" [ref=e44]
-        - link "Field Service" [ref=e45]
-        - link "Customer Support" [ref=e46]
-        - link "Digital Experiences" [ref=e47]
-        - link "SMB Website Management" [ref=e48]
-        - link "Resources" [ref=e49]
+        - link "Technical Communication" [ref=e65]
+        - link "Field Service" [ref=e66]
+        - link "Customer Support" [ref=e67]
+        - link "Digital Experiences" [ref=e68]
+        - link "SMB Website Management" [ref=e69]
+        - link "Resources" [ref=e70]
       - StaticText "More"
       - generic
-        - link "About RWS" [ref=e50]
-        - link "Blog" [ref=e51]
-        - link "Tridion Docs - Best CCMS" [ref=e52]
-        - link "Events" [ref=e53]
-        - link "Partner Directory" [ref=e54]
-        - link "Contact Us" [ref=e55]
-      - heading "Tridion Newsletter" [level=2, ref=e5]
+        - link "About RWS" [ref=e71]
+        - link "Blog" [ref=e72]
+        - link "Tridion Docs - Best CCMS" [ref=e73]
+        - link "Events" [ref=e74]
+        - link "Partner Directory" [ref=e75]
+        - link "Contact Us" [ref=e76]
+      - heading "Tridion Newsletter" [level=2, ref=e4]
         - StaticText "Tridion Newsletter"
       - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
-      - button "Sign up" [ref=e6]
+      - button "Sign up" [ref=e5]
         - StaticText "Sign up"
-      - link "Communication preferences" [ref=e21]
+      - link "Communication preferences" [ref=e30]
         - StaticText "Communication preferences"
         - StaticText ""
-      - link "Twitter" [ref=e7]
-      - link "LinkedIn" [ref=e8]
-      - link "Facebook" [ref=e9]
-      - link "YouTube" [ref=e10]
-      - link "social" [ref=e11]
+      - link "Twitter" [ref=e6]
+      - link "LinkedIn" [ref=e7]
+      - link "Facebook" [ref=e8]
+      - link "YouTube" [ref=e9]
+      - link "social" [ref=e10]
       - generic
         - generic
-          - link "Our Terms of Use" [ref=e56]
+          - link "Our Terms of Use" [ref=e77]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Copyright " [ref=e57]
+          - link "Copyright " [ref=e78]
           - StaticText "|"
         - generic
-          - link "Privacy" [ref=e58]
+          - link "Privacy" [ref=e79]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Security" [ref=e59]
+          - link "Security" [ref=e80]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Modern Slavery and Human Trafficking Statement" [ref=e60]
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e81]
           - StaticText " "
           - StaticText "|"
-        - link "Cookie Notice" [ref=e61]
+        - link "Cookie Notice" [ref=e82]
   - generic
     - generic [ref=e2] focusable [tabindex]
       - dialog "Cookie Notice"
         - generic
-          - heading "Cookie Notice" [level=2, ref=e22]
+          - heading "Cookie Notice" [level=2, ref=e31]
           - generic
-            - link "More information about your privacy, opens in a new tab" [ref=e62]
+            - link "More information about your privacy, opens in a new tab" [ref=e83]
         - generic
-          - button "Cookies Settings, Opens the preference center dialog" [ref=e23]
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e32]
           - generic
-            - button "Reject All" [ref=e63]
-            - button "Accept All" [ref=e64]
+            - button "Reject All" [ref=e84]
+            - button "Accept All" [ref=e85]
