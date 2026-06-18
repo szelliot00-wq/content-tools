@@ -56,8 +56,7 @@
         - link [ref=e70]
         - link [ref=e71]
         - link [ref=e72]
-        - link "Atlas Copco" [ref=e73]
-          - image "Atlas Copco"
+        - link [ref=e73]
         - generic
           - heading "Meet Tridion, our Intelligent Content platform" [level=2, ref=e77]
             - StaticText "Meet Tridion, our Intelligent Content platform"
@@ -95,8 +94,7 @@
           - StaticText "Get in touch"
       - heading "Case studies" [level=2, ref=e13]
         - StaticText "Case studies"
-      - link "Intralox case study - RWS Intralox reduces desktop publishing costs by 99% Read case study " [ref=e14]
-        - image "Intralox case study - RWS"
+      - link "Intralox reduces desktop publishing costs by 99% Read case study " [ref=e14]
         - heading "Intralox reduces desktop publishing costs by 99%" [level=2, ref=e29]
         - button "Read case study " [ref=e66]
           - StaticText "Read case study "

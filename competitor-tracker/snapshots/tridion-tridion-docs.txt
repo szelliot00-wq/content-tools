@@ -84,26 +84,16 @@ content confidence"
           - StaticText ""
       - heading "Our customers" [level=2, ref=e20]
         - StaticText "Our customers"
-      - link "Panasonic" [ref=e21]
-        - image "Panasonic"
-      - link "Philips" [ref=e22]
-        - image "Philips"
-      - link "Dell" [ref=e23]
-        - image "Dell"
-      - link "NETGEAR" [ref=e24]
-        - image "NETGEAR"
-      - link "Hewlett Packard Enterprise" [ref=e25]
-        - image "Hewlett Packard Enterprise"
-      - link "United Imaging" [ref=e26]
-        - image "United Imaging"
-      - link "Horiba Medical devices" [ref=e27]
-        - image "Horiba Medical devices"
-      - link "KONE" [ref=e28]
-        - image "KONE"
-      - link "California Casualty" [ref=e29]
-        - image "California Casualty"
-      - link "Nielsen" [ref=e30]
-        - image "Nielsen"
+      - link [ref=e21]
+      - link [ref=e22]
+      - link [ref=e23]
+      - link [ref=e24]
+      - link [ref=e25]
+      - link [ref=e26]
+      - link [ref=e27]
+      - link [ref=e28]
+      - link [ref=e29]
+      - link [ref=e30]
       - heading "The Tridion Docs advantage" [level=2, ref=e31]
         - StaticText "The Tridion Docs advantage"
       - generic
