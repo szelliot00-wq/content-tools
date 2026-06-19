@@ -184,14 +184,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e101]
+          - textbox [required, ref=e102]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e103]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e104]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e104]
+          - link "our privacy policy." [ref=e105]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e102]
+          - button "Subscribe" [ref=e103]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -253,30 +253,32 @@
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e90]
+                - link "Empolis vs Fluid Topics" [ref=e90]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e91]
+                - link "CCMS vs Fluid Topics" [ref=e91]
+              - listitem [level=2]
+                - link "CMS vs CCMS vs CDP" [ref=e92]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e92]
+                - link "About us" [ref=e93]
               - listitem [level=2]
-                - link "Newsroom" [ref=e93]
+                - link "Newsroom" [ref=e94]
               - listitem [level=2]
-                - link "Careers" [ref=e94]
+                - link "Careers" [ref=e95]
               - listitem [level=2]
-                - link "Documentation" [ref=e95]
+                - link "Documentation" [ref=e96]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e96]
+                - link "Security & Trust" [ref=e97]
               - listitem [level=2]
-                - link "Help Center" [ref=e97]
+                - link "Help Center" [ref=e98]
               - listitem [level=2]
-                - link "Partners" [ref=e98]
+                - link "Partners" [ref=e99]
               - listitem [level=2]
-                - link "Release Notes" [ref=e99]
+                - link "Release Notes" [ref=e100]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e100]
+                - link "Contact us Hi!" [ref=e101]
       - navigation
         - list
           - listitem [level=1]

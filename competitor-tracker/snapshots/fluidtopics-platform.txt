@@ -73,6 +73,7 @@
         - image "Logo Liebherr."
         - image "kone logo"
         - image "Hitachi Vantara Logo White"
+        - image "Steinberg logo white"
         - image "Siemens-Logo"
         - image "Hexagon"
         - image "logo vaisala"
@@ -88,6 +89,7 @@
         - image "Logo Liebherr."
         - image "kone logo"
         - image "Hitachi Vantara Logo White"
+        - image "Steinberg logo white"
       - heading "Unite Business & Tech in One Platform" [level=2, ref=e8]
       - image "icon-shared-component"
       - heading "Bring all your product knowledge in one place" [level=3, ref=e9]
@@ -283,14 +285,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e90]
+          - textbox [required, ref=e91]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e92]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e93]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e93]
+          - link "our privacy policy." [ref=e94]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e91]
+          - button "Subscribe" [ref=e92]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -352,30 +354,32 @@
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e79]
+                - link "Empolis vs Fluid Topics" [ref=e79]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e80]
+                - link "CCMS vs Fluid Topics" [ref=e80]
+              - listitem [level=2]
+                - link "CMS vs CCMS vs CDP" [ref=e81]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e81]
+                - link "About us" [ref=e82]
               - listitem [level=2]
-                - link "Newsroom" [ref=e82]
+                - link "Newsroom" [ref=e83]
               - listitem [level=2]
-                - link "Careers" [ref=e83]
+                - link "Careers" [ref=e84]
               - listitem [level=2]
-                - link "Documentation" [ref=e84]
+                - link "Documentation" [ref=e85]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e85]
+                - link "Security & Trust" [ref=e86]
               - listitem [level=2]
-                - link "Help Center" [ref=e86]
+                - link "Help Center" [ref=e87]
               - listitem [level=2]
-                - link "Partners" [ref=e87]
+                - link "Partners" [ref=e88]
               - listitem [level=2]
-                - link "Release Notes" [ref=e88]
+                - link "Release Notes" [ref=e89]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e89]
+                - link "Contact us Hi!" [ref=e90]
       - navigation
         - list
           - listitem [level=1]
