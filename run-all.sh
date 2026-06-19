@@ -51,7 +51,7 @@ close_browsers() {
     "$AGENT_BROWSER" close --all 2>/dev/null || true
 }
 
-# timeout wrapper — handles macOS (no built-in timeout) and Linux
+# timeout wrapper — uses system timeout/gtimeout if available, else pure bash
 run_with_timeout() {
     local secs="$1"; shift
     if command -v timeout >/dev/null 2>&1; then
@@ -59,8 +59,15 @@ run_with_timeout() {
     elif command -v gtimeout >/dev/null 2>&1; then
         gtimeout "$secs" "$@"
     else
-        echo "  Warning: timeout command not available — running without timeout" >&2
-        "$@"
+        "$@" &
+        local pid=$!
+        ( sleep "$secs"; kill "$pid" 2>/dev/null ) &
+        local watchpid=$!
+        wait "$pid"
+        local rc=$?
+        kill "$watchpid" 2>/dev/null
+        wait "$watchpid" 2>/dev/null
+        return $rc
     fi
 }
 
