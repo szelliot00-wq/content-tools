@@ -39,7 +39,7 @@ def _read_creds() -> dict | None:
     )
     proc = subprocess.run(
         ["security", "find-generic-password", "-s", "Claude Code-credentials",
-         "-w", _KEYCHAIN],
+         "-a", "steveelliott", "-w", _KEYCHAIN],
         capture_output=True, text=True, timeout=5,
     )
     if proc.returncode != 0 or not proc.stdout.strip():
@@ -55,7 +55,7 @@ def _write_creds(creds: dict) -> bool:
         r = subprocess.run(
             ["security", "add-generic-password", "-U",
              "-s", "Claude Code-credentials",
-             "-a", "Claude Code-credentials",
+             "-a", "steveelliott",
              "-w", json.dumps(creds),
              _KEYCHAIN],
             capture_output=True, text=True, timeout=5,
