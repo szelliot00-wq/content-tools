@@ -128,6 +128,10 @@ def main() -> None:
         refreshed = _refresh(creds)
         if refreshed:
             access_token = refreshed["claudeAiOauth"]["accessToken"]
+        elif time.time() >= expires_at_s:
+            # Token is fully expired and refresh failed — stale token is useless.
+            print("Token expired and refresh failed — manual re-auth required", file=sys.stderr)
+            sys.exit(1)
 
     if access_token:
         print(access_token, end="")

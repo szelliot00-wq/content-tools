@@ -140,9 +140,15 @@ run_tool() {
 
 security unlock-keychain -p 665595sze ~/Library/Keychains/claude.keychain-db 2>/dev/null || true
 # Refresh the OAuth token if it expires within 30 min, then inject it.
-# Access tokens live 8 hours; this keeps the daemon from ever seeing a stale one.
-CLAUDE_TOKEN=$("$PYTHON" "$REPO/shared/refresh_claude_token.py" 2>/dev/null || true)
-if [ -n "$CLAUDE_TOKEN" ]; then
+# stderr (refresh status/errors) flows to cron.log; stdout is just the token.
+# Exits 1 if token is fully expired and refresh failed — alert and continue
+# without a token rather than exporting a dead one that silently 401s everything.
+CLAUDE_TOKEN=$("$PYTHON" "$REPO/shared/refresh_claude_token.py")
+REFRESH_EXIT=$?
+if [ "$REFRESH_EXIT" -ne 0 ] || [ -z "$CLAUDE_TOKEN" ]; then
+    echo "  WARNING: Claude OAuth token unavailable (rc=$REFRESH_EXIT) — sending alert"
+    "$PYTHON" -m shared.heartbeat "Claude OAuth token expired — manual re-auth required on Mac Pro" || true
+else
     export CLAUDE_CODE_OAUTH_TOKEN="$CLAUDE_TOKEN"
     echo "  Claude OAuth token loaded (refreshed if needed)"
 fi
