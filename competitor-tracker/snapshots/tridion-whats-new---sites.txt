@@ -6,8 +6,8 @@
       - alert
         - generic
           - strong
-          - StaticText " | Change the way you take care of your brand"
-        - link "Get started" [ref=e3]
+          - StaticText " | 200 enterprise leaders reveal where AI content strategies break down."
+        - link "Get the report" [ref=e3]
       - navigation
         - button [ref=e12]
           - image
