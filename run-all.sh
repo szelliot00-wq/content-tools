@@ -97,7 +97,7 @@ check_staleness() {
     echo "  Most recent $name commit: $last_date (${age_days} day(s) ago)"
     if [ "$age_days" -ge "$max_age_days" ]; then
         echo "  WARNING: $name stale — sending alert"
-        "$PYTHON" -m shared.heartbeat "$name (no new content for ${age_days} days)" || true
+        PYTHONPATH="$REPO" "$PYTHON" -m shared.heartbeat "$name (no new content for ${age_days} days)" || true
     fi
 }
 
