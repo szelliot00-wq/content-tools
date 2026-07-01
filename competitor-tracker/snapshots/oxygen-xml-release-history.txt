@@ -5,1173 +5,1209 @@
   - generic
     - list
       - listitem [level=1]
-        - link "Products" [ref=e229]
+        - link "Products" [ref=e234]
       - listitem [level=1]
-        - link "Shop" [ref=e230]
+        - link "Shop" [ref=e235]
       - listitem [level=1]
-        - link "Resources" [ref=e231]
+        - link "Resources" [ref=e236]
       - listitem [level=1]
-        - link "Support" [ref=e232]
+        - link "Support" [ref=e237]
       - listitem [level=1]
-        - link "Company" [ref=e233]
+        - link "Company" [ref=e238]
       - listitem [level=1]
         - generic
-          - generic [ref=e562] clickable [cursor:pointer]
+          - generic [ref=e568] clickable [cursor:pointer]
       - listitem [level=1]
-        - link "Login" [ref=e563]
-        - generic [ref=e564] clickable [cursor:pointer]
-          - link "" [ref=e565]
+        - link "Login" [ref=e569]
+        - generic [ref=e570] clickable [cursor:pointer]
+          - link "" [ref=e571]
 - heading "Release History" [level=1, ref=e1]
 - generic
   - generic
     - time
     - generic
-      - heading "Version 5.4" [level=2, ref=e62]
-      - link "Click to see what is new in Feedback Cloud 5.4" [ref=e234]
+      - heading "Version 8.3" [level=2, ref=e62]
+      - link "Click to see what is new in Ai Positron 8.3" [ref=e239]
+      - paragraph
+    - time
+      - StaticText "June 30, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.3" [level=2, ref=e63]
+      - paragraph
+    - time
+      - StaticText "June 30, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.3" [level=2, ref=e64]
+      - paragraph
+    - time
+      - StaticText "June 30, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.3" [level=2, ref=e65]
+      - paragraph
+    - time
+      - StaticText "June 30, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 8.3" [level=2, ref=e66]
+      - paragraph
+    - time
+      - StaticText "June 30, 2026"
+  - generic
+    - time
+    - generic
+      - heading "Version 5.4" [level=2, ref=e67]
+      - link "Click to see what is new in Feedback Cloud 5.4" [ref=e240]
       - paragraph
     - time
       - StaticText "June 19, 2026"
   - generic
     - time
     - generic
-      - heading "Version 5.4" [level=2, ref=e63]
-      - link "Click to see what is new in Feedback Enterprise 5.4" [ref=e235]
+      - heading "Version 5.4" [level=2, ref=e68]
+      - link "Click to see what is new in Feedback Enterprise 5.4" [ref=e241]
       - paragraph
     - time
       - StaticText "June 19, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e64]
-      - link "Click to see what is new in Ai Positron 8.2" [ref=e236]
+      - heading "Version 8.2" [level=2, ref=e69]
+      - link "Click to see what is new in Ai Positron 8.2" [ref=e242]
       - paragraph
     - time
       - StaticText "May 5, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e65]
+      - heading "Version 8.2" [level=2, ref=e70]
       - paragraph
     - time
       - StaticText "May 5, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e66]
+      - heading "Version 8.2" [level=2, ref=e71]
       - paragraph
     - time
       - StaticText "May 5, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e67]
+      - heading "Version 8.2" [level=2, ref=e72]
       - paragraph
     - time
       - StaticText "May 5, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e68]
+      - heading "Version 8.2" [level=2, ref=e73]
       - paragraph
     - time
       - StaticText "May 5, 2026"
   - generic
     - time
     - generic
-      - heading "Version 9.1" [level=2, ref=e69]
-      - link "Click to see what is new in Content Fusion 9.1" [ref=e237]
+      - heading "Version 9.1" [level=2, ref=e74]
+      - link "Click to see what is new in Content Fusion 9.1" [ref=e243]
       - paragraph
     - time
       - StaticText "April 7, 2026"
   - generic
     - time
     - generic
-      - heading "Version 28.1" [level=2, ref=e70]
+      - heading "Version 28.1" [level=2, ref=e75]
       - generic
-        - link "Click to see what is new in Author 28.1" [ref=e238]
-        - link "Click to see what is new in Developer 28.1" [ref=e239]
-        - link "Click to see what is new in Chemistry 28.1" [ref=e240]
-        - link "Click to see what is new in Editor 28.1" [ref=e241]
-        - link "Click to see what is new in Webhelp 28.1" [ref=e242]
-        - link "Click to see what is new in Publishing Engine 28.1" [ref=e243]
-        - link "Click to see what is new in Scripting 28.1" [ref=e244]
-        - link "Click to see what is new in Json Editor 28.1" [ref=e245]
-        - link "Click to see what is new in Sdk 28.1" [ref=e246]
+        - link "Click to see what is new in Author 28.1" [ref=e244]
+        - link "Click to see what is new in Developer 28.1" [ref=e245]
+        - link "Click to see what is new in Chemistry 28.1" [ref=e246]
+        - link "Click to see what is new in Editor 28.1" [ref=e247]
+        - link "Click to see what is new in Webhelp 28.1" [ref=e248]
+        - link "Click to see what is new in Publishing Engine 28.1" [ref=e249]
+        - link "Click to see what is new in Scripting 28.1" [ref=e250]
+        - link "Click to see what is new in Json Editor 28.1" [ref=e251]
+        - link "Click to see what is new in Sdk 28.1" [ref=e252]
       - paragraph
     - time
       - StaticText "March 18, 2026"
   - generic
     - time
     - generic
-      - heading "Version 28.1.0" [level=2, ref=e71]
-      - link "Click to see what is new in Web Author 28.1.0" [ref=e247]
+      - heading "Version 28.1.0" [level=2, ref=e76]
+      - link "Click to see what is new in Web Author 28.1.0" [ref=e253]
       - paragraph
     - time
       - StaticText "March 18, 2026"
   - generic
     - time
     - generic
-      - heading "Version 8.1" [level=2, ref=e72]
-      - link "Click to see what is new in Ai Positron 8.1" [ref=e248]
+      - heading "Version 8.1" [level=2, ref=e77]
+      - link "Click to see what is new in Ai Positron 8.1" [ref=e254]
       - paragraph
     - time
       - StaticText "February 10, 2026"
   - generic
     - time
     - generic
-      - heading "Version 9.0" [level=2, ref=e73]
-      - link "Click to see what is new in Content Fusion 9.0" [ref=e249]
+      - heading "Version 9.0" [level=2, ref=e78]
+      - link "Click to see what is new in Content Fusion 9.0" [ref=e255]
       - paragraph
     - time
       - StaticText "January 28, 2026"
   - generic
     - time
     - generic
-      - heading "Version 28.0" [level=2, ref=e74]
+      - heading "Version 28.0" [level=2, ref=e79]
       - generic
-        - link "Click to see what is new in Author 28.0" [ref=e250]
-        - link "Click to see what is new in Developer 28.0" [ref=e251]
-        - link "Click to see what is new in Chemistry 28.0" [ref=e252]
-        - link "Click to see what is new in Editor 28.0" [ref=e253]
-        - link "Click to see what is new in Webhelp 28.0" [ref=e254]
-        - link "Click to see what is new in Publishing Engine 28.0" [ref=e255]
-        - link "Click to see what is new in Scripting 28.0" [ref=e256]
-        - link "Click to see what is new in Json Editor 28.0" [ref=e257]
+        - link "Click to see what is new in Author 28.0" [ref=e256]
+        - link "Click to see what is new in Developer 28.0" [ref=e257]
+        - link "Click to see what is new in Chemistry 28.0" [ref=e258]
+        - link "Click to see what is new in Editor 28.0" [ref=e259]
+        - link "Click to see what is new in Webhelp 28.0" [ref=e260]
+        - link "Click to see what is new in Publishing Engine 28.0" [ref=e261]
+        - link "Click to see what is new in Scripting 28.0" [ref=e262]
+        - link "Click to see what is new in Json Editor 28.0" [ref=e263]
       - paragraph
     - time
       - StaticText "November 26, 2025"
   - generic
     - time
     - generic
-      - heading "Version 28.0.0" [level=2, ref=e75]
-      - link "Click to see what is new in Web Author 28.0.0" [ref=e258]
+      - heading "Version 28.0.0" [level=2, ref=e80]
+      - link "Click to see what is new in Web Author 28.0.0" [ref=e264]
       - paragraph
     - time
       - StaticText "November 26, 2025"
   - generic
     - time
     - generic
-      - heading "Version 8.0" [level=2, ref=e76]
-      - link "Click to see what is new in Ai Positron 8.0" [ref=e259]
+      - heading "Version 8.0" [level=2, ref=e81]
+      - link "Click to see what is new in Ai Positron 8.0" [ref=e265]
       - paragraph
     - time
       - StaticText "November 18, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.3" [level=2, ref=e77]
-      - link "Click to see what is new in Feedback Cloud 5.3" [ref=e260]
+      - heading "Version 5.3" [level=2, ref=e82]
+      - link "Click to see what is new in Feedback Cloud 5.3" [ref=e266]
       - paragraph
     - time
       - StaticText "November 5, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.3" [level=2, ref=e78]
-      - link "Click to see what is new in Feedback Enterprise 5.3" [ref=e261]
+      - heading "Version 5.3" [level=2, ref=e83]
+      - link "Click to see what is new in Feedback Enterprise 5.3" [ref=e267]
       - paragraph
     - time
       - StaticText "November 5, 2025"
   - generic
     - time
     - generic
-      - heading "Version 7.0" [level=2, ref=e79]
-      - link "Click to see what is new in Ai Positron 7.0" [ref=e262]
+      - heading "Version 7.0" [level=2, ref=e84]
+      - link "Click to see what is new in Ai Positron 7.0" [ref=e268]
       - paragraph
     - time
       - StaticText "September 15, 2025"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e80]
-      - link "Click to see what is new in Content Fusion 8.2" [ref=e263]
+      - heading "Version 8.2" [level=2, ref=e85]
+      - link "Click to see what is new in Content Fusion 8.2" [ref=e269]
       - paragraph
     - time
       - StaticText "August 25, 2025"
   - generic
     - time
     - generic
-      - heading "Version 6.0.1" [level=2, ref=e81]
-      - link "Click to see what is new in Ai Positron 6.0.1" [ref=e264]
+      - heading "Version 6.0.1" [level=2, ref=e86]
+      - link "Click to see what is new in Ai Positron 6.0.1" [ref=e270]
       - paragraph
     - time
       - StaticText "August 21, 2025"
   - generic
     - time
     - generic
-      - heading "Version 6.0" [level=2, ref=e82]
-      - link "Click to see what is new in Ai Positron 6.0" [ref=e265]
+      - heading "Version 6.0" [level=2, ref=e87]
+      - link "Click to see what is new in Ai Positron 6.0" [ref=e271]
       - paragraph
     - time
       - StaticText "July 3, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.2" [level=2, ref=e83]
-      - link "Click to see what is new in Feedback Cloud 5.2" [ref=e266]
+      - heading "Version 5.2" [level=2, ref=e88]
+      - link "Click to see what is new in Feedback Cloud 5.2" [ref=e272]
       - paragraph
     - time
       - StaticText "April 28, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.2" [level=2, ref=e84]
-      - link "Click to see what is new in Feedback Enterprise 5.2" [ref=e267]
+      - heading "Version 5.2" [level=2, ref=e89]
+      - link "Click to see what is new in Feedback Enterprise 5.2" [ref=e273]
       - paragraph
     - time
       - StaticText "April 28, 2025"
   - generic
     - time
     - generic
-      - heading "Version 8.1" [level=2, ref=e85]
-      - link "Click to see what is new in Content Fusion 8.1" [ref=e268]
+      - heading "Version 8.1" [level=2, ref=e90]
+      - link "Click to see what is new in Content Fusion 8.1" [ref=e274]
       - paragraph
     - time
       - StaticText "April 24, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.0" [level=2, ref=e86]
-      - link "Click to see what is new in Ai Positron 5.0" [ref=e269]
+      - heading "Version 5.0" [level=2, ref=e91]
+      - link "Click to see what is new in Ai Positron 5.0" [ref=e275]
       - paragraph
     - time
       - StaticText "April 24, 2025"
   - generic
     - time
     - generic
-      - heading "Version 27.1" [level=2, ref=e87]
+      - heading "Version 27.1" [level=2, ref=e92]
       - generic
-        - link "Click to see what is new in Author 27.1" [ref=e270]
-        - link "Click to see what is new in Developer 27.1" [ref=e271]
-        - link "Click to see what is new in Chemistry 27.1" [ref=e272]
-        - link "Click to see what is new in Editor 27.1" [ref=e273]
-        - link "Click to see what is new in Webhelp 27.1" [ref=e274]
-        - link "Click to see what is new in Publishing Engine 27.1" [ref=e275]
-        - link "Click to see what is new in Scripting 27.1" [ref=e276]
-        - link "Click to see what is new in Json Editor 27.1" [ref=e277]
+        - link "Click to see what is new in Author 27.1" [ref=e276]
+        - link "Click to see what is new in Developer 27.1" [ref=e277]
+        - link "Click to see what is new in Chemistry 27.1" [ref=e278]
+        - link "Click to see what is new in Editor 27.1" [ref=e279]
+        - link "Click to see what is new in Webhelp 27.1" [ref=e280]
+        - link "Click to see what is new in Publishing Engine 27.1" [ref=e281]
+        - link "Click to see what is new in Scripting 27.1" [ref=e282]
+        - link "Click to see what is new in Json Editor 27.1" [ref=e283]
       - paragraph
     - time
       - StaticText "March 24, 2025"
   - generic
     - time
     - generic
-      - heading "Version 27.1.0" [level=2, ref=e88]
-      - link "Click to see what is new in Web Author 27.1.0" [ref=e278]
+      - heading "Version 27.1.0" [level=2, ref=e93]
+      - link "Click to see what is new in Web Author 27.1.0" [ref=e284]
       - paragraph
     - time
       - StaticText "March 24, 2025"
   - generic
     - time
     - generic
-      - heading "Version 8.0" [level=2, ref=e89]
-      - link "Click to see what is new in Content Fusion 8.0" [ref=e279]
+      - heading "Version 8.0" [level=2, ref=e94]
+      - link "Click to see what is new in Content Fusion 8.0" [ref=e285]
       - paragraph
     - time
       - StaticText "March 11, 2025"
   - generic
     - time
     - generic
-      - heading "Version 4.1" [level=2, ref=e90]
-      - link "Click to see what is new in Ai Positron 4.1" [ref=e280]
+      - heading "Version 4.1" [level=2, ref=e95]
+      - link "Click to see what is new in Ai Positron 4.1" [ref=e286]
       - paragraph
     - time
       - StaticText "January 30, 2025"
   - generic
     - time
     - generic
-      - heading "Version 5.1" [level=2, ref=e91]
-      - link "Click to see what is new in Feedback Cloud 5.1" [ref=e281]
+      - heading "Version 5.1" [level=2, ref=e96]
+      - link "Click to see what is new in Feedback Cloud 5.1" [ref=e287]
       - paragraph
     - time
       - StaticText "December 11, 2024"
   - generic
     - time
     - generic
-      - heading "Version 5.1" [level=2, ref=e92]
-      - link "Click to see what is new in Feedback Enterprise 5.1" [ref=e282]
+      - heading "Version 5.1" [level=2, ref=e97]
+      - link "Click to see what is new in Feedback Enterprise 5.1" [ref=e288]
       - paragraph
     - time
       - StaticText "December 11, 2024"
   - generic
     - time
     - generic
-      - heading "Version 27.0" [level=2, ref=e93]
+      - heading "Version 27.0" [level=2, ref=e98]
       - generic
-        - link "Click to see what is new in Author 27.0" [ref=e283]
-        - link "Click to see what is new in Developer 27.0" [ref=e284]
-        - link "Click to see what is new in Chemistry 27.0" [ref=e285]
-        - link "Click to see what is new in Editor 27.0" [ref=e286]
-        - link "Click to see what is new in Webhelp 27.0" [ref=e287]
-        - link "Click to see what is new in Publishing Engine 27.0" [ref=e288]
-        - link "Click to see what is new in Scripting 27.0" [ref=e289]
-        - link "Click to see what is new in Json Editor 27.0" [ref=e290]
-        - link "Click to see what is new in Sdk 27.0" [ref=e291]
+        - link "Click to see what is new in Author 27.0" [ref=e289]
+        - link "Click to see what is new in Developer 27.0" [ref=e290]
+        - link "Click to see what is new in Chemistry 27.0" [ref=e291]
+        - link "Click to see what is new in Editor 27.0" [ref=e292]
+        - link "Click to see what is new in Webhelp 27.0" [ref=e293]
+        - link "Click to see what is new in Publishing Engine 27.0" [ref=e294]
+        - link "Click to see what is new in Scripting 27.0" [ref=e295]
+        - link "Click to see what is new in Json Editor 27.0" [ref=e296]
+        - link "Click to see what is new in Sdk 27.0" [ref=e297]
       - paragraph
     - time
       - StaticText "November 27, 2024"
   - generic
     - time
     - generic
-      - heading "Version 27.0.0" [level=2, ref=e94]
-      - link "Click to see what is new in Web Author 27.0.0" [ref=e292]
+      - heading "Version 27.0.0" [level=2, ref=e99]
+      - link "Click to see what is new in Web Author 27.0.0" [ref=e298]
       - paragraph
     - time
       - StaticText "November 27, 2024"
   - generic
     - time
     - generic
-      - heading "Version 4.0" [level=2, ref=e95]
-      - link "Click to see what is new in Ai Positron 4.0" [ref=e293]
+      - heading "Version 4.0" [level=2, ref=e100]
+      - link "Click to see what is new in Ai Positron 4.0" [ref=e299]
       - paragraph
     - time
       - StaticText "November 1, 2024"
   - generic
     - time
     - generic
-      - heading "Version 7.1" [level=2, ref=e96]
-      - link "Click to see what is new in Content Fusion 7.1" [ref=e294]
+      - heading "Version 7.1" [level=2, ref=e101]
+      - link "Click to see what is new in Content Fusion 7.1" [ref=e300]
       - paragraph
     - time
       - StaticText "October 8, 2024"
   - generic
     - time
     - generic
-      - heading "Version 5.0" [level=2, ref=e97]
-      - link "Click to see what is new in Feedback Cloud 5.0" [ref=e295]
+      - heading "Version 5.0" [level=2, ref=e102]
+      - link "Click to see what is new in Feedback Cloud 5.0" [ref=e301]
       - paragraph
     - time
       - StaticText "September 5, 2024"
   - generic
     - time
     - generic
-      - heading "Version 5.0" [level=2, ref=e98]
-      - link "Click to see what is new in Feedback Enterprise 5.0" [ref=e296]
+      - heading "Version 5.0" [level=2, ref=e103]
+      - link "Click to see what is new in Feedback Enterprise 5.0" [ref=e302]
       - paragraph
     - time
       - StaticText "September 5, 2024"
   - generic
     - time
     - generic
-      - heading "Version 3.0" [level=2, ref=e99]
-      - link "Click to see what is new in Ai Positron 3.0" [ref=e297]
+      - heading "Version 3.0" [level=2, ref=e104]
+      - link "Click to see what is new in Ai Positron 3.0" [ref=e303]
       - paragraph
     - time
       - StaticText "September 5, 2024"
   - generic
     - time
     - generic
-      - heading "Version 7.0" [level=2, ref=e100]
-      - link "Click to see what is new in Content Fusion 7.0" [ref=e298]
+      - heading "Version 7.0" [level=2, ref=e105]
+      - link "Click to see what is new in Content Fusion 7.0" [ref=e304]
       - paragraph
     - time
       - StaticText "July 10, 2024"
   - generic
     - time
     - generic
-      - heading "Version 2.1" [level=2, ref=e101]
-      - link "Click to see what is new in Ai Positron 2.1" [ref=e299]
+      - heading "Version 2.1" [level=2, ref=e106]
+      - link "Click to see what is new in Ai Positron 2.1" [ref=e305]
       - paragraph
     - time
       - StaticText "June 12, 2024"
   - generic
     - time
     - generic
-      - heading "Version 2.0" [level=2, ref=e102]
-      - link "Click to see what is new in Ai Positron 2.0" [ref=e300]
+      - heading "Version 2.0" [level=2, ref=e107]
+      - link "Click to see what is new in Ai Positron 2.0" [ref=e306]
       - paragraph
     - time
       - StaticText "April 23, 2024"
   - generic
     - time
     - generic
-      - heading "Version 6.2" [level=2, ref=e103]
-      - link "Click to see what is new in Content Fusion 6.2" [ref=e301]
+      - heading "Version 6.2" [level=2, ref=e108]
+      - link "Click to see what is new in Content Fusion 6.2" [ref=e307]
       - paragraph
     - time
       - StaticText "April 9, 2024"
   - generic
     - time
     - generic
-      - heading "Version 26.1" [level=2, ref=e104]
+      - heading "Version 26.1" [level=2, ref=e109]
       - generic
-        - link "Click to see what is new in Author 26.1" [ref=e302]
-        - link "Click to see what is new in Developer 26.1" [ref=e303]
-        - link "Click to see what is new in Chemistry 26.1" [ref=e304]
-        - link "Click to see what is new in Editor 26.1" [ref=e305]
-        - link "Click to see what is new in Webhelp 26.1" [ref=e306]
-        - link "Click to see what is new in Publishing Engine 26.1" [ref=e307]
-        - link "Click to see what is new in Scripting 26.1" [ref=e308]
-        - link "Click to see what is new in Json Editor 26.1" [ref=e309]
+        - link "Click to see what is new in Author 26.1" [ref=e308]
+        - link "Click to see what is new in Developer 26.1" [ref=e309]
+        - link "Click to see what is new in Chemistry 26.1" [ref=e310]
+        - link "Click to see what is new in Editor 26.1" [ref=e311]
+        - link "Click to see what is new in Webhelp 26.1" [ref=e312]
+        - link "Click to see what is new in Publishing Engine 26.1" [ref=e313]
+        - link "Click to see what is new in Scripting 26.1" [ref=e314]
+        - link "Click to see what is new in Json Editor 26.1" [ref=e315]
       - paragraph
     - time
       - StaticText "March 25, 2024"
   - generic
     - time
     - generic
-      - heading "Version 26.1.0" [level=2, ref=e105]
-      - link "Click to see what is new in Web Author 26.1.0" [ref=e310]
+      - heading "Version 26.1.0" [level=2, ref=e110]
+      - link "Click to see what is new in Web Author 26.1.0" [ref=e316]
       - paragraph
     - time
       - StaticText "March 25, 2024"
   - generic
     - time
     - generic
-      - heading "Version 1.1" [level=2, ref=e106]
-      - link "Click to see what is new in Ai Positron 1.1" [ref=e311]
+      - heading "Version 1.1" [level=2, ref=e111]
+      - link "Click to see what is new in Ai Positron 1.1" [ref=e317]
       - paragraph
     - time
       - StaticText "February 7, 2024"
   - generic
     - time
     - generic
-      - heading "Version 6.1" [level=2, ref=e107]
-      - link "Click to see what is new in Content Fusion 6.1" [ref=e312]
+      - heading "Version 6.1" [level=2, ref=e112]
+      - link "Click to see what is new in Content Fusion 6.1" [ref=e318]
       - paragraph
     - time
       - StaticText "February 5, 2024"
   - generic
     - time
     - generic
-      - heading "Version 4.1" [level=2, ref=e108]
-      - link "Click to see what is new in Feedback Cloud 4.1" [ref=e313]
+      - heading "Version 4.1" [level=2, ref=e113]
+      - link "Click to see what is new in Feedback Cloud 4.1" [ref=e319]
       - paragraph
     - time
       - StaticText "February 1, 2024"
   - generic
     - time
     - generic
-      - heading "Version 4.1" [level=2, ref=e109]
-      - link "Click to see what is new in Feedback Enterprise 4.1" [ref=e314]
+      - heading "Version 4.1" [level=2, ref=e114]
+      - link "Click to see what is new in Feedback Enterprise 4.1" [ref=e320]
       - paragraph
     - time
       - StaticText "February 1, 2024"
   - generic
     - time
     - generic
-      - heading "Version 1.0" [level=2, ref=e110]
-      - link "Click to see what is new in Ai Positron 1.0" [ref=e315]
+      - heading "Version 1.0" [level=2, ref=e115]
+      - link "Click to see what is new in Ai Positron 1.0" [ref=e321]
       - paragraph
     - time
       - StaticText "November 10, 2023"
   - generic
     - time
     - generic
-      - heading "Version 6.0" [level=2, ref=e111]
-      - link "Click to see what is new in Content Fusion 6.0" [ref=e316]
+      - heading "Version 6.0" [level=2, ref=e116]
+      - link "Click to see what is new in Content Fusion 6.0" [ref=e322]
       - paragraph
     - time
       - StaticText "November 1, 2023"
   - generic
     - time
     - generic
-      - heading "Version 4.0" [level=2, ref=e112]
-      - link "Click to see what is new in Feedback Cloud 4.0" [ref=e317]
+      - heading "Version 4.0" [level=2, ref=e117]
+      - link "Click to see what is new in Feedback Cloud 4.0" [ref=e323]
       - paragraph
     - time
       - StaticText "November 1, 2023"
   - generic
     - time
     - generic
-      - heading "Version 4.0" [level=2, ref=e113]
-      - link "Click to see what is new in Feedback Enterprise 4.0" [ref=e318]
+      - heading "Version 4.0" [level=2, ref=e118]
+      - link "Click to see what is new in Feedback Enterprise 4.0" [ref=e324]
       - paragraph
     - time
       - StaticText "November 1, 2023"
   - generic
     - time
     - generic
-      - heading "Version 26.0" [level=2, ref=e114]
+      - heading "Version 26.0" [level=2, ref=e119]
       - generic
-        - link "Click to see what is new in Author 26.0" [ref=e319]
-        - link "Click to see what is new in Developer 26.0" [ref=e320]
-        - link "Click to see what is new in Chemistry 26.0" [ref=e321]
-        - link "Click to see what is new in Editor 26.0" [ref=e322]
-        - link "Click to see what is new in Webhelp 26.0" [ref=e323]
-        - link "Click to see what is new in Publishing Engine 26.0" [ref=e324]
-        - link "Click to see what is new in Scripting 26.0" [ref=e325]
+        - link "Click to see what is new in Author 26.0" [ref=e325]
+        - link "Click to see what is new in Developer 26.0" [ref=e326]
+        - link "Click to see what is new in Chemistry 26.0" [ref=e327]
+        - link "Click to see what is new in Editor 26.0" [ref=e328]
+        - link "Click to see what is new in Webhelp 26.0" [ref=e329]
+        - link "Click to see what is new in Publishing Engine 26.0" [ref=e330]
+        - link "Click to see what is new in Scripting 26.0" [ref=e331]
       - paragraph
     - time
       - StaticText "October 11, 2023"
   - generic
     - time
     - generic
-      - heading "Version 26.0.0" [level=2, ref=e115]
-      - link "Click to see what is new in Web Author 26.0.0" [ref=e326]
+      - heading "Version 26.0.0" [level=2, ref=e120]
+      - link "Click to see what is new in Web Author 26.0.0" [ref=e332]
       - paragraph
     - time
       - StaticText "October 11, 2023"
   - generic
     - time
     - generic
-      - heading "Version 5.1" [level=2, ref=e116]
-      - link "Click to see what is new in Content Fusion 5.1" [ref=e327]
+      - heading "Version 5.1" [level=2, ref=e121]
+      - link "Click to see what is new in Content Fusion 5.1" [ref=e333]
       - paragraph
     - time
       - StaticText "April 19, 2023"
   - generic
     - time
     - generic
-      - heading "Version 25.1" [level=2, ref=e117]
+      - heading "Version 25.1" [level=2, ref=e122]
       - generic
-        - link "Click to see what is new in Author 25.1" [ref=e328]
-        - link "Click to see what is new in Developer 25.1" [ref=e329]
-        - link "Click to see what is new in Chemistry 25.1" [ref=e330]
-        - link "Click to see what is new in Editor 25.1" [ref=e331]
-        - link "Click to see what is new in Webhelp 25.1" [ref=e332]
-        - link "Click to see what is new in Publishing Engine 25.1" [ref=e333]
-        - link "Click to see what is new in Scripting 25.1" [ref=e334]
+        - link "Click to see what is new in Author 25.1" [ref=e334]
+        - link "Click to see what is new in Developer 25.1" [ref=e335]
+        - link "Click to see what is new in Chemistry 25.1" [ref=e336]
+        - link "Click to see what is new in Editor 25.1" [ref=e337]
+        - link "Click to see what is new in Webhelp 25.1" [ref=e338]
+        - link "Click to see what is new in Publishing Engine 25.1" [ref=e339]
+        - link "Click to see what is new in Scripting 25.1" [ref=e340]
       - paragraph
     - time
       - StaticText "March 16, 2023"
   - generic
     - time
     - generic
-      - heading "Version 25.1.0" [level=2, ref=e118]
-      - link "Click to see what is new in Web Author 25.1.0" [ref=e335]
+      - heading "Version 25.1.0" [level=2, ref=e123]
+      - link "Click to see what is new in Web Author 25.1.0" [ref=e341]
       - paragraph
     - time
       - StaticText "March 16, 2023"
   - generic
     - time
     - generic
-      - heading "Version 3.0" [level=2, ref=e119]
-      - link "Click to see what is new in Feedback Cloud 3.0" [ref=e336]
+      - heading "Version 3.0" [level=2, ref=e124]
+      - link "Click to see what is new in Feedback Cloud 3.0" [ref=e342]
       - paragraph
     - time
       - StaticText "March 16, 2023"
   - generic
     - time
     - generic
-      - heading "Version 3.0" [level=2, ref=e120]
-      - link "Click to see what is new in Feedback Enterprise 3.0" [ref=e337]
+      - heading "Version 3.0" [level=2, ref=e125]
+      - link "Click to see what is new in Feedback Enterprise 3.0" [ref=e343]
       - paragraph
     - time
       - StaticText "March 16, 2023"
   - generic
     - time
     - generic
-      - heading "Version 25.0" [level=2, ref=e121]
+      - heading "Version 25.0" [level=2, ref=e126]
       - generic
-        - link "Click to see what is new in Author 25.0" [ref=e338]
-        - link "Click to see what is new in Developer 25.0" [ref=e339]
-        - link "Click to see what is new in Chemistry 25.0" [ref=e340]
-        - link "Click to see what is new in Editor 25.0" [ref=e341]
-        - link "Click to see what is new in Webhelp 25.0" [ref=e342]
-        - link "Click to see what is new in Publishing Engine 25.0" [ref=e343]
-        - link "Click to see what is new in Scripting 25.0" [ref=e344]
+        - link "Click to see what is new in Author 25.0" [ref=e344]
+        - link "Click to see what is new in Developer 25.0" [ref=e345]
+        - link "Click to see what is new in Chemistry 25.0" [ref=e346]
+        - link "Click to see what is new in Editor 25.0" [ref=e347]
+        - link "Click to see what is new in Webhelp 25.0" [ref=e348]
+        - link "Click to see what is new in Publishing Engine 25.0" [ref=e349]
+        - link "Click to see what is new in Scripting 25.0" [ref=e350]
       - paragraph
     - time
       - StaticText "October 13, 2022"
   - generic
     - time
     - generic
-      - heading "Version 25.0.0" [level=2, ref=e122]
-      - link "Click to see what is new in Web Author 25.0.0" [ref=e345]
+      - heading "Version 25.0.0" [level=2, ref=e127]
+      - link "Click to see what is new in Web Author 25.0.0" [ref=e351]
       - paragraph
     - time
       - StaticText "October 13, 2022"
   - generic
     - time
     - generic
-      - heading "Version 5.0" [level=2, ref=e123]
-      - link "Click to see what is new in Content Fusion 5.0" [ref=e346]
+      - heading "Version 5.0" [level=2, ref=e128]
+      - link "Click to see what is new in Content Fusion 5.0" [ref=e352]
       - paragraph
     - time
       - StaticText "May 25, 2022"
   - generic
     - time
     - generic
-      - heading "Version 2.1" [level=2, ref=e124]
-      - link "Click to see what is new in Feedback Cloud 2.1" [ref=e347]
+      - heading "Version 2.1" [level=2, ref=e129]
+      - link "Click to see what is new in Feedback Cloud 2.1" [ref=e353]
       - paragraph
     - time
       - StaticText "April 13, 2022"
   - generic
     - time
     - generic
-      - heading "Version 2.1" [level=2, ref=e125]
-      - link "Click to see what is new in Feedback Enterprise 2.1" [ref=e348]
+      - heading "Version 2.1" [level=2, ref=e130]
+      - link "Click to see what is new in Feedback Enterprise 2.1" [ref=e354]
       - paragraph
     - time
       - StaticText "April 13, 2022"
   - generic
     - time
     - generic
-      - heading "Version 24.1" [level=2, ref=e126]
+      - heading "Version 24.1" [level=2, ref=e131]
       - generic
-        - link "Click to see what is new in Author 24.1" [ref=e349]
-        - link "Click to see what is new in Developer 24.1" [ref=e350]
-        - link "Click to see what is new in Chemistry 24.1" [ref=e351]
-        - link "Click to see what is new in Editor 24.1" [ref=e352]
-        - link "Click to see what is new in Webhelp 24.1" [ref=e353]
-        - link "Click to see what is new in Publishing Engine 24.1" [ref=e354]
-        - link "Click to see what is new in Scripting 24.1" [ref=e355]
+        - link "Click to see what is new in Author 24.1" [ref=e355]
+        - link "Click to see what is new in Developer 24.1" [ref=e356]
+        - link "Click to see what is new in Chemistry 24.1" [ref=e357]
+        - link "Click to see what is new in Editor 24.1" [ref=e358]
+        - link "Click to see what is new in Webhelp 24.1" [ref=e359]
+        - link "Click to see what is new in Publishing Engine 24.1" [ref=e360]
+        - link "Click to see what is new in Scripting 24.1" [ref=e361]
       - paragraph
     - time
       - StaticText "March 7, 2022"
   - generic
     - time
     - generic
-      - heading "Version 24.1.0" [level=2, ref=e127]
-      - link "Click to see what is new in Web Author 24.1.0" [ref=e356]
+      - heading "Version 24.1.0" [level=2, ref=e132]
+      - link "Click to see what is new in Web Author 24.1.0" [ref=e362]
       - paragraph
     - time
       - StaticText "March 7, 2022"
   - generic
     - time
     - generic
-      - heading "Version 2.0" [level=2, ref=e128]
-      - link "Click to see what is new in Feedback Cloud 2.0" [ref=e357]
+      - heading "Version 2.0" [level=2, ref=e133]
+      - link "Click to see what is new in Feedback Cloud 2.0" [ref=e363]
       - paragraph
     - time
       - StaticText "Dec. 16, 2021"
   - generic
     - time
     - generic
-      - heading "Version 2.0" [level=2, ref=e129]
-      - link "Click to see what is new in Feedback Enterprise 2.0" [ref=e358]
+      - heading "Version 2.0" [level=2, ref=e134]
+      - link "Click to see what is new in Feedback Enterprise 2.0" [ref=e364]
       - paragraph
     - time
       - StaticText "Dec 16, 2021"
   - generic
     - time
     - generic
-      - heading "Version 24.0" [level=2, ref=e130]
+      - heading "Version 24.0" [level=2, ref=e135]
       - generic
-        - link "Click to see what is new in Author 24.0" [ref=e359]
-        - link "Click to see what is new in Developer 24.0" [ref=e360]
-        - link "Click to see what is new in Chemistry 24.0" [ref=e361]
-        - link "Click to see what is new in Editor 24.0" [ref=e362]
-        - link "Click to see what is new in Webhelp 24.0" [ref=e363]
-        - link "Click to see what is new in Publishing Engine 24.0" [ref=e364]
-        - link "Click to see what is new in Scripting 24.0" [ref=e365]
+        - link "Click to see what is new in Author 24.0" [ref=e365]
+        - link "Click to see what is new in Developer 24.0" [ref=e366]
+        - link "Click to see what is new in Chemistry 24.0" [ref=e367]
+        - link "Click to see what is new in Editor 24.0" [ref=e368]
+        - link "Click to see what is new in Webhelp 24.0" [ref=e369]
+        - link "Click to see what is new in Publishing Engine 24.0" [ref=e370]
+        - link "Click to see what is new in Scripting 24.0" [ref=e371]
       - paragraph
     - time
       - StaticText "October 18, 2021"
   - generic
     - time
     - generic
-      - heading "Version 24.0.0" [level=2, ref=e131]
-      - link "Click to see what is new in Web Author 24.0.0" [ref=e366]
+      - heading "Version 24.0.0" [level=2, ref=e136]
+      - link "Click to see what is new in Web Author 24.0.0" [ref=e372]
       - paragraph
     - time
       - StaticText "October 18, 2021"
   - generic
     - time
     - generic
-      - heading "Version 23.1.1" [level=2, ref=e132]
-      - link "Click to see what is new in Web Author 23.1.1" [ref=e367]
+      - heading "Version 23.1.1" [level=2, ref=e137]
+      - link "Click to see what is new in Web Author 23.1.1" [ref=e373]
       - paragraph
     - time
       - StaticText "July 12, 2021"
   - generic
     - time
     - generic
-      - heading "Version 4.1" [level=2, ref=e133]
-      - link "Click to see what is new in Content Fusion 4.1" [ref=e368]
+      - heading "Version 4.1" [level=2, ref=e138]
+      - link "Click to see what is new in Content Fusion 4.1" [ref=e374]
       - paragraph
     - time
       - StaticText "July 12, 2021"
   - generic
     - time
     - generic
-      - heading "Version 23.1.0" [level=2, ref=e134]
-      - link "Click to see what is new in Web Author 23.1.0" [ref=e369]
+      - heading "Version 23.1.0" [level=2, ref=e139]
+      - link "Click to see what is new in Web Author 23.1.0" [ref=e375]
       - paragraph
     - time
       - StaticText "March 4, 2021"
   - generic
     - time
     - generic
-      - heading "Version 4.0" [level=2, ref=e135]
-      - link "Click to see what is new in Content Fusion 4.0" [ref=e370]
+      - heading "Version 4.0" [level=2, ref=e140]
+      - link "Click to see what is new in Content Fusion 4.0" [ref=e376]
       - paragraph
     - time
       - StaticText "March 4, 2021"
   - generic
     - time
     - generic
-      - heading "Version 1.4" [level=2, ref=e136]
-      - link "Click to see what is new in Feedback Cloud 1.4" [ref=e371]
+      - heading "Version 1.4" [level=2, ref=e141]
+      - link "Click to see what is new in Feedback Cloud 1.4" [ref=e377]
       - paragraph
     - time
       - StaticText "March 4, 2021"
   - generic
     - time
     - generic
-      - heading "Version 1.4" [level=2, ref=e137]
-      - link "Click to see what is new in Feedback Enterprise 1.4" [ref=e372]
+      - heading "Version 1.4" [level=2, ref=e142]
+      - link "Click to see what is new in Feedback Enterprise 1.4" [ref=e378]
       - paragraph
     - time
       - StaticText "March 4, 2021"
   - generic
     - time
     - generic
-      - heading "Version 23.1" [level=2, ref=e138]
+      - heading "Version 23.1" [level=2, ref=e143]
       - generic
-        - link "Click to see what is new in Author 23.1" [ref=e373]
-        - link "Click to see what is new in Developer 23.1" [ref=e374]
-        - link "Click to see what is new in Chemistry 23.1" [ref=e375]
-        - link "Click to see what is new in Editor 23.1" [ref=e376]
-        - link "Click to see what is new in Webhelp 23.1" [ref=e377]
-        - link "Click to see what is new in Publishing Engine 23.1" [ref=e378]
-        - link "Click to see what is new in Scripting 23.1" [ref=e379]
+        - link "Click to see what is new in Author 23.1" [ref=e379]
+        - link "Click to see what is new in Developer 23.1" [ref=e380]
+        - link "Click to see what is new in Chemistry 23.1" [ref=e381]
+        - link "Click to see what is new in Editor 23.1" [ref=e382]
+        - link "Click to see what is new in Webhelp 23.1" [ref=e383]
+        - link "Click to see what is new in Publishing Engine 23.1" [ref=e384]
+        - link "Click to see what is new in Scripting 23.1" [ref=e385]
       - paragraph
     - time
       - StaticText "March 4, 2021"
   - generic
     - time
     - generic
-      - heading "Version 23.0" [level=2, ref=e139]
+      - heading "Version 23.0" [level=2, ref=e144]
       - generic
-        - link "Click to see what is new in Author 23.0" [ref=e380]
-        - link "Click to see what is new in Developer 23.0" [ref=e381]
-        - link "Click to see what is new in Chemistry 23.0" [ref=e382]
-        - link "Click to see what is new in Editor 23.0" [ref=e383]
-        - link "Click to see what is new in Webhelp 23.0" [ref=e384]
-        - link "Click to see what is new in Publishing Engine 23.0" [ref=e385]
+        - link "Click to see what is new in Author 23.0" [ref=e386]
+        - link "Click to see what is new in Developer 23.0" [ref=e387]
+        - link "Click to see what is new in Chemistry 23.0" [ref=e388]
+        - link "Click to see what is new in Editor 23.0" [ref=e389]
+        - link "Click to see what is new in Webhelp 23.0" [ref=e390]
+        - link "Click to see what is new in Publishing Engine 23.0" [ref=e391]
       - paragraph
     - time
       - StaticText "November 19, 2020"
   - generic
     - time
     - generic
-      - heading "Version 23.0.0" [level=2, ref=e140]
-      - link "Click to see what is new in Web Author 23.0.0" [ref=e386]
+      - heading "Version 23.0.0" [level=2, ref=e145]
+      - link "Click to see what is new in Web Author 23.0.0" [ref=e392]
       - paragraph
     - time
       - StaticText "November 19, 2020"
   - generic
     - time
     - generic
-      - heading "Version 1.3" [level=2, ref=e141]
-      - link "Click to see what is new in Feedback Enterprise 1.3" [ref=e387]
+      - heading "Version 1.3" [level=2, ref=e146]
+      - link "Click to see what is new in Feedback Enterprise 1.3" [ref=e393]
       - paragraph
     - time
       - StaticText "October 7, 2020"
   - generic
     - time
     - generic
-      - heading "Version 1.3" [level=2, ref=e142]
-      - link "Click to see what is new in Feedback Cloud 1.3" [ref=e388]
+      - heading "Version 1.3" [level=2, ref=e147]
+      - link "Click to see what is new in Feedback Cloud 1.3" [ref=e394]
       - paragraph
     - time
       - StaticText "October 7, 2020"
   - generic
     - time
     - generic
-      - heading "Version 3.0" [level=2, ref=e143]
-      - link "Click to see what is new in Content Fusion 3.0" [ref=e389]
+      - heading "Version 3.0" [level=2, ref=e148]
+      - link "Click to see what is new in Content Fusion 3.0" [ref=e395]
       - paragraph
     - time
       - StaticText "July 3, 2020"
   - generic
     - time
     - generic
-      - heading "Version 22.1" [level=2, ref=e144]
+      - heading "Version 22.1" [level=2, ref=e149]
       - generic
-        - link "Click to see what is new in Author 22.1" [ref=e390]
-        - link "Click to see what is new in Developer 22.1" [ref=e391]
-        - link "Click to see what is new in Chemistry 22.1" [ref=e392]
-        - link "Click to see what is new in Editor 22.1" [ref=e393]
-        - link "Click to see what is new in Webhelp 22.1" [ref=e394]
-        - link "Click to see what is new in Publishing Engine 22.1" [ref=e395]
+        - link "Click to see what is new in Author 22.1" [ref=e396]
+        - link "Click to see what is new in Developer 22.1" [ref=e397]
+        - link "Click to see what is new in Chemistry 22.1" [ref=e398]
+        - link "Click to see what is new in Editor 22.1" [ref=e399]
+        - link "Click to see what is new in Webhelp 22.1" [ref=e400]
+        - link "Click to see what is new in Publishing Engine 22.1" [ref=e401]
       - paragraph
     - time
       - StaticText "May 19, 2020"
   - generic
     - time
     - generic
-      - heading "Version 22.1.0" [level=2, ref=e145]
-      - link "Click to see what is new in Web Author 22.1.0" [ref=e396]
+      - heading "Version 22.1.0" [level=2, ref=e150]
+      - link "Click to see what is new in Web Author 22.1.0" [ref=e402]
       - paragraph
     - time
       - StaticText "May 19, 2020"
   - generic
     - time
     - generic
-      - heading "Version 1.2" [level=2, ref=e146]
-      - link "Click to see what is new in Feedback Cloud 1.2" [ref=e397]
+      - heading "Version 1.2" [level=2, ref=e151]
+      - link "Click to see what is new in Feedback Cloud 1.2" [ref=e403]
       - paragraph
     - time
       - StaticText "May 19, 2020"
   - generic
     - time
     - generic
-      - heading "Version 22.0" [level=2, ref=e147]
+      - heading "Version 22.0" [level=2, ref=e152]
       - generic
-        - link "Click to see what is new in Editor 22.0" [ref=e398]
-        - link "Click to see what is new in Author 22.0" [ref=e399]
-        - link "Click to see what is new in Developer 22.0" [ref=e400]
-        - link "Click to see what is new in Chemistry 22.0" [ref=e401]
-        - link "Click to see what is new in Webhelp 22.0" [ref=e402]
+        - link "Click to see what is new in Editor 22.0" [ref=e404]
+        - link "Click to see what is new in Author 22.0" [ref=e405]
+        - link "Click to see what is new in Developer 22.0" [ref=e406]
+        - link "Click to see what is new in Chemistry 22.0" [ref=e407]
+        - link "Click to see what is new in Webhelp 22.0" [ref=e408]
       - paragraph
     - time
       - StaticText "February 12, 2020"
   - generic
     - time
     - generic
-      - heading "Version 22.0.0" [level=2, ref=e148]
-      - link "Click to see what is new in Web Author 22.0.0" [ref=e403]
+      - heading "Version 22.0.0" [level=2, ref=e153]
+      - link "Click to see what is new in Web Author 22.0.0" [ref=e409]
       - paragraph
     - time
       - StaticText "February 12, 2020"
   - generic
     - time
     - generic
-      - heading "Version 2.0" [level=2, ref=e149]
-      - link "Click to see what is new in Content Fusion 2.0" [ref=e404]
+      - heading "Version 2.0" [level=2, ref=e154]
+      - link "Click to see what is new in Content Fusion 2.0" [ref=e410]
       - paragraph
     - time
       - StaticText "February 12, 2020"
   - generic
     - time
     - generic
-      - heading "Version 21.1.1" [level=2, ref=e150]
-      - link "Click to see what is new in Web Author 21.1.1" [ref=e405]
+      - heading "Version 21.1.1" [level=2, ref=e155]
+      - link "Click to see what is new in Web Author 21.1.1" [ref=e411]
       - paragraph
     - time
       - StaticText "October 24, 2019"
   - generic
     - time
     - generic
-      - heading "Version 21.1" [level=2, ref=e151]
+      - heading "Version 21.1" [level=2, ref=e156]
       - generic
-        - link "Click to see what is new in Author 21.1" [ref=e406]
-        - link "Click to see what is new in Developer 21.1" [ref=e407]
-        - link "Click to see what is new in Webhelp 21.1" [ref=e408]
-        - link "Click to see what is new in Chemistry 21.1" [ref=e409]
-        - link "Click to see what is new in Editor 21.1" [ref=e410]
+        - link "Click to see what is new in Author 21.1" [ref=e412]
+        - link "Click to see what is new in Developer 21.1" [ref=e413]
+        - link "Click to see what is new in Webhelp 21.1" [ref=e414]
+        - link "Click to see what is new in Chemistry 21.1" [ref=e415]
+        - link "Click to see what is new in Editor 21.1" [ref=e416]
       - paragraph
     - time
       - StaticText "May 23, 2019"
   - generic
     - time
     - generic
-      - heading "Version 21.1.0" [level=2, ref=e152]
-      - link "Click to see what is new in Web Author 21.1.0" [ref=e411]
+      - heading "Version 21.1.0" [level=2, ref=e157]
+      - link "Click to see what is new in Web Author 21.1.0" [ref=e417]
       - paragraph
     - time
       - StaticText "May 23, 2019"
   - generic
     - time
     - generic
-      - heading "Version 21.0.0" [level=2, ref=e153]
-      - link "Click to see what is new in Web Author 21.0.0" [ref=e412]
+      - heading "Version 21.0.0" [level=2, ref=e158]
+      - link "Click to see what is new in Web Author 21.0.0" [ref=e418]
       - paragraph
     - time
       - StaticText "February 22, 2019"
   - generic
     - time
     - generic
-      - heading "Version 21.0" [level=2, ref=e154]
+      - heading "Version 21.0" [level=2, ref=e159]
       - generic
-        - link "Click to see what is new in Editor 21.0" [ref=e413]
-        - link "Click to see what is new in Author 21.0" [ref=e414]
-        - link "Click to see what is new in Developer 21.0" [ref=e415]
-        - link "Click to see what is new in Webhelp 21.0" [ref=e416]
-        - link "Click to see what is new in Chemistry 21.0" [ref=e417]
+        - link "Click to see what is new in Editor 21.0" [ref=e419]
+        - link "Click to see what is new in Author 21.0" [ref=e420]
+        - link "Click to see what is new in Developer 21.0" [ref=e421]
+        - link "Click to see what is new in Webhelp 21.0" [ref=e422]
+        - link "Click to see what is new in Chemistry 21.0" [ref=e423]
       - paragraph
     - time
       - StaticText "February 22, 2019"
   - generic
     - time
     - generic
-      - heading "Version 1.1" [level=2, ref=e155]
-      - link "Click to see what is new in Content Fusion 1.1" [ref=e418]
+      - heading "Version 1.1" [level=2, ref=e160]
+      - link "Click to see what is new in Content Fusion 1.1" [ref=e424]
       - paragraph
-        - link "Content Fusion website" [ref=e419]
+        - link "Content Fusion website" [ref=e425]
     - time
       - StaticText "February 22, 2019"
   - generic
     - time
     - generic
-      - heading "Version 20.1.0" [level=2, ref=e156]
-      - link "Click to see what is new in Web Author 20.1.0" [ref=e420]
+      - heading "Version 20.1.0" [level=2, ref=e161]
+      - link "Click to see what is new in Web Author 20.1.0" [ref=e426]
       - paragraph
     - time
       - StaticText "June 15, 2018"
   - generic
     - time
     - generic
-      - heading "Version 20.1" [level=2, ref=e157]
+      - heading "Version 20.1" [level=2, ref=e162]
       - generic
-        - link "Click to see what is new in Editor 20.1" [ref=e421]
-        - link "Click to see what is new in Author 20.1" [ref=e422]
-        - link "Click to see what is new in Developer 20.1" [ref=e423]
-        - link "Click to see what is new in Webhelp 20.1" [ref=e424]
-        - link "Click to see what is new in Chemistry 20.1" [ref=e425]
+        - link "Click to see what is new in Editor 20.1" [ref=e427]
+        - link "Click to see what is new in Author 20.1" [ref=e428]
+        - link "Click to see what is new in Developer 20.1" [ref=e429]
+        - link "Click to see what is new in Webhelp 20.1" [ref=e430]
+        - link "Click to see what is new in Chemistry 20.1" [ref=e431]
       - paragraph
-        - link "Section 508 accessibility standard" [ref=e426]
+        - link "Section 508 accessibility standard" [ref=e432]
     - time
       - StaticText "June 15, 2018"
   - generic
     - time
     - generic
-      - heading "Version 20.0.0" [level=2, ref=e158]
-      - link "Click to see what is new in Web Author 20.0.0" [ref=e427]
+      - heading "Version 20.0.0" [level=2, ref=e163]
+      - link "Click to see what is new in Web Author 20.0.0" [ref=e433]
       - paragraph
     - time
       - StaticText "March 16, 2018"
   - generic
     - time
     - generic
-      - heading "Version 20.0" [level=2, ref=e159]
+      - heading "Version 20.0" [level=2, ref=e164]
       - generic
-        - link "Click to see what is new in Author 20.0" [ref=e428]
-        - link "Click to see what is new in Developer 20.0" [ref=e429]
-        - link "Click to see what is new in Webhelp 20.0" [ref=e430]
-        - link "Click to see what is new in Chemistry 20.0" [ref=e431]
-        - link "Click to see what is new in Editor 20.0" [ref=e432]
+        - link "Click to see what is new in Author 20.0" [ref=e434]
+        - link "Click to see what is new in Developer 20.0" [ref=e435]
+        - link "Click to see what is new in Webhelp 20.0" [ref=e436]
+        - link "Click to see what is new in Chemistry 20.0" [ref=e437]
+        - link "Click to see what is new in Editor 20.0" [ref=e438]
       - paragraph
     - time
       - StaticText "March 16, 2018"
   - generic
     - time
     - generic
-      - heading "Version 19.1.0" [level=2, ref=e160]
-      - link "Click to see what is new in Web Author 19.1.0" [ref=e433]
+      - heading "Version 19.1.0" [level=2, ref=e165]
+      - link "Click to see what is new in Web Author 19.1.0" [ref=e439]
       - paragraph
     - time
       - StaticText "September 29, 2017"
   - generic
     - time
     - generic
-      - heading "Version 19.1" [level=2, ref=e161]
+      - heading "Version 19.1" [level=2, ref=e166]
       - generic
-        - link "Click to see what is new in Editor 19.1" [ref=e434]
-        - link "Click to see what is new in Author 19.1" [ref=e435]
-        - link "Click to see what is new in Developer 19.1" [ref=e436]
-        - link "Click to see what is new in Webhelp 19.1" [ref=e437]
+        - link "Click to see what is new in Editor 19.1" [ref=e440]
+        - link "Click to see what is new in Author 19.1" [ref=e441]
+        - link "Click to see what is new in Developer 19.1" [ref=e442]
+        - link "Click to see what is new in Webhelp 19.1" [ref=e443]
       - paragraph
     - time
       - StaticText "September 29, 2017"
   - generic
     - time
     - generic
-      - heading "Version 19.0.0" [level=2, ref=e162]
-      - link "Click to see what is new in Web Author 19.0.0" [ref=e438]
+      - heading "Version 19.0.0" [level=2, ref=e167]
+      - link "Click to see what is new in Web Author 19.0.0" [ref=e444]
       - paragraph
     - time
       - StaticText "April 5, 2017"
   - generic
     - time
     - generic
-      - heading "Version 19.0" [level=2, ref=e163]
+      - heading "Version 19.0" [level=2, ref=e168]
       - generic
-        - link "Click to see what is new in Editor 19.0" [ref=e439]
-        - link "Click to see what is new in Author 19.0" [ref=e440]
-        - link "Click to see what is new in Developer 19.0" [ref=e441]
-        - link "Click to see what is new in Webhelp 19.0" [ref=e442]
+        - link "Click to see what is new in Editor 19.0" [ref=e445]
+        - link "Click to see what is new in Author 19.0" [ref=e446]
+        - link "Click to see what is new in Developer 19.0" [ref=e447]
+        - link "Click to see what is new in Webhelp 19.0" [ref=e448]
       - paragraph
     - time
       - StaticText "April 5, 2017"
   - generic
     - time
     - generic
-      - heading "Version 18.1.0" [level=2, ref=e164]
-      - link "Click to see what is new in Web Author 18.1.0" [ref=e443]
+      - heading "Version 18.1.0" [level=2, ref=e169]
+      - link "Click to see what is new in Web Author 18.1.0" [ref=e449]
       - paragraph
     - time
       - StaticText "October 18, 2016"
   - generic
     - time
     - generic
-      - heading "Version 18.1" [level=2, ref=e165]
+      - heading "Version 18.1" [level=2, ref=e170]
       - generic
-        - link "Click to see what is new in Editor 18.1" [ref=e444]
-        - link "Click to see what is new in Author 18.1" [ref=e445]
-        - link "Click to see what is new in Developer 18.1" [ref=e446]
-        - link "Click to see what is new in Webhelp 18.1" [ref=e447]
+        - link "Click to see what is new in Editor 18.1" [ref=e450]
+        - link "Click to see what is new in Author 18.1" [ref=e451]
+        - link "Click to see what is new in Developer 18.1" [ref=e452]
+        - link "Click to see what is new in Webhelp 18.1" [ref=e453]
       - paragraph
     - time
       - StaticText "October 18, 2016"
   - generic
     - time
     - generic
-      - heading "Version 18.0.1" [level=2, ref=e166]
-      - link "Click to see what is new in Web Author 18.0.1" [ref=e448]
+      - heading "Version 18.0.1" [level=2, ref=e171]
+      - link "Click to see what is new in Web Author 18.0.1" [ref=e454]
       - paragraph
     - time
       - StaticText "August 9, 2016"
   - generic
     - time
     - generic
-      - heading "Version 18.0.0" [level=2, ref=e167]
-      - link "Click to see what is new in Web Author 18.0.0" [ref=e449]
+      - heading "Version 18.0.0" [level=2, ref=e172]
+      - link "Click to see what is new in Web Author 18.0.0" [ref=e455]
       - paragraph
     - time
       - StaticText "April 21, 2016"
   - generic
     - time
     - generic
-      - heading "Version 18.0" [level=2, ref=e168]
+      - heading "Version 18.0" [level=2, ref=e173]
       - generic
-        - link "Click to see what is new in Editor 18.0" [ref=e450]
-        - link "Click to see what is new in Author 18.0" [ref=e451]
-        - link "Click to see what is new in Developer 18.0" [ref=e452]
-        - link "Click to see what is new in Webhelp 18.0" [ref=e453]
-        - link "Click to see what is new in Web Author 18.0" [ref=e454]
+        - link "Click to see what is new in Editor 18.0" [ref=e456]
+        - link "Click to see what is new in Author 18.0" [ref=e457]
+        - link "Click to see what is new in Developer 18.0" [ref=e458]
+        - link "Click to see what is new in Webhelp 18.0" [ref=e459]
+        - link "Click to see what is new in Web Author 18.0" [ref=e460]
       - paragraph
     - time
       - StaticText "April 21, 2016"
   - generic
     - time
     - generic
-      - heading "Version 17.1" [level=2, ref=e169]
+      - heading "Version 17.1" [level=2, ref=e174]
       - generic
-        - link "Click to see what is new in Editor 17.1" [ref=e455]
-        - link "Click to see what is new in Author 17.1" [ref=e456]
-        - link "Click to see what is new in Developer 17.1" [ref=e457]
-        - link "Click to see what is new in Webhelp 17.1" [ref=e458]
+        - link "Click to see what is new in Editor 17.1" [ref=e461]
+        - link "Click to see what is new in Author 17.1" [ref=e462]
+        - link "Click to see what is new in Developer 17.1" [ref=e463]
+        - link "Click to see what is new in Webhelp 17.1" [ref=e464]
       - paragraph
     - time
       - StaticText "October 20, 2015"
   - generic
     - time
     - generic
-      - heading "Version 17.0" [level=2, ref=e170]
+      - heading "Version 17.0" [level=2, ref=e175]
       - generic
-        - link "Click to see what is new in Editor 17.0" [ref=e459]
-        - link "Click to see what is new in Author 17.0" [ref=e460]
-        - link "Click to see what is new in Developer 17.0" [ref=e461]
-        - link "Click to see what is new in Webhelp 17.0" [ref=e462]
+        - link "Click to see what is new in Editor 17.0" [ref=e465]
+        - link "Click to see what is new in Author 17.0" [ref=e466]
+        - link "Click to see what is new in Developer 17.0" [ref=e467]
+        - link "Click to see what is new in Webhelp 17.0" [ref=e468]
       - paragraph
     - time
       - StaticText "May 5, 2015"
   - generic
     - time
     - generic
-      - heading "Version 16.1" [level=2, ref=e171]
+      - heading "Version 16.1" [level=2, ref=e176]
       - generic
-        - link "Click to see what is new in Editor 16.1" [ref=e463]
-        - link "Click to see what is new in Author 16.1" [ref=e464]
-        - link "Click to see what is new in Developer 16.1" [ref=e465]
-        - link "Click to see what is new in Webhelp 16.1" [ref=e466]
+        - link "Click to see what is new in Editor 16.1" [ref=e469]
+        - link "Click to see what is new in Author 16.1" [ref=e470]
+        - link "Click to see what is new in Developer 16.1" [ref=e471]
+        - link "Click to see what is new in Webhelp 16.1" [ref=e472]
       - paragraph
     - time
       - StaticText "October 7, 2014"
   - generic
     - time
     - generic
-      - heading "Version 16.0" [level=2, ref=e172]
+      - heading "Version 16.0" [level=2, ref=e177]
       - generic
-        - link "Click to see what is new in Editor 16.0" [ref=e467]
-        - link "Click to see what is new in Author 16.0" [ref=e468]
-        - link "Click to see what is new in Developer 16.0" [ref=e469]
-        - link "Click to see what is new in Webhelp 16.0" [ref=e470]
+        - link "Click to see what is new in Editor 16.0" [ref=e473]
+        - link "Click to see what is new in Author 16.0" [ref=e474]
+        - link "Click to see what is new in Developer 16.0" [ref=e475]
+        - link "Click to see what is new in Webhelp 16.0" [ref=e476]
       - paragraph
     - time
       - StaticText "May 20, 2014"
   - generic
     - time
     - generic
-      - heading "Version 15.2" [level=2, ref=e173]
+      - heading "Version 15.2" [level=2, ref=e178]
       - generic
-        - link "Click to see what is new in Editor 15.2" [ref=e471]
-        - link "Click to see what is new in Author 15.2" [ref=e472]
-        - link "Click to see what is new in Developer 15.2" [ref=e473]
-        - link "Click to see what is new in Webhelp 15.2" [ref=e474]
+        - link "Click to see what is new in Editor 15.2" [ref=e477]
+        - link "Click to see what is new in Author 15.2" [ref=e478]
+        - link "Click to see what is new in Developer 15.2" [ref=e479]
+        - link "Click to see what is new in Webhelp 15.2" [ref=e480]
       - paragraph
     - time
       - StaticText "January 22, 2014"
   - generic
     - time
     - generic
-      - heading "Version 15.1" [level=2, ref=e174]
+      - heading "Version 15.1" [level=2, ref=e179]
       - generic
-        - link "Click to see what is new in Editor 15.1" [ref=e475]
-        - link "Click to see what is new in Author 15.1" [ref=e476]
-        - link "Click to see what is new in Developer 15.1" [ref=e477]
-        - link "Click to see what is new in Webhelp 15.1" [ref=e478]
+        - link "Click to see what is new in Editor 15.1" [ref=e481]
+        - link "Click to see what is new in Author 15.1" [ref=e482]
+        - link "Click to see what is new in Developer 15.1" [ref=e483]
+        - link "Click to see what is new in Webhelp 15.1" [ref=e484]
       - paragraph
     - time
       - StaticText "October 7, 2013"
   - generic
     - time
     - generic
-      - heading "Version 15.0" [level=2, ref=e175]
+      - heading "Version 15.0" [level=2, ref=e180]
       - generic
-        - link "Click to see what is new in Editor 15.0" [ref=e479]
-        - link "Click to see what is new in Author 15.0" [ref=e480]
-        - link "Click to see what is new in Developer 15.0" [ref=e481]
-        - link "Click to see what is new in Webhelp 15.0" [ref=e482]
+        - link "Click to see what is new in Editor 15.0" [ref=e485]
+        - link "Click to see what is new in Author 15.0" [ref=e486]
+        - link "Click to see what is new in Developer 15.0" [ref=e487]
+        - link "Click to see what is new in Webhelp 15.0" [ref=e488]
       - paragraph
     - time
       - StaticText "June 7, 2013"
   - generic
     - time
     - generic
-      - heading "Version 14.2" [level=2, ref=e176]
+      - heading "Version 14.2" [level=2, ref=e181]
       - generic
-        - link "Click to see what is new in Editor 14.2" [ref=e483]
-        - link "Click to see what is new in Author 14.2" [ref=e484]
-        - link "Click to see what is new in Developer 14.2" [ref=e485]
+        - link "Click to see what is new in Editor 14.2" [ref=e489]
+        - link "Click to see what is new in Author 14.2" [ref=e490]
+        - link "Click to see what is new in Developer 14.2" [ref=e491]
       - paragraph
     - time
       - StaticText "February 13, 2013"
   - generic
     - time
     - generic
-      - heading "Version 14.1" [level=2, ref=e177]
+      - heading "Version 14.1" [level=2, ref=e182]
       - generic
-        - link "Click to see what is new in Editor 14.1" [ref=e486]
-        - link "Click to see what is new in Author 14.1" [ref=e487]
-        - link "Click to see what is new in Developer 14.1" [ref=e488]
+        - link "Click to see what is new in Editor 14.1" [ref=e492]
+        - link "Click to see what is new in Author 14.1" [ref=e493]
+        - link "Click to see what is new in Developer 14.1" [ref=e494]
       - paragraph
     - time
       - StaticText "October 19, 2012"
   - generic
     - time
     - generic
-      - heading "Version 14.0" [level=2, ref=e178]
+      - heading "Version 14.0" [level=2, ref=e183]
       - generic
-        - link "Click to see what is new in Editor 14.0" [ref=e489]
-        - link "Click to see what is new in Author 14.0" [ref=e490]
-        - link "Click to see what is new in Developer 14.0" [ref=e491]
+        - link "Click to see what is new in Editor 14.0" [ref=e495]
+        - link "Click to see what is new in Author 14.0" [ref=e496]
+        - link "Click to see what is new in Developer 14.0" [ref=e497]
       - paragraph
     - time
       - StaticText "June 27, 2012"
   - generic
     - time
     - generic
-      - heading "Version 13.2" [level=2, ref=e179]
+      - heading "Version 13.2" [level=2, ref=e184]
       - generic
-        - link "Click to see what is new in Editor 13.2" [ref=e492]
-        - link "Click to see what is new in Author 13.2" [ref=e493]
-        - link "Click to see what is new in Developer 13.2" [ref=e494]
+        - link "Click to see what is new in Editor 13.2" [ref=e498]
+        - link "Click to see what is new in Author 13.2" [ref=e499]
+        - link "Click to see what is new in Developer 13.2" [ref=e500]
       - paragraph
     - time
       - StaticText "January 12, 2012"
   - generic
     - time
     - generic
-      - heading "Version 13.1" [level=2, ref=e180]
+      - heading "Version 13.1" [level=2, ref=e185]
       - generic
-        - link "Click to see what is new in Editor 13.1" [ref=e495]
-        - link "Click to see what is new in Developer 13.1" [ref=e496]
-        - link "Click to see what is new in Author 13.1" [ref=e497]
+        - link "Click to see what is new in Editor 13.1" [ref=e501]
+        - link "Click to see what is new in Developer 13.1" [ref=e502]
+        - link "Click to see what is new in Author 13.1" [ref=e503]
       - paragraph
     - time
       - StaticText "October 26, 2011"
   - generic
     - time
     - generic
-      - heading "Version 13.0" [level=2, ref=e181]
+      - heading "Version 13.0" [level=2, ref=e186]
       - generic
-        - link "Click to see what is new in Editor 13.0" [ref=e498]
-        - link "Click to see what is new in Developer 13.0" [ref=e499]
-        - link "Click to see what is new in Author 13.0" [ref=e500]
+        - link "Click to see what is new in Editor 13.0" [ref=e504]
+        - link "Click to see what is new in Developer 13.0" [ref=e505]
+        - link "Click to see what is new in Author 13.0" [ref=e506]
       - paragraph
     - time
       - StaticText "August 29, 2011"
   - generic
     - time
     - generic
-      - heading "Version 12.2" [level=2, ref=e182]
+      - heading "Version 12.2" [level=2, ref=e187]
       - generic
-        - link "Click to see what is new in Editor 12.2" [ref=e501]
-        - link "Click to see what is new in Author 12.2" [ref=e502]
+        - link "Click to see what is new in Editor 12.2" [ref=e507]
+        - link "Click to see what is new in Author 12.2" [ref=e508]
       - paragraph
         - StaticText "Version 12.2 of Oxygen XML introduces a number of unique development features. It provides support for editing XSLT and XML Schema modules in the context of a main XSLT, respectively main XML Schema file. For XML Schema visual editing it introduces a Palette view that allows to easily create new schema components by dragging them from this Palette view into the diagram. The support for the xml-model processing instruction for schema association that was previewed at XML Prague is available in 12.2 replacing the Oxygen specific processing instruction. The new version includes also one of the most requested features: Ant integration - the support for Ant transformation scenarios allows executing a target from an Ant script. For XSLT 2.0 and XQuery transformations it is possible to specify parameter values as XPath expressions when the engine allows that."
     - time
@@ -1179,336 +1215,336 @@
   - generic
     - time
     - generic
-      - heading "Version 12.1" [level=2, ref=e183]
+      - heading "Version 12.1" [level=2, ref=e188]
       - generic
-        - link "Click to see what is new in Editor 12.1" [ref=e503]
-        - link "Click to see what is new in Author 12.1" [ref=e504]
+        - link "Click to see what is new in Editor 12.1" [ref=e509]
+        - link "Click to see what is new in Author 12.1" [ref=e510]
       - paragraph
     - time
       - StaticText "January 12, 2011"
   - generic
     - time
     - generic
-      - heading "Version 12.0" [level=2, ref=e184]
+      - heading "Version 12.0" [level=2, ref=e189]
       - generic
-        - link "Click to see what is new in Editor 12.0" [ref=e505]
-        - link "Click to see what is new in Author 12.0" [ref=e506]
+        - link "Click to see what is new in Editor 12.0" [ref=e511]
+        - link "Click to see what is new in Author 12.0" [ref=e512]
       - paragraph
     - time
       - StaticText "September 14, 2010"
   - generic
     - time
     - generic
-      - heading "Version 11.2" [level=2, ref=e185]
+      - heading "Version 11.2" [level=2, ref=e190]
       - generic
-        - link "Click to see what is new in Editor 11.2" [ref=e507]
-        - link "Click to see what is new in Author 11.2" [ref=e508]
+        - link "Click to see what is new in Editor 11.2" [ref=e513]
+        - link "Click to see what is new in Author 11.2" [ref=e514]
       - paragraph
     - time
       - StaticText "March 16, 2010"
   - generic
     - time
     - generic
-      - heading "Version 11.1" [level=2, ref=e186]
+      - heading "Version 11.1" [level=2, ref=e191]
       - generic
-        - link "Click to see what is new in Editor 11.1" [ref=e509]
-        - link "Click to see what is new in Author 11.1" [ref=e510]
+        - link "Click to see what is new in Editor 11.1" [ref=e515]
+        - link "Click to see what is new in Author 11.1" [ref=e516]
       - paragraph
     - time
       - StaticText "December 17, 2009"
   - generic
     - time
     - generic
-      - heading "Version 11.0" [level=2, ref=e187]
+      - heading "Version 11.0" [level=2, ref=e192]
       - generic
-        - link "Click to see what is new in Editor 11.0" [ref=e511]
-        - link "Click to see what is new in Author 11.0" [ref=e512]
+        - link "Click to see what is new in Editor 11.0" [ref=e517]
+        - link "Click to see what is new in Author 11.0" [ref=e518]
       - paragraph
     - time
       - StaticText "October 9, 2009"
   - generic
     - time
     - generic
-      - heading "Version 10.3" [level=2, ref=e188]
+      - heading "Version 10.3" [level=2, ref=e193]
       - generic
-        - link "Click to see what is new in Editor 10.3" [ref=e513]
-        - link "Click to see what is new in Author 10.3" [ref=e514]
+        - link "Click to see what is new in Editor 10.3" [ref=e519]
+        - link "Click to see what is new in Author 10.3" [ref=e520]
       - paragraph
     - time
       - StaticText "June 29, 2009"
   - generic
     - time
     - generic
-      - heading "Version 10.2" [level=2, ref=e189]
+      - heading "Version 10.2" [level=2, ref=e194]
       - generic
-        - link "Click to see what is new in Editor 10.2" [ref=e515]
-        - link "Click to see what is new in Author 10.2" [ref=e516]
+        - link "Click to see what is new in Editor 10.2" [ref=e521]
+        - link "Click to see what is new in Author 10.2" [ref=e522]
       - paragraph
     - time
       - StaticText "April 15, 2009"
   - generic
     - time
     - generic
-      - heading "Version 10.1" [level=2, ref=e190]
+      - heading "Version 10.1" [level=2, ref=e195]
       - generic
-        - link "Click to see what is new in Editor 10.1" [ref=e517]
-        - link "Click to see what is new in Author 10.1" [ref=e518]
+        - link "Click to see what is new in Editor 10.1" [ref=e523]
+        - link "Click to see what is new in Author 10.1" [ref=e524]
       - paragraph
     - time
       - StaticText "February 25, 2009"
   - generic
     - time
     - generic
-      - heading "Version 10.0" [level=2, ref=e191]
+      - heading "Version 10.0" [level=2, ref=e196]
       - generic
-        - link "Click to see what is new in Editor 10.0" [ref=e519]
-        - link "Click to see what is new in Author 10.0" [ref=e520]
+        - link "Click to see what is new in Editor 10.0" [ref=e525]
+        - link "Click to see what is new in Author 10.0" [ref=e526]
       - paragraph
     - time
       - StaticText "October 23, 2008"
   - generic
     - time
     - generic
-      - heading "Version 9.3" [level=2, ref=e192]
+      - heading "Version 9.3" [level=2, ref=e197]
       - generic
-        - link "Click to see what is new in Editor 9.3" [ref=e521]
-        - link "Click to see what is new in Author 9.3" [ref=e522]
+        - link "Click to see what is new in Editor 9.3" [ref=e527]
+        - link "Click to see what is new in Author 9.3" [ref=e528]
       - paragraph
     - time
       - StaticText "July 2, 2008"
   - generic
     - time
     - generic
-      - heading "Version 9.2" [level=2, ref=e193]
+      - heading "Version 9.2" [level=2, ref=e198]
       - generic
-        - link "Click to see what is new in Editor 9.2" [ref=e523]
-        - link "Click to see what is new in Author 9.2" [ref=e524]
+        - link "Click to see what is new in Editor 9.2" [ref=e529]
+        - link "Click to see what is new in Author 9.2" [ref=e530]
       - paragraph
     - time
       - StaticText "May 9, 2008"
   - generic
     - time
     - generic
-      - heading "Version 9.1" [level=2, ref=e194]
+      - heading "Version 9.1" [level=2, ref=e199]
       - generic
-        - link "Click to see what is new in Editor 9.1" [ref=e525]
-        - link "Click to see what is new in Author 9.1" [ref=e526]
+        - link "Click to see what is new in Editor 9.1" [ref=e531]
+        - link "Click to see what is new in Author 9.1" [ref=e532]
       - paragraph
     - time
       - StaticText "December 18, 2007"
   - generic
     - time
     - generic
-      - heading "Version 9.0" [level=2, ref=e195]
+      - heading "Version 9.0" [level=2, ref=e200]
       - generic
-        - link "Click to see what is new in Editor 9.0" [ref=e527]
-        - link "Click to see what is new in Author 9.0" [ref=e528]
+        - link "Click to see what is new in Editor 9.0" [ref=e533]
+        - link "Click to see what is new in Author 9.0" [ref=e534]
       - paragraph
     - time
       - StaticText "November 2, 2007"
   - generic
     - time
     - generic
-      - heading "Version 8.2" [level=2, ref=e196]
-      - link "Click to see what is new in Editor 8.2" [ref=e529]
+      - heading "Version 8.2" [level=2, ref=e201]
+      - link "Click to see what is new in Editor 8.2" [ref=e535]
       - paragraph
     - time
       - StaticText "May 7, 2007"
   - generic
     - time
     - generic
-      - heading "Version 8.1" [level=2, ref=e197]
-      - link "Click to see what is new in Editor 8.1" [ref=e530]
+      - heading "Version 8.1" [level=2, ref=e202]
+      - link "Click to see what is new in Editor 8.1" [ref=e536]
       - paragraph
     - time
       - StaticText "January 25, 2007"
   - generic
     - time
     - generic
-      - heading "Version 8.0" [level=2, ref=e198]
-      - link "Click to see what is new in Editor 8.0" [ref=e531]
+      - heading "Version 8.0" [level=2, ref=e203]
+      - link "Click to see what is new in Editor 8.0" [ref=e537]
       - paragraph
         - StaticText "Version 8.0 of Oxygen XML Editor adds as main features a spreadsheet-like XML Grid editing mode, management support for both XML and relational databases: Berkeley DB XML Database, eXist, IBM DB2 PureXML, MarkLogic, Microsoft SQLServer 2005, Oracle 10g R2, RainingData TigerLogic XDMS, SoftwareAG Tamino and XHive XML Database, options and transformation scenarios that can be stored into the project file and support for NVDL (Namespace-based Validation Dispatching Language) scripts."
     - time
   - generic
     - time
     - generic
-      - heading "Version 7.2" [level=2, ref=e199]
-      - link "Click to see what is new in Editor 7.2" [ref=e532]
+      - heading "Version 7.2" [level=2, ref=e204]
+      - link "Click to see what is new in Editor 7.2" [ref=e538]
     - time
   - generic
     - time
     - generic
-      - heading "Version 7.1" [level=2, ref=e200]
-      - link "Click to see what is new in Editor 7.1" [ref=e533]
+      - heading "Version 7.1" [level=2, ref=e205]
+      - link "Click to see what is new in Editor 7.1" [ref=e539]
     - time
   - generic
     - time
     - generic
-      - heading "Version 7.0" [level=2, ref=e201]
-      - link "Click to see what is new in Editor 7.0" [ref=e534]
+      - heading "Version 7.0" [level=2, ref=e206]
+      - link "Click to see what is new in Editor 7.0" [ref=e540]
     - time
   - generic
     - time
     - generic
-      - heading "Version 6.2" [level=2, ref=e202]
-      - link "Click to see what is new in Editor 6.2" [ref=e535]
+      - heading "Version 6.2" [level=2, ref=e207]
+      - link "Click to see what is new in Editor 6.2" [ref=e541]
     - time
   - generic
     - time
     - generic
-      - heading "Version 6.1" [level=2, ref=e203]
-      - link "Click to see what is new in Editor 6.1" [ref=e536]
+      - heading "Version 6.1" [level=2, ref=e208]
+      - link "Click to see what is new in Editor 6.1" [ref=e542]
     - time
   - generic
     - time
     - generic
-      - heading "Version 6.0" [level=2, ref=e204]
-      - link "Click to see what is new in Editor 6.0" [ref=e537]
+      - heading "Version 6.0" [level=2, ref=e209]
+      - link "Click to see what is new in Editor 6.0" [ref=e543]
     - time
   - generic
     - time
     - generic
-      - heading "Version 5.1" [level=2, ref=e205]
-      - link "Click to see what is new in Editor 5.1" [ref=e538]
+      - heading "Version 5.1" [level=2, ref=e210]
+      - link "Click to see what is new in Editor 5.1" [ref=e544]
     - time
   - generic
     - time
     - generic
-      - heading "Version 5.0" [level=2, ref=e206]
-      - link "Click to see what is new in Editor 5.0" [ref=e539]
+      - heading "Version 5.0" [level=2, ref=e211]
+      - link "Click to see what is new in Editor 5.0" [ref=e545]
     - time
   - generic
     - time
     - generic
-      - heading "Version 4.2" [level=2, ref=e207]
-      - link "Click to see what is new in Editor 4.2" [ref=e540]
+      - heading "Version 4.2" [level=2, ref=e212]
+      - link "Click to see what is new in Editor 4.2" [ref=e546]
     - time
   - generic
     - time
     - generic
-      - heading "Version 4.1" [level=2, ref=e208]
-      - link "Click to see what is new in Editor 4.1" [ref=e541]
+      - heading "Version 4.1" [level=2, ref=e213]
+      - link "Click to see what is new in Editor 4.1" [ref=e547]
     - time
   - generic
     - time
     - generic
-      - heading "Version 4.0" [level=2, ref=e209]
-      - link "Click to see what is new in Editor 4.0" [ref=e542]
+      - heading "Version 4.0" [level=2, ref=e214]
+      - link "Click to see what is new in Editor 4.0" [ref=e548]
     - time
   - generic
     - time
     - generic
-      - heading "Version 3.1" [level=2, ref=e210]
-      - link "Click to see what is new in Editor 3.1" [ref=e543]
+      - heading "Version 3.1" [level=2, ref=e215]
+      - link "Click to see what is new in Editor 3.1" [ref=e549]
     - time
   - generic
     - time
     - generic
-      - heading "Version 3.0" [level=2, ref=e211]
-      - link "Click to see what is new in Editor 3.0" [ref=e544]
+      - heading "Version 3.0" [level=2, ref=e216]
+      - link "Click to see what is new in Editor 3.0" [ref=e550]
     - time
   - generic
     - time
     - generic
-      - heading "Version 2.0.4" [level=2, ref=e212]
-      - link "Click to see what is new in Editor 2.0.4" [ref=e545]
+      - heading "Version 2.0.4" [level=2, ref=e217]
+      - link "Click to see what is new in Editor 2.0.4" [ref=e551]
     - time
   - generic
     - time
     - generic
-      - heading "Version 2.0.3" [level=2, ref=e213]
-      - link "Click to see what is new in Editor 2.0.3" [ref=e546]
+      - heading "Version 2.0.3" [level=2, ref=e218]
+      - link "Click to see what is new in Editor 2.0.3" [ref=e552]
     - time
   - generic
     - time
     - generic
-      - heading "Version 2.0.2" [level=2, ref=e214]
-      - link "Click to see what is new in Editor 2.0.2" [ref=e547]
+      - heading "Version 2.0.2" [level=2, ref=e219]
+      - link "Click to see what is new in Editor 2.0.2" [ref=e553]
     - time
   - generic
     - time
     - generic
-      - heading "Version 2.0.1" [level=2, ref=e215]
-      - link "Click to see what is new in Editor 2.0.1" [ref=e548]
+      - heading "Version 2.0.1" [level=2, ref=e220]
+      - link "Click to see what is new in Editor 2.0.1" [ref=e554]
     - time
   - generic
     - time
     - generic
-      - heading "Version 2.0" [level=2, ref=e216]
-      - link "Click to see what is new in Editor 2.0" [ref=e549]
+      - heading "Version 2.0" [level=2, ref=e221]
+      - link "Click to see what is new in Editor 2.0" [ref=e555]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.2.4" [level=2, ref=e217]
-      - link "Click to see what is new in Editor 1.2.4" [ref=e550]
+      - heading "Version 1.2.4" [level=2, ref=e222]
+      - link "Click to see what is new in Editor 1.2.4" [ref=e556]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.2.3" [level=2, ref=e218]
-      - link "Click to see what is new in Editor 1.2.3" [ref=e551]
+      - heading "Version 1.2.3" [level=2, ref=e223]
+      - link "Click to see what is new in Editor 1.2.3" [ref=e557]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.2.2" [level=2, ref=e219]
-      - link "Click to see what is new in Editor 1.2.2" [ref=e552]
+      - heading "Version 1.2.2" [level=2, ref=e224]
+      - link "Click to see what is new in Editor 1.2.2" [ref=e558]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.2.1" [level=2, ref=e220]
-      - link "Click to see what is new in Editor 1.2.1" [ref=e553]
+      - heading "Version 1.2.1" [level=2, ref=e225]
+      - link "Click to see what is new in Editor 1.2.1" [ref=e559]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.2" [level=2, ref=e221]
-      - link "Click to see what is new in Editor 1.2" [ref=e554]
+      - heading "Version 1.2" [level=2, ref=e226]
+      - link "Click to see what is new in Editor 1.2" [ref=e560]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1.9" [level=2, ref=e222]
-      - link "Click to see what is new in Editor 1.1.9" [ref=e555]
+      - heading "Version 1.1.9" [level=2, ref=e227]
+      - link "Click to see what is new in Editor 1.1.9" [ref=e561]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1.8" [level=2, ref=e223]
-      - link "Click to see what is new in Editor 1.1.8" [ref=e556]
+      - heading "Version 1.1.8" [level=2, ref=e228]
+      - link "Click to see what is new in Editor 1.1.8" [ref=e562]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1.7" [level=2, ref=e224]
-      - link "Click to see what is new in Editor 1.1.7" [ref=e557]
+      - heading "Version 1.1.7" [level=2, ref=e229]
+      - link "Click to see what is new in Editor 1.1.7" [ref=e563]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1.6" [level=2, ref=e225]
-      - link "Click to see what is new in Editor 1.1.6" [ref=e558]
+      - heading "Version 1.1.6" [level=2, ref=e230]
+      - link "Click to see what is new in Editor 1.1.6" [ref=e564]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1.5" [level=2, ref=e226]
-      - link "Click to see what is new in Editor 1.1.5" [ref=e559]
+      - heading "Version 1.1.5" [level=2, ref=e231]
+      - link "Click to see what is new in Editor 1.1.5" [ref=e565]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.1" [level=2, ref=e227]
-      - link "Click to see what is new in Editor 1.1" [ref=e560]
+      - heading "Version 1.1" [level=2, ref=e232]
+      - link "Click to see what is new in Editor 1.1" [ref=e566]
     - time
   - generic
     - time
     - generic
-      - heading "Version 1.0" [level=2, ref=e228]
-      - link "Click to see what is new in Editor 1.0" [ref=e561]
+      - heading "Version 1.0" [level=2, ref=e233]
+      - link "Click to see what is new in Editor 1.0" [ref=e567]
 - generic
   - heading "PRODUCTS" [level=3, ref=e2]
   - list
