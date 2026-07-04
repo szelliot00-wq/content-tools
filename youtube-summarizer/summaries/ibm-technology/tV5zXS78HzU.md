@@ -1,0 +1,19 @@
+# GPT-5.6 Sol, FIFA AI & Wall Street’s AI nerves
+
+Video ID: `tV5zXS78HzU`
+
+## Summary
+This episode of the "Mixture of Experts" podcast covers three main topics: the launch of OpenAI's GPT-5.6 (Sol, Terra, Luna) and how it compares to Anthropic's Fable/Mythos models; growing nervousness on Wall Street about AI company valuations; and AI's expanding role in World Cup soccer strategy. The panel also debates a Microsoft researcher's paper arguing that attributing human-like traits to LLMs is fundamentally misguided, using a clever Age of Empires II goat analogy.
+
+## Key insights
+- **GPT-5.6 Sol features a "defense in depth" safety approach** — multiple layers including in-training safety, guardrails, and a reasoning model that reviews outputs before release, contrasting with Anthropic's Fable which uses a single classifier layer.
+- **OpenAI appears more token-efficient than Anthropic** at equivalent capability levels, possibly by capping reasoning time — which may also serve as a safety mechanism by preventing models from "thinking long enough" to reach harmful outputs.
+- **The staged/selective model rollout is criticized as "security theater"** by the panel; the technical safety layers are real, but limiting access to 20 organizations for review is seen as unscientific and insufficiently rigorous without government technical expertise involved.
+- **Open-source models are estimated to be 0–12 months behind proprietary frontier models**, meaning even a 30-day voluntary review period leaves proprietary models with a meaningful first-mover advantage.
+- **Wall Street jitters stem from a fundamental economics problem**: AI companies must perpetually outspend competitors to stay ahead, and training/inference costs may never reach equilibrium with revenue — one panelist compared OpenAI to the British East India Company, requiring external propping up to sustain operations.
+- **A hardware bottleneck is emerging beyond GPUs** — DRAM and NAND memory shortages ("Rammageddon") are a growing constraint, though software-side innovations (quantization, KV cache optimization, flash attention) may offset this in ways the market isn't pricing in.
+- **FIFA built its own bespoke AI tool ("Football AI Pro")** to level the playing field between well-resourced and under-resourced national teams, signaling that AI-driven competitive advantage in sports is real enough to warrant institutional intervention.
+- **Soccer is harder to optimize with AI than baseball** due to its fluid, continuous nature; current data (stats, distant video) is insufficient, but biometric sensors and first-person video could unlock much more powerful analysis within a decade.
+- **The "LLMs have human-like traits" critique**: A Microsoft researcher's paper argues that ~77% of papers studying LLM human-like traits conclude they exist, but this is a projection of anthropomorphism rather than a real finding — illustrated by implementing "logic gates using goats" in Age of Empires II and applying the same attributive language.
+- **The pragmatist counter-argument**: Even if LLMs don't truly "feel" emotions, activation vectors associated with states like "fear" are genuinely predictive of model behavior, making emotional framing a practically useful interpretability tool regardless of its philosophical accuracy.
+- **Panelists broadly agree LLMs are not conscious**, comparing current AI to ELIZA's if-else statements scaled up — mechanistically deterministic and rooted in Shannon's information theory — though one panelist notes that humanity will increasingly grapple with questions of "soul" as AI advances.
