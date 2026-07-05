@@ -82,6 +82,21 @@
     - contentinfo
       - image "Logo Fluid Topics."
       - separator
+      - form "HubSpot Form"
+        - generic
+          - paragraph
+            - strong
+              - StaticText "Don’t miss our last updates"
+        - generic
+          - LabelText
+          - textbox [required, ref=e74]
+        - LabelText
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e76]
+          - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
+          - link "our privacy policy." [ref=e77]
+          - StaticText "*"
+        - generic
+          - button "Subscribe" [ref=e75]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
