@@ -6,9 +6,12 @@
       - alert
         - generic
           - strong
-            - StaticText "[Report] Content unlocked"
-          - StaticText " | 200 enterprise leaders reveal where AI content strategies break down."
-        - link "Get the report" [ref=e3]
+            - StaticText "WEBINAR"
+          - StaticText "| 8 July 2026 |"
+          - strong
+          - strong
+            - StaticText "How to accelerate global growth"
+        - link "Register" [ref=e3]
       - navigation
         - button [ref=e12]
           - image
