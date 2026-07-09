@@ -6,10 +6,8 @@
       - alert
         - generic
           - strong
-          - StaticText "| 8 July 2026 |"
-          - strong
-          - strong
-        - link "Register" [ref=e3]
+          - StaticText " | 200 enterprise leaders reveal where AI content strategies break down."
+        - link "Get the report" [ref=e3]
       - navigation
         - button [ref=e11]
           - image
