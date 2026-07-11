@@ -1,0 +1,16 @@
+# Reddit cracks down on AI slop & the future of AI compute
+
+Video ID: `WHFLWrnFc1E`
+
+## Summary
+This episode of *Mixture of Experts* covers four topics: Reddit's crackdown on AI-generated spam, findings from the Anthropic Economic Index on how people actually use AI, a startup called OR building a commodity marketplace for compute, and Anthropic's rumored move into custom chip development. Host Tim Hang is joined by Mihi Crevetti (Agentic AI), Ren Whit (IBM), and Gabe Goodhart to discuss the broader implications of each story for AI's role in society, economics, and infrastructure.
+
+## Key insights
+- **AI spam is existential for platforms like Reddit.** AI dramatically lowers the cost of generating high-volume, varied spam, making it a qualitative threat — not just a quantity problem. Reddit's countermeasure is itself AI-driven, creating an arms race where AI attacks and AI defends simultaneously.
+- **Reddit's business model depends on authentic human content.** Its value to both users and the AI companies it sells data to rests on genuine human-generated posts. If that erodes (as happened with Stack Overflow), the revenue model collapses.
+- **The Anthropic Economic Index shows broad but skewed adoption.** Claude users apply it to a wide variety of tasks across the day — professional work on weekdays, creative hobbies and recipes on weekends — suggesting AI fits into human routines rather than reshaping them. However, Claude's user base is self-selected and technically sophisticated, so conclusions about broader society are questionable.
+- **Homework remains the single largest global AI use case**, despite narratives focusing on professional or agentic applications.
+- **A commodity compute market faces real technical barriers.** GPU workloads are not fungible like oil at a pump — training jobs require gang scheduling across many nodes with high-bandwidth interconnects, and inference jobs carry data sensitivity/security constraints. Jevons Paradox also applies: cheaper compute tends to increase total demand, potentially raising prices rather than democratizing access.
+- **Frontier labs building custom chips is primarily an economics and supply-chain story.** By owning more of the compute stack, companies like Anthropic reduce dependence on competitors-who-are-also-suppliers (e.g., Google's TPUs), gain supply resilience ahead of IPOs, and most importantly, reduce token costs before subsidized pricing becomes unsustainable for consumers.
+- **Nvidia stays out of frontier model training for rational reasons.** Building a competitive model requires massive proprietary data (a growing moat), and consumer-facing inference is not where Nvidia's margins or strategy lie. Its "sell shovels to gold miners" posture remains profitable while model training is still a loss leader.
+- **There is a circular economy around AI data.** Platforms generate authentic human data → sell it to AI companies → AI is then used by bad actors to pollute those platforms → platforms use AI to defend → repeat. Humans and platforms are nodes in a loop that ultimately feeds AI improvement.
