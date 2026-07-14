@@ -1,0 +1,67 @@
+# The Claude Stack Masterclass Every AI PM Ignores
+
+Video ID: `uEK9ONplfRk`
+
+## Summary
+This episode is a structured masterclass on the full Claude ecosystem, hosted as a podcast interview with Joti Nucla, an experienced AI PM who has worked at Netflix, Meta, and Amazon. Nucla presents a five-layer "Claude Stack" framework — models, surfaces, knowledge base, integration fabric, and agents/orchestration — as the mental model PMs need to become 10x more productive. The episode walks through practical implementations including scheduled co-work automations, skill files, a personal chief-of-staff knowledge base backed by a local MCP server, Claude Design for presentations, and a GAN-inspired adversarial agent evaluator that Nucla used to win an internal hackathon against 30 engineering teams. It is most relevant to product managers who want to transition from passive AI users to builder PMs capable of shipping real tools.
+
+## Key insights
+
+- **The Claude Stack has five distinct layers**: (1) models (Haiku/Sonnet/Opus), (2) surfaces (browser, desktop, mobile, Chrome extension), (3) knowledge base (projects, skills, memory, custom instructions), (4) integration fabric (MCPs, connectors), (5) agents and orchestration (Claude Code, co-work, Claude Design). Understanding which layer to use for which task is itself a core PM skill.
+- **Model selection rule of thumb**: Haiku for high-volume, low-depth tasks (classification, tagging, triaging documents). Sonnet for ~90% of PM work (PRDs, user research synthesis, competitive analysis, roadmaps) — best quality-to-cost ratio. Opus for high-stakes complex reasoning (contradictory research synthesis, long-horizon planning with second/third-order implications), but it can get stuck in local reasoning loops more easily than Sonnet.
+- **Surfaces are not just different UIs — they have fundamentally different capabilities**: Claude.ai (browser) has no local file access; Desktop app can access local files and run scheduled automations; Mobile is useful for monitoring running tasks on the go; Chrome extension enables browser-use/computer-use for competitive research, clicking through web pages, and even user-testing your own product by having Claude behave as a real user and report confusion points.
+- **Co-work automations replace entire no-code workflow tools**: Nucla's scheduled tasks include a morning brief (chief of staff prompt hitting Google Calendar, Gmail, Drive, and Jira at 9am, capped at 400 words), an end-of-day wrap (what shipped, what slipped, tomorrow preview), and a standup briefing (Jira sprint status, blocked tickets). These replace what previously required N8N, Lindy, Gumloop, or Make, but with natural language instead of box-by-box flow diagrams — and failures don't cascade the way they do in node-based tools.
+- **Scheduled automations only run when the laptop is on** — an important practical constraint when choosing trigger times.
+- **Skills use progressive disclosure to protect context window**: Only ~50 words (name + description) load into context initially. If the model determines the skill is relevant, it loads the full instructions. This prevents 40 tools from bloating the context before a single question is answered. Skills can also link to sub-files and external functions, and should be under 500 lines in the main file with overflow in linked MD files.
+- **AI-generated skill files are less effective than human-written ones**: Research cited in the video shows human domain knowledge embedded in skill files outperforms fully AI-generated ones. The recommended approach is to use Claude to draft the scaffold, then manually add domain-specific templates, output formats, and edge-case rules.
+- **Skill files should be reviewed quarterly**, or sooner when: your domain changes, you use the skill frequently, or output quality has drifted downward. Most important skill files for PMs: backlog triaging, PRD writing, customer interview synthesis, support ticket-to-Jira conversion.
+- **The personal chief-of-staff knowledge base** is built in Claude Code and exposed via a local MCP server. It ingests meeting transcripts (from Granola, Google Meet, Zoom), strategy docs, org charts, PRDs, and emails. It builds structured knowledge about people (communication style, motivations, relationship quality — ally/friendly/neutral/cautious/friction), company strategy, meeting patterns, and the PM's own priorities and OKRs. The KB lives locally (not in the cloud) for privacy, and is accessible from the Claude Desktop app via the MCP server.
+- **Why MCP over plain markdown files**: The MCP server allows Claude Desktop to read from and write to the knowledge base programmatically during regular chat sessions — not just during Claude Code sessions. This makes the KB portable and always up to date.
+- **Real chief-of-staff use cases from the KB**: The system identified a meeting attendee as a strategic ally worth cultivating. It flagged a sensitive communication and proactively named stakeholders who needed to be informed before the message was sent. It summarized a manager's communication style as "no fuss — get to the point."
+- **Claude Design** (accessible at claude.ai/design, currently in research preview) supports wireframes, high-fidelity prototypes, slide decks, animations, and marketing carousels. It supports design systems (brand colors, Figma file import, GitHub links) so output matches company style. Nucla created an 8-card LinkedIn carousel and a CEO-level slide deck (in under an hour) using it. It has inline commenting similar to Figma, and Claude executes the edits from those comments.
+- **Adversarial agent / GAN-inspired evaluator**: Inspired by Anthropic's blog post on harnesses and long-running agents. The pattern: build a "generator" agent (the agent under test) and an "adversary/evaluator" agent that red-teams it with attacks. The adversary scores responses across criteria (threshold: mean score > 8 across all criteria). If it fails, the system prompt is automatically revised and re-tested, up to N iterations (set to 5 in the demo). In the live demo, a weak support bot failed iteration 1 (score 8.52), improved on iteration 2 (9.0), and passed on iteration 3 (9.08). This is what won the internal hackathon against 30 engineering teams.
+- **Harness engineering** is the new term for providing the right contextual scaffolding — memory, evaluators, tool connections, reasoning loops — around an LLM so it performs reliably. It has become more important as context windows have grown and model reasoning has improved.
+- **The PM role is collapsing with engineering**: The emerging title is "AI builder" or "Member of Technical Staff" (adopted by both Anthropic and OpenAI). Ratios are shifting from 1 PM : 8 engineers toward 2 PMs : 1 engineer. Engineering focus is moving to system hardening and scaling; PMs are expected to handle PR-level work and user feedback triage themselves using Claude Code.
+- **AI PM interviews now include two AI-specific rounds**: (1) a live vibe-coding/prototyping round where interviewers observe how you navigate Claude, question edge cases, and shepherd the AI — not just whether you can build; (2) an AI fundamentals round testing terminology and how AI concepts affect product decisions (aimed at ability to communicate with ML researchers, not engineering system design).
+- **The self-improving product loop**: The most powerful full-cycle use case mentioned — support tickets and bugs feed a PM agent that triages, does user research, creates prototypes, hands off to coding agents, generates telemetry via analytics agents, ships after a single PR review, and loops back through an analytics agent. Nearly the full product development lifecycle automated.
+
+## Use cases
+
+- **Morning/evening productivity rituals**: PMs who want automated daily briefings aggregating calendar, email, Slack, and Jira before standup and at end of day.
+- **Standup preparation**: Automatically pulling sprint status from Jira — what's done, in-progress, blocked, and at risk — without manually checking boards.
+- **Meeting preparation**: Building a recurring agent (demonstrated with a podcast guest prep agent) that researches a person's recent appearances, arguments, company context, and sharp question angles.
+- **Customer interview synthesis**: Skill files that extract behavioral observations (with citations, in the speaker's own words) and cluster them into patterns using a jobs-to-be-done framework.
+- **Support ticket automation**: Triggering a Claude Code agent when a new support ticket arrives in Zendesk/ServiceNow, automatically creating a Jira ticket and cutting a PR.
+- **New-employee ramping**: Using the chief-of-staff KB to rapidly absorb org charts, strategy docs, and meeting transcripts to understand people dynamics and political landscape at a new company.
+- **CEO-level presentations under time pressure**: Using Claude Design to generate polished, on-brand slide decks from raw content in under an hour.
+- **Marketing and sales enablement content**: Generating carousels, training playbooks, and product walkthroughs via Claude Design without needing a designer.
+- **Agent quality assurance**: Using the adversarial evaluator loop to automatically harden any agent's system prompt before deployment — relevant to any team shipping internal AI tools.
+- **User testing proxy**: Using the Claude Chrome extension in computer-use mode to simulate a user navigating your product and surfacing UX confusion points.
+- **Competitive research**: Chrome extension + browser-use to analyze competitor ads and surface strategic positioning insights.
+- **AI PM job search preparation**: Building real products (not just portfolio projects) with real users to demonstrate product sense, iteration discipline, and vibe-coding fluency.
+
+## Patterns & frameworks
+
+**The Claude Stack (5-layer model)**
+A hierarchical mental model for thinking about the full Claude ecosystem. Layer 1 (models) → Layer 2 (surfaces) → Layer 3 (knowledge base: projects, skills, memory) → Layer 4 (integration fabric: MCPs, connectors) → Layer 5 (agents and orchestration: Claude Code, co-work, Claude Design). Each layer builds on the one below, and PM effectiveness scales with how deliberately each layer is configured.
+
+**Model-to-task matching**
+A decision framework: match the intelligence profile of the model to the depth required by the task. Haiku = speed/volume, Sonnet = balanced quality/cost (default), Opus = deep reasoning (use sparingly, watch for reasoning loops).
+
+**Progressive disclosure skill files**
+Skills load only their name/description (~50 words) into context initially. The full instruction set loads only when the orchestrator determines the skill is relevant. This preserves context window budget. Main file stays under 500 lines; overflow goes into linked sub-files (evidence rules, output templates, framework references). Update trigger: domain change, frequent use, or declining output quality.
+
+**Chief-of-staff knowledge base architecture**
+A local MCP server wrapping a structured folder of markdown files (people profiles, meeting extracts, company strategy, documents, personal priorities/OKRs). Inputs: meeting transcripts, strategy docs, emails, org charts. Outputs: proactive briefings, stakeholder relationship maps, communication style notes, political landscape awareness. Accessed from Claude Desktop via MCP rather than requiring Claude Code sessions.
+
+**GAN-inspired adversarial evaluator loop**
+Adapted from Generative Adversarial Networks. A "generator" agent produces or holds a system prompt under test. An "adversary/evaluator" agent attacks it across configured criteria (domain-specific). Scores are averaged; if below threshold (e.g., mean > 8), the system prompt is revised and re-tested. Loop runs up to N iterations. The key differentiator is the domain knowledge embedded in the adversary's configuration — what edge cases and failure modes matter most to your company defines what the adversary tests for.
+
+**Build products, not projects (PM portfolio strategy)**
+Rather than building demo projects, PMs are advised to treat their builds as real products: find a genuine problem, ship a solution, acquire real users, collect real feedback, iterate based on that feedback, and prioritize like a PM. This produces authentic interview stories and real evidence of product judgment rather than coding exercises.
+
+**Harness engineering**
+The practice of configuring the scaffolding around an LLM — memory systems, evaluators, tool connections, reasoning loops, multi-agent coordination — to improve reliability and output quality. Distinct from prompt engineering (single interaction) and from orchestration (which focuses on routing); harness engineering focuses on the persistent infrastructure that shapes how agents behave over time.
+
+**Self-improving product development loop**
+An end-to-end automated loop: support tickets → PM triage agent → user research agent → prototype agent → coding agent → analytics/telemetry agent → PR review by human → ship → analytics agent monitors → feeds back to triage. Nearly closes the full product development cycle with one human checkpoint (PR review).
