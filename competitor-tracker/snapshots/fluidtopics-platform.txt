@@ -59,7 +59,7 @@
         - paragraph
           - StaticText "TRUSTED BY CUSTOMERS, PARTNERS & THE AI ECOSYSTEM"
         - image "Siemens-Logo"
-        - image "Hexagon"
+        - image "Logo hexagon 2026"
         - image "logo vaisala"
         - image "Precisely_wordmark_rgb_purple"
         - image "Logo swissqprint"
@@ -75,7 +75,7 @@
         - image "Hitachi Vantara Logo White"
         - image "Steinberg logo white"
         - image "Siemens-Logo"
-        - image "Hexagon"
+        - image "Logo hexagon 2026"
         - image "logo vaisala"
         - image "Precisely_wordmark_rgb_purple"
         - image "Logo swissqprint"
