@@ -19,20 +19,20 @@
           - image "Logo Fluid Topics."
         - navigation
           - list
-            - menuitem "Platform" [ref=e19]
+            - menuitem "Platform" [ref=e39]
               - StaticText "Platform"
-            - menuitem "Product" [expanded=false, ref=e20]
+            - menuitem "Product" [expanded=false, ref=e40]
               - StaticText "Product"
-            - menuitem "Solutions" [expanded=false, ref=e21]
+            - menuitem "Solutions" [expanded=false, ref=e41]
               - StaticText "Solutions"
-            - menuitem "Customers" [ref=e22]
+            - menuitem "Customers" [ref=e42]
               - StaticText "Customers"
-            - menuitem "Resources" [expanded=false, ref=e23]
+            - menuitem "Resources" [expanded=false, ref=e43]
               - StaticText "Resources"
         - link "See Fluid Topics in Action" [ref=e7]
           - StaticText "See Fluid Topics in Action"
           - image
-        - button "Icon language switcher" [ref=e15]
+        - button "Icon language switcher" [ref=e26]
           - image "Icon language switcher"
     - main
       - paragraph
@@ -40,7 +40,7 @@
       - separator
       - generic
         - image
-        - heading "The Platform That Helps Your Users Work Smarter" [level=1, ref=e16]
+        - heading "The Platform That Helps Your Users Work Smarter" [level=1, ref=e27]
           - StaticText "The Platform That Helps Your Users"
           - LineBreak "\n"
           - StaticText "Work Smarter"
@@ -48,7 +48,7 @@
           - StaticText "Fluid Topics is the knowledge layer that instantly connects your product content to users, applications, and AI."
           - LineBreak "\n"
           - StaticText "Scale product experiences across every channel, every touchpoint, and every team."
-        - link "See the platform in action" [ref=e17]
+        - link "See the platform in action" [ref=e28]
           - StaticText "See the platform in action"
           - image
         - generic
@@ -105,21 +105,21 @@
         - StaticText "AI is magic, only if powered by accurate content. Feed AI applications and autonomous agents with reliable product knowledge while meeting your compliance and governance requirements."
       - heading "Core Capabilities" [level=2, ref=e12]
       - generic
-        - tablist [ref=e18] clickable [cursor:pointer]
-          - tab "Content unification" [selected, ref=e24]
+        - tablist [ref=e29] clickable [cursor:pointer]
+          - tab "Content unification" [selected, ref=e44]
             - StaticText "Content unification"
-          - tab "Headless delivery" [ref=e25]
+          - tab "Headless delivery" [ref=e45]
             - StaticText "Headless delivery"
-          - tab "AI search" [ref=e26]
+          - tab "AI search" [ref=e46]
             - StaticText "AI search"
-          - tab "Portal" [ref=e27]
+          - tab "Portal" [ref=e47]
             - StaticText "Portal"
-          - tab "User experience" [ref=e28]
+          - tab "User experience" [ref=e48]
             - StaticText "User experience"
-          - tab "Analytics" [ref=e29]
+          - tab "Analytics" [ref=e49]
             - StaticText "Analytics"
         - tabpanel "Content unification"
-          - heading "Content Unification" [level=3, ref=e30]
+          - heading "Content Unification" [level=3, ref=e50]
           - list
             - listitem [level=1]
               - image "Icon checklist."
@@ -133,14 +133,148 @@
             - listitem [level=1]
               - image "Icon checklist."
               - paragraph
-          - link "Learn more about Content Unification" [ref=e31]
+          - link "Learn more about Content Unification" [ref=e51]
             - StaticText "Learn more about Content Unification"
             - image
           - image "Helpdesk with search, sections for Developers, Engineers, Support, and Word, PDF, GitHub icons."
       - heading "Designed for AI, Built for the Future" [level=2, ref=e13]
       - paragraph
         - StaticText "Bring generative and agentic AI use cases into full-scale deployment without costly infrastructure overhauls."
+      - generic
+        - image "icon search"
+        - heading "AI Search" [level=3, ref=e30]
+        - paragraph
+          - StaticText "Offer a search experience designed to truly understand your users, delivering intelligent results and solutions that make everyday tasks quicker, easier, and more effective."
+        - link "More about AI Search" [ref=e31]
+          - StaticText "More about AI Search"
+          - image
+      - generic
+        - image "Icon GenAI"
+        - heading "Generative AI" [level=3, ref=e32]
+        - paragraph
+          - StaticText "Leverage Generative AI to elevate the content experience, guiding users seamlessly from consuming content to discovering and achieving the solutions they need."
+        - link "More about Generative AI" [ref=e33]
+          - StaticText "More about Generative AI"
+          - image
+      - generic
+        - image "icon-ai-gradient-agentic"
+        - heading "Agentic AI" [level=3, ref=e34]
+        - paragraph
+          - StaticText "NEW"
+        - paragraph
+          - StaticText "Automate processes that require accurate information by connecting your AI agents to your company’s product knowledge through our MCP server."
+        - link "More about Agentic AI" [ref=e35]
+          - StaticText "More about Agentic AI"
+          - image
+      - generic
+        - image
+        - heading "Connectors & Integrations" [level=2, ref=e36]
+        - paragraph
+          - StaticText "100+ content sources and formats – connected seamlessly"
+        - image "madcap-favicon"
+        - image "heretto-favicon"
+        - image "Adobe logo"
+        - image "paligo-favicon"
+        - image "microsoft-favicon"
+        - image "pdf icon"
+        - image "Zoho Desk icon"
+        - image "youtube icon white"
+        - image "HTML logo white"
+        - image "RWS Logo white"
+        - image "DITA logo white"
+        - image "markdown white"
+        - image "OpenAPI white logo"
+        - image "github logo."
+        - image "jira-logo-black-and-white"
+        - image "Zendesk logo"
+        - image "Sharepoint logo"
+        - image "OpenAI logo white"
+        - image "docufy logo favicon"
+        - image "Salesforce logo"
+        - image "madcap-flare logo"
+        - image "ms-excel logo"
+        - image "Schema ST4 logo"
+        - image "madcap-favicon"
+        - image "heretto-favicon"
+        - image "Adobe logo"
+        - image "paligo-favicon"
+        - image "microsoft-favicon"
+        - image "pdf icon"
+        - image "Zoho Desk icon"
+        - image "youtube icon white"
+        - image "HTML logo white"
+        - image "RWS Logo white"
+        - image "DITA logo white"
+        - image "markdown white"
+        - image "OpenAPI white logo"
+        - image "github logo."
+        - image "jira-logo-black-and-white"
+        - image "Zendesk logo"
+        - image "Sharepoint logo"
+        - image "OpenAI logo white"
+        - image "docufy logo favicon"
+        - image "Salesforce logo"
+        - image "madcap-flare logo"
+        - image "ms-excel logo"
+        - image "Schema ST4 logo"
+        - link "Learn more about our integrations" [ref=e37]
+          - StaticText "Learn more about our integrations"
+          - image
       - heading "How Fluid Topics Powers Leading Companies" [level=2, ref=e14]
+      - image "Logo Johnson Controls."
+      - link "Read customer story" [ref=e15]
+        - StaticText "Read customer story"
+        - image
+      - paragraph
+        - StaticText "“We managed to build 25 documentation portals that combine over 4000 documents in DITA and 30,000 in other formats.”"
+      - image "Photo Nelson Abbey."
+      - paragraph
+        - StaticText "Nelson Abbey"
+      - paragraph
+        - StaticText "Principal Information Developer at JCI"
+      - heading "Success stories with the Fluid Topics Platform" [level=3, ref=e16]
+      - paragraph
+        - StaticText "We create cutting-edge technical content experiences that provide our customers with the competitive edge they need to succeed."
+      - link "See all customer stories" [ref=e17]
+        - StaticText "See all customer stories"
+        - image
+      - generic
+        - image
+        - heading "Enterprise-level platform for all business sizes" [level=2, ref=e18]
+      - generic
+        - heading "Meet the highest industry standards" [level=2, ref=e38]
+          - StaticText "Meet the highest"
+          - LineBreak "\n"
+          - StaticText "industry standards"
+        - paragraph
+        - paragraph
+        - image "Interface showing Help Center layers, including CodeHub as source for technical documentation"
+      - image "icon-green_Enterprise-Grade-Security"
+      - heading "Security Controls" [level=3, ref=e19]
+      - paragraph
+        - StaticText "Fluid Topics offers enterprise-grade security features, including role-based access control, single sign-on and audit logs, ensuring your content and customer data remain protected."
+      - image "icon-green_Native-Mobile-Experience"
+      - heading "99.9+% uptime SLA" [level=3, ref=e20]
+      - paragraph
+        - StaticText "Fluid Topics’ resilient infrastructure guarantees enterprise-grade reliability with 99.9+% uptime, so your content is always accessible when you need it."
+      - image "icon_server-shield"
+      - heading "Compliance and Governance" [level=3, ref=e21]
+      - paragraph
+        - StaticText "Fluid Topics supports compliance with industry standards and governance best practices, helping organizations meet regulatory requirements and maintain trust."
+      - image "Icon fast deployment rocket"
+      - heading "Scalability" [level=3, ref=e22]
+      - paragraph
+        - StaticText "Fluid Topics is built to scale effortlessly, adapting to your organization’s growing content, users, and performance needs without compromising speed or reliability."
+      - generic
+        - image
+        - link "More about security" [ref=e23]
+          - StaticText "More about security"
+          - image
+      - heading "Take the Next Step with Fluid Topics" [level=2, ref=e24]
+      - link "Get in touch" [ref=e25]
+        - StaticText "Get in touch"
+        - image
+      - image "BG Lines"
     - contentinfo
       - image "Logo Fluid Topics."
       - separator
@@ -151,14 +285,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e71]
+          - textbox [required, ref=e91]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e73]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e93]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e74]
+          - link "our privacy policy." [ref=e94]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e72]
+          - button "Subscribe" [ref=e92]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -167,99 +301,99 @@
             - StaticText "Product"
             - list
               - listitem [level=2]
-                - link "Product Knowledge Platform" [ref=e39]
+                - link "Product Knowledge Platform" [ref=e59]
               - listitem [level=2]
-                - link "Content Delivery" [ref=e40]
+                - link "Content Delivery" [ref=e60]
               - listitem [level=2]
-                - link "Search" [ref=e41]
+                - link "Search" [ref=e61]
               - listitem [level=2]
-                - link "Generative AI" [ref=e42]
+                - link "Generative AI" [ref=e62]
               - listitem [level=2]
-                - link "Agentic AI NEW" [ref=e43]
+                - link "Agentic AI NEW" [ref=e63]
               - listitem [level=2]
-                - link "Portal Designer" [ref=e44]
+                - link "Portal Designer" [ref=e64]
               - listitem [level=2]
-                - link "Content Analytics" [ref=e45]
+                - link "Content Analytics" [ref=e65]
           - listitem [level=1]
             - StaticText "Use cases"
             - list
               - listitem [level=2]
-                - link "Documentation Portal" [ref=e46]
+                - link "Documentation Portal" [ref=e66]
               - listitem [level=2]
-                - link "Chatbot AI" [ref=e47]
+                - link "Chatbot AI" [ref=e67]
               - listitem [level=2]
-                - link "In-Product Help" [ref=e48]
+                - link "In-Product Help" [ref=e68]
               - listitem [level=2]
-                - link "Helpdesk" [ref=e49]
+                - link "Helpdesk" [ref=e69]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Top resources"
             - list
               - listitem [level=2]
-                - link "Blog" [ref=e50]
+                - link "Blog" [ref=e70]
               - listitem [level=2]
-                - link "Product Demo" [ref=e51]
+                - link "Product Demo" [ref=e71]
               - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e52]
+                - link "CIO Playbook for AI in 2026 NEW" [ref=e72]
               - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e53]
+                - link "Guide to Documentation Portals" [ref=e73]
               - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e54]
+                - link "Keyword vs Semantic Search" [ref=e74]
               - listitem [level=2]
-                - link "Customer stories" [ref=e55]
+                - link "Customer stories" [ref=e75]
               - listitem [level=2]
-                - link "Glossary" [ref=e56]
+                - link "Glossary" [ref=e76]
               - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e57]
+                - link "AI Readiness assessment" [ref=e77]
               - listitem [level=2]
-                - link "ROI Calculator" [ref=e58]
+                - link "ROI Calculator" [ref=e78]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "Empolis vs Fluid Topics" [ref=e59]
+                - link "Empolis vs Fluid Topics" [ref=e79]
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e60]
+                - link "CCMS vs Fluid Topics" [ref=e80]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e61]
+                - link "CMS vs CCMS vs CDP" [ref=e81]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e62]
+                - link "About us" [ref=e82]
               - listitem [level=2]
-                - link "Newsroom" [ref=e63]
+                - link "Newsroom" [ref=e83]
               - listitem [level=2]
-                - link "Careers" [ref=e64]
+                - link "Careers" [ref=e84]
               - listitem [level=2]
-                - link "Documentation" [ref=e65]
+                - link "Documentation" [ref=e85]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e66]
+                - link "Security & Trust" [ref=e86]
               - listitem [level=2]
-                - link "Help Center" [ref=e67]
+                - link "Help Center" [ref=e87]
               - listitem [level=2]
-                - link "Partners" [ref=e68]
+                - link "Partners" [ref=e88]
               - listitem [level=2]
-                - link "Release Notes" [ref=e69]
+                - link "Release Notes" [ref=e89]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e70]
+                - link "Contact us Hi!" [ref=e90]
       - navigation
         - list
           - listitem [level=1]
-            - link "Sitemap" [ref=e34]
+            - link "Sitemap" [ref=e54]
           - listitem [level=1]
-            - link "Cookie policy" [ref=e35]
+            - link "Cookie policy" [ref=e55]
           - listitem [level=1]
-            - link "Legal" [ref=e36]
+            - link "Legal" [ref=e56]
           - listitem [level=1]
-            - link "Vulnerability Disclosure Policy" [ref=e37]
+            - link "Vulnerability Disclosure Policy" [ref=e57]
           - listitem [level=1]
-            - link "About Antidot" [ref=e38]
+            - link "About Antidot" [ref=e58]
       - list
         - listitem [level=1]
-          - link "Logo Linkedin." [ref=e32]
+          - link "Logo Linkedin." [ref=e52]
         - listitem [level=1]
-          - link "Logo Youtube." [ref=e33]
+          - link "Logo Youtube." [ref=e53]
