@@ -19,20 +19,20 @@
           - image "Logo Fluid Topics."
         - navigation
           - list
-            - menuitem "Platform" [ref=e52]
+            - menuitem "Platform" [ref=e30]
               - StaticText "Platform"
-            - menuitem "Product" [expanded=false, ref=e53]
+            - menuitem "Product" [expanded=false, ref=e31]
               - StaticText "Product"
-            - menuitem "Solutions" [expanded=false, ref=e54]
+            - menuitem "Solutions" [expanded=false, ref=e32]
               - StaticText "Solutions"
-            - menuitem "Customers" [ref=e55]
+            - menuitem "Customers" [ref=e33]
               - StaticText "Customers"
-            - menuitem "Resources" [expanded=false, ref=e56]
+            - menuitem "Resources" [expanded=false, ref=e34]
               - StaticText "Resources"
         - link "See Fluid Topics in Action" [ref=e7]
           - StaticText "See Fluid Topics in Action"
           - image
-        - button "Icon language switcher" [ref=e39]
+        - button "Icon language switcher" [ref=e24]
           - image "Icon language switcher"
     - main
       - paragraph
@@ -51,7 +51,7 @@
         - image "Smiling woman at desk, sidebar showing map topics, videos, troubleshooting, and search bar."
       - heading "The best of keyword and semantic search" [level=2, ref=e11]
       - button "Precision keyword search" [expanded=true, ref=e12]
-        - heading "Precision keyword search" [level=3, ref=e40]
+        - heading "Precision keyword search" [level=3, ref=e25]
       - region "Precision keyword search" [ref=e13]
         - paragraph
           - StaticText "Fluid Topics is optimized for precise keyword searches, making it the fastest way to find information when you know exactly what you need like a product code, model, or technical term. Using the latest advances in language modeling, our proprietary search overcomes the limits of "
@@ -62,118 +62,23 @@
             - StaticText "Lucene "
           - StaticText "and offers unique and tunable relevance."
       - button "Natural language search" [expanded=false, ref=e14]
-        - heading "Natural language search" [level=3, ref=e41]
+        - heading "Natural language search" [level=3, ref=e26]
       - button "Customization and business rules" [expanded=false, ref=e15]
-        - heading "Customization and business rules" [level=3, ref=e42]
+        - heading "Customization and business rules" [level=3, ref=e27]
       - image "Computer screenshot showing product v3.1 with IP68 waterproof certification and standards info."
       - heading "Turn your content into discoverable knowledge" [level=2, ref=e16]
       - button "Search all your product content at once" [expanded=true, ref=e17]
-        - heading "Search all your product content at once" [level=3, ref=e43]
+        - heading "Search all your product content at once" [level=3, ref=e28]
       - region "Precision keyword search" [ref=e18]
         - paragraph
           - StaticText "Fluid Topics unifies all your product information, no matter the format or source, into a single, intelligent searchable knowledge hub. Structured content, PDFs, Word documents, and multimedia content are instantly searchable, eliminating the need to hunt through multiple systems. Real-time indexing ensures updates are immediately available for better results."
       - button "Extend search everywhere your users are" [expanded=false, ref=e19]
-        - heading "Extend search everywhere your users are" [level=3, ref=e44]
+        - heading "Extend search everywhere your users are" [level=3, ref=e29]
       - image "Computer screenshot showing document with PDF/HTML options, search bar, and multimedia info."
       - heading "Search that adapts to you" [level=2, ref=e20]
-      - button "Personalized answers" [expanded=true, ref=e21]
-        - heading "Personalized answers" [level=3, ref=e45]
-      - region "Precision keyword search" [ref=e22]
-        - paragraph
-          - StaticText "Fluid Topics delivers a truly personalized search experience by leveraging user profiles—such as role, preferences, and location—to surface the most relevant content for each individual. It can recommend tailored content based on both profile information and search input, ensuring users see what matters most, whether that’s the latest updates or specific document types—all within an intuitive interface."
-      - button "Search across languages" [expanded=false, ref=e23]
-        - heading "Search across languages" [level=3, ref=e46]
-      - button "Permission-based search results" [expanded=false, ref=e24]
-        - heading "Permission-based search results" [level=3, ref=e47]
-      - image "LightShipper Drone flowchart linking Drone Expert to Maintenance Guide and Developer to API."
-      - heading "Fluid Topics powers any use case" [level=2, ref=e25]
-      - image "\"Chatbot on purple background showing password recovery steps and a satisfied user message."
-      - heading "AI Chatbot" [level=3, ref=e26]
-      - paragraph
-        - StaticText "Our native chatbot transforms your documentation into a conversational expert. Powered by your own content, it gives accurate, cited answers, eliminating keyword guessing and enabling genuine, natural dialogue."
-      - link "More about Chatbots" [ref=e27]
-        - StaticText "More about Chatbots"
-        - image
-      - image "Self-service help visual showing computer screen with question mark for user assistance."
-      - heading "In-Product Help" [level=3, ref=e28]
-      - paragraph
-        - StaticText "Deliver instant, contextual help right inside your product to guide users smoothly without interrupting their flow or making them leave the platform."
-      - link "More about In-Product Help" [ref=e29]
-        - StaticText "More about In-Product Help"
-        - image
-      - image "Technical Documentation Portal screenshot with 'Ask me anything' search and support options below."
-      - heading "Customer Self-Service" [level=3, ref=e30]
-      - paragraph
-        - StaticText "Provide seamless access to your product information so users can quickly find answers and resolve questions on their own, minimizing the need for direct support."
-      - link "More about Self-Service" [ref=e31]
-        - StaticText "More about Self-Service"
-        - image
-      - image "icon_usecase-contextualhelp"
-      - heading "Case Deflection" [level=3, ref=e32]
-      - paragraph
-        - StaticText "Surface relevant answers and helpful resources in real-time during ticket submission to resolve issues faster and reduce unnecessary support requests."
-      - image "Icon fast deployment."
-      - heading "Response to RFP requests" [level=3, ref=e33]
-      - paragraph
-        - StaticText "Quickly find and assemble relevant information from your resources to craft accurate, compelling responses, saving time and improving win rates."
-      - image "icon-white_community"
-      - heading "Employee Onboarding & Training" [level=3, ref=e34]
-      - paragraph
-        - StaticText "Help new hires rapidly locate relevant information, boosting their learning pace, lowering questions, and offering personalized training."
-      - heading "More ways to search" [level=2, ref=e35]
-      - generic
-        - tablist [ref=e48] clickable [cursor:pointer]
-          - tab "Type ahead" [selected, ref=e57]
-            - StaticText "Type ahead"
-          - tab "Faceted" [ref=e58]
-            - StaticText "Faceted"
-          - tab "Clustering" [ref=e59]
-            - StaticText "Clustering"
-          - tab "Keyword highlighting" [ref=e60]
-            - StaticText "Keyword highlighting"
-          - tab "Spellcheck" [ref=e61]
-            - StaticText "Spellcheck"
-        - tabpanel "Type ahead"
-          - heading "Type ahead" [level=3, ref=e62]
-          - paragraph
-            - StaticText "Our search predicts results as users type, handling fast typing and common spelling mistakes. Automatic corrections ensure smooth, accurate, and hassle-free searching."
-          - image "Screenshot showing Enhanced Access Rules, Technical Notes, and Documentation for software updates."
-      - heading "Search Learning Resources" [level=2, ref=e36]
-      - article
-        - link "PRODUCT 3 Must-Have Semantic Search Use Cases 3 Must-Have Semantic Search Use Cases Read the article" [ref=e49]
-          - list
-            - listitem [level=1]
-              - StaticText "PRODUCT"
-          - image "3 Must-Have Semantic Search Use Cases"
-          - paragraph
-            - StaticText "3 Must-Have Semantic Search Use Cases"
-          - StaticText "Read the article"
-          - image
-      - article
-        - link "CONTENT OPS How AI is Reshaping Technical Writing: Structure Read the article" [ref=e50]
-          - list
-            - listitem [level=1]
-              - StaticText "CONTENT OPS"
-          - paragraph
-            - StaticText "How AI is Reshaping Technical Writing: Structure"
-          - StaticText "Read the article"
-          - image
-      - article
-        - link "CONTENT OPS Personalization and Contextualization For Technical Content with Val Swisher Read the article" [ref=e51]
-          - list
-            - listitem [level=1]
-              - StaticText "CONTENT OPS"
-          - paragraph
-            - StaticText "Personalization and Contextualization For Technical Content with Val Swisher"
-          - StaticText "Read the article"
-          - image
-      - heading "Ready to move forward?" [level=2, ref=e37]
-      - paragraph
-        - StaticText "Talk to one of our Product Experts"
-      - link "Get in touch" [ref=e38]
-        - StaticText "Get in touch"
-        - image
-      - image "Sales man Fluidtopics"
+      - heading "Fluid Topics powers any use case" [level=2, ref=e21]
+      - heading "More ways to search" [level=2, ref=e22]
+      - heading "Search Learning Resources" [level=2, ref=e23]
     - contentinfo
       - image "Logo Fluid Topics."
       - separator
@@ -184,14 +89,14 @@
               - StaticText "Don’t miss our last updates"
         - generic
           - LabelText
-          - textbox [required, ref=e102]
+          - textbox [required, ref=e74]
         - LabelText
-          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e104]
+          - checkbox "By submitting this form, I understand that I may receive email communications about Fluid Topics according toour privacy policy.*" [checked=false, ref=e76]
           - StaticText "By submitting this form, I understand that I may receive email communications about Fluid Topics according to"
-          - link "our privacy policy." [ref=e105]
+          - link "our privacy policy." [ref=e77]
           - StaticText "*"
         - generic
-          - button "Subscribe" [ref=e103]
+          - button "Subscribe" [ref=e75]
       - image "Logo ISO 27001."
       - image "Logo RGPD Ready"
       - navigation
@@ -200,99 +105,99 @@
             - StaticText "Product"
             - list
               - listitem [level=2]
-                - link "Product Knowledge Platform" [ref=e70]
+                - link "Product Knowledge Platform" [ref=e42]
               - listitem [level=2]
-                - link "Content Delivery" [ref=e71]
+                - link "Content Delivery" [ref=e43]
               - listitem [level=2]
-                - link "Search" [ref=e72]
+                - link "Search" [ref=e44]
               - listitem [level=2]
-                - link "Generative AI" [ref=e73]
+                - link "Generative AI" [ref=e45]
               - listitem [level=2]
-                - link "Agentic AI NEW" [ref=e74]
+                - link "Agentic AI NEW" [ref=e46]
               - listitem [level=2]
-                - link "Portal Designer" [ref=e75]
+                - link "Portal Designer" [ref=e47]
               - listitem [level=2]
-                - link "Content Analytics" [ref=e76]
+                - link "Content Analytics" [ref=e48]
           - listitem [level=1]
             - StaticText "Use cases"
             - list
               - listitem [level=2]
-                - link "Documentation Portal" [ref=e77]
+                - link "Documentation Portal" [ref=e49]
               - listitem [level=2]
-                - link "Chatbot AI" [ref=e78]
+                - link "Chatbot AI" [ref=e50]
               - listitem [level=2]
-                - link "In-Product Help" [ref=e79]
+                - link "In-Product Help" [ref=e51]
               - listitem [level=2]
-                - link "Helpdesk" [ref=e80]
+                - link "Helpdesk" [ref=e52]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Top resources"
             - list
               - listitem [level=2]
-                - link "Blog" [ref=e81]
+                - link "Blog" [ref=e53]
               - listitem [level=2]
-                - link "Product Demo" [ref=e82]
+                - link "Product Demo" [ref=e54]
               - listitem [level=2]
-                - link "CIO Playbook for AI in 2026 NEW" [ref=e83]
+                - link "CIO Playbook for AI in 2026 NEW" [ref=e55]
               - listitem [level=2]
-                - link "Guide to Documentation Portals" [ref=e84]
+                - link "Guide to Documentation Portals" [ref=e56]
               - listitem [level=2]
-                - link "Keyword vs Semantic Search" [ref=e85]
+                - link "Keyword vs Semantic Search" [ref=e57]
               - listitem [level=2]
-                - link "Customer stories" [ref=e86]
+                - link "Customer stories" [ref=e58]
               - listitem [level=2]
-                - link "Glossary" [ref=e87]
+                - link "Glossary" [ref=e59]
               - listitem [level=2]
-                - link "AI Readiness assessment" [ref=e88]
+                - link "AI Readiness assessment" [ref=e60]
               - listitem [level=2]
-                - link "ROI Calculator" [ref=e89]
+                - link "ROI Calculator" [ref=e61]
       - navigation
         - list
           - listitem [level=1]
             - StaticText "Compare"
             - list
               - listitem [level=2]
-                - link "Empolis vs Fluid Topics" [ref=e90]
+                - link "Empolis vs Fluid Topics" [ref=e62]
               - listitem [level=2]
-                - link "CCMS vs Fluid Topics" [ref=e91]
+                - link "CCMS vs Fluid Topics" [ref=e63]
               - listitem [level=2]
-                - link "CMS vs CCMS vs CDP" [ref=e92]
+                - link "CMS vs CCMS vs CDP" [ref=e64]
           - listitem [level=1]
             - StaticText "Company"
             - list
               - listitem [level=2]
-                - link "About us" [ref=e93]
+                - link "About us" [ref=e65]
               - listitem [level=2]
-                - link "Newsroom" [ref=e94]
+                - link "Newsroom" [ref=e66]
               - listitem [level=2]
-                - link "Careers" [ref=e95]
+                - link "Careers" [ref=e67]
               - listitem [level=2]
-                - link "Documentation" [ref=e96]
+                - link "Documentation" [ref=e68]
               - listitem [level=2]
-                - link "Security & Trust" [ref=e97]
+                - link "Security & Trust" [ref=e69]
               - listitem [level=2]
-                - link "Help Center" [ref=e98]
+                - link "Help Center" [ref=e70]
               - listitem [level=2]
-                - link "Partners" [ref=e99]
+                - link "Partners" [ref=e71]
               - listitem [level=2]
-                - link "Release Notes" [ref=e100]
+                - link "Release Notes" [ref=e72]
               - listitem [level=2]
-                - link "Contact us Hi!" [ref=e101]
+                - link "Contact us Hi!" [ref=e73]
       - navigation
         - list
           - listitem [level=1]
-            - link "Sitemap" [ref=e65]
+            - link "Sitemap" [ref=e37]
           - listitem [level=1]
-            - link "Cookie policy" [ref=e66]
+            - link "Cookie policy" [ref=e38]
           - listitem [level=1]
-            - link "Legal" [ref=e67]
+            - link "Legal" [ref=e39]
           - listitem [level=1]
-            - link "Vulnerability Disclosure Policy" [ref=e68]
+            - link "Vulnerability Disclosure Policy" [ref=e40]
           - listitem [level=1]
-            - link "About Antidot" [ref=e69]
+            - link "About Antidot" [ref=e41]
       - list
         - listitem [level=1]
-          - link "Logo Linkedin." [ref=e63]
+          - link "Logo Linkedin." [ref=e35]
         - listitem [level=1]
-          - link "Logo Youtube." [ref=e64]
+          - link "Logo Youtube." [ref=e36]
