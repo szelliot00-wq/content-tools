@@ -1,0 +1,15 @@
+# $12B of US ratepayers' money wasted on a modeling mistake in PJM
+
+Source: https://newsletter.semianalysis.com/p/12b-of-us-ratepayers-money-wasted
+
+## Summary
+SemiAnalysis reverse-engineered PJM's Reserve Requirement Study — the model that determines how much power capacity to procure for America's largest electricity grid serving 66 million people — and found two critical modeling errors: failure to credit cold-air turbine efficiency gains in winter, and failure to account for mandatory post-Storm Elliott asset winterization investments. These errors caused PJM to overestimate winter reliability risk and over-procure capacity in its 2025/26 and 2026/27 auctions, costing ratepayers an estimated $12B. PJM's unique auction design — where new and existing plants compete in the same pool and all receive the marginal clearing price — amplifies the cost impact of even small modeling errors. With an emergency auction approaching for 6.8GW of capacity, SemiAnalysis argues the actual shortfall is closer to 3GW and urges FERC and PJM's Board to correct the model before signing contracts running to 2043.
+
+## Key takeaways
+- **$12B overcharge (2025–2027):** Correcting two modeling inputs — cold-air turbine uplift (~1.3–2.2GW of relief) and asset winterization (~2.5–3GW of relief) — would have shifted PJM's demand curve left enough to cut clearing prices roughly in half in those two auctions.
+- **Cold air is ignored:** Gas and steam turbines produce significantly more power in cold weather (up to 25% more for combustion turbines), but PJM models winter supply using summer capacity ratings, double-counting winter risk.
+- **Winterization credit is ignored:** After Storm Elliott, 400+ generators filed mandatory winterization improvements, and subsequent cold-weather events (Gerri 2024, MLK 2025, Fern 2026) showed ~9–10% forced-outage rates versus Elliott's 24%. PJM's model still uses the pre-winterization historical failure data.
+- **Auction design multiplies the damage:** PJM's single unified auction (new + existing plants, ~93% of fleet) means a small capacity shortfall reprices the entire fleet — prices went from ~$29 to $270–$333/MW-day, creating massive windfalls for existing generators.
+- **Emergency auction is oversized:** PJM plans to procure 6.8GW in an emergency auction with contracts to 2043. SemiAnalysis estimates the real gap is ~3GW after correcting the model, with no committed counter-parties to share costs — residential ratepayers are the default backstop.
+- **Governance deadlock prevents reform:** Rule changes require two-thirds sector-weighted support across five member sectors; any two sectors can veto. Proposals to credit cold-air uplift and winterization have already been voted down despite PJM's own consultants recommending them.
+- **Recommended fix:** SemiAnalysis urges FERC (comment deadline Aug 21) and PJM's Board to implement seasonal/cold-weather capacity ratings and winterization credits before the emergency auction target is finalized.
