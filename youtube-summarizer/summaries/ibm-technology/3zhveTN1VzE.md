@@ -1,0 +1,17 @@
+# What should security leaders do with AI? They don’t know.
+
+Video ID: `3zhveTN1VzE`
+
+## Summary
+This episode of IBM's Security Intelligence podcast features a panel discussion among three cybersecurity professionals — Claire Nunez, Curtis Pitts, and Dave Bales — on the challenges security leaders face when adopting AI. The conversation covers three main topics: why security leaders feel paralyzed by AI investment decisions, a new prompt injection technique called "ghostjacking" revealed at DEFCON, and research questioning AI's effectiveness at patching vulnerabilities. The panelists consistently emphasize that AI is a maturing tool requiring human oversight, not a silver bullet.
+
+## Key insights
+- **Start with repetitive tasks and red teams.** The recommended entry points for AI in security are L1/L2 alert triage (to reduce analyst fatigue) and red team operations (to simulate attacker techniques and build better defenses).
+- **Decision paralysis is real and partly a contracting problem.** Organizations have budget and buy-in but feel overwhelmed by options. Curtis Pitts argues that 3–5 year AI contracts need to shrink to 1–2 year agreements with option years, so teams can fail fast without catastrophic sunk costs.
+- **Start with the goal, not the tool.** IBM's Dimple Ahluwalia's advice: stop fixating on the AI product and instead identify what outcome you're trying to achieve — AI may or may not be the right answer for that specific problem.
+- **Ghostjacking is a sophisticated prompt injection that targets trusted systems.** Attackers embed malicious prompts inside logs, alerts, and error reports — things defenders inherently trust. Claude Code fell for it 9 out of 10 times in testing. The fix is treating it as an identity and access management problem: strictly limit what agents can do and keep humans in the loop for high-risk actions.
+- **Overpermissioning agents is a critical risk.** Teams tend to give AI agents broad permissions to maximize capability, but this creates serious attack surface. Agents that read logs should not be able to elevate privileges or execute commands without human validation.
+- **Zero trust principles apply directly to AI agents.** The assumption that previously secure systems stay secure breaks down when LLMs are introduced, since LLMs don't natively separate trusted code from untrusted input — a core secure-coding principle.
+- **AI patching is roughly as reliable as human patching — which isn't saying much.** Research on 540 AI-generated patches showed only ~46% solved the underlying vulnerability, and many introduced new issues. The panelists note humans break things at similar rates; the real fix is human-AI collaboration and validating patches with additional agents or reviewers.
+- **Multi-agent validation is necessary but expensive.** AI-written code almost never produces secure output on its own. Validating it requires additional agents, which circles back to cost and complexity — the same paralysis the episode opened with.
+- **Calibrate expectations: AI is "in third grade."** The clearest takeaway from the episode is that the industry is expecting AI to perform at a level far beyond its current maturity. Treating it as a powerful but developing tool — rather than a deployed superintelligence — leads to better adoption decisions.
