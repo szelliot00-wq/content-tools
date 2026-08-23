@@ -380,7 +380,7 @@
             - link "Read the End User License Agreement" [ref=e184]
           - paragraph
         - paragraph
-          - StaticText "Pricing and licensing options are listed on the product buy page."
+          - StaticText "Pricing and licensing options are listed on the dedicated product buy pages."
         - link "See AI Positron pricing" [ref=e72]
           - StaticText "See AI Positron pricing"
         - generic
