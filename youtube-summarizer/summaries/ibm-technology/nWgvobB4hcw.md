@@ -1,0 +1,18 @@
+# Who’s afraid of an open-weight model? GLM, context bombing and post-Black Hat attacks
+
+Video ID: `nWgvobB4hcw`
+
+## Summary
+This episode of IBM's Security Intelligence podcast covers three cybersecurity topics: the rise of GLM-5.3, an open-weight AI model that rivals GPT and Claude on vulnerability discovery benchmarks; "context bombing," a Tracebit research technique that uses prompt injection as a defensive mechanism against AI-driven attacks; and a post-Black Hat ClickFix phishing campaign that targeted cybersecurity professionals. Panelists Erblind Morina, Kimmie Farrington, and Patrick Fussell discuss the asymmetry between offensive and defensive AI development, the arms-race nature of AI security, and why even security experts remain vulnerable to social engineering.
+
+## Key insights
+- **Offensive AI is outpacing defensive AI.** GLM-5.3 scored 84.5% on the CyberGym vulnerability discovery benchmark, near-matching GPT-5.6 Sol (83.6%) and Claude Mythos (83.8%), but comparable investment in automated patching, SOC automation, and blue-team tooling lags significantly behind.
+- **Cyber capabilities are emerging as an unintended side effect of scale.** Z.ai reported that GLM-5.3's offensive security gains — including exploit validation — arose faster than expected from post-training alone, without being an explicit training goal.
+- **AI models are uneven in their hacking abilities.** Benchmark scores reflect narrow code-analysis tasks; broader offensive skills (social engineering, operational tradecraft, etc.) remain much weaker, so headline benchmark numbers overstate real-world threat.
+- **Context bombing is a promising but incomplete defense.** Tracebit's technique of embedding guardrail-triggering prompts near sensitive assets reduced successful AI attack paths from 91% to 15%, but open-weight models with stripped guardrails can bypass it entirely — making it a useful layer, not a standalone solution.
+- **Context bombing mirrors classic honeypot strategy.** The technique works best when layered on top of strong existing security architecture; honeypots have historically failed when used as a substitute for sound fundamentals, and the same risk applies here.
+- **The AI security arms race is symmetrical.** As defenders develop prompt-injection defenses, attackers can adopt those same techniques to immunize their own models against context bombing — a pure tit-for-tat escalation dynamic.
+- **Classic security principles still apply.** The panel repeatedly noted that concepts like defense in depth, deception (honeypots, wartime deception tactics), and assume-breach thinking translate directly into the AI threat landscape.
+- **The post-Black Hat phishing campaign targeted security pros with a one-on-one approach.** A ClickFix campaign impersonating a CoinDesk VP used a Google Doc with a malicious sidebar — notable less for technical sophistication than for its deliberate, resource-intensive targeting of attendees who are ostensibly the hardest to fool.
+- **Security professionals are not immune to social engineering.** Distraction, excitement post-conference, and human fallibility make anyone susceptible; the panel stressed assume-breach thinking, personal hygiene (password resets, email audits), and humility about one's own vulnerability.
+- **Defenders must match attack speed.** As AI enables attacks at machine speed, blue teams need AI-powered tooling that can detect and respond at equivalent velocity — human reaction time alone is no longer sufficient.
