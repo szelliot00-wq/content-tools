@@ -1,55 +1,8 @@
-- generic
-  - region "Cookies" [ref=e1]
-    - paragraph
-      - StaticText "We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept all”, you consent to the use of ALL the cookies."
-      - link "Cookie policy" [ref=e2]
-    - group
-      - button "Cookie settings" [ref=e3]
-      - button "Accept all" [ref=e4]
+- main
+  - heading "www.fluidtopics.com" [level=1, ref=e1]
+  - heading "Performing security verification" [level=2, ref=e2]
+- contentinfo
   - generic
-    - paragraph
-      - strong
-        - StaticText "🤖 The GEO Playbook for Documentation Teams"
-    - link "Get the guide" [ref=e5]
-      - StaticText "Get the guide"
-      - image
-    - image
-    - banner
-      - navigation
-        - link "Logo Fluid Topics." [ref=e6]
-          - image "Logo Fluid Topics."
-        - navigation
-          - list
-            - menuitem "Platform" [ref=e30]
-            - menuitem "Product" [expanded=false, ref=e31]
-            - menuitem "Solutions" [expanded=false, ref=e32]
-            - menuitem "Customers" [ref=e33]
-            - menuitem "Resources" [expanded=false, ref=e34]
-        - link "See Fluid Topics in Action" [ref=e7]
-        - button "Icon language switcher" [ref=e24]
-    - main
-      - paragraph
-        - link "Capabilities" [ref=e8]
-      - separator
-      - generic
-        - heading "Search that actually finds!" [level=1, ref=e9]
-        - link "See Fluid Topics in action" [ref=e10]
-      - heading "The best of keyword and semantic search" [level=2, ref=e11]
-      - button "Precision keyword search" [expanded=true, ref=e12]
-        - heading "Precision keyword search" [level=3, ref=e25]
-      - region "Precision keyword search" [ref=e13]
-      - button "Natural language search" [expanded=false, ref=e14]
-        - heading "Natural language search" [level=3, ref=e26]
-      - button "Customization and business rules" [expanded=false, ref=e15]
-        - heading "Customization and business rules" [level=3, ref=e27]
-      - image "Computer screenshot showing product v3.1 with IP68 waterproof certification and standards info."
-      - heading "Turn your content into discoverable knowledge" [level=2, ref=e16]
-      - button "Search all your product content at once" [expanded=true, ref=e17]
-        - heading "Search all your product content at once" [level=3, ref=e28]
-      - region "Precision keyword search" [ref=e18]
-      - button "Extend search everywhere your users are" [expanded=false, ref=e19]
-        - heading "Extend search everywhere your users are" [level=3, ref=e29]
-      - heading "Search that adapts to you" [level=2, ref=e20]
-      - heading "Fluid Topics powers any use case" [level=2, ref=e21]
-      - heading "More ways to search" [level=2, ref=e22]
-      - heading "Search Learning Resources" [level=2, ref=e23]
+    - StaticText "Ray ID: "
+  - link "Cloudflare, opens in a new tab" [ref=e3]
+  - link "Privacy, opens in a new tab" [ref=e4]
