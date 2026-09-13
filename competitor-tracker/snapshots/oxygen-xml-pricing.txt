@@ -100,6 +100,7 @@
         - generic [ref=e104] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e105]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€53/month"
         - StaticText "billed annually"
@@ -118,6 +119,7 @@
         - generic [ref=e110] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e111]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€34/month"
         - StaticText "billed annually"
@@ -173,6 +175,7 @@
         - generic [ref=e126] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e127]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€23/month"
         - StaticText "billed annually"
@@ -191,6 +194,7 @@
         - generic [ref=e132] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e133]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€16/month"
         - StaticText "billed annually"
@@ -246,6 +250,7 @@
         - generic [ref=e148] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e149]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€41/month"
         - StaticText "billed annually"
@@ -264,6 +269,7 @@
         - generic [ref=e154] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e155]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€28/month"
         - StaticText "billed annually"
@@ -306,6 +312,7 @@
         - generic
           - StaticText "User-based"
           - link "" [ref=e93]
+        - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
         - StaticText "€7/month"
         - StaticText "billed annually"
