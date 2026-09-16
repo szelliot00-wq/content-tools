@@ -1,0 +1,17 @@
+# Andrew Rankin - Chief Payments Officer at HSBC UK, Consumer Banking
+
+Video ID: `Y5XwYbtz7MI`
+
+## Summary
+Andrew Rankin, Chief Payments Officer for HSBC UK Consumer Banking, discusses the payments landscape across four areas: existing customer journeys, open banking, the UK National Payments Vision, and payment innovation (agentic commerce and tokenization). The conversation covers the foundational role of trust in payments, the transformative impact of AI and mobile internet, and how the industry must balance innovation with regulation. Andrew also shares lessons on building high-performing teams and career resilience drawn from his own non-linear path into banking.
+
+## Key insights
+- **Trust is the foundational currency of payments.** Customers rarely think about payments because they expect them to work — that invisible confidence is trust, and it is fragile. Every new technology (agentic commerce, tokenization) must be designed to preserve it, not erode it.
+- **Mobile internet was the true inflection point.** The convergence of internet access and smartphones created the platform for everything that followed — digital wallets, banking apps, and now AI-driven experiences.
+- **AI and agentic commerce are the next frontier.** HSBC is already working with Visa on agentic commerce. The key challenge is determining accountability across a chain where humans increasingly delegate decisions to AI agents, starting with simple use cases (cinema tickets) before moving to complex ones (holiday planning).
+- **Regulation and innovation must move in lockstep.** Regulation is not a blocker — it builds trust. The UK's National Payments Vision and the Modernising Payment Regulation consultation are critical because they cover tokenization and agentic payments simultaneously with the emerging technology.
+- **High-performing teams share four traits:** genuine customer focus (solving problems before optimizing for value), ruthless prioritization (knowing what *not* to do), a "challenge, align, commit" culture that empowers teams and drives pace, and genuine care for people as the foundation of psychological safety.
+- **These team principles scale to the whole industry.** No single organization can deliver systemic change like the NPV alone — collaborative challenge, alignment, and commitment across industry players is equally necessary.
+- **Decision-making is a core leadership responsibility.** Quoting Nick Clegg: paralysis and drift are worse than imperfect decisions, because inertia spreads. Making early, reversible decisions — especially with emerging tech — is preferable to waiting for certainty and then making costly mistakes at scale.
+- **Resilience is built through deliberate discomfort.** Each uncomfortable experience (public speaking, unfamiliar roles) lowers the threshold for the next one. Career growth tends to come in spurts, not a straight line, and pivoting when doors close (as Andrew did twice early in his career) is a strength, not a setback.
+- **Don't neglect the present while chasing the future.** Existing payment rails carry enormous daily volume for real customers. Keeping those journeys reliable, resilient, and customer-friendly is just as important as building the next generation of infrastructure.
