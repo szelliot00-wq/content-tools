@@ -6,9 +6,9 @@
       - alert
         - generic
           - strong
-            - StaticText "[Report] Content unlocked"
-          - StaticText " | 200 enterprise leaders reveal where AI content strategies break down."
-        - link "Get the report" [ref=e3]
+            - StaticText "[Report]"
+          - StaticText " RWS named a Leader in Forrester Wave™"
+        - link "Access the report" [ref=e3]
       - navigation
         - button [ref=e12]
           - image
