@@ -60,6 +60,7 @@
         - paragraph
           - StaticText "TRUSTED BY CUSTOMERS, PARTNERS & THE AI ECOSYSTEM"
         - image "Teradata_logo_2024"
+        - image "DriveNets"
         - image "Automation Anywhere logo"
         - image "Altera logo blue"
         - image "Steinberg logo white"
@@ -78,6 +79,7 @@
         - image "logo vaisala"
         - image "Logo hexagon 2026"
         - image "Teradata_logo_2024"
+        - image "DriveNets"
         - image "Automation Anywhere logo"
         - image "Altera logo blue"
         - image "Steinberg logo white"
