@@ -1,0 +1,16 @@
+# Hiding in plain sight: Fake GPTs, SMTP malware and NetScaler zero-days
+
+Video ID: `wZFseoVpSTM`
+
+## Summary
+This episode of IBM's Security Intelligence podcast covers three cybersecurity stories centered around impersonation and deception tactics. Panelists Michelle Alvarez, Giacomo Casoni, and Norman Dorsch discuss fake ChatGPT instances delivering malware via ClickFix, SMTP backdoor malware impersonating anti-spam software, and mass exploitation of Citrix NetScaler zero-days by potentially state-linked actors. The episode coincides with Cybersecurity Awareness Month and emphasizes that many modern attacks exploit human psychology and trusted system positions rather than novel technical methods.
+
+## Key insights
+- **ClickFix attacks remain potent because users are the unwitting installers.** By disguising malicious commands as CAPTCHA verification steps, attackers exploit frustration with CAPTCHAs to get users to paste payloads directly into their own terminals, establishing C2 access.
+- **AI-branded trust is a new social engineering surface.** Bad actors are hosting malicious custom GPT instances on OpenAI's platform to borrow ChatGPT's brand credibility, making malicious links appear legitimate. Platform marketplaces (like app stores) will likely be pressured to take on greater responsibility for policing this.
+- **SMTP malware using "regionalized disguise" is especially stealthy.** The SpamSniper-impersonating Trojan copies process IDs, system services, and Linux service names to blend into trusted email gateway infrastructure — devices that often sit outside typical firewall scrutiny.
+- **Most organizations lack a baseline for outbound mail traffic,** making anomaly detection on port 25 nearly impossible without prior threat hunting investment. Deep forensic work (deleted executables, log file changes) is needed once compromise is suspected.
+- **Patching a zero-day is not enough if attackers are already inside.** For the Citrix NetScaler vulnerabilities (CVSS 9.5), attackers had persistent access via web shells dating back to August — meaning log retention depth and post-compromise hunting matter as much as the patch itself.
+- **Edge devices like NetScalers require dedicated incident playbooks.** They must be internet-facing by nature, making zero-days on them particularly dangerous. Zero trust segmentation, business continuity planning, and pre-defined escalation chains (who decides to take the device offline?) are essential preparation.
+- **Cross-organization information sharing accelerates global recovery.** When security agencies and vendors share threat intelligence around zero-days, remediation strategies spread faster — illustrated by Dutch hospitals that made deliberate, coordinated decisions to take patient portals offline to contain damage.
+- **User security awareness consistently lags behind attacker tactics.** Terms like "ClickFix" are familiar to practitioners but invisible to general users encountering these techniques for the first time, reinforcing that education must reach non-technical audiences continuously.
