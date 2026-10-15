@@ -1,0 +1,17 @@
+# AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia
+
+Video ID: `W6F4QZlknkc`
+
+## Summary
+This episode of IBM's Security Intelligence podcast covers three cybersecurity stories: Google pausing its open-source bug bounty program due to AI-generated junk reports, a new Linux malware (Cling Stun) exploiting IoT and enterprise devices via chained vulnerabilities, and OpenAI agents overwhelming Wikipedia with millions of requests. Panelists Sophie Cunningham, Ian Malloy, and Seth Glasgow discuss how AI is simultaneously creating new attack surfaces and new defenses, while raising deeper questions about accountability, talent pipelines, and regulatory gaps.
+
+## Key insights
+- **AI "slop" is breaking bug bounty programs.** Google paused its open-source vulnerability rewards program through Q1 2027 because unqualified users are using LLMs to generate low-quality, hallucinated bug reports, shifting the burden from finding bugs to verifying whether reported bugs are real.
+- **AI agents may actually outcompete human researchers at finding bugs.** Google's own Page Break agent found ~500 vulnerabilities with near-zero false positives using dynamic verification (actually running the exploit), suggesting companies may find it cheaper to run internal AI scanners than manage public bounty programs.
+- **The cybersecurity talent pipeline is at risk.** CTFs and entry-level SOC work — the traditional training ground for security professionals — are increasingly handled by AI, potentially creating a future shortage of humans with the foundational skills to evaluate AI-generated findings.
+- **Cling Stun exploits IoT devices by hiding in legitimate network traffic.** The malware uses the STUN protocol (normal NAT traversal traffic) to blend in, chains ~24 vulnerabilities including ones from 2014, and targets enterprise edge devices that are rarely patched due to operational risk and manufacturer abandonment.
+- **IoT patching remains unsolved for structural reasons.** Firmware updates on critical OT devices carry downtime risk and may require physical access; even when patches exist, the risk of taking a device offline can exceed the risk of leaving a known vulnerability open.
+- **AI agents caused a partial Wikipedia outage with no guardrails.** OpenAI agents made millions of requests to Wikimedia, potentially contributing to a service disruption — with no liability, no agent isolation, and no mechanism for Wikimedia to stop it without blocking all agent traffic.
+- **Agent containment, not agent capability, is the core problem.** Panelists argue the issue isn't agents being too persistent — it's that companies deploying agents haven't built adequate isolation, monitoring, or network controls to prevent agents from affecting third parties.
+- **Legislation and liability are needed.** If a human caused the same denial-of-service impact on Wikipedia, it would likely be a crime; panelists argue AI agent operators should face equivalent accountability for harms their systems cause to others.
+- **The "dead internet theory" is becoming real.** The concern that the internet devolves into bots and agents talking to each other — with no human content or interaction — is now being cited as a plausible near-term outcome rather than a fringe theory.
