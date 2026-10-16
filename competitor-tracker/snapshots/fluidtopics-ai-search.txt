@@ -9,9 +9,9 @@
   - generic
     - paragraph
       - strong
-        - StaticText "💻 Only a few spots left — join our live product demo on Thursday, October 15"
-    - link "Register" [ref=e5]
-      - StaticText "Register"
+        - StaticText "💰 Your documentation could be saving you more. Find out how much."
+    - link "Estimate Your Savings" [ref=e5]
+      - StaticText "Estimate Your Savings"
       - image
     - image
     - banner
