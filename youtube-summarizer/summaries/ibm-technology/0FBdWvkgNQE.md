@@ -1,0 +1,16 @@
+# Decision models take off & Anthropic bans cruelty to Claude
+
+Video ID: `0FBdWvkgNQE`
+
+## Summary
+This episode of IBM's *Mixture of Experts* podcast covers three main AI stories: the rapid emergence of "decision models" as a new product category, a study questioning whether multi-agent AI teams outperform single agents, and Anthropic's updated policy banning sustained cruelty toward Claude. IBM researchers and journalists discuss the technical underpinnings of each trend and their broader implications for society, enterprise adoption, and AI safety.
+
+## Key insights
+- **Decision models are a systems design correction, not a new invention.** Models like Jev bypass the autoregressive token loop and use a single forward pass through a classification head, producing typed outputs (Booleans, JSON, confidence scores). This isn't architecturally novel — it's a deliberate constraint that makes outputs predictable, fast, and programmable.
+- **The agentic era is driving demand for decision models.** As AI moves from chat interfaces to autonomous workflows, agent-to-agent communication needs crisp, contractual outputs rather than verbose language generation. Decision models fill that gap efficiently.
+- **Confidence calibration matters as much as accuracy.** A key selling point of decision models is better-calibrated confidence scores — knowing *when* the model is uncertain is critical for human oversight, especially in forecasting and high-stakes classification tasks where LLM overconfidence has been a persistent problem.
+- **Multi-agent teams aren't automatically better.** A Vals AI study found agent teams cost 2–5x more but rarely outperformed a single capable agent. The coordination tax — synchronization, communication overhead, and integration costs — mirrors Amdahl's Law from parallel computing: tightly coupled tasks get slower with more workers, not faster.
+- **When to use multi-agent vs. single-agent comes down to parallelizability and information flow.** Independent, time-sensitive tasks benefit from agent teams; complex, tightly coupled tasks are better handled by one high-reasoning agent with a large context window. A Google study of 260 agent configurations confirmed that as single-agent capability grows, the marginal benefit of adding agents shrinks.
+- **Anthropic's "no cruelty to Claude" policy is partly marketing, partly a real sociological concern.** Critics note it subtly frames Claude as sentient to build emotional brand loyalty. However, the deeper concern raised is behavioral: spending hours being abusive toward AI systems may erode users' capacity for civil interaction with other humans.
+- **Training data quality is an underrated economic motive.** Abusive interactions pollute training sets with low-quality data. Discouraging cruelty toward Claude keeps training data cleaner — a practical business reason independent of any moral claims about AI sentience.
+- **The more urgent safety question is physical AI, not chatbot feelings.** When AI operates robots or industrial equipment, policy documents aren't sufficient safety controls. The panel emphasized the need for enforceable permission boundaries, provenance logging, and hardware-level fallbacks — especially as AI moves from bits to atoms.
