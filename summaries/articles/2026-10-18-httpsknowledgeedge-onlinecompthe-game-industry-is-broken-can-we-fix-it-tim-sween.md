@@ -1,0 +1,16 @@
+# The game industry is broken – can we fix it?
+
+Source: https://knowledge.edge-online.com/p/the-game-industry-is-broken-can-we-fix-it-tim-sweeney-edge-crash
+
+## Summary
+The game industry is experiencing what many experts call a second videogame crash, with nearly 60,000 jobs lost over five years (2022–2026) concentrated in North American and western European studios. The root causes are multi-causal: exploding triple-A development budgets (now $250–400M), a stagnating core audience, players spending less in real terms, and an over-reliance on blockbuster live-service games. Industry veterans and analysts interviewed in Edge 428 offer a range of proposed fixes — from leaner teams and Japanese-style staff retention to mid-tier publishing models and platform resets — while acknowledging that many underlying problems stem from broader systemic forces like VC expectations and platform monopolies.
+
+## Key takeaways
+- **The scale is severe but uneven:** 58,000+ jobs lost since 2022, but layoffs are highly concentrated in California, North America, and western Europe — Japan's studios (Nintendo, Capcom, Konami) have maintained 97%+ staff retention by staying lean and avoiding live-service mega-projects.
+- **Budgets are unsustainable:** Triple-A development costs have risen roughly 10x per decade since the mid-'90s, now hitting $250–400M per title, while game retail prices have barely kept pace with inflation and players increasingly "wishlist and wait" for Steam sales.
+- **The audience has hit a ceiling:** Gaming reached ~5 billion players globally, but the core PC/console audience hasn't grown in 5–10 years, and a large share of player time is locked into just one or two "ecosystem games" (Fortnite, Roblox, Minecraft).
+- **Lean teams and co-dev are emerging as solutions:** Studios are right-sizing — 400-person teams becoming 100, 60-person teams becoming 20 — using co-development models to retain creative chemistry without burning money on standing teams between projects.
+- **AI is not the silver bullet:** Experts warn AI tools haven't meaningfully reduced costs at scale; some studios that cut staff expecting AI productivity gains are now rehiring. Historically, only new hardware platforms with "shitty graphics" have reset the cost curve.
+- **The IPO/shareholder model is a structural problem:** Public companies face pressure to double revenue every ~7 years, driving irrational decisions; staying private is increasingly seen as a competitive advantage for sustainable game-making.
+- **Systemic fixes require looking beyond games:** Multiple experts point to VC culture, platform monopolies, lack of worker protections (especially in the US), and shareholder primacy as root causes — problems that require regulatory action and potentially unionization to address.
+- **Mid-tier publishing may be the near-term hope:** Models that make "$50M in revenue" a success rather than a failure (e.g., Kepler's Expedition 33) are seen as a path forward, with figures like Shawn Layden actively trying to establish double-A-focused investment funds.
