@@ -1,0 +1,16 @@
+# The patching gap: Hacked fridges, AI ransomware and Mythos finds
+
+Video ID: `qV36V-WOsDo`
+
+## Summary
+This episode of IBM Security Intelligence's podcast covers three major cybersecurity stories: a widespread hack on refrigeration systems in French supermarkets caused by unpatched firmware, a 2026 report showing AI is now driving 84% of ransomware attacks, and Bank of America's use of Anthropic's Mythos AI tool to discover hundreds of vulnerabilities — leading them to hire 1,000 contractors to patch them. Panelists Claire Nunez and M.J. Vaidya discuss the broader themes of patching gaps, AI governance, and the evolving human-machine balance in cybersecurity defense.
+
+## Key insights
+- **The patching gap is a real and dangerous problem.** Refrigeration units in French supermarkets were compromised because they ran outdated firmware despite patches being available. The cost of planned downtime to patch is far lower than the cost of an uncontrolled incident — including product loss, fire risk, and reputational damage.
+- **OT/IoT security requires a supply chain mindset.** Manufacturers bear responsibility not just for building secure devices but for ensuring continuous protection throughout the product's lifecycle, including third-party components and over-the-air update mechanisms.
+- **AI is now the dominant force in ransomware.** 84% of ransomware attacks in 2026 involve AI assistance, making attacks faster, harder to detect, and more refined through automated training — defenders must respond with equal automation rather than relying solely on human analysts.
+- **Your own AI agents can become an attack vector.** 44% of attacks exploited a victim's own AI agents and identity systems. Organizations must treat AI agents as potential insider threats, applying the same access controls, monitoring, and kill-switch capabilities as they would for human users.
+- **AI vulnerability discovery is outpacing human remediation capacity.** Mythos found so many bugs at Bank of America that they needed 1,000 additional contractors to patch them — illustrating that AI can surface vulnerabilities far faster than teams can fix them without parallel scaling of human resources.
+- **Patching must be continuous, not point-in-time.** Both panelists emphasized that treating vulnerability management as an ongoing governance process — rather than a periodic exercise — is the only sustainable approach as AI accelerates both attack and discovery cycles.
+- **Human-AI collaboration is the near-term reality.** AI tools lack full context for every vulnerability they find; human expertise remains essential for triage and remediation. Full automation may come eventually, but the current model requires humans and machines working in tandem.
+- **Onboarding large contractor cohorts introduces its own risk.** Bringing in 1,000 temporary workers with access to critical systems demands rigorous identity and access management — proper onboarding, least-privilege access, insider threat monitoring, and timely offboarding are non-negotiable.
