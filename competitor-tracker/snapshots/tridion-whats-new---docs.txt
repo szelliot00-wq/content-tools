@@ -36,7 +36,7 @@
         - StaticText "Tridion Docs 15 introduces an entire set of all-new features bringing you industry-leading AI-based enhancements and productivity improvements to make the lives of content consumers, content authors, translation coordinators, information architects and admins easier."
       - generic
         - generic "Video Player"
-          - Video
+          - Video "Unable to play media." [disabled]
           - generic [ref=e93] clickable [cursor:pointer]
           - button "Play Video" [ref=e94]
         - StaticText "INTRODUCING TRIDION DOCS 15.2"
