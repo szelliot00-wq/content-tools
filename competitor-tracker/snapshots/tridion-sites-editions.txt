@@ -4,11 +4,10 @@
   - generic
     - sectionheader "main"
       - alert
-        - generic
-          - strong
-            - StaticText "[Report]"
-          - StaticText " RWS named a Leader in Forrester Wave™"
-        - link "Access the report" [ref=e3]
+        - StaticText "RWS and Acolad combine AI technology to help you take your content further."
+        - link "Find out more" [ref=e3]
+          - image
+          - StaticText "Find out more"
       - navigation
         - button [ref=e12]
           - image
