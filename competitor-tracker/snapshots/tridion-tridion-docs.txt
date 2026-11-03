@@ -14,37 +14,37 @@
         - button "Tridion" [ref=e12]
           - StaticText "Tridion"
         - list
-          - listitem [level=1, ref=e56] clickable [cursor:pointer]
-            - button "Find a solution" [expanded=false, ref=e106]
-          - listitem [level=1, ref=e57] clickable [cursor:pointer]
-            - button "Resources & Events" [expanded=false, ref=e107]
           - listitem [level=1, ref=e58] clickable [cursor:pointer]
-            - button "Case Studies" [expanded=false, ref=e108]
+            - button "Find a solution" [expanded=false, ref=e108]
           - listitem [level=1, ref=e59] clickable [cursor:pointer]
-            - button "Service & Support" [expanded=false, ref=e109]
-        - list
+            - button "Resources & Events" [expanded=false, ref=e109]
           - listitem [level=1, ref=e60] clickable [cursor:pointer]
-            - button "Search" [expanded=false, ref=e110]
+            - button "Case Studies" [expanded=false, ref=e110]
           - listitem [level=1, ref=e61] clickable [cursor:pointer]
-            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e111]
+            - button "Service & Support" [expanded=false, ref=e111]
+        - list
           - listitem [level=1, ref=e62] clickable [cursor:pointer]
-            - link "Get in touch" [ref=e112]
+            - button "Search" [expanded=false, ref=e112]
+          - listitem [level=1, ref=e63] clickable [cursor:pointer]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e113]
+          - listitem [level=1, ref=e64] clickable [cursor:pointer]
+            - link "Get in touch" [ref=e114]
     - main
       - generic
         - StaticText "ENTERPRISE CCMS"
-        - heading "Tridion Docs - the #1 intelligent content platform for technical knowledge" [level=1, ref=e63]
+        - heading "Tridion Docs - the #1 intelligent content platform for technical knowledge" [level=1, ref=e65]
           - StaticText "Tridion Docs - the #1 intelligent content platform for technical knowledge"
         - StaticText "Easily govern and deliver multilingual product and support information, procedures and guidelines with our enterprise DITA CCMS."
-        - link "Get in touch" [ref=e64]
+        - link "Get in touch" [ref=e66]
           - StaticText "Get in touch"
       - generic
         - generic "Video Player"
           - Video
-          - generic [ref=e113] clickable [cursor:pointer]
-          - button "Play Video" [ref=e114]
+          - generic [ref=e115] clickable [cursor:pointer]
+          - button "Play Video" [ref=e116]
         - StaticText "INTELLIGENT CONTENT MANAGEMENT"
         - heading "Swap document chaos for
-content confidence" [level=2, ref=e65]
+content confidence" [level=2, ref=e67]
           - StaticText "Swap document chaos for
 content confidence"
         - paragraph
@@ -56,36 +56,30 @@ content confidence"
         - paragraph
           - StaticText "This enterprise DITA Component Content Management System (CCMS) turns your mission-critical information into intelligent content- reducing your risk, boosting your productivity and delivering better content experiences."
       - generic
-        - image "trados"
-        - generic
-          - heading "The best CCMS on the market just got even better. Discover our latest release." [level=2, ref=e66]
-          - StaticText "Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more..."
-          - link "What’s new in Tridion Docs 15" [ref=e115]
-      - heading "Key benefits of a XML DITA-based CCMS" [level=2, ref=e13]
+        - heading "The best CCMS on the market just got even better. Discover our latest release." [level=2, ref=e13]
+        - StaticText "Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more..."
+        - link "Visit What’s new in Tridion Docs 15" [ref=e68]
+      - heading "Key benefits of a XML DITA-based CCMS" [level=2, ref=e14]
         - StaticText "Key benefits of a XML DITA-based CCMS"
       - StaticText "Go to market faster- Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
-      - heading "Work smarter, not harder" [level=3, ref=e14]
+      - heading "Work smarter, not harder" [level=3, ref=e15]
       - StaticText "End copy and paste by reusing intelligent content components"
-      - heading "Put everyone on the same page" [level=3, ref=e15]
+      - heading "Put everyone on the same page" [level=3, ref=e16]
       - StaticText "Collaborate at the source without endless copies and emails"
-      - heading "Upgrade your governance" [level=3, ref=e16]
+      - heading "Upgrade your governance" [level=3, ref=e17]
       - StaticText "Guarantee your content is always accurate, compliant and traceable"
-      - heading "Create once, publish everywhere (COPE)" [level=3, ref=e17]
+      - heading "Create once, publish everywhere (COPE)" [level=3, ref=e18]
       - StaticText "Publish dynamically to multiple channels from a single source"
-      - heading "Transform content experiences" [level=3, ref=e18]
+      - heading "Transform content experiences" [level=3, ref=e19]
       - StaticText "Slash costs and delight employees and customers with contextual, self-service content"
-      - heading "Go to market faster" [level=3, ref=e19]
+      - heading "Go to market faster" [level=3, ref=e20]
       - StaticText "Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
       - generic
-        - heading "Evaluate your return on investment" [level=2, ref=e67]
+        - heading "Evaluate your return on investment" [level=2, ref=e21]
         - StaticText "Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line."
-        - link "Calculate your savings " [ref=e116]
-          - StaticText "Calculate your savings"
-          - StaticText ""
-      - heading "Our customers" [level=2, ref=e20]
+        - link "Visit Calculate your savings" [ref=e69]
+      - heading "Our customers" [level=2, ref=e22]
         - StaticText "Our customers"
-      - link [ref=e21]
-      - link [ref=e22]
       - link [ref=e23]
       - link [ref=e24]
       - link [ref=e25]
@@ -94,124 +88,126 @@ content confidence"
       - link [ref=e28]
       - link [ref=e29]
       - link [ref=e30]
-      - heading "The Tridion Docs advantage" [level=2, ref=e31]
+      - link [ref=e31]
+      - link [ref=e32]
+      - heading "The Tridion Docs advantage" [level=2, ref=e33]
         - StaticText "The Tridion Docs advantage"
       - generic
         - generic
-          - generic [ref=e68] clickable [cursor:pointer, tabindex]
+          - generic [ref=e70] clickable [cursor:pointer, tabindex]
             - heading "Outperforms competitors " [level=2, ref=e117]
             - link "Learn more" [ref=e118]
           - generic
-          - generic [ref=e69] clickable [cursor:pointer, tabindex]
-            - heading "Complete content lifecycle management " [level=2, ref=e119]
-          - generic [ref=e70] clickable [cursor:pointer, tabindex]
-            - heading "Trustworthy translation " [level=2, ref=e120]
           - generic [ref=e71] clickable [cursor:pointer, tabindex]
-            - heading "Powered by AI " [level=2, ref=e121]
+            - heading "Complete content lifecycle management " [level=2, ref=e119]
           - generic [ref=e72] clickable [cursor:pointer, tabindex]
-            - heading "Built to handle complexity " [level=2, ref=e122]
+            - heading "Trustworthy translation " [level=2, ref=e120]
           - generic [ref=e73] clickable [cursor:pointer, tabindex]
+            - heading "Powered by AI " [level=2, ref=e121]
+          - generic [ref=e74] clickable [cursor:pointer, tabindex]
+            - heading "Built to handle complexity " [level=2, ref=e122]
+          - generic [ref=e75] clickable [cursor:pointer, tabindex]
             - heading "Secure. Stable. Scalable. " [level=2, ref=e123]
       - StaticText "TRIDION DOCS MODULES"
-      - heading "Take your content further" [level=2, ref=e32]
+      - heading "Take your content further" [level=2, ref=e34]
         - StaticText "Take your content further"
       - StaticText "Tridion Docs is a composable platform, made up of a series of modules to meet your exact needs."
-      - heading "Content Experiences" [level=3, ref=e33]
-      - heading "Tridion Docs Genius" [level=3, ref=e34]
+      - heading "Content Experiences" [level=3, ref=e35]
+      - heading "Tridion Docs Genius" [level=3, ref=e36]
       - StaticText "Reach goals faster with intelligent content discovery, using trustable chat, smart recommendations, advanced intent-based search, guided experiences and traditional portal-style information delivery."
-      - link "Learn more " [ref=e35]
-        - StaticText "Learn more "
-        - StaticText ""
-      - heading "Dynamic Experience Delivery (DXD)" [level=3, ref=e36]
-      - StaticText "Dynamically deliver information to any digital touchpoint through our headless publishing capabilities, securely delivering content fluidly over any channel."
       - link "Learn more " [ref=e37]
         - StaticText "Learn more "
         - StaticText ""
-      - heading "Content Collaboration" [level=3, ref=e38]
-      - heading "Draft Space" [level=3, ref=e39]
-      - StaticText "Write your content in a familiar, online, Word-style interface, supported by Generative AI, while hiding the complexity of the underlying XML. Part of Collective Spaces."
-      - link "Learn more " [ref=e40]
+      - heading "Dynamic Experience Delivery (DXD)" [level=3, ref=e38]
+      - StaticText "Dynamically deliver information to any digital touchpoint through our headless publishing capabilities, securely delivering content fluidly over any channel."
+      - link "Learn more " [ref=e39]
         - StaticText "Learn more "
         - StaticText ""
-      - heading "Review Space" [level=3, ref=e41]
-      - StaticText "Involve your subject matter experts in a collaborative, easy-to-manage document review process within a secure online environment. Part of Collective Spaces."
+      - heading "Content Collaboration" [level=3, ref=e40]
+      - heading "Draft Space" [level=3, ref=e41]
+      - StaticText "Write your content in a familiar, online, Word-style interface, supported by Generative AI, while hiding the complexity of the underlying XML. Part of Collective Spaces."
       - link "Learn more " [ref=e42]
         - StaticText "Learn more "
         - StaticText ""
-      - heading "Content Governance" [level=3, ref=e43]
-      - heading "Taxonomy Space" [level=3, ref=e44]
-      - StaticText "Easily manage your taxonomies and knowledge models using open standards such as SKOS and EuroVoc."
-      - link "Learn more " [ref=e45]
+      - heading "Review Space" [level=3, ref=e43]
+      - StaticText "Involve your subject matter experts in a collaborative, easy-to-manage document review process within a secure online environment. Part of Collective Spaces."
+      - link "Learn more " [ref=e44]
         - StaticText "Learn more "
         - StaticText ""
-      - heading "Organize Space" [level=3, ref=e46]
-      - StaticText "Effectively manage your company's documentation and translation processes, configuring users, workflows and permissions through a user-friendly web interface."
+      - heading "Content Governance" [level=3, ref=e45]
+      - heading "Taxonomy Space" [level=3, ref=e46]
+      - StaticText "Easily manage your taxonomies and knowledge models using open standards such as SKOS and EuroVoc."
       - link "Learn more " [ref=e47]
+        - StaticText "Learn more "
+        - StaticText ""
+      - heading "Organize Space" [level=3, ref=e48]
+      - StaticText "Effectively manage your company's documentation and translation processes, configuring users, workflows and permissions through a user-friendly web interface."
+      - link "Learn more " [ref=e49]
         - StaticText "Learn more "
         - StaticText ""
       - generic
         - StaticText "START YOUR JOURNEY"
-        - heading "Talk to us to get started" [level=2, ref=e74]
+        - heading "Talk to us to get started" [level=2, ref=e76]
           - StaticText "Talk to us to get started"
         - StaticText "Whether you're new to Tridion or an existing customer keen to understand what else we can help you with, our experienced team are here to understand your challenges, answer your questions, and help you achieve your content management goals."
-        - link "Contact us" [ref=e75]
+        - link "Contact us" [ref=e77]
           - StaticText "Contact us"
-      - heading "Related content" [level=2, ref=e48]
+      - heading "Related content" [level=2, ref=e50]
         - StaticText "Related content"
-      - link "Tridion Docs – Collective Spaces Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations. Download data sheet " [ref=e49]
-        - heading "Tridion Docs – Collective Spaces" [level=2, ref=e76]
+      - link "Tridion Docs – Collective Spaces Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations. Download data sheet " [ref=e51]
+        - heading "Tridion Docs – Collective Spaces" [level=2, ref=e78]
         - paragraph
           - StaticText "Learn more about how Tridion's Collective Spaces redefines editorial collaboration in global organizations."
         - button "Download data sheet " [ref=e124]
           - StaticText "Download data sheet "
           - StaticText ""
-      - link "Tridion Docs localization Learn more about how we can make translating your content more accurate, cheaper and faster. Download data sheet " [ref=e50]
-        - heading "Tridion Docs localization" [level=2, ref=e77]
+      - link "Tridion Docs localization Learn more about how we can make translating your content more accurate, cheaper and faster. Download data sheet " [ref=e52]
+        - heading "Tridion Docs localization" [level=2, ref=e79]
         - paragraph
           - StaticText "Learn more about how we can make translating your content more accurate, cheaper and faster."
         - button "Download data sheet " [ref=e125]
           - StaticText "Download data sheet "
           - StaticText ""
-      - link "What’s new in Tridion Docs 15 Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly. Download data sheet " [ref=e51]
-        - heading "What’s new in Tridion Docs 15" [level=2, ref=e78]
+      - link "What’s new in Tridion Docs 15 Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly. Download data sheet " [ref=e53]
+        - heading "What’s new in Tridion Docs 15" [level=2, ref=e80]
         - paragraph
           - StaticText "Find out how our latest release streamlines user experiences, upgrades security and makes headless content more developer-friendly."
         - button "Download data sheet " [ref=e126]
           - StaticText "Download data sheet "
           - StaticText ""
-      - link "Contact us" [ref=e52]
+      - link "Contact us" [ref=e54]
         - StaticText "Contact us"
     - sectionfooter
       - StaticText "Products"
       - generic
-        - link "Tridion platform" [ref=e79]
-        - link "Tridion Docs" [ref=e80]
-        - link "Tridion Sites" [ref=e81]
-        - link "Semantic AI" [ref=e82]
-        - link "Cloud" [ref=e83]
-        - link "Fonto XML Editor" [ref=e84]
+        - link "Tridion platform" [ref=e81]
+        - link "Tridion Docs" [ref=e82]
+        - link "Tridion Sites" [ref=e83]
+        - link "Semantic AI" [ref=e84]
+        - link "Cloud" [ref=e85]
+        - link "Fonto XML Editor" [ref=e86]
       - StaticText "Solutions"
       - generic
-        - link "Technical Communication" [ref=e85]
-        - link "Field Service" [ref=e86]
-        - link "Customer Support" [ref=e87]
-        - link "Digital Experiences" [ref=e88]
-        - link "SMB Website Management" [ref=e89]
-        - link "Resources" [ref=e90]
+        - link "Technical Communication" [ref=e87]
+        - link "Field Service" [ref=e88]
+        - link "Customer Support" [ref=e89]
+        - link "Digital Experiences" [ref=e90]
+        - link "SMB Website Management" [ref=e91]
+        - link "Resources" [ref=e92]
       - StaticText "More"
       - generic
-        - link "About RWS" [ref=e91]
-        - link "Blog" [ref=e92]
-        - link "Tridion Docs - Best CCMS" [ref=e93]
-        - link "Events" [ref=e94]
-        - link "Partner Directory" [ref=e95]
-        - link "Contact Us" [ref=e96]
+        - link "About RWS" [ref=e93]
+        - link "Blog" [ref=e94]
+        - link "Tridion Docs - Best CCMS" [ref=e95]
+        - link "Events" [ref=e96]
+        - link "Partner Directory" [ref=e97]
+        - link "Contact Us" [ref=e98]
       - heading "Tridion Newsletter" [level=2, ref=e4]
         - StaticText "Tridion Newsletter"
       - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
       - button "Sign up" [ref=e5]
         - StaticText "Sign up"
-      - link "Communication preferences" [ref=e53]
+      - link "Communication preferences" [ref=e55]
         - StaticText "Communication preferences"
         - StaticText ""
       - link "Twitter" [ref=e6]
@@ -221,34 +217,34 @@ content confidence"
       - link "social" [ref=e10]
       - generic
         - generic
-          - link "Our Terms of Use" [ref=e97]
+          - link "Our Terms of Use" [ref=e99]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Copyright " [ref=e98]
+          - link "Copyright " [ref=e100]
           - StaticText "|"
         - generic
-          - link "Privacy" [ref=e99]
+          - link "Privacy" [ref=e101]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Security" [ref=e100]
+          - link "Security" [ref=e102]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Modern Slavery and Human Trafficking Statement" [ref=e101]
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e103]
           - StaticText " "
           - StaticText "|"
-        - link "Cookie Notice" [ref=e102]
+        - link "Cookie Notice" [ref=e104]
   - generic
     - generic [ref=e2] focusable [tabindex]
       - dialog "Cookie Notice"
         - generic
-          - heading "Cookie Notice" [level=2, ref=e54]
+          - heading "Cookie Notice" [level=2, ref=e56]
           - generic
-            - link "More information about your privacy, opens in a new tab" [ref=e103]
+            - link "More information about your privacy, opens in a new tab" [ref=e105]
         - generic
-          - button "Cookies Settings, Opens the preference center dialog" [ref=e55]
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e57]
           - generic
-            - button "Reject All" [ref=e104]
-            - button "Accept All" [ref=e105]
+            - button "Reject All" [ref=e106]
+            - button "Accept All" [ref=e107]

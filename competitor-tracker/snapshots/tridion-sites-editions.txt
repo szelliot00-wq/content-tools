@@ -15,25 +15,25 @@
           - StaticText "Tridion"
         - list
           - listitem [level=1, ref=e24] clickable [cursor:pointer]
-            - button "Find a solution" [expanded=false, ref=e65]
+            - button "Find a solution" [expanded=false, ref=e66]
               - StaticText "Find a solution"
           - listitem [level=1, ref=e25] clickable [cursor:pointer]
-            - button "Resources & Events" [expanded=false, ref=e66]
+            - button "Resources & Events" [expanded=false, ref=e67]
               - StaticText "Resources & Events"
           - listitem [level=1, ref=e26] clickable [cursor:pointer]
-            - button "Case Studies" [expanded=false, ref=e67]
+            - button "Case Studies" [expanded=false, ref=e68]
               - StaticText "Case Studies"
           - listitem [level=1, ref=e27] clickable [cursor:pointer]
-            - button "Service & Support" [expanded=false, ref=e68]
+            - button "Service & Support" [expanded=false, ref=e69]
               - StaticText "Service & Support"
         - list
           - listitem [level=1, ref=e28] clickable [cursor:pointer]
-            - button "Search" [expanded=false, ref=e69]
+            - button "Search" [expanded=false, ref=e70]
           - listitem [level=1, ref=e29] clickable [cursor:pointer]
-            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e70]
+            - button "Language switch. Press the Space key to show submenus." [expanded=false, ref=e71]
               - StaticText "EN"
           - listitem [level=1, ref=e30] clickable [cursor:pointer]
-            - link "Get in touch" [ref=e71]
+            - link "Get in touch" [ref=e72]
               - StaticText "Get in touch"
     - main
       - generic
@@ -54,8 +54,8 @@
           - StaticText "Download brochure"
         - generic "Video Player"
           - Video
-          - generic [ref=e72] clickable [cursor:pointer]
-          - button "Play Video" [ref=e73]
+          - generic [ref=e73] clickable [cursor:pointer]
+          - button "Play Video" [ref=e74]
             - StaticText "Play Video"
       - generic
         - generic
@@ -70,8 +70,7 @@
           - StaticText "Tridion Sites demo"
         - paragraph
           - StaticText "Streamline your translation processes"
-        - link "Watch demo" [ref=e74]
-          - StaticText "Watch demo"
+        - link "Visit Watch demo" [ref=e35]
       - heading "Customers that have grown with Tridion" [level=2, ref=e14]
         - StaticText "Customers that have grown with Tridion"
       - heading "Three easy steps" [level=2, ref=e15]
@@ -86,11 +85,11 @@
         - heading "Compare Products" [level=2, ref=e19]
           - StaticText "Compare Products"
         - StaticText ""
-        - button "Tridion Sites Essential" [ref=e35]
+        - button "Tridion Sites Essential" [ref=e36]
         - StaticText ""
-        - button "Tridion Sites Team" [ref=e36]
+        - button "Tridion Sites Team" [ref=e37]
         - StaticText ""
-        - button "Tridion Sites Enterprise" [ref=e37]
+        - button "Tridion Sites Enterprise" [ref=e38]
         - table [ref=e20] focusable [tabindex]
           - rowgroup
             - row
@@ -477,28 +476,28 @@
     - sectionfooter
       - StaticText "Products"
       - generic
-        - link "Tridion platform" [ref=e38]
-        - link "Tridion Docs" [ref=e39]
-        - link "Tridion Sites" [ref=e40]
-        - link "Semantic AI" [ref=e41]
-        - link "Cloud" [ref=e42]
-        - link "Fonto XML Editor" [ref=e43]
+        - link "Tridion platform" [ref=e39]
+        - link "Tridion Docs" [ref=e40]
+        - link "Tridion Sites" [ref=e41]
+        - link "Semantic AI" [ref=e42]
+        - link "Cloud" [ref=e43]
+        - link "Fonto XML Editor" [ref=e44]
       - StaticText "Solutions"
       - generic
-        - link "Technical Communication" [ref=e44]
-        - link "Field Service" [ref=e45]
-        - link "Customer Support" [ref=e46]
-        - link "Digital Experiences" [ref=e47]
-        - link "SMB Website Management" [ref=e48]
-        - link "Resources" [ref=e49]
+        - link "Technical Communication" [ref=e45]
+        - link "Field Service" [ref=e46]
+        - link "Customer Support" [ref=e47]
+        - link "Digital Experiences" [ref=e48]
+        - link "SMB Website Management" [ref=e49]
+        - link "Resources" [ref=e50]
       - StaticText "More"
       - generic
-        - link "About RWS" [ref=e50]
-        - link "Blog" [ref=e51]
-        - link "Tridion Docs - Best CCMS" [ref=e52]
-        - link "Events" [ref=e53]
-        - link "Partner Directory" [ref=e54]
-        - link "Contact Us" [ref=e55]
+        - link "About RWS" [ref=e51]
+        - link "Blog" [ref=e52]
+        - link "Tridion Docs - Best CCMS" [ref=e53]
+        - link "Events" [ref=e54]
+        - link "Partner Directory" [ref=e55]
+        - link "Contact Us" [ref=e56]
       - heading "Tridion Newsletter" [level=2, ref=e5]
         - StaticText "Tridion Newsletter"
       - StaticText "Stay up to date on Tridion and content management with our quarterly newsletter."
@@ -514,34 +513,34 @@
       - link "social" [ref=e11]
       - generic
         - generic
-          - link "Our Terms of Use" [ref=e56]
+          - link "Our Terms of Use" [ref=e57]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Copyright " [ref=e57]
+          - link "Copyright " [ref=e58]
           - StaticText "|"
         - generic
-          - link "Privacy" [ref=e58]
+          - link "Privacy" [ref=e59]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Security" [ref=e59]
+          - link "Security" [ref=e60]
           - StaticText " "
           - StaticText "|"
         - generic
-          - link "Modern Slavery and Human Trafficking Statement" [ref=e60]
+          - link "Modern Slavery and Human Trafficking Statement" [ref=e61]
           - StaticText " "
           - StaticText "|"
-        - link "Cookie Notice" [ref=e61]
+        - link "Cookie Notice" [ref=e62]
   - generic
     - generic [ref=e2] focusable [tabindex]
       - dialog "Cookie Notice"
         - generic
           - heading "Cookie Notice" [level=2, ref=e22]
           - generic
-            - link "More information about your privacy, opens in a new tab" [ref=e62]
+            - link "More information about your privacy, opens in a new tab" [ref=e63]
         - generic
           - button "Cookies Settings, Opens the preference center dialog" [ref=e23]
           - generic
-            - button "Reject All" [ref=e63]
-            - button "Accept All" [ref=e64]
+            - button "Reject All" [ref=e64]
+            - button "Accept All" [ref=e65]
