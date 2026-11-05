@@ -7,41 +7,106 @@
       - button "Cookie settings" [ref=e3]
       - button "Accept all" [ref=e4]
   - generic
+    - paragraph
+      - strong
+        - StaticText "💰 Your documentation could be saving you more. Find out how much."
+    - link "Estimate Your Savings" [ref=e5]
+      - StaticText "Estimate Your Savings"
+      - image
+    - image
     - banner
       - navigation
-        - link "Logo Fluid Topics." [ref=e5]
+        - link "Logo Fluid Topics." [ref=e6]
           - image "Logo Fluid Topics."
-        - navigation "Main header menu" [ref=e6]
+        - navigation "Main header menu" [ref=e7]
           - menubar
-            - menuitem "Platform" [ref=e22]
-            - menuitem "Product" [expanded=false, ref=e23]
-            - menuitem "Solutions" [expanded=false, ref=e24]
-            - menuitem "Customers" [ref=e25]
-            - menuitem "Resources" [expanded=false, ref=e26]
-        - link "See Fluid Topics in Action" [ref=e7]
-        - button "Icon language switcher" [ref=e16]
+            - menuitem "Platform" [ref=e21]
+            - menuitem "Product" [expanded=false, ref=e22]
+            - menuitem "Solutions" [expanded=false, ref=e23]
+            - menuitem "Customers" [ref=e24]
+            - menuitem "Resources" [expanded=false, ref=e25]
+        - link "See Fluid Topics in Action" [ref=e8]
+        - button "Icon language switcher" [ref=e17]
     - main
       - paragraph
+        - StaticText "Platform"
       - separator
       - generic
-        - heading "The Platform That Helps Your Users Work Smarter" [level=1, ref=e17]
-        - link "See the platform in action" [ref=e18]
+        - image
+        - heading "The Platform That Helps Your Users Work Smarter" [level=1, ref=e18]
+        - paragraph
+        - link "See the platform in action" [ref=e19]
+        - generic
       - generic
-      - heading "Unite Business & Tech in One Platform" [level=2, ref=e8]
+        - image
+        - paragraph
+        - image "jfrog logo"
+        - image "Babel street logo"
+        - image "aveva company logo"
+        - image "DriveNets Logo RGB"
+        - image "Automation Anywhere logo"
+        - image "Altera logo blue"
+        - image "Steinberg logo white"
+        - image "Hitachi Vantara Logo White"
+        - image "kone logo"
+        - image "Logo Liebherr."
+        - image "Logo Darwinbox."
+        - image "Siemens-Logo"
+        - image "Teradata_logo_2024"
+        - image "Logo Johnson Controls."
+        - image "Logo Dayforce."
+        - image "Genetec-Logo_RGB_Color"
+        - image "Ateme cropped-logo"
+        - image "Logo swissqprint"
+        - image "Precisely_wordmark_rgb_purple"
+        - image "logo vaisala"
+        - image "New logo Octave"
+        - image "jfrog logo"
+        - image "Babel street logo"
+        - image "aveva company logo"
+        - image "DriveNets Logo RGB"
+        - image "Automation Anywhere logo"
+        - image "Altera logo blue"
+        - image "Steinberg logo white"
+        - image "Hitachi Vantara Logo White"
+        - image "kone logo"
+        - image "Logo Liebherr."
+        - image "Logo Darwinbox."
+        - image "Siemens-Logo"
+        - image "Teradata_logo_2024"
+        - image "Logo Johnson Controls."
+        - image "Logo Dayforce."
+        - image "Genetec-Logo_RGB_Color"
+        - image "Ateme cropped-logo"
+        - image "Logo swissqprint"
+        - image "Precisely_wordmark_rgb_purple"
+        - image "logo vaisala"
+        - image "New logo Octave"
+      - heading "Unite Business & Tech in One Platform" [level=2, ref=e9]
       - image "icon-shared-component"
-      - heading "Bring all your product knowledge in one place" [level=3, ref=e9]
+      - heading "Bring all your product knowledge in one place" [level=3, ref=e10]
       - paragraph
+        - StaticText "Fluid Topics gathers and structures all your product information together in a Unified Knowledge Hub, bridging silos and giving you centralized control over access."
       - image "icon_Fast-deployment"
-      - heading "Create smart experiences at any touchpoint" [level=3, ref=e10]
+      - heading "Create smart experiences at any touchpoint" [level=3, ref=e11]
       - paragraph
+        - StaticText "The platform helps you offer personalized experiences across documentation portals, AI applications, and support channels, delivering the right knowledge to users at the moment of need."
       - image "icon_Enterprise-Grade-Security"
-      - heading "Leverage the power of AI safely and efficiently" [level=3, ref=e11]
+      - heading "Leverage the power of AI safely and efficiently" [level=3, ref=e12]
       - paragraph
-      - heading "Core Capabilities" [level=2, ref=e12]
+        - StaticText "AI is magic, only if powered by accurate content. Feed AI applications and autonomous agents with reliable product knowledge while meeting your compliance and governance requirements."
+      - heading "Core Capabilities" [level=2, ref=e13]
       - generic
-        - list [ref=e19] clickable [cursor:pointer]
-        - heading "Content Unification" [level=3, ref=e20]
-        - link "Learn more about Content Unification" [ref=e21]
-      - heading "Designed for AI, Built for the Future" [level=2, ref=e13]
-      - heading "How Fluid Topics Powers Leading Companies" [level=2, ref=e14]
-      - heading "Frequently Asked Questions" [level=2, ref=e15]
+        - tablist [ref=e20] clickable [cursor:pointer]
+          - tab "Content unification" [selected, ref=e26]
+          - tab "Headless delivery" [ref=e27]
+          - tab "AI search" [ref=e28]
+          - tab "Portal" [ref=e29]
+          - tab "User experience" [ref=e30]
+          - tab "Analytics" [ref=e31]
+        - tabpanel "Content unification"
+          - heading "Content Unification" [level=3, ref=e32]
+          - link "Learn more about Content Unification" [ref=e33]
+      - heading "Designed for AI, Built for the Future" [level=2, ref=e14]
+      - heading "How Fluid Topics Powers Leading Companies" [level=2, ref=e15]
+      - heading "Frequently Asked Questions" [level=2, ref=e16]
