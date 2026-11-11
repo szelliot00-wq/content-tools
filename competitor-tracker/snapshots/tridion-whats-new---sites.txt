@@ -4,10 +4,8 @@
   - generic
     - sectionheader "main"
       - alert
-        - StaticText "RWS and Acolad combine AI technology to help you take your content further."
+        - StaticText "RWS launches Weava™, a culturally intelligent content transformation platform built for global growth"
         - link "Find out more" [ref=e3]
-          - image
-          - StaticText "Find out more"
       - navigation
         - button [ref=e12]
           - image
