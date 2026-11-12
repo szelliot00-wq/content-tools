@@ -1,45 +1,53 @@
 - generic
-  - paragraph
-    - strong
-      - StaticText "💰 Your documentation could be saving you more. Find out how much."
-  - link "Estimate Your Savings" [ref=e1]
-    - StaticText "Estimate Your Savings"
+  - region "Cookies" [ref=e1]
+    - paragraph
+      - StaticText "We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept all”, you consent to the use of ALL the cookies."
+      - link "Cookie policy" [ref=e2]
+    - group
+      - button "Cookie settings" [ref=e3]
+      - button "Accept all" [ref=e4]
+  - generic
+    - paragraph
+      - strong
+        - StaticText "💰 Your documentation could be saving you more. Find out how much."
+    - link "Estimate Your Savings" [ref=e5]
+      - StaticText "Estimate Your Savings"
+      - image
     - image
-  - image
-  - banner
-    - navigation
-      - link "Logo Fluid Topics." [ref=e2]
-        - image "Logo Fluid Topics."
-      - navigation "Main header menu" [ref=e3]
-        - menubar
-          - menuitem "Platform" [ref=e23]
-          - menuitem "Product" [expanded=false, ref=e24]
-          - menuitem "Solutions" [expanded=false, ref=e25]
-          - menuitem "Customers" [ref=e26]
-          - menuitem "Resources" [expanded=false, ref=e27]
-      - link "See Fluid Topics in Action" [ref=e4]
-      - button "Icon language switcher" [ref=e19]
-  - main
-    - paragraph
-      - link "Capabilities" [ref=e5]
-    - separator
-    - heading "Unified knowledge, effortless content delivery" [level=1, ref=e6]
-    - paragraph
-    - link "Request a demo" [ref=e7]
-    - image "\"Fluid Topics logo on purple background with gradient lines showing motion and content flow."
-    - heading "Focus on writing—we’ve got the rest" [level=2, ref=e8]
-    - button "Unify content from any source, any format" [expanded=true, ref=e9]
-      - heading "Unify content from any source, any format" [level=3, ref=e20]
-    - region "Unify content from any source, any format" [ref=e10]
-    - button "Simplify your publishing workflow" [expanded=false, ref=e11]
-      - heading "Simplify your publishing workflow" [level=3, ref=e21]
-    - button "Access governance and security" [expanded=false, ref=e12]
-      - heading "Access governance and security" [level=3, ref=e22]
-    - heading "Native processing for all content types" [level=2, ref=e13]
-    - heading "All your multimedia, fully integrated" [level=2, ref=e14]
-    - heading "Enrichment that powers discoverability" [level=2, ref=e15]
-    - image "Maintenance document for Drone ZW#23 showing metadata: Type: Guide, Risk: Medium"
-    - heading "Omnichannel delivery, without duplication" [level=2, ref=e16]
-    - image "Central logo linking to laptops: Your Website, Doc Portal, In-Product Help, and Chatbots on purple."
-    - heading "Built for AI and the future of search" [level=2, ref=e17]
-    - heading "Frequently Asked Questions" [level=2, ref=e18]
+    - banner
+      - navigation
+        - link "Logo Fluid Topics." [ref=e6]
+          - image "Logo Fluid Topics."
+        - navigation "Main header menu" [ref=e7]
+          - menubar
+            - menuitem "Platform" [ref=e27]
+            - menuitem "Product" [expanded=false, ref=e28]
+            - menuitem "Solutions" [expanded=false, ref=e29]
+            - menuitem "Customers" [ref=e30]
+            - menuitem "Resources" [expanded=false, ref=e31]
+        - link "See Fluid Topics in Action" [ref=e8]
+        - button "Icon language switcher" [ref=e23]
+    - main
+      - paragraph
+        - link "Capabilities" [ref=e9]
+      - separator
+      - heading "Unified knowledge, effortless content delivery" [level=1, ref=e10]
+      - paragraph
+      - link "Request a demo" [ref=e11]
+      - image "\"Fluid Topics logo on purple background with gradient lines showing motion and content flow."
+      - heading "Focus on writing—we’ve got the rest" [level=2, ref=e12]
+      - button "Unify content from any source, any format" [expanded=true, ref=e13]
+        - heading "Unify content from any source, any format" [level=3, ref=e24]
+      - region "Unify content from any source, any format" [ref=e14]
+      - button "Simplify your publishing workflow" [expanded=false, ref=e15]
+        - heading "Simplify your publishing workflow" [level=3, ref=e25]
+      - button "Access governance and security" [expanded=false, ref=e16]
+        - heading "Access governance and security" [level=3, ref=e26]
+      - heading "Native processing for all content types" [level=2, ref=e17]
+      - heading "All your multimedia, fully integrated" [level=2, ref=e18]
+      - heading "Enrichment that powers discoverability" [level=2, ref=e19]
+      - image "Maintenance document for Drone ZW#23 showing metadata: Type: Guide, Risk: Medium"
+      - heading "Omnichannel delivery, without duplication" [level=2, ref=e20]
+      - image "Central logo linking to laptops: Your Website, Doc Portal, In-Product Help, and Chatbots on purple."
+      - heading "Built for AI and the future of search" [level=2, ref=e21]
+      - heading "Frequently Asked Questions" [level=2, ref=e22]
