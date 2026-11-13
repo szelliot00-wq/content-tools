@@ -9,9 +9,9 @@
   - generic
     - paragraph
       - strong
-        - StaticText "💰 Your documentation could be saving you more. Find out how much."
-    - link "Estimate Your Savings" [ref=e5]
-      - StaticText "Estimate Your Savings"
+        - StaticText "📈 Just updated: The Essential Guide to Documentation Metrics."
+    - link "Get Your Copy" [ref=e5]
+      - StaticText "Get Your Copy"
       - image
     - image
     - banner
@@ -20,11 +20,11 @@
           - image "Logo Fluid Topics."
         - navigation "Main header menu" [ref=e7]
           - menubar
-            - menuitem "Platform" [ref=e21]
-            - menuitem "Product" [expanded=false, ref=e22]
-            - menuitem "Solutions" [expanded=false, ref=e23]
-            - menuitem "Customers" [ref=e24]
-            - menuitem "Resources" [expanded=false, ref=e25]
+            - menuitem "Platform" [ref=e27]
+            - menuitem "Product" [expanded=false, ref=e28]
+            - menuitem "Solutions" [expanded=false, ref=e29]
+            - menuitem "Customers" [ref=e30]
+            - menuitem "Resources" [expanded=false, ref=e31]
         - link "See Fluid Topics in Action" [ref=e8]
         - button "Icon language switcher" [ref=e17]
     - main
@@ -98,15 +98,25 @@
       - heading "Core Capabilities" [level=2, ref=e13]
       - generic
         - tablist [ref=e20] clickable [cursor:pointer]
-          - tab "Content unification" [selected, ref=e26]
-          - tab "Headless delivery" [ref=e27]
-          - tab "AI search" [ref=e28]
-          - tab "Portal" [ref=e29]
-          - tab "User experience" [ref=e30]
-          - tab "Analytics" [ref=e31]
+          - tab "Content unification" [selected, ref=e32]
+          - tab "Headless delivery" [ref=e33]
+          - tab "AI search" [ref=e34]
+          - tab "Portal" [ref=e35]
+          - tab "User experience" [ref=e36]
+          - tab "Analytics" [ref=e37]
         - tabpanel "Content unification"
-          - heading "Content Unification" [level=3, ref=e32]
-          - link "Learn more about Content Unification" [ref=e33]
+          - heading "Content Unification" [level=3, ref=e38]
+          - link "Learn more about Content Unification" [ref=e39]
       - heading "Designed for AI, Built for the Future" [level=2, ref=e14]
+      - paragraph
+      - generic
+        - heading "AI Search" [level=3, ref=e21]
+        - link "More about AI Search" [ref=e22]
+      - generic
+        - heading "Generative AI" [level=3, ref=e23]
+        - link "More about Generative AI" [ref=e24]
+      - generic
+        - heading "Agentic AI" [level=3, ref=e25]
+        - link "More about Agentic AI" [ref=e26]
       - heading "How Fluid Topics Powers Leading Companies" [level=2, ref=e15]
       - heading "Frequently Asked Questions" [level=2, ref=e16]

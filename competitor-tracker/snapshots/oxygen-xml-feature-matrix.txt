@@ -1,6 +1,6 @@
 - generic
   - navigation
-    - link "Oxygen XML Editor" [ref=e21]
+    - link "Oxygen XML Editor" [ref=e23]
       - image "Oxygen"
       - StaticText "XML Editor"
     - generic
@@ -2852,12 +2852,10 @@
     - cell "Features are available in the Standalone & Eclipse distributions." [ref=e2263]
     - cell "Features are available in the Standalone & Eclipse distributions." [ref=e2264]
 - link "XML Editor VPAT" [ref=e4]
+- link "Oxygen XML Editor" [ref=e5]
+- link "Feature Matrix - XML Editor & XML Developer" [ref=e6]
 - generic
-  - link "Oxygen XML Editor" [ref=e22]
-- generic
-  - link "Feature Matrix - XML Editor & XML Developer" [ref=e23]
-- generic
-  - heading "PRODUCTS" [level=3, ref=e5]
+  - heading "PRODUCTS" [level=3, ref=e7]
   - list
     - listitem [level=1]
       - link "XML Editor" [ref=e28]
@@ -2880,7 +2878,7 @@
     - listitem [level=1]
       - link "Oxygen Scripting" [ref=e37]
 - generic
-  - heading "FEATURES" [level=3, ref=e6]
+  - heading "FEATURES" [level=3, ref=e8]
   - list
     - listitem [level=1]
       - link "WYSIWYG Editors" [ref=e38]
@@ -2905,7 +2903,7 @@
     - listitem [level=1]
       - link "JSON Editor" [ref=e48]
 - generic
-  - heading "SHOP" [level=3, ref=e7]
+  - heading "SHOP" [level=3, ref=e9]
   - list
     - listitem [level=1]
       - link "Buy Now" [ref=e49]
@@ -2914,7 +2912,7 @@
     - listitem [level=1]
       - link "Resellers" [ref=e51]
 - generic
-  - heading "RESOURCES" [level=3, ref=e8]
+  - heading "RESOURCES" [level=3, ref=e10]
   - list
     - listitem [level=1]
       - link "Documentation" [ref=e52]
@@ -2925,7 +2923,7 @@
     - listitem [level=1]
       - link "Spell Checking" [ref=e55]
 - generic
-  - heading "SUPPORT" [level=3, ref=e9]
+  - heading "SUPPORT" [level=3, ref=e11]
   - list
     - listitem [level=1]
       - link "Support" [ref=e56]
@@ -2938,7 +2936,7 @@
     - listitem [level=1]
       - link "Contact Us" [ref=e60]
 - generic
-  - heading "COMPANY" [level=3, ref=e10]
+  - heading "COMPANY" [level=3, ref=e12]
   - list
     - listitem [level=1]
       - link "About Us" [ref=e61]
@@ -2957,13 +2955,13 @@
     - listitem [level=1]
       - link "Legal" [ref=e68]
 - generic
-  - link "Oxygen XML on Facebook" [ref=e11]
-  - link "Follow Oxygen XML on Twitter" [ref=e12]
-  - link "Oxygen XML Web Feed" [ref=e13]
-  - link "Oxygen XML Blog" [ref=e14]
-  - link "Oxygen XML Youtube Channel" [ref=e15]
-  - link "Oxygen XML Reddit" [ref=e16]
-  - link "Oxygen XML Bluesky" [ref=e17]
+  - link "Oxygen XML on Facebook" [ref=e13]
+  - link "Follow Oxygen XML on Twitter" [ref=e14]
+  - link "Oxygen XML Web Feed" [ref=e15]
+  - link "Oxygen XML Blog" [ref=e16]
+  - link "Oxygen XML Youtube Channel" [ref=e17]
+  - link "Oxygen XML Reddit" [ref=e18]
+  - link "Oxygen XML Bluesky" [ref=e19]
 - generic
   - StaticText "© 2002-2026 Syncro Soft SRL. All rights reserved."
   - generic
@@ -2977,6 +2975,6 @@
   - paragraph
   - paragraph
     - link "Cookie policy" [ref=e24]
-  - button "Reject all" [ref=e18]
-  - button "Customize" [ref=e19]
-  - button "Accept all" [ref=e20]
+  - button "Reject all" [ref=e20]
+  - button "Customize" [ref=e21]
+  - button "Accept all" [ref=e22]

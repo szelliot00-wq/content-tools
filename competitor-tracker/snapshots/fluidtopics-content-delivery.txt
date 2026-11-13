@@ -9,9 +9,9 @@
   - generic
     - paragraph
       - strong
-        - StaticText "💰 Your documentation could be saving you more. Find out how much."
-    - link "Estimate Your Savings" [ref=e5]
-      - StaticText "Estimate Your Savings"
+        - StaticText "📈 Just updated: The Essential Guide to Documentation Metrics."
+    - link "Get Your Copy" [ref=e5]
+      - StaticText "Get Your Copy"
       - image
     - image
     - banner
