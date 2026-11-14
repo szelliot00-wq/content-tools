@@ -4,8 +4,8 @@
   - generic
     - sectionheader "main"
       - alert
-        - StaticText "RWS launches Weava™, a culturally intelligent content transformation platform built for global growth"
-        - link "Find out more" [ref=e3]
+        - StaticText "We're currently affected by a global Microsoft service outage, which may cause delays in some of our services. Our teams are working to minimise any impact. Thank you for your patience."
+        - link [ref=e3]
       - navigation
         - button [ref=e11]
           - image
