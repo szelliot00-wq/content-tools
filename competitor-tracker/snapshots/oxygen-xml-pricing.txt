@@ -91,18 +91,18 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e86]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€1,465"
+        - StaticText "$1,465"
         - generic [ref=e106] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e107]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€1,678"
+        - StaticText "$1,678"
         - generic [ref=e108] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e109]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€53/month"
+        - StaticText "$53/month"
         - StaticText "billed annually"
         - generic [ref=e110] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -110,18 +110,18 @@
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€942"
+        - StaticText "$942"
         - generic [ref=e112] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e113]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€1,080"
+        - StaticText "$1,080"
         - generic [ref=e114] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e115]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€34/month"
+        - StaticText "$34/month"
         - StaticText "billed annually"
         - generic [ref=e116] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -133,24 +133,24 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e88]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€4,397"
+        - StaticText "$4,397"
         - generic [ref=e118] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e119]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€5,037"
+        - StaticText "$5,037"
         - generic [ref=e120] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e121]
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€2,827"
+        - StaticText "$2,827"
         - generic [ref=e122] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e123]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€3,240"
+        - StaticText "$3,240"
         - generic [ref=e124] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e125]
@@ -166,18 +166,18 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e90]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€647"
+        - StaticText "$647"
         - generic [ref=e128] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e129]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€745"
+        - StaticText "$745"
         - generic [ref=e130] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e131]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€23/month"
+        - StaticText "$23/month"
         - StaticText "billed annually"
         - generic [ref=e132] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -185,18 +185,18 @@
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€458"
+        - StaticText "$458"
         - generic [ref=e134] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e135]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€528"
+        - StaticText "$528"
         - generic [ref=e136] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e137]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€16/month"
+        - StaticText "$16/month"
         - StaticText "billed annually"
         - generic [ref=e138] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -208,24 +208,24 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e92]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€1,940"
+        - StaticText "$1,940"
         - generic [ref=e140] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e141]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€2,235"
+        - StaticText "$2,235"
         - generic [ref=e142] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e143]
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€1,371"
+        - StaticText "$1,371"
         - generic [ref=e144] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e145]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€1,579"
+        - StaticText "$1,579"
         - generic [ref=e146] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e147]
@@ -241,18 +241,18 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e94]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€1,144"
+        - StaticText "$1,144"
         - generic [ref=e150] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e151]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€1,305"
+        - StaticText "$1,305"
         - generic [ref=e152] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e153]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€41/month"
+        - StaticText "$41/month"
         - StaticText "billed annually"
         - generic [ref=e154] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -260,18 +260,18 @@
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€775"
+        - StaticText "$775"
         - generic [ref=e156] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e157]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€886"
+        - StaticText "$886"
         - generic [ref=e158] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e159]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€28/month"
+        - StaticText "$28/month"
         - StaticText "billed annually"
         - generic [ref=e160] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -283,24 +283,24 @@
           - StaticText "Enterprise (AI-ready)"
           - button "This license unlocks the enterprise functionality of the Oxygen AI Positron add-on, by allowing you to connect to your preferred AI service. Your AI service account may incur additional costs." [ref=e96]
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€3,433"
+        - StaticText "$3,433"
         - generic [ref=e162] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e163]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€3,917"
+        - StaticText "$3,917"
         - generic [ref=e164] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e165]
         - paragraph
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
-        - StaticText "€2,321"
+        - StaticText "$2,321"
         - generic [ref=e166] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e167]
         - StaticText "Perpetual License & 2-year SMP"
-        - StaticText "€2,649"
+        - StaticText "$2,649"
         - generic [ref=e168] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e169]
@@ -314,7 +314,7 @@
           - link "" [ref=e97]
         - StaticText "RECOMMENDED"
         - StaticText "12-month Subscription"
-        - StaticText "€7/month"
+        - StaticText "$7/month"
         - StaticText "billed annually"
         - generic [ref=e172] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -360,19 +360,19 @@
         - paragraph
           - StaticText "This product offers a self-managed edition of the Oxygen Feedback commenting platform that allows you to install the platform software on your own servers for better control over the data. The Enterprise edition also provides the ability to connect to an LDAP directory for authentication."
         - StaticText "Starter AI (AI-ready)"
-        - StaticText "€350/month"
+        - StaticText "$350/month"
         - StaticText "billed annually"
         - generic [ref=e180] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e181]
         - StaticText "Team AI (AI-ready)"
-        - StaticText "€630/month"
+        - StaticText "$630/month"
         - StaticText "billed annually"
         - generic [ref=e182] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e183]
         - StaticText "Business AI (AI-ready)"
-        - StaticText "€1,890/month"
+        - StaticText "$1,890/month"
         - StaticText "billed annually"
         - generic [ref=e184] clickable [cursor:pointer]
           - StaticText "Add to cart"
@@ -399,19 +399,19 @@
           - StaticText "Enterprise"
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "2 Core"
-        - StaticText "€6,159"
+        - StaticText "$6,159"
         - generic [ref=e191] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e192]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "4 Core"
-        - StaticText "€10,265"
+        - StaticText "$10,265"
         - generic [ref=e193] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e194]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "8 Core"
-        - StaticText "€15,397"
+        - StaticText "$15,397"
         - generic [ref=e195] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e196]
@@ -419,19 +419,19 @@
           - StaticText "Professional"
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "2 Core"
-        - StaticText "€4,737"
+        - StaticText "$4,737"
         - generic [ref=e197] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e198]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "4 Core"
-        - StaticText "€7,896"
+        - StaticText "$7,896"
         - generic [ref=e199] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e200]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "8 Core"
-        - StaticText "€11,844"
+        - StaticText "$11,844"
         - generic [ref=e201] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e202]
@@ -444,19 +444,19 @@
           - StaticText "Enterprise"
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "2 Core"
-        - StaticText "€3,543"
+        - StaticText "$3,543"
         - generic [ref=e205] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e206]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "4 Core"
-        - StaticText "€5,905"
+        - StaticText "$5,905"
         - generic [ref=e207] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e208]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "8 Core"
-        - StaticText "€8,857"
+        - StaticText "$8,857"
         - generic [ref=e209] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e210]
@@ -469,19 +469,19 @@
           - StaticText "Enterprise"
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "2 Core"
-        - StaticText "€2,538"
+        - StaticText "$2,538"
         - generic [ref=e213] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e214]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "4 Core"
-        - StaticText "€4,230"
+        - StaticText "$4,230"
         - generic [ref=e215] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e216]
         - StaticText "Perpetual License & 1-year SMP"
         - StaticText "8 Core"
-        - StaticText "€6,345"
+        - StaticText "$6,345"
         - generic [ref=e217] clickable [cursor:pointer]
           - StaticText "Add to cart"
         - link "read more" [ref=e218]

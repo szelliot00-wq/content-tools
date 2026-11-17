@@ -274,7 +274,7 @@
     - generic
       - heading "The Premier All-In-One XML Editing Suite" [level=2, ref=e40]
       - link "Download" [ref=e41]
-      - link "Buy (from €34/month )" [ref=e42]
+      - link "Buy (from $34/month )" [ref=e42]
       - link "Videos" [ref=e43]
   - banner
     - generic
