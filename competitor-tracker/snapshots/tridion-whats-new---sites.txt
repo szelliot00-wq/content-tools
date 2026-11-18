@@ -38,9 +38,8 @@
         - link "What’s new in Tridion Sites 10.1" [ref=e29]
           - StaticText "What’s new in Tridion Sites 10.1"
         - generic "Video Player"
-          - Video
-          - generic [ref=e74] clickable [cursor:pointer]
-          - button "Play Video" [ref=e75]
+          - Video "Unable to play media." [disabled]
+          - button "Play Video" [ref=e74]
       - heading "New features" [level=2, ref=e4]
         - StaticText "New features"
       - generic
@@ -75,21 +74,21 @@
         - heading "Seven reasons to adopt Tridion Sites 10" [level=2, ref=e37]
         - paragraph
           - StaticText "Discover the many benefits of upgrading to the latest release of Tridion Sites"
-        - button "Infographic " [ref=e76]
+        - button "Infographic " [ref=e75]
           - StaticText "Infographic "
           - StaticText ""
       - link "See Tridion Sites in action Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences. Watch demos " [ref=e16]
         - heading "See Tridion Sites in action" [level=2, ref=e38]
         - paragraph
           - StaticText "Watch our demo videos for a first-hand look at how you can use Tridion Sites to craft exceptional digital experiences."
-        - button "Watch demos " [ref=e77]
+        - button "Watch demos " [ref=e76]
           - StaticText "Watch demos "
           - StaticText ""
       - link "Content management blog Stay up to date on the latest trends and developments in content management. Learn more " [ref=e17]
         - heading "Content management blog" [level=2, ref=e39]
         - paragraph
           - StaticText "Stay up to date on the latest trends and developments in content management."
-        - button "Learn more " [ref=e78]
+        - button "Learn more " [ref=e77]
           - StaticText "Learn more "
           - StaticText ""
     - sectionfooter
