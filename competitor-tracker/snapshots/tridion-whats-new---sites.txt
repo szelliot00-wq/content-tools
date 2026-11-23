@@ -68,7 +68,7 @@
           - StaticText "In addition, Translation Manager behavior has been improved by applying translations only to the fields that are translatable, while non-translatable content fields are no longer overwritten with the parent’s values."
       - generic
         - StaticText "Ready to deliver exceptional digital experiences?"
-        - link "Visit Talk to us" [ref=e36]
+        - link "Talk to us" [ref=e36]
       - heading "Discover more" [level=2, ref=e14]
         - StaticText "Discover more"
       - link "Seven reasons to adopt Tridion Sites 10 Discover the many benefits of upgrading to the latest release of Tridion Sites Infographic " [ref=e15]

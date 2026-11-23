@@ -56,7 +56,7 @@ content confidence"
       - generic
         - heading "The best CCMS on the market just got even better. Discover our latest release." [level=2, ref=e13]
         - StaticText "Gen-AI assisted authoring, Trustable Chat, Hexahops, improved translation workflows and much more..."
-        - link "Visit What’s new in Tridion Docs 15" [ref=e68]
+        - link "What’s new in Tridion Docs 15" [ref=e68]
       - heading "Key benefits of a XML DITA-based CCMS" [level=2, ref=e14]
         - StaticText "Key benefits of a XML DITA-based CCMS"
       - StaticText "Go to market faster- Reduce duplication, speed up internal and regulatory approvals and streamline workflows"
@@ -75,7 +75,7 @@ content confidence"
       - generic
         - heading "Evaluate your return on investment" [level=2, ref=e21]
         - StaticText "Tridion Docs provides measurable cost reduction and revenue benefits, which can make a big difference to your company’s bottom line."
-        - link "Visit Calculate your savings" [ref=e69]
+        - link "Calculate your savings" [ref=e69]
       - heading "Our customers" [level=2, ref=e22]
         - StaticText "Our customers"
       - link [ref=e23]

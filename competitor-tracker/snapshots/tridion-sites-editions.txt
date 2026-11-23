@@ -68,7 +68,7 @@
           - StaticText "Tridion Sites demo"
         - paragraph
           - StaticText "Streamline your translation processes"
-        - link "Visit Watch demo" [ref=e35]
+        - link "Watch demo" [ref=e35]
       - heading "Customers that have grown with Tridion" [level=2, ref=e14]
         - StaticText "Customers that have grown with Tridion"
       - heading "Three easy steps" [level=2, ref=e15]
